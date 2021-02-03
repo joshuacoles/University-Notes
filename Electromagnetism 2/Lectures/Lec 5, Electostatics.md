@@ -117,7 +117,7 @@ $$
 -\nabla\(\frac 1r\) = - \uvec{e}_r \partial_r \(\frac 1r\) = - \uvec{e}_r \frac 1{r^2}
 $$
 
-And thus by computing $\phi$ from [[#^de4124]] we get,
+And thus by computing $\phi$ from [[Lec 5, Electostatics#^de4124]] we get,
 
 $$
 \phi(\r) = \frac{Q}{4\pi\epsilon_0 r}
