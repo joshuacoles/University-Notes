@@ -2,7 +2,7 @@
 > - #lecture
 > - Navigation
 > 	- [[Lec 5, Electostatics|Previous]]
-> 	- [[Lec 7|Next]]
+> 	- [[Lec 7, Currents, Magnetic Fields|Next]]
 
 ## The [[Magnetic Field]] $B$
 
