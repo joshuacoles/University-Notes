@@ -104,14 +104,16 @@ $$
 
 And thus focusing only on the relevant form,
 
+
 $$
 \begin{align*}
 \nabla_{\r} \cdot \( \frac{\J(\r') \times \uvec{R}}{R^2} \) &=
-\frac{\uvec{R}}{R^2}\(\nabla_{\r} \cp \J(\r')\)
-- \J(\r')\(\nabla_{\r} \cp \frac{\uvec{R}}{R^2}\)
+\frac{\uvec{R}}{R^2}\(\nabla_{\r} \cp \J(\r')\) -
+\J(\r')\(\nabla_{\r} \cp \frac{\uvec{R}}{R^2}\)
 \\&=0
 \end{align*}
 $$
+
 
 True by considering the terms,
 1. The first is $0$ as $\J(\r')$ has no dependence on $\r$.

@@ -1,4 +1,3 @@
 - This is Classical, ie we don't consider wave functions, just point charges.
 - Quantum Mechanic is only a "small change", things becoming operators.
 - Relatively Covariant, possibly the oldest set.
-- 
