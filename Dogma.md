@@ -1,4 +1,9 @@
+---
+modified: 2021-02-03T00:47:11+00:00
+---
+
 # Dogma
+
 ## Physics
 - Physics tells a narrative so we start with that narrative in the form of the `Lectures` folder
 	- One note per lecture, with a link to its panopto and maybe succeeding and preceding?
@@ -9,3 +14,6 @@
 > **Question**: Can we move the header into the metadata and generate custom HTML from that?
 
 ## Maths
+
+- See how the combination of [[Margin Node]] and the [[Lecture Series]] narrative structure goes for [[Analysis 2B]]
+  - Ie, can we use the Margin Note system to act as an easy backing to fill out content as it is discussed in Lectures.
