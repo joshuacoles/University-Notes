@@ -16,7 +16,7 @@ In a vacuum (in [[Differential Form]]),
 | [[Gauss's law]]               | $\nabla \cdot \E = \dfrac{\rho}{\epsilon_0}$                       |
 | [[Maxwell–Faraday equation]]  | $\nabla \times \E = \partial_t \B$                                 |
 | [[Gauss's law for magnetism]] | $\nabla \cdot \B = 0$                                              |
-| [[Ampère's circuital law]]    | $\nabla \times \B = \mu_0 \vec{J} + \epsilon_0 \mu_0 \partial_t\E$ |
+| [[Maxwell–Ampère's circuital law]]    | $\nabla \times \B = \mu_0 \vec{J} + \epsilon_0 \mu_0 \partial_t\E$ |
 
 - $\epsilon_0$ is the [[Permittivity of Free Space]]
 - $\mu_0$ is the [[Permeability of Free Space]]

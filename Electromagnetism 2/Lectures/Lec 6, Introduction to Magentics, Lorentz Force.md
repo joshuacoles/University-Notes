@@ -56,6 +56,8 @@ Notes,
 
 ## $\E$, $\B$, & [[Special Relativity]]
 
+^707046
+
 [[Electric Field]] and [[Magnetic Field|Magnetic Fields]]  can turn in to each other depending on your [[Frame of Reference]].
 
 Consider a frame of reference where two charges are moving with equal constant velocity away from you. These will exhibit an empirical [[Magnetic Force]] and thus a [[Magnetic Field]].

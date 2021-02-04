@@ -2,7 +2,7 @@
 > - #lecture
 > - Navigation
 > 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
-> 	- [[Lec 8|Next]]
+> 	- [[Lec 8, Time varying Charges and Currents|Next]]
 
 In [[Lec 6, Introduction to Magentics, Lorentz Force]] we focused on moving charges, instead now we now want to focus on **Currents**. Considering a small component $\d r$ of a wire, with moving charges $Q_1$, as shown below,
 
