@@ -2,7 +2,7 @@
 > - #lecture
 > - Navigation
 > 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
-> 	- [[Lec 9|Next]]
+> 	- [[Lec 9, Waves in a Vacuum|Next]]
 
 ## Time varying Currents & Fields
 
