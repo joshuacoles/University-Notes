@@ -1,0 +1,192 @@
+---
+tags: lecture
+---
+
+## Crystal
+- Solid material who's constituents are arranged in a highly ordered microscopic structure 
+
+---
+
+## [[Crystal Structure]]
+
+Has two components,
+
+- [[Crystal Lattice]]
+- [[Crystal Basis]]
+
+The lattice is an infinite set of points determined by the translational symmetries of the structure. With the crystal structure as a whole being distinguished by the [[Crystal Symmetries]] of the combined [[Crystal Lattice]] and [[Crystal Basis]].
+
+> This is done as will be seen later, as the choice of [[Primitive Vectors]], [[Unit Cell|Units Cells]] or [[Crystal Basis]] representation is not unique for a given physical structure.
+
+This is then turned into a physical crystal structure by the addition of the [[Crystal Basis]], which is a microscopic structure which decorates each **lattice point**.
+
+This structure strongly influences the properties of the material.
+
+---
+
+## [[Crystal Lattice]]
+
+The Crystal Lattice is an infinite set of points determined by the translational symmetries of the structure. Each Lattice Point has identical surroundings to all the others.
+
+The lattice can be defined by [[Primitive Vectors]], which are vectors between Lattice Points, these are not unique. For example,
+
+![Lattice Example|500](https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/two-dimensional-lattice.svg)
+
+The set of lattice points is the span of these [[Primitive Vectors]] over the Integers. A vector of this form is known as a [[Lattice Vector]].
+
+The length of these [[Primitive Vectors]] are called the *lattice constants* or [[Lattice Parameters]]. They are normally given in either $\mathrm{nm}$ or $\angstrom$. These can be used as an alternative definition of the [[Crystal Lattice]] in terms of the lengths of the [[Primitive Vectors]] and angles between them.
+
+---
+
+## [[Unit Cell]]
+
+A [[Unit Cell]] is a region of space which ca be repeatedly tessellated without gaps to assemble the lattice. These can be used to represent the crystal as a whole, any [[intensive properties]] of the crystal being equal to those of the unit cell (with extensive properties being difficult to reason about due to the "infinite" nature of the lattice, and the sheer size of real crystals with respect to their unit cell).
+
+These are, as with [[Primitive Vectors]], not unique. You can in fact assemble cells by taking the area spanned by any two [[Primitive Vectors]].
+
+---
+
+### [[Primitive Unit Cell]]
+
+A [[Primitive Unit Cell]] is the minimum [[Unit Cell]] containing a single [[Lattice Point]] (accounting for fractional points). As displayed in the diagram below.
+
+![example of primitive unit cell](https://www.doitpoms.ac.uk/tlplib/crystallography3/images/unitcell_example2.gif)
+
+The [[Primitive Vectors]] will span a [[Primitive Unit Cell]].
+
+---
+
+### [[Conventional Unit Cell]]
+
+While [[Primitive Unit Cell|Primitive Unit Cells]] are mathematically useful we will often instead use other cells, such as the bottom right.
+
+![[Pasted image 20210218220715.png]]
+
+These cells might be chosen as they are easier to sketch and reason intuitively about. Or if they share symmetries which the crystal lattice they comprise.
+
+---
+
+```
+wikipedia: https://en.wikipedia.org/wiki/Wigner–Seitz_cell
+```
+
+### [[Wigner-Seitz Cell]]
+
+The [[Wigner-Seitz Cell]] is a [[Primitive Unit Cell]] which contains all space which is closer to a given lattice point, than any other.
+
+It is the unique [[Primitive Unit Cell]] which possesses the symmetries of the crystal lattice they comprise. An example is shown below.
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/24/Wigner-Seitz_Animation.gif)
+
+Note from Wikipedia:
+
+> For *composite lattices*, (crystals which have more than one vector in their [[Crystal Basis|basis]]) each single lattice point represents multiple atoms.
+> 
+> We can break apart each Wigner–Seitz cell into subcells by further Voronoi decomposition according to the closest atom, instead of the closest lattice point.
+
+#### Method
+1. Pick a [[Lattice Point]].
+2. Draw lines to all nearby lattice points.
+3. The region enclosed by the perpendicular bisectors (either lines in 2D or planes in 3D) of all these lines in the [[Wigner-Seitz Cell]].
+
+---
+
+## [[Crystal Basis]]
+
+The [[Crystal Basis]] is the identical assembly of atoms associated with each lattice point.
+
+![Screenshot 2021-02-18 at 22.28.55](file:///Users/joshuacoles/Desktop/Screenshot%202021-02-18%20at%2022.28.55.png)
+
+Positions in the unit cell are specified as proportions of the vectors which span the unit cell.
+
+These are given as a tuple $(u, v, w) \in [0, 1]^3$ (or just $(u, v)$ if in 2D) and correspond to the location $\vec{r} = u \vec{a} + v \vec{b} + w \vec{c}$ relative to the relevant lattice point.
+
+---
+
+## [[Crystal Symmetries]]
+
+As discussed in [[Crystal Structure]], each structure is distinguished by its [[Crystal Symmetries]]. These can include,
+
+- Translations by a [[Lattice Vector]] $\vec{R}$.
+- Inversions through a point, $\r \to -\r$.
+- Reflection in a plane.
+- Rotations around a point (normally generated of the form $\frac{360\deg}{n}$).
+
+Or some combination of these.
+
+> **Note**: This combination can be true precluding individual components. Ie it is only symmetric under $r = \mathrm{rot}(x^c) \circ \mathrm{translate}(x)$, not $\mathrm{translate}(x)$ and $\mathrm{rot}(x^c)$ individually.
+
+This links deeply with [[Group Theory]].
+
+These symmetries give us the [[Bravais Lattices]] in 2D and 3D.
+
+---
+
+## [[Bravais Lattices]]
+
+The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crystal Lattices]] in 2D and 3D. These are shown grouped by their [[Crystal Family]] below.
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/ee/2d-bravais.svg)
+
+> See [Wikipedia: Bravais lattice In 2 dimensions](https://en.wikipedia.org/wiki/Bravais_lattice#In_2_dimensions). #todo
+
+Where the names and characterising [[Lattice Parameters]] are given below,
+- $m$ is called *oblique*, characterised by $|a|, |b|, \theta$.
+- $o$ contains both *rectangular* and *centered-rectangular* (more on centering later).
+	- These are characterised by either the lengths of two perpendicular [[Primitive Vectors]], or the angle between two which are equally sized.
+- $h$ is hexagonal, characterised by only one parameter $|a|$.
+- $t$ is rectangular, characterised by only one parameter $|a|$.
+
+See [[An Aside on Maths#Classification in 2D]] for discussions of identification.
+
+These latticed have additional symmetries than the translational symmetry inherent in their generation.
+
+- [[Oblique Crystal Lattice]]
+	- Inversion through lattice point.
+	- Inversion through midpoint of adjacent lattice points.
+	- Inversion through center point of parallelogram.
+	- Rotation $180^\circ$.
+- [[Primitive Rectangular Crystal Lattice]]
+	- Inversion through lattice point.
+	- Inversion through midpoint of adjacent lattice points.
+	- Inversion through center point of rectangle.
+	- Rotation $180^\circ$ (known as 2 fold rotation).
+		- Aside on maths, these $n$-fold rotation operations are the $C_n$ [[Cyclic Groups]].
+	- Mirror planes (displayed in red)
+- [[Centered Rectangular Crystal Lattice]]
+	- All symmetries of [[Primitive Rectangular Crystal Lattice]].
+	- Glide Reflection Planes, combination of translation + reflection in plane.
+		- Translation parallel to the plane by $n + \frac 12$ of the parallel [[Primitive Vectors|Primitive Vector]] (blue arrow)
+		- Followed by rotation in a parallel plane (green/brown plane).
+- [[Square Crystal Lattice]]
+	- 4 fold rotation.
+	- Planes again I assume.
+	- Also the $45^\circ$ planes
+	- Or are those last two isomorphic to something? I need to redo my group theory ffs.
+- [[Hexagonal Crystal Lattice]]
+	- 6 fold rotation.
+	- Planes again.
+	- Do we have any combination stuff? Again need more research.
+
+![[Pasted image 20210219132034.png]]
+
+
+> Additional resource: https://users.aber.ac.uk/ruw/teach/334/bravais.php
+
+---
+
+## [[Crystal Symmetries]]
+
+As discussed in [[An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
+
+For example the addition of the basis as shown below removes the rotational symmetry of the [[Square Crystal Lattice]] that the [[Crystal Basis]] has been imposed on.
+
+![[Pasted image 20210219133742.png]]
+
+This leads to a total of 17 distinct [[Crystal Structure|Crystal Structures]], called the [[Wallpaper Groups]]. #todo.
+
+---
+
+Recap:
+
+![[Pasted image 20210219134204.png]]
