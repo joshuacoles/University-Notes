@@ -42,7 +42,14 @@ The length of these [[Primitive Vectors]] are called the *lattice constants* or 
 
 A [[Unit Cell]] is a region of space which ca be repeatedly tessellated without gaps to assemble the lattice. These can be used to represent the crystal as a whole, any [[intensive properties]] of the crystal being equal to those of the unit cell (with extensive properties being difficult to reason about due to the "infinite" nature of the lattice, and the sheer size of real crystals with respect to their unit cell).
 
-These are, as with [[Primitive Vectors]], not unique. You can in fact assemble cells by taking the area spanned by any two [[Primitive Vectors]].
+These are, as with [[Primitive Vectors]], not unique. You can in fact assemble an $n$-dimensional cell by taking the area spanned by any $n$ [[Primitive Vectors]].
+
+### Area
+
+The area of a [[Unit Cell]] is computable from the [[Primitive Vectors]] as so,
+
+- 2D, $\|\vec{a} \cp \vec{b}\|$
+- 3D, $a \dp \|\vec{b} \cp \vec{c}\|$
 
 ---
 
@@ -124,7 +131,11 @@ These symmetries give us the [[Bravais Lattices]] in 2D and 3D.
 
 ## [[Bravais Lattices]]
 
-The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crystal Lattices]] in 2D and 3D. These are shown grouped by their [[Crystal Family]] below.
+The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crystal Lattices]] in 2D and 3D.
+
+
+## In 2D
+The [[Bravais Lattices]] in 2D are shown grouped by their [[Crystal Family]] below.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/ee/2d-bravais.svg)
 
@@ -137,7 +148,7 @@ Where the names and characterising [[Lattice Parameters]] are given below,
 - $h$ is hexagonal, characterised by only one parameter $|a|$.
 - $t$ is rectangular, characterised by only one parameter $|a|$.
 
-See [[An Aside on Maths#Classification in 2D]] for discussions of identification.
+See [[Bravais Lattices An Aside on Maths#Classification in 2D]] for discussions of identification.
 
 These latticed have additional symmetries than the translational symmetry inherent in their generation.
 
@@ -177,7 +188,7 @@ These latticed have additional symmetries than the translational symmetry inhere
 
 ## [[Crystal Symmetries]]
 
-As discussed in [[An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
+As discussed in [[Bravais Lattices An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
 
 For example the addition of the basis as shown below removes the rotational symmetry of the [[Square Crystal Lattice]] that the [[Crystal Basis]] has been imposed on.
 
