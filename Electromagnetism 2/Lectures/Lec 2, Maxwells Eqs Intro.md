@@ -1,5 +1,5 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=64b72a9d-b5c5-401a-8e7c-acb501016cb6)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 1, Introduction|Previous]]
 >  	- [[Lec 3, Electrostatics, Coloumb's Law|Next]]
@@ -13,7 +13,7 @@ In a vacuum (in [[Differential Form]]),
 
 | Law                           | Equation                                                           |
 | ----------------------------- | ------------------------------------------------------------------ |
-| [[Gauss's law]]               | $\nabla \cdot \E = \dfrac{\rho}{\epsilon_0}$                       |
+| [[Gauss's Law]]               | $\nabla \cdot \E = \dfrac{\rho}{\epsilon_0}$                       |
 | [[Maxwell–Faraday equation]]  | $\nabla \times \E = \partial_t \B$                                 |
 | [[Gauss's law for magnetism]] | $\nabla \cdot \B = 0$                                              |
 | [[Maxwell–Ampère's circuital law]]    | $\nabla \times \B = \mu_0 \vec{J} + \epsilon_0 \mu_0 \partial_t\E$ |

@@ -1,5 +1,5 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c7b149e7-70b1-4e4c-b2bc-acb50120304b)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 2, Maxwells Eqs Intro|Previous]]
 >  	- [[Lec 4, Empirical Derivation of Gauss's Law|Next]]

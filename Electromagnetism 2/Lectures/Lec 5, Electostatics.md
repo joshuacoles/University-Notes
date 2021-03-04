@@ -1,5 +1,5 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=05661336-65d6-4432-8a0b-acb6010884af)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 4, Empirical Derivation of Gauss's Law|Previous]]
 > 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Next]]

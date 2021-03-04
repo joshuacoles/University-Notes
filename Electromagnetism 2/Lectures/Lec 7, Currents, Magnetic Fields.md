@@ -1,10 +1,12 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b3892d71-a23c-45b3-b393-acb700ba728a)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
 > 	- [[Lec 8, Time varying Charges and Currents|Next]]
 
-In [[Lec 6, Introduction to Magentics, Lorentz Force]] we focused on moving charges, instead now we now want to focus on **Currents**. Considering a small component $\d r$ of a wire, with moving charges $Q_1$, as shown below,
+In [[Lec 6, Introduction to Magentics, Lorentz Force]] we focused on moving charges, instead now we now want to focus on **Currents**.
+
+Considering a small component $\d r$ of a wire, with moving charges $Q_1$, as shown below,
 
 ![[Clipboard 3 Feb 2021 at 13.49.png]]
 
@@ -43,7 +45,7 @@ Thus our intuition as discussed above is that $\nabla \cdot \B = 0$ (so no [[Mag
 To do this we will introduce the vector [[Current Density]], $\J(\r)$. Defined in terms,
 
 - The **direction** of $\J(\r)$ is the direction of the current at $\r$. ^9ac418
-- The magnitude of $\J(\r)$ is the current crossing the unit area perpendicular to $\J(\r)$.
+- The **magnitude** of $\J(\r)$ is the current crossing the unit area perpendicular to $\J(\r)$.
 
 Implies,
 

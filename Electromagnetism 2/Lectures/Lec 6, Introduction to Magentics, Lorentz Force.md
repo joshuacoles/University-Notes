@@ -1,5 +1,5 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c0dc122f-e261-450e-82a0-acb60126279b)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 5, Electostatics|Previous]]
 > 	- [[Lec 7, Currents, Magnetic Fields|Next]]

@@ -1,5 +1,5 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d48bf2e7-cba3-4959-ae80-acb500f87d0a)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 2, Maxwells Eqs Intro|Next]]
 

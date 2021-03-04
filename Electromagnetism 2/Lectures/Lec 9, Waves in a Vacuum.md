@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aeeada9a-ff9d-4acd-b235-acc200b3d5d4)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 8, Time varying Charges and Currents|Previous]]
-> 	- [[Lec 10|Next]]
+> 	- [[Lec 10, Properties of Plane Waves|Next]]
 
 ## [[Electromagnetic Waves]] in a Vacuum
 
@@ -79,7 +79,7 @@ Which is identical in form to that of the $\E$ field as before, and thus will ha
 We want to find [[Plane Wave]] solutions to the previous equations, of which we will choose the [[Electric Field]] $\E$ as it is the most physically relevant. For this we choose the trial solution,
 
 $$
-\E(\r, t) = \E_0 \exp(\vec{k} \dp \r - \omega t),
+\E(\r, t) = \E_0 \exp\(i\(\vec{k} \dp \r - \omega t\)\),
 $$
 
 where $\vec{k}$ is the [[Wave Vector]] and $\omega$ is the [[Angular Frequency]]. Substituting this into the [[Wave Equation]] for $\E$ as seen above, for the LHS we get,
