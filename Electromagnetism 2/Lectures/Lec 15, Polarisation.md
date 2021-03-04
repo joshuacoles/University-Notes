@@ -133,3 +133,5 @@ this is known as [[Malus' Law]] and is a display of one of the fundamental diffe
 For light with [[Circular Polarisation]], since the angle between $\E_0$ and $\uvec{e}_\parallel$ is constantly changing, in a linear fashion, when we take the time average as is required for the intensity calculations, we will end up simply with $I_1 = I_0 \langle\cos\theta^2\rangle = \frac 12 I_0$, invariable of the angle of the the polariser.
 
 Finally, for [[Natural Light]] which is unpolarised and changing randomly (and assume uniformly), the behaviour is the same (prove pls #todo $E[cos^2(Dist)] = ???$).
+
+> #todo:  lookup https://en.wikipedia.org/wiki/Birefringence from notes.
