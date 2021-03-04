@@ -1,12 +1,12 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=98b20a6c-dadb-4354-9520-acb600fee3ef)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 3, Electrostatics, Coloumb's Law|Previous]]
 >  	- [[Lec 5, Electostatics|Next]]
 
 ## [[Gauss's law]] for [[Point Charges]]
 
-For a charge $Q$ surrounded by a closed surface $S$, [[Gauss's law]] is given as,
+For a charge $Q$ surrounded by a closed surface $S$, [[Gauss's Law]] is given as,
 
 $$
  \int_S \E \cdot \d \vec{S} = \frac {Q_{\mathrm{enc}}}{\epsilon_0}

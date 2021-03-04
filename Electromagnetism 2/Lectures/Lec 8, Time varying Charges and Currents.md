@@ -1,5 +1,5 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1a3cf4e-de1f-4b10-bb2e-acb700ccd149)
-> - #lecture
+> - #lecture #narrative
 > - Navigation
 > 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
 > 	- [[Lec 9, Waves in a Vacuum|Next]]
@@ -15,7 +15,7 @@ This led to the following observations,
 3. No magnetic-monopoles, ${\divrg \B = 0}$
 4. [[Ampere's Law]], ${\curl \B = \mu_0 \J}$ ^f4171c
 
-Note at this point $\E$ and $\B$ are **uncoupled**. There are two distinct phenomenon, called *"electricity"* and *"magnetism"*. This as we've seen hinted earlier with [[Lec 6, Introduction to Magentics, Lorentz Force#^707046]] is false.
+Note at this point $\E$ and $\B$ are **uncoupled**. There are two distinct phenomenon, called *"electricity"* and *"magnetism"*. This as we've seen hinted earlier with [[Lec 6, Introduction to Magentics, Lorentz Force#E B Special Relativity]] is false.
 
 Of these observations, (1) & (3), are correct in the general case. However (2) & (4), which talk about the curl of the relevant fields, need modification to be correct in the time-varying case.
 
