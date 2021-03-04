@@ -130,6 +130,7 @@
   },
   "lastOpenFiles": [
     "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
+<<<<<<< HEAD
     "Electromagnetism 2/Lectures/Untitled.md",
     "Electromagnetism 2/Lectures/Lec 14, Radiation pressure.md",
     "Electromagnetism 2/Lectures/Lec 11, Impedance of Free Space.md",
@@ -139,5 +140,16 @@
     "Condensed Matter/Lectures/022. Lec 4, Crystal Structure 3, Bragg's law.md",
     "Condensed Matter/Lectures/021. Lec 3, Crystal Structure 3, Probes.md",
     "Condensed Matter/Lectures/013. Week 1 Live Session.md"
+=======
+    "Electromagnetism 2/Lectures/Lec 11, Impedance of Free Space.md",
+    "Electromagnetism 2/Lectures/Lec 10, Properties of Plane Waves.md",
+    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
+    "Electromagnetism 2/Lectures/Lec 14, Radiation pressure.md",
+    "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md",
+    "Condensed Matter/Lectures/022. Lec 4, Crystal Structure 3, Bragg's law.md",
+    "Condensed Matter/Lectures/021. Lec 3, Crystal Structure 3, Probes.md",
+    "Condensed Matter/Lectures/013. Week 1 Live Session.md",
+    "Condensed Matter/Lectures/012. Lec 2, Crystal Structure, 3D crystals.md"
+>>>>>>> 02b6a574cb04ab7e1ad79ef0b117cd63b2999054
   ]
 }

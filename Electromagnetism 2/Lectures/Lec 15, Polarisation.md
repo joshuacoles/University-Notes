@@ -1,4 +1,4 @@
-> - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c8f6e54b-b9d7-4aIf 90-a625-acdd0172ae64)
+> - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c8f6e54b-b9d7-4a90-a625-acdd0172ae64)
 > - #lecture #narrative
 > - Navigation
 > 	- [[Lec 14, Radiation pressure|Previous]]
