@@ -13,3 +13,7 @@
 
 - See how the combination of [[Margin Node]] and the [[Lecture Series]] narrative structure goes for [[Analysis 2B]]
   - Ie, can we use the Margin Note system to act as an easy backing to fill out content as it is discussed in Lectures.
+
+
+- XXX Keyed objects are things I want to add that dont appear on the spec.
+- III keyed objects are general ideas.
