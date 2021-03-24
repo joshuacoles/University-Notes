@@ -4,29 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "16f736077f960d34",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
-            "mode": "source"
+        "id": "6f04b557a9cf71b6",
+        "type": "split",
+        "children": [
+          {
+            "id": "043208311507b5c7",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRGSK. Coursework 1/Report.md",
+                "mode": "source"
+              }
+            },
+            "group": "9f50771efa241d50"
+          },
+          {
+            "id": "8d2094e3ca9dfbc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRGSK. Coursework 2/PRGSK. Coursework 2.md",
+                "mode": "preview"
+              }
+            }
           }
-        },
-        "group": "de851af4bb169e25"
+        ],
+        "direction": "horizontal"
       },
       {
-        "id": "4aa2b94d6c386d5c",
+        "id": "a6b049723f6ae954",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
+            "file": "PRGSK. Coursework 1/Report.md",
             "mode": "preview"
           }
         },
-        "group": "de851af4bb169e25"
+        "group": "9f50771efa241d50"
       }
     ],
     "direction": "vertical"
@@ -82,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
+                "file": "PRGSK. Coursework 1/Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 1, Introduction.md"
+                "file": "PRGSK. Coursework 1/Report.md"
               }
             }
           },
@@ -119,8 +137,57 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "85e92fe333145aba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "255fe0310b788ab9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "53e29001817da34f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3dc17305836833c8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0e80cdc898a48f02",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "1be0e0051d01e6f7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,15 +195,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
-    "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, A different view of diffraction.md",
-    "Analysis 2B/100. Building Blocks of Calculus in Rn.md",
-    "Analysis 2B/113. Jacobian Matrix.md",
-    "Analysis 2B/110. Directional Derivative.md",
-    "Analysis 2B/112. Gradient.md",
-    "Analysis 2B/111. Partial Derivative.md",
-    "Analysis 2B/Notes from Tutorial 1.md",
-    "Dogma.md",
-    "Analysis 2B/110. Gradient.md"
+    "PRGSK. Coursework 1/Report.md",
+    "PRGSK. Coursework 1/Rep.md",
+    "PRGSK. Coursework 1/Problem 1A.md",
+    "PRGSK. Coursework 1/Problem 1.md",
+    "PRGSK. Coursework 2/Pseudocode.md",
+    "PRGSK. Coursework 2/CW 2 Report.md",
+    "PRGSK. Coursework 2/Development.md",
+    "Pseudocode.md",
+    "PRGSK. Coursework 2/Report.md",
+    "Development.md"
   ]
 }

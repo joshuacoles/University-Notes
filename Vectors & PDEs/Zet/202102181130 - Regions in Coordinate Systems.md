@@ -1,1 +1,0 @@
-When doing multi-variable integration you will often see regions defined as

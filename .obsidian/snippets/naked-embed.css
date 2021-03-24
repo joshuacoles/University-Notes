@@ -1,0 +1,55 @@
+/* Naked Embeds */
+
+/* 
+ * No title
+ * */
+.markdown-embed-title {
+  display: none;
+}
+
+/* 
+ * No spacing
+ * */
+.markdown-preview-view.split-pdf .markdown-preview-view {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.markdown-preview-view.split-pdf .markdown-embed {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: none !important;
+}
+
+.markdown-preview-view.split-pdf .markdown-embed-content > :first-child {
+  margin-top: 0;
+}
+
+.markdown-preview-view.split-pdf .markdown-embed-content > :last-child {
+  margin-bottom: 0;
+}
+
+/* 
+ * Full height
+ * */
+.markdown-preview-view.split-pdf .markdown-embed-content {
+  max-height: unset;
+}
+
+.markdown-preview-view.split-pdf
+  .markdown-embed-content
+  > .markdown-preview-view {
+  max-height: unset;
+}
+
+/* Style stuff */
+
+/* the link on the top right corner */
+.markdown-preview-view.split-pdf .markdown-embed-link {
+  color: var(--text-faint) !important;
+}
+
+.markdown-preview-view.split-pdf .markdown-embed-link:hover {
+  color: var(--text-accent) !important;
+}
