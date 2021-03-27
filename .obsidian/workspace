@@ -22,7 +22,19 @@
               "leaf": "043208311507b5c7",
               "group": "9f50771efa241d50",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":0},\"to\":{\"line\":41,\"ch\":0}},\"scroll\":22}"
+            },
+            {
+              "leaf": "043208311507b5c7",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"graph\",\"state\":{}}",
               "eState": "{}"
+            },
+            {
+              "leaf": "043208311507b5c7",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":35.725}"
             },
             {
               "leaf": "043208311507b5c7",
@@ -53,6 +65,12 @@
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
+            {
+              "leaf": "a6b049723f6ae954",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":22}"
+            },
             {
               "leaf": "a6b049723f6ae954",
               "group": "9f50771efa241d50",
@@ -247,6 +265,7 @@
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
+    "Condensed Matter/Lectures/012. Lec 2, Crystal Structure, 3D crystals.md",
     "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
     "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
     "MA.22 Analysis 2B/Notes from Tutorial 1.md",
@@ -254,7 +273,6 @@
     "Condensed Matter/Lectures/041. Lec 11, Electrons in solids, Introduction.md",
     "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
     "PRGSK. Coursework 2/CW 2 Report.md",
-    "PRGSK. Coursework 1/Report.md",
-    "PRGSK. Coursework 1/Rep.md"
+    "PRGSK. Coursework 1/Report.md"
   ]
 }
