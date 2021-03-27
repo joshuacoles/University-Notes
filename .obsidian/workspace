@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
+            "file": "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
+            "file": "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
             "mode": "preview"
           }
         },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "Hall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,12 +62,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
+                "file": "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md"
+                "file": "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md"
               }
             }
           },
@@ -212,15 +212,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
+    "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Crystal Symmetries.md",
+    "Condensed Matter/Bravais Lattices.md",
+    "Condensed Matter/Bravais Lattices An Aside on Maths.md",
     "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
     "Condensed Matter/Lectures/012. Lec 2, Crystal Structure, 3D crystals.md",
     "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
-    "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
-    "MA.22 Analysis 2B/Notes from Tutorial 1.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/041. Lec 11, Electrons in solids, Introduction.md",
-    "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
-    "PRGSK. Coursework 2/CW 2 Report.md",
-    "PRGSK. Coursework 1/Report.md"
+    "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md"
   ]
 }
