@@ -4,47 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "6f04b557a9cf71b6",
-        "type": "split",
-        "children": [
-          {
-            "id": "043208311507b5c7",
-            "type": "leaf",
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRGSK. Coursework 1/Report.md",
-                "mode": "source"
-              }
-            },
-            "group": "9f50771efa241d50"
-          },
-          {
-            "id": "8d2094e3ca9dfbc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRGSK. Coursework 2/PRGSK. Coursework 2.md",
-                "mode": "preview"
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "a6b049723f6ae954",
+        "id": "043208311507b5c7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PRGSK. Coursework 1/Report.md",
+            "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
+            "mode": "source"
+          }
+        },
+        "group": "9f50771efa241d50",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "043208311507b5c7",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a6b049723f6ae954",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
             "mode": "preview"
           }
         },
-        "group": "9f50771efa241d50"
+        "group": "9f50771efa241d50",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "a6b049723f6ae954",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            }
+          ]
+        }
       }
     ],
     "direction": "vertical"
@@ -100,10 +104,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PRGSK. Coursework 1/Report.md",
+                "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -115,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PRGSK. Coursework 1/Report.md"
+                "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md"
               }
             }
           },
@@ -123,7 +129,7 @@
             "id": "ae4a2eb74281eacb",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "empty",
               "state": {}
             }
           },
@@ -174,7 +180,7 @@
             "id": "0e80cdc898a48f02",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
@@ -182,7 +188,39 @@
             "id": "1be0e0051d01e6f7",
             "type": "leaf",
             "state": {
-              "type": "juggl_style",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7894504baff45ad1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3fddf6e05ef9f686",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7e785568496ccf9d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "80de1b58e98ea752",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
               "state": {}
             }
           }
@@ -195,15 +233,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
+    "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
+    "MA.22 Analysis 2B/Notes from Tutorial 1.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/041. Lec 11, Electrons in solids, Introduction.md",
+    "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
+    "PRGSK. Coursework 2/CW 2 Report.md",
     "PRGSK. Coursework 1/Report.md",
     "PRGSK. Coursework 1/Rep.md",
-    "PRGSK. Coursework 1/Problem 1A.md",
-    "PRGSK. Coursework 1/Problem 1.md",
-    "PRGSK. Coursework 2/Pseudocode.md",
-    "PRGSK. Coursework 2/CW 2 Report.md",
-    "PRGSK. Coursework 2/Development.md",
-    "Pseudocode.md",
-    "PRGSK. Coursework 2/Report.md",
-    "Development.md"
+    "PRGSK. Coursework 1/Problem 1A.md"
   ]
 }
