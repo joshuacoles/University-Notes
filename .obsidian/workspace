@@ -14,42 +14,7 @@
             "mode": "source"
           }
         },
-        "group": "9f50771efa241d50",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "043208311507b5c7",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":0},\"to\":{\"line\":41,\"ch\":0}},\"scroll\":22}"
-            },
-            {
-              "leaf": "043208311507b5c7",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"graph\",\"state\":{}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "043208311507b5c7",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":35.725}"
-            },
-            {
-              "leaf": "043208311507b5c7",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Electromagnetism 2/Lectures/Lec 15, Polarisation.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "043208311507b5c7",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
-            }
-          ]
-        }
+        "group": "9f50771efa241d50"
       },
       {
         "id": "a6b049723f6ae954",
@@ -61,24 +26,7 @@
             "mode": "preview"
           }
         },
-        "group": "9f50771efa241d50",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "a6b049723f6ae954",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":22}"
-            },
-            {
-              "leaf": "a6b049723f6ae954",
-              "group": "9f50771efa241d50",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
-            }
-          ]
-        }
+        "group": "9f50771efa241d50"
       }
     ],
     "direction": "vertical"
