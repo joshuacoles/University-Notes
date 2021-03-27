@@ -6,10 +6,11 @@
       {
         "id": "043208311507b5c7",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
+            "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
             "mode": "source"
           }
         },
@@ -17,6 +18,18 @@
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
+            {
+              "leaf": "043208311507b5c7",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "043208311507b5c7",
+              "group": "9f50771efa241d50",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Electromagnetism 2/Lectures/Lec 15, Polarisation.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
             {
               "leaf": "043208311507b5c7",
               "group": "9f50771efa241d50",
@@ -29,11 +42,10 @@
       {
         "id": "a6b049723f6ae954",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
+            "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
             "mode": "preview"
           }
         },
@@ -88,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 384.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -104,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
+                "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md"
+                "file": "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md"
               }
             }
           },
@@ -233,15 +246,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
     "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
+    "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
+    "Electromagnetism 2/Lectures/Lec 9, Waves in a Vacuum.md",
     "MA.22 Analysis 2B/Notes from Tutorial 1.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/041. Lec 11, Electrons in solids, Introduction.md",
     "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
     "PRGSK. Coursework 2/CW 2 Report.md",
     "PRGSK. Coursework 1/Report.md",
-    "PRGSK. Coursework 1/Rep.md",
-    "PRGSK. Coursework 1/Problem 1A.md"
+    "PRGSK. Coursework 1/Rep.md"
   ]
 }
