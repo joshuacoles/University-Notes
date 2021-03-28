@@ -125,10 +125,14 @@ var JaxPlugin = /** @class */ (function (_super) {
             set: function (o) {
                 o.loader = { load: ['[tex]/mhchem', '[tex]/bussproofs'] };
                 o.tex.packages = { '[+]': ['mhchem', 'bussproofs'] };
+                
+                // o.tex.macros = require('/Users/joshuacoles/Library/Mobile Documents/iCloud~md~obsidian/Documents/Physics/macros.js');
+
                 o.startup.ready = function () {
                     MathJax.startup.defaultReady();
                     MathJax.tex2chtml(content);
                 };
+
                 delete window.MathJax;
                 window.MathJax = o;
             },
