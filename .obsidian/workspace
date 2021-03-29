@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
+            "file": "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
+            "file": "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
+                "file": "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md"
+                "file": "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md"
               }
             }
           },
@@ -221,12 +221,60 @@
             "id": "4d4d0a20110b7286",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
           {
             "id": "503ff7a527ee691f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "89f3d8eb95c166c3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "74e808e70dbf6ba5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "34b9b6affe46788b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7e255be7132396f7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "018bcb9868b00ac7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "a04ef7a3cebcf4a8",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -242,15 +290,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
     "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
     "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
     "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Zettle/202102191521.md",
     "Zettle/202102231637.md",
     "Zettle/202102202127.md",
-    "Condensed Matter/Bravais Lattices An Aside on Maths.md",
-    "Dogma.md"
+    "Condensed Matter/Bravais Lattices An Aside on Maths.md"
   ]
 }
