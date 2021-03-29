@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
+            "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
+            "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
+                "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md"
+                "file": "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md"
               }
             }
           },
@@ -225,15 +225,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
+    "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
     "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
     "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
     "Zettle/202102191521.md",
     "Zettle/202102231637.md",
     "Zettle/202102202127.md",
     "Condensed Matter/Bravais Lattices An Aside on Maths.md",
-    "Dogma.md",
-    "Condensed Matter/Bravais Lattices.md"
+    "Dogma.md"
   ]
 }
