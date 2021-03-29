@@ -66,7 +66,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 384.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -204,12 +205,28 @@
             "id": "676c0785457e77a6",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
           {
             "id": "128a4de388be32ce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4d4d0a20110b7286",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "503ff7a527ee691f",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -226,9 +243,9 @@
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
     "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
     "Zettle/202102191521.md",
     "Zettle/202102231637.md",
