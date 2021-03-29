@@ -63,8 +63,8 @@ The algorithm maintains the following two collections as state:
 
 ##### The Search Loop
 
-- While the ***Process Queue*** is not empty (recalling that on [[#Initialisation]] it is not empty, containing the *initial point*).
-	- Perform a [[#Single Search Iteration]] step.
+- While the ***Process Queue*** is not empty (recalling that on [[Pseudocode#Initialisation]] it is not empty, containing the *initial point*).
+	- Perform a [[Pseudocode#Single Search Iteration]] step.
 
 ##### Conduction Path Existence Predicate
 

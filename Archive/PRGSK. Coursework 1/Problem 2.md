@@ -43,13 +43,13 @@ where $r_i$ is the $i$'th root to be found, either stopping at a known number of
 
 Another promising method is recursive application of a bracketing method, such as [[Bisection Method]]. At each root found, splitting the domain at that point and searching the two created regions, stopping again after either a given number of iterations, or roots found. Care must be taken however to ensure that you do not converge in your successive applications to a previous root. Indeed also one must be mindful to do this searching in a breadth-first manner, to ensure that you do not "drill-down" deeper into a given region, ignoring the remainder of the domain.
 
-The final method presented, which is by far the simplest conceptually and programmatically, is to use a separate algorithm to find *"candidates"* for submission to the various root finding algorithms. This algorithm is hence forth known as the *[[#Candidate Finder]]*, distinct from the [[#Root Finder]].
+The final method presented, which is by far the simplest conceptually and programmatically, is to use a separate algorithm to find *"candidates"* for submission to the various root finding algorithms. This algorithm is hence forth known as the *[[Problem 2#Candidate Finder]]*, distinct from the [[Problem 2#Root Finder]].
 
 In one dimensions the simplest manner for providing these candidates is to iterate linearly along the domain of interest, until a sign change is found, indicating that the function crosses the axis over the region. This method also generalises well however to higher dimensional problems, as will be discussed in Problem 3, as methods can be freely chosen which do not have a complexity determined by the dimension.
 
 ### Generic Considerations
 
-To make the code more generic the subject function was accepted as an argument to the [[#Candidate Finder]], then passed through to the [[#Root Finder]].
+To make the code more generic the subject function was accepted as an argument to the [[Problem 2#Candidate Finder]], then passed through to the [[Problem 2#Root Finder]].
 
 ### Pseudocode
 
@@ -72,7 +72,7 @@ The Candidate Finder used to detect regions which should be passed to the Root F
 > 	- Let `x0` be the trailing edge of the increment.
 > 	- Let `x1` be the leading edge of the increment, equal to `x0 + searchResolution`.
 > 	- If the sign of `f(x0)` is different from the sign of `f(x1)` then:
-> 		- Subject the region `x0 <= x <= x1` to root finding, passing it to the [[#Root Finder]].
+> 		- Subject the region `x0 <= x <= x1` to root finding, passing it to the [[Problem 2#Root Finder]].
 > 		- If a root is found (the returned root is not `NaN`)
 > 		    - Add the root the the list `roots`.
 >			- Increment `n` by 1.
@@ -90,7 +90,7 @@ The Candidate Finder used to detect regions which should be passed to the Root F
 The root finding method used is the [[Secant Method]], chosen as it has good performance on a number of problems, see table on   5:11 of 1. TODO. Pseudocode again presented below:
 
 > - Given:
-> 	- Candidate values of `x0` and `x1` provided by the [[#Candidate Finder]] above.
+> 	- Candidate values of `x0` and `x1` provided by the [[Problem 2#Candidate Finder]] above.
 > 	- The subject function `f: R -> R` from above.
 > 	- A numerical precision $\epsilon$, with the aim to find roots within $\pm\epsilon$ of the analytic root.
 > - Let:
@@ -112,12 +112,12 @@ The root finding method used is the [[Secant Method]], chosen as it has good per
 
 The brief requires that the program accept input from the user for a number of parameters, the pseudocode for this final section is presented below:
 
-> - Input the lower and lower bound for the [[#Candidate Finder]]'s  search.
-> - Input the resolution of the search performed by the [[#Candidate Finder]].
+> - Input the lower and lower bound for the [[Problem 2#Candidate Finder]]'s  search.
+> - Input the resolution of the search performed by the [[Problem 2#Candidate Finder]].
 > - Input the number of decimal places `dp` of precision is desired for the roots found.
 > 	- This number of decimal places is converted into an $\epsilon$ of $\frac 12 \times 10^{\text{dp}}$.
 > - Create an array of capacity 3 (the predetermined maximum number of roots our polynomial may find)
-> - Pass this information to the [[#Candidate Finder]] (which will then pass the relevant information to the [[#Root Finder]]), along with a pointer to the subject function `f` defined elsewhere, and the maximum number of roots which is 3 for our.
+> - Pass this information to the [[Problem 2#Candidate Finder]] (which will then pass the relevant information to the [[Problem 2#Root Finder]]), along with a pointer to the subject function `f` defined elsewhere, and the maximum number of roots which is 3 for our.
 > - Print out all the roots found to the user at the desired number of decimal places.
 
 We do not allow for the selection of the subject function by the user as this would require the parsing of maths by the program, or some means of loading code at runtime. Both of which are out of scope for this problem. Further for testing purposes this input handling is also behind an `if` to allow for more rapid testing.
