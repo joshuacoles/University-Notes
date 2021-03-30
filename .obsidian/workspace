@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
+            "mode": "source"
+          }
         },
         "group": "2660fa65d2a5b435"
       },
@@ -19,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
+            "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
             "mode": "preview"
           }
         },
@@ -79,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md"
+              }
             }
           },
           {
@@ -162,15 +168,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
     "Condensed Matter/Lectures/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/053. Lec 20, Sommerfeld model, Heat capacity.md",
     "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
     "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
     "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Attachments/CMP/electrons_notes_big.pdf",
-    "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md",
-    "Vector Calc/Vector Calc.md"
+    "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md"
   ]
 }
