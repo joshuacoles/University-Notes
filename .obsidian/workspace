@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Electromagnetism 2\" AND line:\"todo\" OR line:\"Programming\"",
+                "query": "\"Free Electron Gas\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -62,7 +62,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,13 +162,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
