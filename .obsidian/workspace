@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "f94369b0ba2b60bf"
       },
@@ -83,7 +80,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,9 +93,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md"
-              }
+              "state": {}
             }
           },
           {
@@ -292,13 +286,13 @@
   "lastOpenFiles": [
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md",
+    "Electromagnetism 2/Lectures/Lec 2, Maxwells Eqs Intro.md",
     "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
     "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
     "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
     "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
     "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
-    "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md",
-    "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
-    "Zettle/202102191521.md"
+    "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md"
   ]
 }
