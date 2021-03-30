@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+            "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+            "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
             "mode": "preview"
           }
         },
@@ -62,8 +62,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+                "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md"
+                "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md"
               }
             }
           },
@@ -166,11 +165,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
+    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md",
     "Vector Calc/Vector Calc.md",
