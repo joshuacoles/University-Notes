@@ -74,7 +74,7 @@ $$
 
 > Note we lost the factor of $\frac 1Q$ as that got eaten in $\F' = Q\E'$.
 
-Applying [[Stokes' Theorem]] on the LHS,
+Applying [[8.2 Stokes’ Theorem]] on the LHS,
 
 $$
 \int_S \curl \E' \dp \d\vec{S} = - \int_S \frac{\partial\B}{\partial t} \cdot \d\vec{S}

@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+            "mode": "source"
+          }
         },
         "group": "f94369b0ba2b60bf"
       },
@@ -50,10 +53,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Hall",
+                "query": "path:\"Electromagnetism 2\" AND line:\"todo\" OR line:\"Programming\"",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -63,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -80,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md"
+              }
             }
           },
           {
@@ -285,14 +290,14 @@
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md",
+    "Vector Calc/Vector Calc.md",
+    "Electromagnetism 2/Lectures/Lec 8, Time varying Charges and Currents.md",
+    "Condensed Matter/Lectures/021. Lec 3, Crystal Structure 3, Probes.md",
+    "Condensed Matter/Lectures/012. Lec 2, Crystal Structure, 3D crystals.md",
     "Electromagnetism 2/Lectures/Lec 2, Maxwells Eqs Intro.md",
-    "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
-    "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
-    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
-    "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
-    "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
-    "Condensed Matter/Lectures/045. Lec 15, Drude model, Hall effect.md"
+    "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
+    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md"
   ]
 }
