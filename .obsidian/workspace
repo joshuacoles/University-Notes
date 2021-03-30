@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+            "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+            "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+                "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md"
+                "file": "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md"
               }
             }
           },
@@ -170,15 +170,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Vector Calc/Vector Calc.md",
     "Electromagnetism 2/Lectures/Lec 8, Time varying Charges and Currents.md",
     "Condensed Matter/Lectures/021. Lec 3, Crystal Structure 3, Probes.md",
     "Condensed Matter/Lectures/012. Lec 2, Crystal Structure, 3D crystals.md",
     "Electromagnetism 2/Lectures/Lec 2, Maxwells Eqs Intro.md",
-    "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
-    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md"
+    "Electromagnetism 2/Lectures/Lec 1, Introduction.md"
   ]
 }
