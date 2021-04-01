@@ -165,12 +165,28 @@
             "id": "fa25441377642041",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
           {
             "id": "a43a25c99eee17bc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1a416956d33bb841",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "a62935ff6d5def51",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
