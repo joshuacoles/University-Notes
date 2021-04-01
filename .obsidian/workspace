@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Bloch Sphere\"",
+                "query": "\"Primitive Reciprocal Lattice Vectors\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -139,6 +139,7 @@
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/v24 Electrons in periodic potentials.md",
@@ -146,7 +147,6 @@
     "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
     "Condensed Matter/Lectures/Resistivity.md",
     "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
-    "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md",
-    "Condensed Matter/Lectures/Sommerfeld Theory.md"
+    "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md"
   ]
 }
