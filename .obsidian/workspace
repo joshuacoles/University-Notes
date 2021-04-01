@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Free Electron Gas\"",
+                "query": "free file:/Sommer/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -202,13 +202,13 @@
   "lastOpenFiles": [
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/056. Lec 23, Sommerfeld model, Assessment.md",
-    "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
-    "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
-    "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
     "Condensed Matter/Lectures/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
-    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/053. Lec 20, Sommerfeld model, Heat capacity.md",
+    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
-    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md"
+    "Condensed Matter/Lectures/013. Week 1 Live Session.md",
+    "Condensed Matter/Lectures/012. Lec 2, Crystal Structure, 3D crystals.md",
+    "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+    "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md"
   ]
 }
