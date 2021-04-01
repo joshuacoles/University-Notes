@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
             "mode": "preview"
           }
         },
@@ -66,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
+                "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md"
+                "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
               }
             }
           },
@@ -201,15 +200,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/056. Lec 23, Sommerfeld model, Assessment.md",
     "Condensed Matter/Lectures/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
     "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
     "Condensed Matter/Lectures/046. Lec 16, Drude model, Thermal conductivity.md",
     "Condensed Matter/Lectures/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/053. Lec 20, Sommerfeld model, Heat capacity.md",
     "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
-    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
-    "Attachments/CMP/electrons_notes_big.pdf"
+    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md"
   ]
 }
