@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Brillouin Zone\"",
+                "query": "\"Periodic Boundary Conditions\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -62,7 +62,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,14 +139,14 @@
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Bravais Lattices An Aside on Maths.md",
+    "Condensed Matter/Bravais Lattices.md",
+    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+    "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
+    "Condensed Matter/Lectures/Sommerfeld Theory.md",
     "conflict-files-obsidian-git.md",
     "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/v24 Electrons in periodic potentials.md",
-    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
-    "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
-    "Condensed Matter/Lectures/Resistivity.md",
-    "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md"
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
   ]
 }
