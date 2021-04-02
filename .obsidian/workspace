@@ -6,6 +6,7 @@
       {
         "id": "09b55a4176f818c8",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,7 +19,6 @@
       {
         "id": "79817ffbf3e43dd1",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Primitive Reciprocal Lattice Vectors\"",
+                "query": "\"Brillouin Zone\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -139,14 +138,14 @@
   },
   "lastOpenFiles": [
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+    "conflict-files-obsidian-git.md",
+    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/v24 Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
     "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
     "Condensed Matter/Lectures/Resistivity.md",
-    "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
-    "Vector Calc/8 Stokes’ Theorem/8.2 Stokes’ Theorem.md"
+    "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md"
   ]
 }
