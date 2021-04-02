@@ -6,27 +6,49 @@
       {
         "id": "09b55a4176f818c8",
         "type": "leaf",
+        "dimension": 50.5072463768116,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
             "mode": "source"
           }
         },
         "group": "2660fa65d2a5b435"
       },
       {
-        "id": "79817ffbf3e43dd1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-            "mode": "preview"
+        "id": "cd4fcf048eedd392",
+        "type": "split",
+        "dimension": 49.492753623188406,
+        "children": [
+          {
+            "id": "79817ffbf3e43dd1",
+            "type": "leaf",
+            "dimension": 64.92307692307692,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
+                "mode": "preview"
+              }
+            },
+            "group": "2660fa65d2a5b435"
+          },
+          {
+            "id": "260ab3517730ed18",
+            "type": "leaf",
+            "dimension": 35.07692307692307,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+                "mode": "preview"
+              }
+            }
           }
-        },
-        "group": "2660fa65d2a5b435"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -53,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Periodic Boundary Conditions\"",
+                "query": "\"Laue Conditions\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md"
+                "file": "Condensed Matter/Concepts/Bloch's Theorem.md"
               }
             }
           },
@@ -112,25 +133,8 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "1a416956d33bb841",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "a62935ff6d5def51",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,15 +142,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/064. Lec 27 Equation of motion.md",
-    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
-    "Condensed Matter/Bravais Lattices An Aside on Maths.md",
-    "Condensed Matter/Bravais Lattices.md",
+    "Condensed Matter/Concepts/Bloch's Theorem.md",
+    "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
+    "Condensed Matter/Concepts/Plane Wave.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-    "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
-    "Condensed Matter/Lectures/Sommerfeld Theory.md",
-    "conflict-files-obsidian-git.md"
+    "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+    "Condensed Matter/Concepts/Bloch Wave.md",
+    "Condensed Matter/Concepts/Untitled.md",
+    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
+    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
   ]
 }
