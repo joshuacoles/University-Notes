@@ -19,6 +19,4 @@ These [[Wave Function|Wave Functions]] are known as [[Bloch Wave|Bloch Waves]] a
 
 ## Periodicity
 
-$$
-
-$$
+By principle of the [[Periodic Boundary Conditions]] imposed upon them the solutions are periodic in the 

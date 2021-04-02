@@ -19,7 +19,7 @@ where $L$ determines the periodicity of the solution. Normally $L$ will be given
 	\end{gather} $$
 	![[Pasted image 20210330143106.png]]
 
-## Application to Potential Free Systems (aka [[Plane Wave|Plane Waves]])
+## Application to Potential Free Systems (aka quantisation of the [[Wave Vector]]  in [[Plane Wave|Plane Waves]])
 
 If we restrict ourselves to 3D systems with a zero potential, given by the [[Time Independent Schrödinger Equation]]:
 
@@ -57,4 +57,14 @@ A\exp(i\vk \dp \r)
 \end{align*}
 $$
 
-we can we can identify as the [[Laue Conditions]]. Hence we know that $\vk$ c
+which we can identify as the [[Laue Conditions]]. Since this is true over the entire integer span of the [[Primitive Lattice Vectors]] this is equivalent to,
+
+$$
+\begin{gather}
+\vk \dp \vec{a} = 2\pi m_1, \\
+\vk \dp \vec{b} = 2\pi m_2, \\
+\vk \dp \vec{c} = 2\pi m_3. \\
+\end{gather}
+$$
+
+Hence we know that $\vk$ **can only take a discrete set of values**, ie that it is a member of the [[Reciprocal Lattice]], given by the *integer span* of the [[Primitive Reciprocal Lattice Vectors]] $\vA, \vB, \vC$.
