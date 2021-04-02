@@ -68,5 +68,3 @@ $$
 $$
 
 Hence we know that $\vk$ **can only take a discrete set of values**, ie that it is a member of the [[Reciprocal Lattice]], given by the *integer span* of the [[Primitive Reciprocal Lattice Vectors]] $\vA, \vB, \vC$.
-
-#todo is any of what we just wrote right??
