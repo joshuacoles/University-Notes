@@ -6,11 +6,10 @@
       {
         "id": "09b55a4176f818c8",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
             "mode": "source"
           }
         },
@@ -19,10 +18,11 @@
       {
         "id": "79817ffbf3e43dd1",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md"
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
               }
             }
           },
@@ -138,10 +138,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/064. Lec 27 Equation of motion.md",
-    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Bravais Lattices An Aside on Maths.md",
     "Condensed Matter/Bravais Lattices.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
