@@ -6,151 +6,101 @@
       {
         "id": "09b55a4176f818c8",
         "type": "leaf",
-        "dimension": 50.5072463768116,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
-            "mode": "source"
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+            "mode": "preview"
           }
-        },
-        "group": "2660fa65d2a5b435"
-      },
-      {
-        "id": "cd4fcf048eedd392",
-        "type": "split",
-        "dimension": 49.492753623188406,
-        "children": [
-          {
-            "id": "79817ffbf3e43dd1",
-            "type": "leaf",
-            "dimension": 64.92307692307692,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
-                "mode": "preview"
-              }
-            },
-            "group": "2660fa65d2a5b435"
-          },
-          {
-            "id": "260ab3517730ed18",
-            "type": "leaf",
-            "dimension": 35.07692307692307,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-                "mode": "preview"
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c5db58097b179f96",
-    "type": "split",
+    "id": "f9c76468bb457fa4",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "e3374a7d630104cf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8e19ccc7d55557bd",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "1320c0a382ab0e8b",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "\"Laue Conditions\"",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "file-explorer",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "search",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "tag",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
-    ],
-    "direction": "horizontal",
-    "width": 384.5
+    ]
   },
   "right": {
-    "id": "846dd805de4795a5",
-    "type": "split",
+    "id": "caca2924d9454a2f",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "b296e87ee4562328",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "701156f48ac80795",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "a34bdcbce14706a0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Condensed Matter/Concepts/Bloch's Theorem.md"
-              }
-            }
-          },
-          {
-            "id": "914fd71447291bb4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
+        "id": "backlink",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "outline",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
+          }
+        }
       }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    ]
   },
   "lastOpenFiles": [
-    "Condensed Matter/Concepts/Bloch's Theorem.md",
-    "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
-    "Condensed Matter/Concepts/Plane Wave.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-    "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
-    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
-    "Condensed Matter/Concepts/Bloch Wave.md",
-    "Condensed Matter/Concepts/Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
-    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+    "Condensed Matter/Lectures/v24 Electrons in periodic potentials.md",
+    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
+    "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
+    "Condensed Matter/Lectures/Resistivity.md"
   ]
 }
