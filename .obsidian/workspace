@@ -7,10 +7,11 @@
         "id": "09b55a4176f818c8",
         "type": "leaf",
         "dimension": 50.5072463768116,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
+            "file": "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
             "mode": "source"
           }
         },
@@ -28,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
+                "file": "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
                 "mode": "preview"
               }
             },
@@ -38,7 +39,6 @@
             "id": "260ab3517730ed18",
             "type": "leaf",
             "dimension": 35.07692307692307,
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -84,13 +84,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+                "file": "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md"
+                "file": "Condensed Matter/Concepts/Periodic Boundary Conditions.md"
               }
             }
           },
@@ -144,15 +142,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Concepts/Bloch's Theorem.md",
-    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
-    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Concepts/Bloch Wave.md",
     "Condensed Matter/Concepts/Untitled.md",
+    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
+    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/064. Lec 27 Equation of motion.md",
-    "Condensed Matter/Bravais Lattices An Aside on Maths.md"
+    "Condensed Matter/Lectures/064. Lec 27 Equation of motion.md"
   ]
 }

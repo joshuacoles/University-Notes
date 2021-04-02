@@ -19,8 +19,6 @@ These [[Wave Function|Wave Functions]] are known as [[Bloch Wave|Bloch Waves]] a
 
 ## Periodicity
 
-These
-
 $$
 
 $$
