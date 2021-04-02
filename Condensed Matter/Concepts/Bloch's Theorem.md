@@ -12,4 +12,7 @@ $$
 \psi_{n,\vk}(\r) = \exp(i \vk \dp \r) \dp u(\r)
 $$
 
-these are known as [[Bloch Wave|Bloch Waves]]. These functions form a basis of the [[Hilbert Space]] of [[Wave Function|Wave Functions]]. The $n$ 
+where $n$ is the [[Band Index]], distinguishing the many wave functions of the same [[Wave Vector]], each with a different periodic component in $u$ (that last bit was ripped from the Wiki, pls expand #todo).
+
+These [[Wave Function|Wave Functions]] are known as [[Bloch Wave|Bloch Waves]] and form a basis solutions for the constructed system.
+
