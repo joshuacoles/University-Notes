@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+            "file": "Vector Calc/Vector Calc.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+            "file": "Vector Calc/Vector Calc.md",
             "mode": "preview"
           }
         },
@@ -66,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+                "file": "Vector Calc/Vector Calc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
+                "file": "Vector Calc/Vector Calc.md"
               }
             }
           },
@@ -212,6 +211,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Vector Calc/Vector Calc.md",
+    "Dogma.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
@@ -219,8 +220,6 @@
     "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
     "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
     "Condensed Matter/Lectures/025. Lec 7, Crystal Structure 3, Form factors.md",
-    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md",
-    "Condensed Matter/Lectures/023. Lec 5, Crystal Structure 3, Worked example.md",
-    "Condensed Matter/Lectures/022. Lec 4, Crystal Structure 3, Bragg's law.md"
+    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md"
   ]
 }
