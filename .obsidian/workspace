@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
+            "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
+            "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
+                "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md"
+                "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md"
               }
             }
           },
@@ -211,15 +211,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
+    "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
     "Vector Calc/Vector Calc.md",
+    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
+    "Electromagnetism 2/Lectures/Lec 6, Introduction to Magentics, Lorentz Force.md",
+    "Electromagnetism 2/Lectures/Lec 5, Electostatics.md",
+    "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
     "Dogma.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
-    "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
-    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
-    "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
-    "Condensed Matter/Lectures/025. Lec 7, Crystal Structure 3, Form factors.md"
+    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md"
   ]
 }

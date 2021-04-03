@@ -4,7 +4,7 @@
 > 	- [[Lec 5, Electostatics|Previous]]
 > 	- [[Lec 7, Currents, Magnetic Fields|Next]]
 
-## The [[Magnetic Field]] $B$
+## The [[Magnetic Field]] $\B$
 
 Given two moving charges as described below,
 

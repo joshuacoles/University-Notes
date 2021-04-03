@@ -10,34 +10,32 @@
 
 % Vectors
 
-\newcommand{mkvec}[1]{\expandafter\newcommand{\v#1}{\vec{#1}}}
-
-\mkvec{a} \mkvec{A}
-\mkvec{b} \mkvec{B}
-\mkvec{c} \mkvec{C}
-\mkvec{d} \mkvec{D}
-\mkvec{e} \mkvec{E}
-\mkvec{f} \mkvec{F}
-\mkvec{g} \mkvec{G}
-\mkvec{h} \mkvec{H}
-\mkvec{i} \mkvec{I}
-\mkvec{j} \mkvec{J}
-\mkvec{k} \mkvec{K}
-\mkvec{l} \mkvec{L}
-\mkvec{m} \mkvec{M}
-\mkvec{n} \mkvec{N}
-\mkvec{o} \mkvec{O}
-\mkvec{p} \mkvec{P}
-\mkvec{q} \mkvec{Q}
-\mkvec{r} \mkvec{R}
-\mkvec{s} \mkvec{S}
-\mkvec{t} \mkvec{T}
-\mkvec{u} \mkvec{U}
-\mkvec{v} \mkvec{V}
-\mkvec{w} \mkvec{W}
-\mkvec{x} \mkvec{X}
-\mkvec{y} \mkvec{Y}
-\mkvec{z} \mkvec{Z}
+\newcommand\va{\vec{a}} \newcommand\vA{\vec{A}}
+\newcommand\vb{\vec{b}} \newcommand\vB{\vec{B}}
+\newcommand\vc{\vec{c}} \newcommand\vC{\vec{C}}
+\newcommand\vd{\vec{d}} \newcommand\vD{\vec{D}}
+\newcommand\ve{\vec{e}} \newcommand\vE{\vec{E}}
+\newcommand\vf{\vec{f}} \newcommand\vF{\vec{F}}
+\newcommand\vg{\vec{g}} \newcommand\vG{\vec{G}}
+\newcommand\vh{\vec{h}} \newcommand\vH{\vec{H}}
+\newcommand\vi{\vec{i}} \newcommand\vI{\vec{I}}
+\newcommand\vj{\vec{j}} \newcommand\vJ{\vec{J}}
+\newcommand\vk{\vec{k}} \newcommand\vK{\vec{K}}
+\newcommand\vl{\vec{l}} \newcommand\vL{\vec{L}}
+\newcommand\vm{\vec{m}} \newcommand\vM{\vec{M}}
+\newcommand\vn{\vec{n}} \newcommand\vN{\vec{N}}
+\newcommand\vo{\vec{o}} \newcommand\vO{\vec{O}}
+\newcommand\vp{\vec{p}} \newcommand\vP{\vec{P}}
+\newcommand\vq{\vec{q}} \newcommand\vQ{\vec{Q}}
+\newcommand\vr{\vec{r}} \newcommand\vR{\vec{R}}
+\newcommand\vs{\vec{s}} \newcommand\vS{\vec{S}}
+\newcommand\vt{\vec{t}} \newcommand\vT{\vec{T}}
+\newcommand\vu{\vec{u}} \newcommand\vU{\vec{U}}
+\newcommand\vv{\vec{v}} \newcommand\vV{\vec{V}}
+\newcommand\vw{\vec{w}} \newcommand\vW{\vec{W}}
+\newcommand\vx{\vec{x}} \newcommand\vX{\vec{X}}
+\newcommand\vy{\vec{y}} \newcommand\vY{\vec{Y}}
+\newcommand\vz{\vec{z}} \newcommand\vZ{\vec{Z}}
 
 % Unit Vectors
 \newcommand\uvec[1]{\hat{#1}}
@@ -45,35 +43,6 @@
 \newcommand\uvi{\mathbf{i}}
 \newcommand\uvj{\mathbf{j}}
 \newcommand\uvk{\mathbf{k}}
-
-% Helpers
-
-\newcommand{\'}{\text}
-
-\newcommand\sub{\subseteq}
-\newcommand\setp[2]{\set{ {#1} \mathrel{|} {#2} }}
-
-\newcommand\({\left(}
-\newcommand\){\right)}
-
-\newcommand{\cp}{\times}
-\newcommand{\dp}{\cdot}
-
-\newcommand\d{\mathrm{d}}
-\newcommand\rd{\mathrm{d}}
-
-\newcommand\parfrac[2]{\frac{\partial #1}{\partial #2}}
-\newcommand\dparfrac[2]{\dfrac{\partial #1}{\partial #2}}
-
-\newcommand\epsi{\epsilon}
-\newcommand\eps{\varepsilon}
-
-\newcommand{\norm}[1]{\left\|#1\right\|}
-
-\newcommand {\lst }[3]{#1_{#2},\dots ,#1_{#3}}
-
-\newcommand\intl{\int\limits}
-
 
 % Vec Calc
 \newcommand{\nab}{\nabla}
@@ -100,78 +69,39 @@
 \newcommand\mlrp[3]{(#1 \, #2 \, #3)}
 \newcommand\mlrps[3]{\{#1 \, #2 \, #3\}}
 
+% Maths
 
-% \newcommand\Forall{\forall\,}
-% \newcommand\R{\mathbb{R}}
-% \newcommand\Z{\mathbb{Z}}
-% \newcommand\N{\mathbb{N}}
-% \newcommand{\C}{\mathbb{C}}
-
-% \newcommand{\'}{\text}
-
-% \newcommand{\vp}{\vec{p}}
-% \newcommand{\vk}{\vec{k}}
-
-% \newcommand{\vv}{\vec{v}}
-% \newcommand{\vV}{\vec{V}}
-% \newcommand{\vQ}{\vec{Q}}
-% \newcommand{\vG}{\vec{G}}
-% \newcommand{\va}{\vec{a}}
-% \newcommand{\vb}{\vec{b}}
-% \newcommand{\vc}{\vec{c}}
-
-% \newcommand{\vj}{\vec{j}}
-% \newcommand{\vq}{\vec{q}}
+% Helpers
 
 
+\newcommand\sub{\subseteq}
+\newcommand\setp[2]{\set{ {#1} \mathrel{|} {#2} }}
 
-% \newcommand\sub{\subseteq}
+\newcommand{\'}{\text}
+\newcommand\({\left(}
+\newcommand\){\right)}
 
-% \newcommand\mlri[3]{[#1 \, #2 \, #3]}
-% \newcommand\mlrs[3]{\langle#1 \, #2 \, #3\rangle}
+\newcommand{\cp}{\times}
+\newcommand{\dp}{\cdot}
 
-% \newcommand\mlrp[3]{(#1 \, #2 \, #3)}
-% \newcommand\mlrps[3]{\{#1 \, #2 \, #3\}}
+\newcommand\d{\mathrm{d}}
+\newcommand\rd{\mathrm{d}}
 
-% \newcommand\setp[2]{\set{ {#1} \mathrel{|} {#2} }}
+\newcommand\parfrac[2]{\frac{\partial #1}{\partial #2}}
+\newcommand\dparfrac[2]{\dfrac{\partial #1}{\partial #2}}
 
-% \newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand\epsi{\epsilon}
+\newcommand\eps{\varepsilon}
 
-% \newcommand {\lst }[3]{#1_{#2},\dots ,#1_{#3}}
+\newcommand{\norm}[1]{\left\|#1\right\|}
 
-% \newcommand\({\left(}
-% \newcommand\){\right)}
+\newcommand{\lst}[3]{#1_{#2},\dots ,#1_{#3}}
+\newcommand{\seq}[2]{(#1)_{#2\in \N }}
+\newcommand{\seqq}[3]{(#1)_{#2\in #3 }}
+\newcommand{\st}{\text{ st. }}
+\newcommand{\sut}{\,\, \textrm {such that } \,}
+\newcommand{\ip}[1]{\langle #1 \rangle}
+\newcommand{\conj}[1]{\bar{#1}}
+\newcommand{\ad}[1]{{#1}^\ast}
 
-% \newcommand\expi[1]{\exp\(i\(#1\)\)}
-
-% \newcommand{\cp}{\times}
-% \newcommand{\dp}{\cdot}
-
-% \newcommand{\nab}{\nabla}
-% \newcommand{\divrg}{\nab \cdot}
-% \newcommand{\curl}{\nab \cp}
-
-% \newcommand\F{\vec{F}}
-% \newcommand\E{\vec{E}}
-% \newcommand\B{\vec{B}}
-% \newcommand\r{\vec{r}}
-% \newcommand\J{\vec{J}}
-
-% \newcommand\epsi{\epsilon}
-% \newcommand\eps{\varepsilon}
-
-% \newcommand\uvec[1]{\hat{#1}}
-
-% \newcommand\uvi{\mathbf{i}}
-% \newcommand\uvj{\mathbf{j}}
-% \newcommand\uvk{\mathbf{k}}
-
-% \newcommand\intl{\int\limits}
-
-% \newcommand\d{\mathrm{d}}
-
-% \newcommand\parfrac[2]{\frac{\partial #1}{\partial #2}}
-% \newcommand\dparfrac[2]{\dfrac{\partial #1}{\partial #2}}
-
-% \newcommand\angstrom{\overset{\lower.5em\circ}{\mathrm{A}}}
-
+\newcommand\intl{\int\limits}
