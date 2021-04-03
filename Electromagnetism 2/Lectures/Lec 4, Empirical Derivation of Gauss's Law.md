@@ -8,6 +8,8 @@
 
 For a charge $Q$ surrounded by a closed surface $S$, [[Gauss's Law]] is given as,
 
+$\vA$
+
 $$
  \int_S \E \cdot \d \vec{S} = \frac {Q_{\mathrm{enc}}}{\epsilon_0}
 $$

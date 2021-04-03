@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vector Calc/Vector Calc.md",
+            "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vector Calc/Vector Calc.md",
+            "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vector Calc/Vector Calc.md",
+                "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vector Calc/Vector Calc.md"
+                "file": "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md"
               }
             }
           },
@@ -211,6 +211,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
     "Vector Calc/Vector Calc.md",
     "Dogma.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
@@ -219,7 +220,6 @@
     "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
     "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
     "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
-    "Condensed Matter/Lectures/025. Lec 7, Crystal Structure 3, Form factors.md",
-    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md"
+    "Condensed Matter/Lectures/025. Lec 7, Crystal Structure 3, Form factors.md"
   ]
 }
