@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "043208311507b5c7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
-            "mode": "source"
-          }
-        },
-        "group": "9f50771efa241d50"
-      },
-      {
-        "id": "a6b049723f6ae954",
+        "id": "de189ac24af1735b",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+            "mode": "source"
+          }
+        },
+        "group": "f745aeb78be6d0ee"
+      },
+      {
+        "id": "8906fb8dcfb0ae9b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
             "mode": "preview"
           }
         },
-        "group": "9f50771efa241d50"
+        "group": "f745aeb78be6d0ee"
       }
     ],
     "direction": "vertical"
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Hall",
+                "query": "tag:#cmp/crystal-structure/experiemental",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md"
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
               }
             }
           },
@@ -212,15 +212,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/011. Lec 1, Crystal Structure, Intro to crystallography.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/043. Lec 13, Drude model, DC conductivity.md",
-    "conflict-files-obsidian-git.md",
-    "Condensed Matter/Lectures/042. Lec 12, Electrons in solids, Drude model.md",
-    "Condensed Matter/Bravais Lattices.md",
-    "Condensed Matter/Untitled.md",
+    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/033. Lec 10, Crystal structure 4, The Structure Factor.md",
-    "Condensed Matter/Crystal Symmetries.md",
-    "Condensed Matter/Bravais Lattices An Aside on Maths.md"
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+    "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
+    "Condensed Matter/Lectures/025. Lec 7, Crystal Structure 3, Form factors.md",
+    "Condensed Matter/Lectures/024. Lec 6, Crystal Structure 3, The basis.md",
+    "Condensed Matter/Lectures/023. Lec 5, Crystal Structure 3, Worked example.md",
+    "Condensed Matter/Lectures/022. Lec 4, Crystal Structure 3, Bragg's law.md"
   ]
 }
