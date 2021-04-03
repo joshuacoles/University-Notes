@@ -4,222 +4,103 @@
     "type": "split",
     "children": [
       {
-        "id": "de189ac24af1735b",
+        "id": "09b55a4176f818c8",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
-            "mode": "source"
-          }
-        },
-        "group": "f745aeb78be6d0ee"
-      },
-      {
-        "id": "8906fb8dcfb0ae9b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
             "mode": "preview"
           }
-        },
-        "group": "f745aeb78be6d0ee"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c5db58097b179f96",
-    "type": "split",
+    "id": "17baa2f5639c7bf1",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "e3374a7d630104cf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8e19ccc7d55557bd",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "1320c0a382ab0e8b",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#cmp/crystal-structure/experiemental",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "file-explorer",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "search",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "tag",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
-    ],
-    "direction": "horizontal",
-    "width": 384.5
+    ]
   },
   "right": {
-    "id": "846dd805de4795a5",
-    "type": "split",
+    "id": "12eaf4cb4752fd97",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "b296e87ee4562328",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "701156f48ac80795",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "a34bdcbce14706a0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md"
-              }
-            }
-          },
-          {
-            "id": "ae4a2eb74281eacb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "914fd71447291bb4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "85e92fe333145aba",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "255fe0310b788ab9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "53e29001817da34f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3dc17305836833c8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0e80cdc898a48f02",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1be0e0051d01e6f7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7894504baff45ad1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3fddf6e05ef9f686",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7e785568496ccf9d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "80de1b58e98ea752",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
+        "id": "backlink",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 1
+        }
+      },
+      {
+        "id": "outline",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
+          }
+        }
       }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    ]
   },
   "lastOpenFiles": [
-    "Vector Calc/2 Review of Multivariable Calculus/2 Review of Multivariable Calculus.md",
-    "Vector Calc/Vector Calc.md",
-    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
-    "Electromagnetism 2/Lectures/Lec 6, Introduction to Magentics, Lorentz Force.md",
-    "Electromagnetism 2/Lectures/Lec 5, Electostatics.md",
-    "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
-    "Dogma.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+    "conflict-files-obsidian-git.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
-    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md"
+    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+    "Condensed Matter/Lectures/v24 Electrons in periodic potentials.md",
+    "Condensed Matter/Lectures/044. Lec 14, Drude model, Heat capacity.md",
+    "Condensed Matter/Lectures/047. Lec 17, Drude model, Assessment.md",
+    "Condensed Matter/Lectures/Resistivity.md"
   ]
 }
