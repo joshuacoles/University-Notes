@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+            "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+            "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+                "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md"
+                "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md"
               }
             }
           },
@@ -120,6 +120,7 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/Degenerate.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
@@ -128,7 +129,6 @@
     "Electromagnetism 2/Lectures/Notes from LOIL 1.md",
     "Electromagnetism 2/Lectures/Lec 14, Radiation pressure.md",
     "Electromagnetism 2/Lectures/Lec 12, Energy, Poynting vector.md",
-    "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md",
-    "Electromagnetism 2/Lectures/Lec 11, Impedance of Free Space.md"
+    "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md"
   ]
 }
