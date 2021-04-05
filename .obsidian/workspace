@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+                "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
                 "mode": "source"
               }
             },
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+                "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
                 "mode": "preview"
               }
             },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+                "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
+                "file": "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
               }
             }
           },
@@ -127,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+    "Condensed Matter/Concepts/Bloch's Theorem.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/062. Lec 25 Redo.md",
-    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/056. Lec 23, Sommerfeld model, Assessment.md",
     "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/Sommerfeld Theory.md",
-    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
-    "Condensed Matter/Primitive Lattice Vectors.md",
-    "Condensed Matter/Lectures/Untitled.md"
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md"
   ]
 }
