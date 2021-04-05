@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md",
+            "file": "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md",
+                "file": "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md"
+                "file": "Electromagnetism 2/Lectures/Lec 15, Polarisation.md"
               }
             }
           },
@@ -107,15 +107,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md",
+    "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
+    "Electromagnetism 2/Lectures/Notes from LOIL 1.md",
     "Electromagnetism 2/Lectures/Lec 14, Radiation pressure.md",
     "Electromagnetism 2/Lectures/Lec 12, Energy, Poynting vector.md",
+    "Electromagnetism 2/Lectures/Lec 13, Energy flow in plane waves.md",
     "Electromagnetism 2/Lectures/Lec 11, Impedance of Free Space.md",
     "Electromagnetism 2/Lectures/Lec 10, Properties of Plane Waves.md",
     "Electromagnetism 2/Lectures/Lec 4, Empirical Derivation of Gauss's Law.md",
     "Electromagnetism 2/Lectures/Lec 3, Electrostatics, Coloumb's Law.md",
-    "Electromagnetism 2/Lectures/Lec 2, Maxwells Eqs Intro.md",
-    "Electromagnetism 2/Lectures/Lec 1, Introduction.md",
-    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md"
+    "Electromagnetism 2/Lectures/Lec 2, Maxwells Eqs Intro.md"
   ]
 }
