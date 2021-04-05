@@ -4,51 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "09b55a4176f818c8",
-        "type": "leaf",
-        "dimension": 50.5072463768116,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/062. Lec 25 Redo.md",
-            "mode": "source"
-          }
-        },
-        "group": "2660fa65d2a5b435"
-      },
-      {
-        "id": "cd4fcf048eedd392",
+        "id": "f3c12b8fb60ff1fa",
         "type": "split",
-        "dimension": 49.492753623188406,
         "children": [
           {
             "id": "79817ffbf3e43dd1",
             "type": "leaf",
-            "dimension": 64.92307692307692,
             "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25 Redo.md",
-                "mode": "preview"
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+                "mode": "source"
               }
             },
-            "group": "2660fa65d2a5b435"
+            "group": "b3696217565de9b7"
           },
           {
-            "id": "260ab3517730ed18",
+            "id": "7fb33176c11956f9",
             "type": "leaf",
-            "dimension": 35.07692307692307,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
                 "mode": "preview"
               }
-            }
+            },
+            "group": "b3696217565de9b7"
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -84,13 +69,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 353.5,
-    "collapsed": true
+    "width": 353.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -106,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25 Redo.md",
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/062. Lec 25 Redo.md"
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
               }
             }
           },
@@ -144,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/062. Lec 25 Redo.md",
-    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
-    "Condensed Matter/Lectures/Untitled.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Lectures/062. Lec 25 Redo.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Lectures/Brillouin Zone.md",
-    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-    "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
+    "Condensed Matter/Lectures/056. Lec 23, Sommerfeld model, Assessment.md",
     "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
-    "Condensed Matter/Lectures/056. Lec 23, Sommerfeld model, Assessment.md"
+    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+    "Condensed Matter/Lectures/Sommerfeld Theory.md",
+    "Condensed Matter/Lectures/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+    "Condensed Matter/Primitive Lattice Vectors.md",
+    "Condensed Matter/Lectures/Untitled.md"
   ]
 }

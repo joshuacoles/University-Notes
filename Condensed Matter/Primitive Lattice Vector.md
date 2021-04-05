@@ -1,0 +1,4 @@
+---
+aliases:
+- Primitive Lattice Vectors
+---
