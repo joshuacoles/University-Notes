@@ -16,7 +16,7 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "335b8b2024d7ca74",
+    "id": "58d1014ef4aa8502",
     "type": "mobile-drawer",
     "children": [
       {
@@ -56,7 +56,7 @@
     ]
   },
   "right": {
-    "id": "bc3adcacf7d379c9",
+    "id": "4e7508c66b6b56ed",
     "type": "mobile-drawer",
     "children": [
       {
