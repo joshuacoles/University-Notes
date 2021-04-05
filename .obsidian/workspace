@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
+            "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
             "mode": "source"
           }
         },
@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
                 "mode": "preview"
               }
             },
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md"
+                "file": "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
               }
             }
           },
@@ -142,15 +143,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
-    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Lectures/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
+    "Condensed Matter/Lectures/052. Lec 19, Sommerfeld model, Density of states.md",
+    "Condensed Matter/Lectures/061. Lec 24, Electrons in periodic potentials.md",
     "Condensed Matter/Lectures/056. Lec 23, Sommerfeld model, Assessment.md",
     "Condensed Matter/Concepts/Wave Function.md",
     "Condensed Matter/Concepts/Bloch's Theorem.md",
     "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
     "Condensed Matter/Concepts/Periodic Boundary Conditions 2.md",
-    "Condensed Matter/Concepts/Plane Wave.md",
-    "Condensed Matter/Lectures/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md"
+    "Condensed Matter/Concepts/Plane Wave.md"
   ]
 }
