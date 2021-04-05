@@ -31,7 +31,7 @@ $$
 \vec{H} = \uvj\, H_0 \exp(i(k_z z - \omega t)),
 $$
 
-where the [[Wave Impedance]] is given as $Z_0 = \sqrt{\frac{\mu_0}{\epsi_0}} = \frac{\|\E\|}{\|\vec{H}\|}$. This when combined with the expression for the [[Electromagnetic Energy Density]] shows that the contribution of the [[Electric Field]] and the [[H Field]] to this total energy density are equal in a [[Source Free Vacuum]] [[Plane Wave]] (henceforth known as a [[Vacuum Plane Wave]], ie,
+where the [[Wave Impedance]] is given as $Z_0 = \sqrt{\frac{\mu_0}{\epsi_0}} = \frac{\|\E\|}{\|\vec{H}\|}$. This when combined with the expression for the [[Electromagnetic Energy Density]] shows that the contribution of the [[Electric Field]] and the [[H Field]] to this total energy density are equal in a [[Source Free Vacuum]] [[Plane Wave]] (henceforth known as a [[Vacuum Plane Wave]]), ie,
 
 $$
 \frac 12 \epsi_0 \|\E\|^2 = \frac12 \mu_0 \|\vec{H}\|^2.
@@ -47,7 +47,7 @@ $$
 >
 > **Programming Note**: Go write some shit on that.
 
-> **Programming Note**: Clean up our $E_0$ vs $\E_0$ vs whatever the fuck here.
+> **Programming Note**: Clean up our $E_0$ vs $\E_0$ vs whatever the fuck here. This has now been formalised in [[1.1 Notation for Cartesian Vectors]]
 
 This expression shows us that the energy density of the wave is in-fact oscillating. However in most practical cases the instantaneous values of the energy density vary to quickly to measure (especially higher than the radio wave domain). Thus usually we consider instead the time average of this expression,
 
