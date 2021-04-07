@@ -6,7 +6,6 @@
       {
         "id": "7fb33176c11956f9",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -87,6 +86,8 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,6 +120,7 @@
     "direction": "horizontal",
     "width": 300
   },
+  "active": "7fb33176c11956f9",
   "lastOpenFiles": [
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
