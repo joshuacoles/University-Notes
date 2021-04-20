@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/Development.md",
+            "file": "PSkills • Coursework 2/CW 2 Report.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/Development.md",
+            "file": "PSkills • Coursework 2/CW 2 Report.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PSkills • Coursework 2/Development.md",
+                "file": "PSkills • Coursework 2/CW 2 Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PSkills • Coursework 2/Development.md"
+                "file": "PSkills • Coursework 2/CW 2 Report.md"
               }
             }
           },
@@ -122,15 +122,15 @@
   },
   "active": "7fb33176c11956f9",
   "lastOpenFiles": [
-    "PSkills • Coursework 2/Development.md",
     "PSkills • Coursework 2/CW 2 Report.md",
+    "PSkills • Coursework 2/Pseudocode.md",
+    "PSkills • Coursework 2/Development.md",
     "Archive/PRGSK. Coursework 2/PRGSK. Coursework 2.md",
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/Degenerate.md",
     "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md",
     "Condensed Matter/Lectures/Sommerfeld Theory.md",
-    "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
-    "Electromagnetism 2/Lectures/Notes from LOIL 1.md"
+    "Electromagnetism 2/Lectures/Lec 15, Polarisation.md"
   ]
 }

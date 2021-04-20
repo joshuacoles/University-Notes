@@ -19,6 +19,14 @@ The description as provided by the brief is given below.
 
 ![[Pasted image 20210323180304.png]]
 
+### A note on directional conduction
+
+This code assumes that conduction is **non-directional**, ie if two cells are connected going in one direction, they are connected going in the other also. This assumption is only relevant in the case with diagonal conductive and superconductive cells, where the cell
+
+This assumption is only relevant in the [[Pseudocode#Cluster Finder]] stage where we use it to avoid path finding on directed graph.
+
+Extensions to this model could be developed where direc
+
 ![[Development]]
 
 ![[Results]]

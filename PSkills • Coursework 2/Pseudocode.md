@@ -72,8 +72,12 @@ The [[CW 2 Report#Problem Specification]] presents the criteria for a conduction
 
 However since we only wish to determine *if* a path exists, not what it is, we can rely on the construction of the Cluster itself to determine this, in time linear with the size of the two conductors. An algorithm for this is presented below.
 
-- Let `connected_bottom` and `connected_top` be booleans initialised to `false`.
-- Iterating through each point `p` in the set of ***Cluster Points***.
-	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `0`), set `connected_top` to `true`.
-	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `Ly`), set `connected_bottom` to `true`.
-- A path has formed if `connected_bottom && connected_top`.
+> - Let `connected_bottom` and `connected_top` be booleans initialised to `false`.
+> - Iterating through each point `p` in the set of ***Cluster Points***.
+> 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `0`), set `connected_top` to `true`.
+> 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `Ly`), set `connected_bottom` to `true`.
+> - A path has formed if `connected_bottom && connected_top`.
+
+```ad-note
+Within this algorithm we are using the assumption that connection is non-directed. Ie that if current can flow in one direction is can flow in both.
+```
