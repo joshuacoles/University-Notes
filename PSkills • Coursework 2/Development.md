@@ -16,7 +16,7 @@ The code was split into 3 parts:
 
 - The `Grid` which handles memory for the 2D grid of cells as well as their different types and the different types of the rules for current propagation. It also includes formatting code for the grid to allow presentation to the user.
 - The `ClusterFinder` this is an object created to find clusters. It takes an immutable reference to a `Grid`, and with either a pre-chosen, or random grid position, will start forming a conduction cluster.
-- The *runner*, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats.
+- The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats.
 
 The Rust code itself can be found on [GitHub](https://github.com/joshuacoles/Coursework-2) and will not be reproduced here. There will however be pseudocode versions of important algorithms, for example the uniform random generator of N positions; and the [[Development#Cluster Finder]] algorithm.
 
