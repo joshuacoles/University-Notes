@@ -11,4 +11,4 @@ When dealing with these equations in materials however they become unwieldy as t
     
 Instead we form a Macroscopic variant of these equations defining two new auxiliary fields, that describe the large-scale behaviour of matter **without** having to consider atomic scale charges and quantum phenomena like spins.
 
-This births a less "pure" theory but one of much more experimental use.
+This births a less "pure" theory but one of much more experimental use. 
