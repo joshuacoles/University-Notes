@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7fb33176c11956f9",
+        "id": "e612e8673a7e666a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
+            "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
             "mode": "source"
           }
         },
-        "group": "a35a6f65c97837c9"
+        "group": "cc81e140f3ab8b2f"
       },
       {
-        "id": "9b4376b3c8f1fb9d",
+        "id": "e673172f2897af98",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
+            "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
             "mode": "preview"
           }
         },
-        "group": "a35a6f65c97837c9"
+        "group": "cc81e140f3ab8b2f"
       }
     ],
     "direction": "vertical"
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
+                "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md"
+                "file": "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md"
               }
             }
           },
@@ -120,8 +121,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7fb33176c11956f9",
+  "active": "e612e8673a7e666a",
   "lastOpenFiles": [
+    "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
     "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
     "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
     "Electromagnetism 2/Lectures/Part 2/Lec 2.42, Lasing.md",
@@ -130,7 +132,6 @@
     "PSkills • Coursework 2/CW 2 Report.md",
     "PSkills • Coursework 2/Pseudocode.md",
     "Archive/PRGSK. Coursework 2/PRGSK. Coursework 2.md",
-    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
-    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md"
+    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md"
   ]
 }
