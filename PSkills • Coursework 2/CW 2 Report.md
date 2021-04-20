@@ -25,13 +25,15 @@ This code assumes that conduction is **non-directional**, ie if two cells are co
 
 This assumption is only used in the [[Pseudocode#Cluster Finder]] stage where we use it to avoid path finding on directed graph. This presents acute issues due to the requirements of starting at a *random* cell in the lattice, as this means we cannot use the construction of the cluster to find said conduction path.
 
-Extensions to this model could be developed where the cluster is grown using a similar algorithm to the one seen in this document, viewing the cluster as a direct graph of connections. A path finding algorithm such as A* could then be applied to to this directed graph to detect the path.
+### Extensions
+
+Extensions to this model could be developed where the cluster is grown using a similar algorithm to the one seen in this document, viewing the cluster as a direct graph of connections. A path finding algorithm such as A* could then be applied to to this directed graph to detect the path. A quick schematic example of this directed graph is provided below.
 
 > Note that we would not need to store the edges in a given graph, only the nodes, aka the location of cells in the cluster. This is because valid edges are a pure function of the cell's type.
 
 This would also allow for the modeling of quantities such as resistance, thermal conductivity, and other path properties. 
 
-Further extending the model to in a different direction 
+Further extending the model to in a different direction, dropping the requirements for cluster generation entirely, instead simply performing path finding from the start
 
 
 
