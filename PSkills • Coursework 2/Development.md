@@ -1,3 +1,7 @@
+---
+cssclass: split-pdf
+---
+
 ## Development
 
 C is a low level language not optimised for development experience, instead for translation to machine code, hence it is often difficult to *"think"* in C, as one often has to devote a large portion of one's attention to making the computer happy. Except of course it does not *say* when it is unhappy, until you attempt to run the code and you either crash, or get nonsensical results.
