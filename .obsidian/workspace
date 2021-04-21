@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -120,7 +121,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e612e8673a7e666a",
+  "active": "e673172f2897af98",
   "lastOpenFiles": [
     "PSkills • Coursework 2/PSkills • Coursework 2.md",
     "Vector Calc/Vector Calc.md",
