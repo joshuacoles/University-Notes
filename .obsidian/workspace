@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/PSkills • Coursework 2.md",
+            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/PSkills • Coursework 2.md",
+            "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PSkills • Coursework 2/PSkills • Coursework 2.md",
+                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PSkills • Coursework 2/PSkills • Coursework 2.md"
+                "file": "Condensed Matter/Lectures/063. Lec 26, Energy bands.md"
               }
             }
           },
@@ -123,15 +123,15 @@
   },
   "active": "e673172f2897af98",
   "lastOpenFiles": [
-    "PSkills • Coursework 2/PSkills • Coursework 2.md",
+    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
+    "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
+    "Dogma.md",
     "Vector Calc/Vector Calc.md",
+    "PSkills • Coursework 2/PSkills • Coursework 2.md",
     "Vector Calc/3 Line Integrals/3.3 Closed Cuves.md",
     "Vector Calc/3 Line Integrals/Outline/3-1 Vector Equation of Curves.md",
     "Vector Calc/3 Line Integrals/3 Line Integrals.md",
     "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
-    "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
-    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
-    "Electromagnetism 2/Lectures/Part 2/Lec 2.42, Lasing.md",
-    "Electromagnetism 2/Lectures/Lec 15, Polarisation.md"
+    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md"
   ]
 }
