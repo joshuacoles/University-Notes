@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
+            "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
+            "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
+                "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md"
+                "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md"
               }
             }
           },
@@ -122,6 +122,8 @@
   },
   "active": "e673172f2897af98",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Condensed Matter/Concepts/Bloch Wave.md",
@@ -129,8 +131,6 @@
     "Todo.md",
     "Condensed Matter/Concepts/Untitled.md",
     "Zettle/Untitled Kanban.md",
-    "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
-    "Condensed Matter/Lectures/Untitled.md",
-    "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md"
+    "Condensed Matter/Concepts/Periodic Boundary Conditions.md"
   ]
 }
