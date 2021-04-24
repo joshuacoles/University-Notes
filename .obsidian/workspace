@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/CW 2 Report.md",
+            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/CW 2 Report.md",
+            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PSkills • Coursework 2/CW 2 Report.md",
+                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PSkills • Coursework 2/CW 2 Report.md"
+                "file": "Condensed Matter/Concepts/Bloch's Theorem.md"
               }
             }
           },
@@ -122,15 +122,15 @@
   },
   "active": "e612e8673a7e666a",
   "lastOpenFiles": [
-    "PSkills • Coursework 2/CW 2 Report.md",
-    "PSkills • Coursework 2/Development.md",
-    "PSkills • Coursework 2/Pseudocode.md",
-    "PSkills • Coursework 2/Results.md",
-    "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
+    "Condensed Matter/Concepts/Bloch's Theorem.md",
+    "Condensed Matter/Concepts/Bloch Wave.md",
+    "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
+    "Condensed Matter/Lectures/Untitled.md",
+    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
     "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
-    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
-    "Electromagnetism 2/Lectures/Part 2/Lec 2.42, Lasing.md",
-    "Electromagnetism 2/Lectures/Lec 15, Polarisation.md",
-    "Archive/PRGSK. Coursework 2/PRGSK. Coursework 2.md"
+    "Dogma.md",
+    "Vector Calc/Vector Calc.md",
+    "PSkills • Coursework 2/PSkills • Coursework 2.md",
+    "Vector Calc/3 Line Integrals/3.3 Closed Cuves.md"
   ]
 }
