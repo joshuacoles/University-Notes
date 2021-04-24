@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e612e8673a7e666a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
-            "mode": "source"
-          }
-        },
-        "group": "cc81e140f3ab8b2f"
-      },
-      {
         "id": "e673172f2897af98",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
+            "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
+            "mode": "source"
+          }
+        },
+        "group": "d3a1e3f3c619db92"
+      },
+      {
+        "id": "e43f0e877fa76f59",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
             "mode": "preview"
           }
         },
-        "group": "cc81e140f3ab8b2f"
+        "group": "d3a1e3f3c619db92"
       }
     ],
     "direction": "vertical"
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Concepts/Bloch's Theorem.md",
+                "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Concepts/Bloch's Theorem.md"
+                "file": "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md"
               }
             }
           },
@@ -120,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e612e8673a7e666a",
+  "active": "e673172f2897af98",
   "lastOpenFiles": [
-    "Condensed Matter/Concepts/Bloch's Theorem.md",
-    "Condensed Matter/Concepts/Bloch Wave.md",
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
+    "Condensed Matter/Concepts/Bloch Wave.md",
+    "Condensed Matter/Concepts/Bloch's Theorem.md",
+    "Todo.md",
+    "Condensed Matter/Concepts/Untitled.md",
+    "Zettle/Untitled Kanban.md",
+    "Condensed Matter/Concepts/Periodic Boundary Conditions.md",
     "Condensed Matter/Lectures/Untitled.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
-    "Dogma.md",
-    "Vector Calc/Vector Calc.md",
-    "PSkills • Coursework 2/PSkills • Coursework 2.md",
-    "Vector Calc/3 Line Integrals/3.3 Closed Cuves.md"
+    "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md"
   ]
 }
