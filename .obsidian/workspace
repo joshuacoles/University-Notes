@@ -7,25 +7,11 @@
         "id": "e673172f2897af98",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
-            "mode": "source"
+            "file": "Attachments/cwk-ps-2021.pdf"
           }
-        },
-        "group": "d3a1e3f3c619db92"
-      },
-      {
-        "id": "e43f0e877fa76f59",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
-            "mode": "preview"
-          }
-        },
-        "group": "d3a1e3f3c619db92"
+        }
       }
     ],
     "direction": "vertical"
@@ -65,7 +51,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
+                "file": "Attachments/cwk-ps-2021.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md"
+                "file": "Attachments/cwk-ps-2021.pdf"
               }
             }
           },
@@ -122,15 +109,15 @@
   },
   "active": "e673172f2897af98",
   "lastOpenFiles": [
+    "Attachments/cwk-ps-2021.pdf",
+    "PSkills • Coursework 2/PSkills • Coursework 2.md",
+    "PSkills • Coursework 2/Development.md",
+    "PSkills • Coursework 2/Pseudocode.md",
+    "PSkills • Coursework 2/CW 2 Report.md",
     "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Concepts/Bloch Wave.md",
-    "Condensed Matter/Concepts/Bloch's Theorem.md",
-    "Todo.md",
-    "Condensed Matter/Concepts/Untitled.md",
-    "Zettle/Untitled Kanban.md",
-    "Condensed Matter/Concepts/Periodic Boundary Conditions.md"
+    "Condensed Matter/Concepts/Bloch Wave.md"
   ]
 }
