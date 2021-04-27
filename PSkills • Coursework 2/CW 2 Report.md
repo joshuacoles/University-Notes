@@ -2,7 +2,6 @@
 cssclass: split-pdf
 ---
 
-
 # Course Work 2
 
 ## Problem Specification

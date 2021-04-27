@@ -4,14 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "e612e8673a7e666a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
+            "mode": "source"
+          }
+        },
+        "group": "cc81e140f3ab8b2f"
+      },
+      {
         "id": "e673172f2897af98",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Attachments/cwk-ps-2021.pdf"
+            "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "cc81e140f3ab8b2f"
       }
     ],
     "direction": "vertical"
@@ -51,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5,
-    "collapsed": true
+    "width": 353.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/cwk-ps-2021.pdf",
+                "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/cwk-ps-2021.pdf"
+                "file": "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md"
               }
             }
           },
@@ -107,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e673172f2897af98",
+  "active": "e612e8673a7e666a",
   "lastOpenFiles": [
-    "Attachments/cwk-ps-2021.pdf",
-    "PSkills • Coursework 2/PSkills • Coursework 2.md",
-    "PSkills • Coursework 2/Development.md",
-    "PSkills • Coursework 2/Pseudocode.md",
-    "PSkills • Coursework 2/CW 2 Report.md",
     "Condensed Matter/Lectures/065. Lec 28 Assessment & summary.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/064. Lec 27, Equation of motion.md",
-    "Condensed Matter/Lectures/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Concepts/Bloch Wave.md"
+    "Attachments/cwk-ps-2021.pdf",
+    "PSkills • Coursework 2/Results.md",
+    "PSkills • Coursework 2/Pseudocode.md",
+    "PSkills • Coursework 2/Development.md",
+    "PSkills • Coursework 2/CW 2 Report.md",
+    "Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
+    "Electromagnetism 2/Lectures/Part 2/Lec 2.01, Introduction to part 2 of the unit.md",
+    "Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md"
   ]
 }
