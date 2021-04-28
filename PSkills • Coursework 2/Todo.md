@@ -10,3 +10,6 @@ Note on expansion to 3D:
 - Is it nC/cells independent?
 
 - Why we have increased error at the the peak
+
+- Seems to go to 100% at a given point.
+
