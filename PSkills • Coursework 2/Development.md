@@ -102,7 +102,7 @@ A note should be made of the method used to generate the uniform random number $
 
 #### Cluster Finding
 
-Cluster finding is the main point of conceptual complexity in the program (and as we will find out time complexity also #todo)
+Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also #todo). It is sim
 
 The rust code this can be found in `src/q2b/cluster_finder.rs`, it is split into 4 parts,
 
