@@ -31,7 +31,9 @@ There are 2 main algorithms in the program.
 
 #### Grid Filling
 
-While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec each grid should be equally likely to be generated. Hence in the tradition which underlies almost all of mathematics and related disciplines, we simplify the problem into a real number. 
+While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec each grid should be equally likely to be generated. To achieve this we return to the the tradition which underlies almost all of mathematics and related disciplines, we simplify the problem into a real number.
+
+While conceptually a Grid is a 3D object, in memory it is stored as a contiguous array in 
 
 ```ad-pseudocode
 title: Uniform Random Number Generation
