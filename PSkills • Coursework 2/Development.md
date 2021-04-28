@@ -114,7 +114,7 @@ The algorithm maintains the following three collections as state:
 - A set of *unique* points which are within the cluster, henceforth known as ***Cluster Points***.
 - A set of *unique* points which have just been added to the cluster and thus must be searched on the next iteration, henceforth known as the ***Process Queue***.
 	- This set is defined as a strict subset of the ***Cluster Points***.
-- A third working list of points
+- A third working list of points used to avoid reallocation of a large array, known as the ***Found List***
 
 These three collections are implemented using the `PosList` struct discussed below.
 
@@ -180,8 +180,10 @@ Note that this is a very paired down List implementation, only implementing need
 
 ```ad-pseudocode
 - Given a Grid $g$.
-- Generate an initial position $(x, y, z)$ uniformly from the set of possible positions in the grid.
-- Initialise 
+- Generate an Initial Position $(x, y, z)$ uniformly from the set of possible positions in the grid.
+- If this position contains an Insulator, continue generating a new position until an insulator is found (or we have failed sufficent times)
+- Initialise the set of ***Cluster Points***, the ***Process Queue*** and the ***Found List***.
+- Add the Initial Position to the 
 ```
 
 > - Given a Grid $g$.
