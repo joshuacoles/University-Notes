@@ -102,20 +102,79 @@ A note should be made of the method used to generate the uniform random number $
 
 #### Cluster Finding
 
-Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also #todo). It is sim
+Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also #todo). It is split into 4 parts,
 
-The rust code this can be found in `src/q2b/cluster_finder.rs`, it is split into 4 parts,
-
-1. Initialisation
+1. Initialisation with a random or pre-chosen position.
 2. A function performing single search iteration.
 3. The search loop
 4. A predicate to determine if the cluster forms a conductive path across the Grid.
 
-The algorithm maintains the following two collections as state:
+The algorithm maintains the following three collections as state:
 
 - A set of *unique* points which are within the cluster, henceforth known as ***Cluster Points***.
 - A set of *unique* points which have just been added to the cluster and thus must be searched on the next iteration, henceforth known as the ***Process Queue***.
 	- This set is defined as a strict subset of the ***Cluster Points***.
+- A third working list of 
+
+These three collections are implemented using the `PosList` struct discussed below.
+
+#### `PosList`
+
+C does not have proper array support, instead relying on pointer arithmetic, which is much less ergonomic to work with,  requiring passing both the "array" pointer, as well as a length (as well as an implicit promise of sufficient capacity). Instead for the Cluster Finding algorithm we implemented a cheap and dirty position List object, modeled after Rust's `Vec<T>`, with the following fields:
+
+- `data`, a pointer to the backing memory allocation, of at least `sizeof(Pos) * capacity`.
+- `length`, the current number of elements the list.
+- `capacity`, maximum number of elements that can fit in the memory allocation.
+
+And supporting the following operations:
+
+- Memory management including allocation and cleanup.
+- Printing for debugging purposes.
+- Appending, with possible reallocation if the current memory allocation is not large enough to hold the new array.
+
+The code of this is presented below,
+
+```c
+typedef struct PosList {
+    Pos* data;
+    int length;
+    int capacity;
+} PosList;
+
+PosList allocPosList(int capacity) {
+    assert(capacity > 0);
+
+    return (PosList) {
+            .length = 0,
+            .capacity = capacity,
+            .data = malloc(sizeof(Pos) * capacity)
+    };
+}
+
+void freePosList(PosList list) {
+    free(list.data);
+}
+
+void printPosList(char *prefix, PosList const *list) {
+    for (int i = 0; i < list->length; ++i) {
+        printf("%s(%d, %d)\n", prefix, list->data[i].x, list->data[i].y);
+    }
+}
+
+// Append Pos to PosList, updating the length, re-allocating if need be.
+void appendToPosList(PosList *list, Pos pos) {
+    // If a PosList is too small, reallocate, double in size.
+    if (list->length == list->capacity) {
+        list->data = realloc(list->data, sizeof(Pos) * list->capacity * 2);
+        list->capacity = list->capacity * 2;
+    }
+
+    list->data[list->length++] = pos;
+}
+
+```
+
+Note that this is a very paired down List implementation, missing many of the niceties one would find in a standard library. This was done to 
 
 ##### Initialisation
 
