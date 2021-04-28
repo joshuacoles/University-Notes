@@ -10,26 +10,37 @@ In the second stage this Rust code was translated into C and additional features
 
 Below we will go through the overall structure of the program; layout pseudocode its important algorithms; and discuss any non-trivial choices or changes that were made to the program as it was developed.
 
-While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as a
-
-
-- 2D considerations
-- Not choosing insulators
-- Time complexity analysis
-- Memory managment considerations
+While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as single plane in a 3D grid, this is discussed later on in the report.
 
 
 ### Program Structure
 
 The program is split into three mostly separate components:
 
+- The `Grid` which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
+- The `ClusterFinder` which holds an immutable reference to the `Grid` that it operates on.
+- `= this`
+
+- nd the different types of the rules for current propagation. It also includes formatting code for the grid to allow presentation to the user.
+- The `ClusterFinder`, this is an object created to find clusters. It takes an immutable reference to a `Grid`, and with either a pre-chosen, or random grid position, will start forming a conduction cluster.
+- The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats.
+
+
+---
+
+
+- 2D considerations
+- Not choosing insulators
+- Time complexity analysis
+- Memory management considerations
+	- Reuse of temp array
+
+
+
 ### Structure of Rust Code
 
 The code was split into 3 parts:
 
-- The `Grid` which handles memory for the 2D grid of cells as well as their different types and the different types of the rules for current propagation. It also includes formatting code for the grid to allow presentation to the user.
-- The `ClusterFinder` this is an object created to find clusters. It takes an immutable reference to a `Grid`, and with either a pre-chosen, or random grid position, will start forming a conduction cluster.
-- The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats.
 
 The Rust code itself can be found in the `rust` folder of the hand-in as a GitHub cannot be provided to maintain anonymity, it will not be reproduced here (as this is a C coursework). Instead pseudocode versions of important algorithms are presented, for example the uniform random generator of N positions; and the [[Development#Cluster Finder]] algorithm.
 
