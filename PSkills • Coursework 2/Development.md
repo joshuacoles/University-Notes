@@ -33,7 +33,19 @@ There are 2 main algorithms in the program.
 
 While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec each grid should be equally likely to be generated. To achieve this we return to the the tradition which underlies almost all of mathematics and related disciplines, we simplify the problem into a real number.
 
-While conceptually a Grid is a 3D object, in memory it is stored as a contiguous array in 
+While conceptually a Grid is a 3D object, in memory it is stored as a contiguous array in memory, similar to how is described in the graphic below:
+
+![[ravel-c-order.png]]
+
+> Source: https://ajcr.net/stride-guide-part-2/
+> Credits: Alex Riley
+
+Hence we choose a uniform index in this contiguous array to place the conductor, allowing us to avoid biasing any particular point.
+
+```ad-warning
+We h
+```
+
 
 ```ad-pseudocode
 title: Uniform Random Number Generation
