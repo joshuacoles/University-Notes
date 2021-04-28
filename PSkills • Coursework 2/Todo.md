@@ -1,0 +1,1 @@
+- [[Pseudocode]], explain use of counter to find random non-insulator. Say that though this is failable, the probability is low and it reduces the time complexity of generation from $O(L_x \cp L_y)$ to $O(1)$
