@@ -4,7 +4,15 @@ cssclass: split-pdf
 
 ## Development
 
-Development of the model was done in 2 phases. First a prototype was written in Rust, a new language similar to C, which however much more expressive. This was done to help map out the program without having to directly concern ourselves with the
+Development of the model was done in 3 phases. First a prototype was written in Rust, a new language similar to C, which however much more expressive and developer friendly. This was done to help map out the program without having to directly concern ourselves with C's more primitive program and memory model. This step will not be discussed much as while it was exceptionally useful in designing the program, it is not in the scope of the Coursework itself.
+
+In the second stage this Rust code was translated into C and additional features were added on as their need became apparent. 
+
+Finally the program was subjected to both 
+
+
+
+
 
 C is a low level language not optimised for development experience, instead for translation to machine code, hence it is often difficult to *"think"* in C, as one often has to devote a large portion of one's attention to making the computer happy. Except of course it does not *say* when it is unhappy, until you attempt to run the code and you either crash, or get nonsensical results.
 
