@@ -31,22 +31,23 @@ There are 2 main algorithms in the program.
 
 #### Grid Filling
 
-While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec we shod
+While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec each grid should be equally likely to be generated. Hence in the tradition which underlies almost all of mathematics and related disciplines, we simplify the problem into a real number. 
 
 ```ad-pseudocode
+title: Uniform Random Number Generation
 
+- Given
+	- A range of integers `R0 <= i < R1`.
+	- An expected number of items to generate `N`
+- Let `out` be collection of sufficient capacity to store `N` unique items.
+- While the length of `out` is less than `N`
+	- Generate a new random number `r` from a uniform distribution across `R0 <= i < R1`.
+	- If this random number is already present in `out`, continue, else append to `out`.
+- Return `out`, now being full of `N` uniformly random unique numbers in the desired range.
 ```
 
 To achieve uniform distribution across the space of grid-configurations we used a uniform distribution, indexed contiguously for ease of generation, repeating if there were any coincident samples until the required number of indexes had been generated.
 
-> - Given
-> 	- A range of integers `R0 <= i < R1`.
-> 	- An expected number of items to generate `N`
-> - Let `out` be collection of sufficient capacity to store `N` unique items.
-> - While the length of `out` is less than `N`
-> 	- Generate a new random number `r` from a uniform distribution across `R0 <= i < R1`.
-> 	- If this random number is already present in `out`, continue, else append to `out`.
-> - Return `out`, now being full of `N` uniformly random unique numbers in the desired range.
 
 
 
@@ -63,32 +64,3 @@ To achieve uniform distribution across the space of grid-configurations we used 
 - Memory management considerations
 	- Reuse of temp array
 
-
-
-### Translation
-
-Reviewing the functioning Rust code we see we used a number of non-trivial, third-party or Rust only features for which we must provide our own implementations in the final C version. These are as follows:
-
-- `Array2D` from the [`array2d` crate](https://crates.io/crates/array2d) to represent the `Grid`.
-- An `enum` to represent the type of a cell as one of the three possible values.
-- Rusts facilities for safe addition and subtraction to avoid overflow concerns when at the `0` edge of a grid (or the far edge of an especially large grid).
-- Extensive use of `Iterator`s.
-- `HashSet` to provide a collection which ensures uniqueness.
-- The random number generators from the [`rand` crate](https://crates.io/crates/rand).
-- Displaying to the user was done by implementing the `std::fmt::Display` trait which allows custom formatters to hook into `println!`, Rust's version of `printf` in C.
-
-Replacements and required considerations are provided below.
-
-#### Array2D
-
-#### Cell Type `enum`
-
-#### Overflow Considerations in finding reachable cells for current propagation
-
-#### `HashSet`
-
-#### Iterators
-
-#### Random Number Generation
-
-#### Displaying to the user
