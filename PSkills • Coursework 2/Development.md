@@ -114,11 +114,11 @@ The algorithm maintains the following three collections as state:
 - A set of *unique* points which are within the cluster, henceforth known as ***Cluster Points***.
 - A set of *unique* points which have just been added to the cluster and thus must be searched on the next iteration, henceforth known as the ***Process Queue***.
 	- This set is defined as a strict subset of the ***Cluster Points***.
-- A third working list of 
+- A third working list of points
 
 These three collections are implemented using the `PosList` struct discussed below.
 
-#### `PosList`
+##### Position List, `PosList`
 
 C does not have proper array support, instead relying on pointer arithmetic, which is much less ergonomic to work with,  requiring passing both the "array" pointer, as well as a length (as well as an implicit promise of sufficient capacity). Instead for the Cluster Finding algorithm we implemented a cheap and dirty position List object, modeled after Rust's `Vec<T>`, with the following fields:
 
@@ -174,12 +174,18 @@ void appendToPosList(PosList *list, Pos pos) {
 
 ```
 
-Note that this is a very paired down List implementation, missing many of the niceties one would find in a standard library. This was done to 
+Note that this is a very paired down List implementation, only implementing needed features, and missing many of the niceties one would find in a standard library.
 
 ##### Initialisation
 
-> - Given a Grid `G` of dimensions `Lx` by `Ly`.
-> - Generate an initial `(x, y)` uniformly from the set the set $[0, L_x]_{\N} \times [0, L_y]_{\N}$.
+```ad-pseudocode
+- Given a Grid $g$.
+- Generate an initial position $(x, y, z)$ uniformly from the set of possible positions in the grid.
+- Initialise 
+```
+
+> - Given a Grid $g$.
+> 
 > - Add this point to the set of ***Cluster Points*** and the ***Process Queue***.
 
 ##### Single Search Iteration
