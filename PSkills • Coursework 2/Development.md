@@ -15,14 +15,42 @@ While the majority of the questions involve a 2D grid, the code was written to h
 
 ### Program Structure
 
-The program is split into three mostly separate components:
-
-The `Grid` which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
+The program is split into three mostly separate components. The `Grid` which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
 
 The `ClusterFinder` which performs the actual cluster generation and determines if a path has been formed. It holds an immutable reference to the `Grid` that it operates on, and takes in either a pre-chosen, or random grid position to use as an initial position. It also maintains a number of lists which are used in the Cluster Finding algorithm.
 
 The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats. Each question part has its own entrypoint, in addition to a couple used for testing and data-collection for statistical work.
 
+
+### Main Algorithms
+
+There are 2 main algorithms in the program.
+
+1. Grid Filling, involving uniform random number generation.
+2. Cluster Finding in 2D and 3D.
+
+#### Grid Filling
+
+While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec we shod
+
+```ad-pseudocode
+
+```
+
+To achieve uniform distribution across the space of grid-configurations we used a uniform distribution, indexed contiguously for ease of generation, repeating if there were any coincident samples until the required number of indexes had been generated.
+
+> - Given
+> 	- A range of integers `R0 <= i < R1`.
+> 	- An expected number of items to generate `N`
+> - Let `out` be collection of sufficient capacity to store `N` unique items.
+> - While the length of `out` is less than `N`
+> 	- Generate a new random number `r` from a uniform distribution across `R0 <= i < R1`.
+> 	- If this random number is already present in `out`, continue, else append to `out`.
+> - Return `out`, now being full of `N` uniformly random unique numbers in the desired range.
+
+
+
+[[Pseudocode]]
 
 
 ---
@@ -36,15 +64,6 @@ The *runner* / entrypoint, aka the code which brings everything together, genera
 	- Reuse of temp array
 
 
-
-### Structure of Rust Code
-
-The code was split into 3 parts:
-
-
-The Rust code itself can be found in the `rust` folder of the hand-in as a GitHub cannot be provided to maintain anonymity, it will not be reproduced here (as this is a C coursework). Instead pseudocode versions of important algorithms are presented, for example the uniform random generator of N positions; and the [[Development#Cluster Finder]] algorithm.
-
-![[Pseudocode]]
 
 ### Translation
 
