@@ -6,3 +6,5 @@ Note about implementation of 2D as subset of 3D, effects on complexity?
 Note on expansion to 3D:
 - Conductors are on the y = 0, y = max planes.
 
+- Stats thoughts, dependence on lx vs ly
+- Is it nC/cells independent?
