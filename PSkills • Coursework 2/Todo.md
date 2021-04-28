@@ -8,3 +8,5 @@ Note on expansion to 3D:
 
 - Stats thoughts, dependence on lx vs ly
 - Is it nC/cells independent?
+
+- Why we have increased error at the the peak
