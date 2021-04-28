@@ -96,18 +96,63 @@ void fillGrid(Grid grid, int n, double pSuper) {
 
 ```
 
-A note should be made of the method used to generate the uniform random number $r$, the `int randomUniform(int r0, int r1)` function. While it is assumed this number is uniformly distributed, and in fact random, there are a number of factors that make this less than fully accurate (however still sufficient for our needs). These include:
+A note should be made of the method used to generate the uniform random number $r$, the `int randomUniform(int r0, int r1)` function. While it is assumed this number is uniformly distributed, and in fact random, there are a number of factors that make this less than fully accurate (however still sufficient for our needs). These include both low entropy in the random number generator, especially in the lower bits targeted by `rand()`, and further by the modulus operation. In addition to the modulus operation itself begin non-uniform in its output.[^1] However in 
 
-- Low entropy in the random number generator, especially in the lower bits targetted 
+[^1]: See https://codereview.stackexchange.com/questions/159604/uniform-random-numbers-in-an-integer-interval-in-c for further reference.
 
+#### Cluster Finding
 
-To achieve uniform distribution across the space of grid-configurations we used a uniform distribution, indexed contiguously for ease of generation, repeating if there were any coincident samples until the required number of indexes had been generated.
+Cluster finding is the main point of conceptual complexity in the program (and as we will find out time complexity also #todo)
 
+The rust code this can be found in `src/q2b/cluster_finder.rs`, it is split into 4 parts,
 
+1. Initialisation
+2. A function performing single search iteration.
+3. The search loop
+4. A predicate to determine if the cluster forms a conductive path across the Grid.
 
+The algorithm maintains the following two collections as state:
 
-[[Pseudocode]]
+- A set of *unique* points which are within the cluster, henceforth known as ***Cluster Points***.
+- A set of *unique* points which have just been added to the cluster and thus must be searched on the next iteration, henceforth known as the ***Process Queue***.
+	- This set is defined as a strict subset of the ***Cluster Points***.
 
+##### Initialisation
+
+> - Given a Grid `G` of dimensions `Lx` by `Ly`.
+> - Generate an initial `(x, y)` uniformly from the set the set $[0, L_x]_{\N} \times [0, L_y]_{\N}$.
+> - Add this point to the set of ***Cluster Points*** and the ***Process Queue***.
+
+##### Single Search Iteration
+
+- Let `found` be a set of *unique* points found in this iteration.
+- For each point in the ***Process Queue*** `p`
+	- Iterate through each of the directly reachable points, `q` from this position, as defined by the [[CW 2 Report#Spec|Problem Specification]].
+	- If this point `q` is not already in the set of ***Cluster Points***, add it, ensuring uniqueness, to the set of points found this iteration, `found`.
+	- Once this is done remove the point `p` from the ***Process Queue***.
+- Add all those points found this iteration to the set of ***Cluster Points***.
+- All those points found this iteration are now the ***Process Queue*** (which was previously made empty by the loop).
+
+##### The Search Loop
+
+- While the ***Process Queue*** is not empty (recalling that on [[Pseudocode#Initialisation]] it is not empty, containing the *initial point*).
+	- Perform a [[Pseudocode#Single Search Iteration]] step.
+
+##### Conduction Path Existence Predicate
+
+The [[CW 2 Report#Problem Specification]] presents the criteria for a conduction path to exist between the two plates. If we were wishing to determine what the path is, for example to determine the approximate resistance of the path, then we would have to apply a path finding algorithm to the problem to determine if any paths exists, and the shortest traversal length.
+
+However since we only wish to determine *if* a path exists, not what it is, we can rely on the construction of the Cluster itself to determine this, in time linear with the size of the two conductors. An algorithm for this is presented below.
+
+> - Let `connected_bottom` and `connected_top` be booleans initialised to `false`.
+> - Iterating through each point `p` in the set of ***Cluster Points***.
+> 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `0`), set `connected_top` to `true`.
+> 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `Ly`), set `connected_bottom` to `true`.
+> - A path has formed if `connected_bottom && connected_top`.
+
+```ad-note
+Within this algorithm we are using the assumption that connection is non-directed. Ie that if current can flow in one direction is can flow in both.
+```
 
 ---
 
