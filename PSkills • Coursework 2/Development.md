@@ -13,7 +13,7 @@ Below we will go through the overall structure of the program; layout pseudocode
 ```ad-info
 title: A note on pseudocode and code excerpts.
 
-The pseudocode presented is high level generic, ignoring things such as C's lack of proper array support. In addition all code presented inline in the document is in excerpt form, and may be sourced from multiple `.c` files.
+The pseudocode presented is high level generic, ignoring things such as C's lack of proper array support. In addition all code presented inline in the document is in excerpt form, it is presented without the relevant `#includes`, supporting code, and may be sourced from multiple `.c` files.
 ```
 
 While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as single plane in a 3D grid, this is discussed later on in the report.
@@ -95,6 +95,10 @@ void fillGrid(Grid grid, int n, double pSuper) {
 }
 
 ```
+
+A note should be made of the method used to generate the uniform random number $r$, the `int randomUniform(int r0, int r1)` function. While it is assumed this number is uniformly distributed, and in fact random, there are a number of factors that make this less than fully accurate (however still sufficient for our needs). These include:
+
+- Low entropy in the random number generator, especially in the lower bits targetted 
 
 
 To achieve uniform distribution across the space of grid-configurations we used a uniform distribution, indexed contiguously for ease of generation, repeating if there were any coincident samples until the required number of indexes had been generated.
