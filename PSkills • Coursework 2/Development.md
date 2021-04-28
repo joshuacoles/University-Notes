@@ -11,7 +11,9 @@ In the second stage this Rust code was translated into C and additional features
 Below we will go through the overall structure of the program; layout pseudocode its important algorithms; and discuss any non-trivial choices or changes that were made to the program as it was developed.
 
 ```ad-info
-The pseudocode presented is high level generic, ignoring things such as C's lack of proper array support.
+title: A note on pseudocode and code excerpts.
+
+The pseudocode presented is high level generic, ignoring things such as C's lack of proper array support. In addition all code presented inline in the document is in excerpt form, and may be sourced from multiple `.c` files.
 ```
 
 While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as single plane in a 3D grid, this is discussed later on in the report.
@@ -37,7 +39,7 @@ There are 2 main algorithms in the program.
 
 While Grid initialisation is relatively trivial, simply involving the validation of sizes, and the allocation of sufficient memory (see the `allocateGrid3D` and `allocateGrid2D` functions in `grid.c`), filling the grid is, slightly, less so. As per the spec each grid should be equally likely to be generated. To achieve this we return to the the tradition which underlies almost all of mathematics and related disciplines, we simplify the problem into a real number.
 
-While conceptually a Grid is a 3D object, in memory it is stored as a contiguous array in memory, similar to how is described in the graphic below:
+While conceptually a Grid is a 3D object, in memory it is stored as a contiguous array in memory, similar to how is described in the graphic below. These indexes are known as the *linear index* of the cell.
 
 ![[ravel-c-order.png]]
 
@@ -55,18 +57,11 @@ title: Pseudocode&colon; Grid Filling
 	- The probability of a given Conductor begin a Super Conductor, $p$.
 - Ensure that the total number of conductors is less than the number of cells in the grid $g$.
 - First set all cells to Insulator.
-- Then, while the number of conductors
-
----
-
-- Given
-	- A range of integers `R0 <= i < R1`.
-	- An expected number of items to generate `N`
-- Let `out` be collection of sufficient capacity to store `N` unique items.
-- While the length of `out` is less than `N`
-	- Generate a new random number `r` from a uniform distribution across `R0 <= i < R1`.
-	- If this random number is already present in `out`, continue, else append to `out`.
-- Return `out`, now being full of `N` uniformly random unique numbers in the desired range.
+- Then: While the number of conductors placed within the grid, $n$, is less than the number desired, $N$.
+	- Generate a uniform random integer $r$ between $0$ and the number of cells in the grid
+	- If the cell at *linear index* $r$ is an insulator
+		- With probability $p$ set the cell to be a Super Conductor.
+		- Else set it to be a Standard Conductor.
 ```
 
 Implemented in code
@@ -75,6 +70,30 @@ Implemented in code
 int randomUniform(int r0, int r1) {  
     return (rand() % (r1 - r0)) + r0;  
 }
+
+void fillGrid(Grid grid, int n, double pSuper) {
+    assert(0 <= n && n <= grid.cells);
+
+    int nn = 0;
+
+    // Set all elements to be Insulators, allows us to re-use the allocation cleanly and ensures the memory at `data`
+    // is in a valid state.
+    memset(grid.data, INSULATOR, sizeof(CellType) * grid.cells);
+
+    while (nn < n) {
+        int pos = randomUniform(0, grid.cells);
+        if (grid.data[pos] == INSULATOR) {
+            if (randomBool(pSuper)) {
+                grid.data[pos] = SUPER_CONDUCTOR;
+            } else {
+                grid.data[pos] = CONDUCTOR;
+            }
+
+            nn++;
+        }
+    }
+}
+
 ```
 
 
