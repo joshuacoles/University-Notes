@@ -10,6 +10,10 @@ In the second stage this Rust code was translated into C and additional features
 
 Below we will go through the overall structure of the program; layout pseudocode its important algorithms; and discuss any non-trivial choices or changes that were made to the program as it was developed.
 
+```ad-info
+The pseudocode presented is high level generic, ignoring things such as C's lack of proper array support.
+```
+
 While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as single plane in a 3D grid, this is discussed later on in the report.
 
 
@@ -40,15 +44,20 @@ While conceptually a Grid is a 3D object, in memory it is stored as a contiguous
 > Source: https://ajcr.net/stride-guide-part-2/
 > Credits: Alex Riley
 
-Hence we choose a uniform index in this contiguous array to place the conductor, allowing us to avoid biasing any particular point.
-
-```ad-warning
-We h
-```
-
+Hence we choose a uniform index in this contiguous array to place the conductor, allowing us to avoid biasing any particular point. Pseudocode for this is presented below
 
 ```ad-pseudocode
-title: Uniform Random Number Generation
+title: Pseudocode&colon; Grid Filling
+
+- Given
+	- A Grid to fill, $g$.
+	- The total number of Conductors (both Standard and Super Conductors) desired, $N$.
+	- The probability of a given Conductor begin a Super Conductor, $p$.
+- Ensure that the total number of conductors is less than the number of cells in the grid $g$.
+- First set all cells to Insulator.
+- Then, while the number of conductors
+
+---
 
 - Given
 	- A range of integers `R0 <= i < R1`.
@@ -59,6 +68,15 @@ title: Uniform Random Number Generation
 	- If this random number is already present in `out`, continue, else append to `out`.
 - Return `out`, now being full of `N` uniformly random unique numbers in the desired range.
 ```
+
+Implemented in code
+
+```c
+int randomUniform(int r0, int r1) {  
+    return (rand() % (r1 - r0)) + r0;  
+}
+```
+
 
 To achieve uniform distribution across the space of grid-configurations we used a uniform distribution, indexed contiguously for ease of generation, repeating if there were any coincident samples until the required number of indexes had been generated.
 
