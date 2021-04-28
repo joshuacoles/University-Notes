@@ -6,23 +6,22 @@ cssclass: split-pdf
 
 Development of the model was done in 3 phases. First a prototype was written in Rust, a new language similar to C, which however much more expressive and developer friendly. This was done to help map out the program without having to directly concern ourselves with C's more primitive program and memory model. This step will not be discussed much as while it was exceptionally useful in designing the program, it is not in the scope of the Coursework itself.
 
-In the second stage this Rust code was translated into C and additional features were added on as their need became apparent. 
+In the second stage this Rust code was translated into C and additional features were added on as their need became apparent.  Finally the program was subjected to both batch and specific testing, to ensure it functioned correctly.
 
-Finally the program was subjected to both 
+Below we will go through the overall structure of the program; layout pseudocode its important algorithms; and discuss any non-trivial choices or changes that were made to the program as it was developed.
+
+While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as a
 
 
+- 2D considerations
+- Not choosing insulators
+- Time complexity analysis
+- Memory managment considerations
 
 
+### Program Structure
 
-C is a low level language not optimised for development experience, instead for translation to machine code, hence it is often difficult to *"think"* in C, as one often has to devote a large portion of one's attention to making the computer happy. Except of course it does not *say* when it is unhappy, until you attempt to run the code and you either crash, or get nonsensical results.
-
-In light of this I chose to write a first draft of the code in the Rust  language. Rust is a low level language, similar to C, sharing a large amount of the compilation backend with some C compilers. However it is much more modern and is designed to allow for an easier development experience.
-
-It is not a memory managed language (a prime example of which being Python or Java), however that does not mean you do all memory management yourself. Instead it allows you to control memory allocation through a combination of RAII and reference *lifetimes*, inserting `malloc`s, `free`s and cleanup objects as needed needed. Providing a model that ensures proper ownership and the correct sharing of memory, whilst still providing the relative speed gains associated with non GC languages.
-
-This also allows for simpler translation to C from Rust, when compared to for example Python, as you are still working at similar level to C, sharing many of the same concepts.
-
-The code was written in idiomatic Rust, using minimal 3rd party or standard library code, however not shying away from it.
+The program is split into three mostly separate components:
 
 ### Structure of Rust Code
 
