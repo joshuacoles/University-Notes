@@ -17,19 +17,19 @@ While the majority of the questions involve a 2D grid, the code was written to h
 
 The program is split into three mostly separate components:
 
-- The `Grid` which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
-- The `ClusterFinder` which holds an immutable reference to the `Grid` that it operates on.
-- `= this`
+The `Grid` which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
 
-- nd the different types of the rules for current propagation. It also includes formatting code for the grid to allow presentation to the user.
-- The `ClusterFinder`, this is an object created to find clusters. It takes an immutable reference to a `Grid`, and with either a pre-chosen, or random grid position, will start forming a conduction cluster.
-- The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats.
+The `ClusterFinder` which performs the actual cluster generation and determines if a path has been formed. It holds an immutable reference to the `Grid` that it operates on, and takes in either a pre-chosen, or random grid position to use as an initial position. It also maintains a number of lists which are used in the Cluster Finding algorithm.
+
+The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats. Each question part has its own entrypoint, in addition to a couple used for testing and data-collection for statistical work.
+
 
 
 ---
 
 
 - 2D considerations
+- Choice to use PosList in Cluster Finder
 - Not choosing insulators
 - Time complexity analysis
 - Memory management considerations
