@@ -102,12 +102,13 @@ A note should be made of the method used to generate the uniform random number $
 
 #### Cluster Finding
 
-Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also #todo). It is split into 4 parts,
+Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also #todo). It is split into 5 parts,
 
 1. Initialisation with a random or pre-chosen position.
-2. A function performing single search iteration.
-3. The search loop
-4. A predicate to determine if the cluster forms a conductive path across the Grid.
+3. A function performing single search iteration.
+4. The search loop.
+5. A function to determine the connected positions to a given cell 
+7. A predicate to determine if the cluster forms a conductive path across the Grid.
 
 The algorithm maintains the following three collections as state:
 
@@ -183,27 +184,34 @@ Note that this is a very paired down List implementation, only implementing need
 - Generate an Initial Position $(x, y, z)$ uniformly from the set of possible positions in the grid.
 - If this position contains an Insulator, continue generating a new position until an insulator is found (or we have failed sufficent times)
 - Initialise the set of ***Cluster Points***, the ***Process Queue*** and the ***Found List***.
-- Add the Initial Position to the 
+- Add the Initial Position to the set of ***Cluster Points***, the ***Process Queue***.
 ```
 
-> - Given a Grid $g$.
-> 
-> - Add this point to the set of ***Cluster Points*** and the ***Process Queue***.
+> #todo failed sufficient times note.
 
 ##### Single Search Iteration
 
-- Let `found` be a set of *unique* points found in this iteration.
-- For each point in the ***Process Queue*** `p`
-	- Iterate through each of the directly reachable points, `q` from this position, as defined by the [[CW 2 Report#Spec|Problem Specification]].
-	- If this point `q` is not already in the set of ***Cluster Points***, add it, ensuring uniqueness, to the set of points found this iteration, `found`.
-	- Once this is done remove the point `p` from the ***Process Queue***.
-- Add all those points found this iteration to the set of ***Cluster Points***.
-- All those points found this iteration are now the ***Process Queue*** (which was previously made empty by the loop).
+```ad-pseudocode
+- For each point in the ***Process Queue*** $p$
+	- Iterate through each of the directly reachable points, $q$ from this position, as determined by the [[#Reachable Cells]] function.
+	- If this point $q$ is not already in the set of ***Cluster Points***, add it (ensuring uniqueness) to the set of points found this iteration, the ***Found* List**, and the set of ***Cluster Points*** itself.
+	- Once this is done remove the point $p$ from the ***Process Queue***.
+- Add all those points in the ***Found List*** to the ***Process Queue***.
+- Empty the ***Found List***.
+```
 
 ##### The Search Loop
 
-- While the ***Process Queue*** is not empty (recalling that on [[Pseudocode#Initialisation]] it is not empty, containing the *initial point*).
-	- Perform a [[Pseudocode#Single Search Iteration]] step.
+
+```ad-pseudocode
+- While the ***Process Queue*** is not empty (recalling that on [[#Initialisation]] it is not empty, containing the *Initial Point*).
+	- Perform a [[#Single Search Iteration]] step.
+```
+
+##### Reachable Cells
+
+2D vs 3D
+
 
 ##### Conduction Path Existence Predicate
 
@@ -211,15 +219,16 @@ The [[CW 2 Report#Problem Specification]] presents the criteria for a conduction
 
 However since we only wish to determine *if* a path exists, not what it is, we can rely on the construction of the Cluster itself to determine this, in time linear with the size of the two conductors. An algorithm for this is presented below.
 
+```ad-pseudocode
 > - Let `connected_bottom` and `connected_top` be booleans initialised to `false`.
 > - Iterating through each point `p` in the set of ***Cluster Points***.
 > 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `0`), set `connected_top` to `true`.
 > 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `Ly`), set `connected_bottom` to `true`.
 > - A path has formed if `connected_bottom && connected_top`.
-
-```ad-note
-Within this algorithm we are using the assumption that connection is non-directed. Ie that if current can flow in one direction is can flow in both.
 ```
+
+Within this algorithm we are using the assumption that connection is non-directed. Ie that if current can flow in one direction is can flow in both.
+
 
 ---
 
