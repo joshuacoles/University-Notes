@@ -187,7 +187,7 @@ Note that this is a very paired down List implementation, only implementing need
 - Add the Initial Position to the set of ***Cluster Points***, the ***Process Queue***.
 ```
 
-> #todo failed sufficient times note.
+> #todo failed sufficient times note. Do we in-fact want to replace this in code since we are already at $O(n^2)$
 
 ##### Single Search Iteration
 
@@ -210,7 +210,85 @@ Note that this is a very paired down List implementation, only implementing need
 
 ##### Reachable Cells
 
-2D vs 3D
+2D vs 3D #todo
+
+```c
+bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
+    // Ignore current position
+    if (dx == 0 && dy == 0 && dz == 0) return false;
+    int sig = 3 - (dx == 0) - (dy == 0) - (dz == 0);
+
+    Pos candidate = offsetPosition(from, dx, dy, dz);
+    if (!positionInBounds(grid, candidate)) return false;
+
+    CellType candidateType = cellTypeOf(grid, candidate);
+
+    int fromStrength = strengthOf(fromType);
+    int candidateStrength = strengthOf(candidateType);
+
+    // If either are zero, no connection can form.
+    if (fromStrength * candidateStrength != 0) {
+        // We use the maximum function to represent bi-directionality (ie can connect if a or b can)
+        int maxStrength = max(fromStrength, candidateStrength);
+
+        if (sig <= maxStrength) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+int findReachable(Grid grid, Pos from, Pos *out) {
+    CellType fromType = cellTypeOf(grid, from);
+
+    // An insulator cannot connect to or from anything.
+    if (fromType == INSULATOR) return 0;
+
+    int length = 0;
+
+    // If we know this is a 2D grid, existing in a 3D, we can skip all `z` iteration.
+    if (grid.is2D) {
+        for (int i = -1; i <= 1; ++i) {
+            for (int j = -1; j <= 1; ++j) {
+                if (testCandidate(grid, from, fromType, i, j, 0)) {
+                    out[length++] = offsetPosition(from, i, j, 0);
+                }
+            }
+        }
+    } else {
+        for (int i = -1; i <= 1; ++i) {
+            for (int j = -1; j <= 1; ++j) {
+                for (int k = -1; k <= 1; ++k) {
+                    if (testCandidate(grid, from, fromType, i, j, k)) {
+                        out[length++] = offsetPosition(from, i, j, k);
+                    }
+                }
+            }
+        }
+    }
+
+    return length;
+}
+```
+
+```c
+todo doc this in report
+Firstly we note can classify each delta (an (i,j) pair) by a signature, aka the number of zeros in
+its delta. This is displayed schematically below:
+0 1 0
+1 2 1
+0 1 0
+With conductors connecting to sigs >= 1 and super-conductors sigs >= 0 (obviously ignoring the center).
+With the intention of allowing this to easily generalise to higher dimensions however we adapt this logic
+to be sig'(p) = Number of Dimensions - Number of Zeros, hence becoming,
+2 1 2
+1 0 1
+2 1 2
+Where we ignore sig'(p) == 0 as the central point, then conductors are sig' <= 1, and super-condcutors
+sig' <= 2. This would allow us to create a third class of conductor in 3D which could connect to cells
+with a sig' of 3.
+```
 
 
 ##### Conduction Path Existence Predicate
@@ -220,23 +298,15 @@ The [[CW 2 Report#Problem Specification]] presents the criteria for a conduction
 However since we only wish to determine *if* a path exists, not what it is, we can rely on the construction of the Cluster itself to determine this, in time linear with the size of the two conductors. An algorithm for this is presented below.
 
 ```ad-pseudocode
-> - Let `connected_bottom` and `connected_top` be booleans initialised to `false`.
-> - Iterating through each point `p` in the set of ***Cluster Points***.
-> 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `0`), set `connected_top` to `true`.
-> 	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `Ly`), set `connected_bottom` to `true`.
-> - A path has formed if `connected_bottom && connected_top`.
+- Let `connected_bottom` and `connected_top` be booleans initialised to `false`.
+- Iterating through each point `p` in the set of ***Cluster Points***.
+	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `0`), set `connected_top` to `true`.
+	- If the point `p` is in direct contact with the top plate (ie. a `y` value of `Ly`), set `connected_bottom` to `true`.
+- A path has formed if `connected_bottom && connected_top`.
 ```
 
 Within this algorithm we are using the assumption that connection is non-directed. Ie that if current can flow in one direction is can flow in both.
 
+## Data Collection Code
 
----
-
-
-- 2D considerations
-- Choice to use PosList in Cluster Finder
-- Not choosing insulators
-- Time complexity analysis
-- Memory management considerations
-	- Reuse of temp array
-
+## Time Complexity Analysis

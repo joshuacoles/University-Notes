@@ -1,4 +1,4 @@
-### Possible Extensions
+## Possible Extensions
 
 Extensions to this model could be developed where the cluster is grown using a similar algorithm to the one seen in this document, viewing the cluster as a direct graph of connections. A path finding algorithm such as A* could then be applied to to this directed graph to detect the path. A quick schematic example of this directed graph is provided below.
 
