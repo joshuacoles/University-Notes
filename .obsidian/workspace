@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e612e8673a7e666a",
+        "id": "b8480a5abaa0579c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/Development.md",
+            "file": "conflict-files-obsidian-git.md",
             "mode": "source"
           }
-        },
-        "group": "cc81e140f3ab8b2f"
-      },
-      {
-        "id": "e673172f2897af98",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PSkills • Coursework 2/Development.md",
-            "mode": "preview"
-          }
-        },
-        "group": "cc81e140f3ab8b2f"
+        }
       }
     ],
     "direction": "vertical"
@@ -65,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
-    "collapsed": true
+    "width": 312.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -82,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PSkills • Coursework 2/Development.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PSkills • Coursework 2/Development.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -122,8 +108,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e612e8673a7e666a",
+  "active": "b8480a5abaa0579c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/Development.md",
     "PSkills • Coursework 2/CW 2 Report.md",
     "Possible Extensions.md",
@@ -132,7 +119,6 @@
     "PSkills • Coursework 2/PSkills • Coursework 2.md",
     "Extensions.md",
     "PSkills • Coursework 2/Todo.md",
-    "PSkills • Coursework 2/Untitled.md",
-    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md"
+    "PSkills • Coursework 2/Untitled.md"
   ]
 }

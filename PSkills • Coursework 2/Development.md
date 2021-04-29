@@ -290,7 +290,6 @@ sig' <= 2. This would allow us to create a third class of conductor in 3D which 
 with a sig' of 3.
 ```
 
-
 ##### Conduction Path Existence Predicate
 
 The [[CW 2 Report#Problem Specification]] presents the criteria for a conduction path to exist between the two plates. If we were wishing to determine what the path is, for example to determine the approximate resistance of the path, then we would have to apply a path finding algorithm to the problem to determine if any paths exists, and the shortest traversal length.
