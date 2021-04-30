@@ -271,22 +271,14 @@ int findConnected(Grid grid, Pos from, Pos *out) {
 
 Here we can see explicit consideration for 2D grids, removing the need for iteration in the  $z$ dimension if we know that all values with $\Delta z \ne 1$ will be outside of the grid's bounds. This improves the efficiency of the overall Cluster Finding step in the 2D case while allowing us to still use mostly 3D code. 
 
-We then proceed to test if the cell is connected. For this we assign each Cell Type  a *strength* to each cell type, $0$ for Insulators, $1$ for Standard Conductors, and $2$ for Super Conductors, and then use this to determine 
-
-the [Taxicab Metric Function](https://en.wikipedia.org/wiki/Taxicab_geometry) to determine the "distance" between two positions, then 
-
-This is done by assigning each cell in the neighbourhood a *signature*, based off the number of dimension in which it is offset from original cell. For example in the 2D case it would be,
-
-```
-2 1 2
-1 0 1
-2 1 2
-```
-
-we then assign a *strength* to each cell type, $0$ for Insulators, $1$ for Standard Conductors, and $2$ for Super Conductors. This method allowed for code which works, independently of the dimension in which it operates, and allows for easier extension to for instance a 3rd type of conductor in 3D which connects to corners offset in three dimensions (as they do not in the current code). 
+We then proceed to test if the cell is connected. For this we assign each Cell Type  a *strength* to each cell type, $0$ for Insulators, $1$ for Standard Conductors, and $2$ for Super Conductors, which represented the distance which the can connected. We then use the [Taxicab Metric Function](https://en.wikipedia.org/wiki/Taxicab_geometry) to determine this "distance" between two positions, saying that they connect if either has a strength greater than or equal to this distance. This is described in Pseudocode below.
 
 ```ad-pseudocode
-- Given a starting position $p = (x, y, z)$ in Grid $g$ and a delta $d = (\Delta x, \Delta y, \Delta z)$.
+- Given
+	- A starting position $p$ in Grid $g$
+	- A delta $d = (\Delta x, \Delta y, \Delta z)$.
+- Let $q$
+- a starting position $p = (x, y, z)$ in Grid $g$ and a delta $d = (\Delta x, \Delta y, \Delta z)$.
 - Let $q = p + d$.
 - Phase 1
 	- If $p = q$, the positions are not connected as $p$ is not connected to $p$.
