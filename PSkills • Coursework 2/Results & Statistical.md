@@ -2,9 +2,17 @@
 
 > A version of this with interactive graphs, including in 3D, can be found at [ipfs link](https://ipfs.io/ipfs/QmPDXNLYyJ1r5Cg7xzRXXW1fvDWXz8dw9QeSkQNigN6QFZ?filename=Stats.html) (this link is content address and thus cannot be updated, preventing cheating). However the below shall suffice.
 
-To start any statistical analysis you need *data*, this was obtained using the `entrypoints/data_collection.c` harness (which also served as a useful batch tester) wherein we iterated over all $N$ and $f_{SC}$ values in a given region. Initially this was attempted with the $100 \times 100$ grid however as discussed in the Time Complexity Analysis section our code runs in $O(n^3)$ time complexity with respect to the number of conductors $N$, and thus running on the $100 \times 100$ gri
+To start any statistical analysis you need *data*, this was obtained using the `entrypoints/data_collection.c` harness (which also served as a useful batch tester) wherein we iterated over all $N$ and $f_{SC}$ values in a given region. 
+
+Initially this was attempted with the $100 \times 100$ grid however as discussed in the Time Complexity Analysis section our code runs at $O(n^3)$ time complexity with respect to the number of conductors $N$, and thus such a sample for this grid was infeasible, having to be halted part of the way through. Instead the code was run on a smaller $25 \times 25$ grid with data show below.
 
 ![[Unknown.svg]]
+
+Which when scaled by the number of cells within the grid (ie representing the number of conductors instead as $n = \frac{N}{L_X L_Y}$) and compared to the incomplete $100 \times 100$ data (dots the $100 \cp 100$ incomplete data, lines the $25 \times 25$ complete data) we get the following
+
+![[100-25-comparison-3d.svg]]
+
+Where we can see that the behaviour in mostly independent of the size of the grid operated on.
 
 Statistical explorations have two complementary components empirical analysis of data and theoretical consideration of the problem.
 
