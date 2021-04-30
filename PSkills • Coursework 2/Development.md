@@ -96,7 +96,6 @@ void fillGrid(Grid grid, int n, double pSuper) {
         }
     }
 }
-
 ```
 
 A note should be made of the method used to generate the uniform random number $r$, the `int randomUniform(int r0, int r1)` function. While it is assumed this number is uniformly distributed, and in fact random, there are a number of factors that make this less than fully accurate (however still sufficient for our needs). These include both low entropy in the random number generator, especially in the lower bits targeted by `rand()`, and further by the modulus operation. In addition to the modulus operation itself begin non-uniform in its output.[^1] However in 
@@ -175,7 +174,6 @@ void appendToPosList(PosList *list, Pos pos) {
 
     list->data[list->length++] = pos;
 }
-
 ```
 
 Note that this is a very paired down List implementation, only implementing needed features, and missing many of the niceties one would find in a standard library.
@@ -215,7 +213,19 @@ We do not explicitly search for an insulator as this would increase the time com
 
 Determining which cells are reachable and then connected to a given cell is done in two steps: firstly iterating all cells within $[-1, 1]$ in all dimensions, these are the reachable and from there testing if these two cells have Cell Types such that they can form a connection.
 
-This first step is done in the `findConnected` function shown below
+This first step is done in the `findConnected` function, pseudocode of which is shown below
+
+```ad-pseudocode
+- Given
+	- A Grid $g$.
+	- A Position $p$ in that grid.
+- If the Cell at Position $p$ in $g$ is an *Insulator*, return an empty array.
+- Else iterate through each position $q$ the neighbourhood of $p$.
+	- The neighbourhood of $p$ being defined as the region $[-1, 1]$ cells away in all dimensions ($x, y, z$ for 3D grids, $[]$)
+```
+
+
+shown below
 
 ```c
 /**
@@ -254,10 +264,11 @@ int findConnected(Grid grid, Pos from, Pos *out) {
 
     return length;
 }
-
 ```
 
-Where you can 
+Where you can see that there is explicit consideration for 2D grids removing the need for $z$ dimension iteration if we know that all values with $\Delta z \ne 1$ will be outside of the grid, improving code efficiency in the 2D case while allowing us to still use mostly 3D code.
+
+We then proceed to test if the cell is connected
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
@@ -284,43 +295,6 @@ bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int d
     }
 
     return false;
-}
-
-/**
- * Finds all cells which are connected to the cell at `from` in `grid`.
- *
- * @returns length, the number connected cells found in the reachable neighbourhood, placed in the Pos *out array.
- * */
-int findConnected(Grid grid, Pos from, Pos *out) {
-    CellType fromType = cellTypeOf(grid, from);
-
-    // An insulator cannot connect to or from anything.
-    if (fromType == INSULATOR) return 0;
-
-    int length = 0;
-
-    // If we know this is a 2D grid, existing in a 3D, we can skip all `z` iteration.
-    if (grid.z_dim == 1) {
-        for (int i = -1; i <= 1; ++i) {
-            for (int j = -1; j <= 1; ++j) {
-                if (testCandidate(grid, from, fromType, i, j, 0)) {
-                    out[length++] = offsetPosition(from, i, j, 0);
-                }
-            }
-        }
-    } else {
-        for (int i = -1; i <= 1; ++i) {
-            for (int j = -1; j <= 1; ++j) {
-                for (int k = -1; k <= 1; ++k) {
-                    if (testCandidate(grid, from, fromType, i, j, k)) {
-                        out[length++] = offsetPosition(from, i, j, k);
-                    }
-                }
-            }
-        }
-    }
-
-    return length;
 }
 ```
 
