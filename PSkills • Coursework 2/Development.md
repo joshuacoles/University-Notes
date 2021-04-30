@@ -4,7 +4,7 @@ cssclass: split-pdf
 
 ## Development
 
-Development of the model was done in 3 phases. First a prototype was written in Rust, a new language similar to C, which however much more expressive and developer friendly. This was done to help map out the program without having to directly concern ourselves with C's more primitive program and memory model. This step will not be discussed much as while it was exceptionally useful in designing the program, it is not in the scope of the Coursework itself.
+Development of the model was done in 3 phases. First a prototype was written in Rust, a new language similar to C, which however much more expressive and not constrained by its age in the same way as C leading to a better developer experience. This was done to help map out the program without having to directly concern ourselves with C's more primitive program and memory model. This step will not be discussed much as while it was exceptionally useful in designing the program, it is not in the scope of the Coursework itself.
 
 In the second stage this Rust code was translated into C and additional features were added on as their need became apparent.  Finally the program was subjected to both batch and specific testing, to ensure it functioned correctly.
 
@@ -18,15 +18,18 @@ The pseudocode presented is high level generic, ignoring things such as C's lack
 
 While the majority of the questions involve a 2D grid, the code was written to handle 3D scenarios, with 2D grids being implemented as single plane in a 3D grid, this is discussed later on in the report.
 
-
 ### Program Structure
 
-The program is split into three mostly separate components. The `Grid` which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
+The program is split across multiple files to improve readability and uses header files to present a clean interface between them. There are two files with a `main` method:
 
-The `ClusterFinder` which performs the actual cluster generation and determines if a path has been formed. It holds an immutable reference to the `Grid` that it operates on, and takes in either a pre-chosen, or random grid position to use as an initial position. It also maintains a number of lists which are used in the Cluster Finding algorithm.
+- Primarily `main.c` for the `Coursework_2_c` target containing all of the questions (questions in `entrypoints/questions.c`)
+- A secondary `main_data_collection.c` which was separated out to allow for easier data collection in the stats section.
 
-The *runner* / entrypoint, aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats. Each question part has its own entrypoint, in addition to a couple used for testing and data-collection for statistical work.
+The program is split into three mostly separate components. The `Grid` (in `grid.c`) which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
 
+The `ClusterFinder` (in `cluster_finder.c`) which performs the actual cluster generation and determines if a path has been formed. It holds an immutable reference to the `Grid` that it operates on, and takes in either a pre-chosen, or random grid position to use as an initial position. It also maintains a number of lists which are used in the Cluster Finding algorithm.
+
+The *runner* / entrypoint (`main.c` & `entrypoints/questions.c`), aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats. Each question part has its own entrypoint, in addition to a couple used for testing and data-collection for statistical work.
 
 ### Main Algorithms
 
@@ -102,7 +105,7 @@ A note should be made of the method used to generate the uniform random number $
 
 #### Cluster Finding
 
-Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also #todo). It is split into 5 parts,
+Cluster finding is the main point of conceptual complexity in the program (and as we will find out, time complexity also). It is split into 5 parts,
 
 1. Initialisation with a random or pre-chosen position.
 3. A function performing single search iteration.
@@ -187,6 +190,8 @@ Note that this is a very paired down List implementation, only implementing need
 - Add the Initial Position to the set of ***Cluster Points***, the ***Process Queue***.
 ```
 
+We do not explicitly search for an insulator as this would increase the time 
+
 > #todo failed sufficient times note. Do we in-fact want to replace this in code since we are already at $O(n^2)$
 
 ##### Single Search Iteration
@@ -210,7 +215,7 @@ Note that this is a very paired down List implementation, only implementing need
 
 ##### Reachable Cells
 
-2D vs 3D #todo
+Determining which cells
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
@@ -306,6 +311,14 @@ However since we only wish to determine *if* a path exists, not what it is, we c
 
 Within this algorithm we are using the assumption that connection is non-directed. Ie that if current can flow in one direction is can flow in both.
 
-## Data Collection Code
 
-## Time Complexity Analysis
+### Testing & Data Collection
+
+The code used for data collection is in `entrypoints/data_collection.c` and mainly consists of sampling (in batches of 100) all $(N, f_{SC})$ combinations in a specified range, saving the resulting data to a csv file for later analysis. These values were hard coded and changed as needed but could easily be adapted to be taken on the command line if need be.
+
+This process also served as testing to ensure the program produced results without crashing or memory issues at a wide range of values. It does not however ensure *correct* behaviour (bar seeing it goes to $0\%$ and $100%$ in the extremes). This was accomplished with smaller scale testing by hand to ensure the program behaves as is specified in the brief, examples of which can be seen in the Question Output section
+
+### Time Complexity Analysis
+
+When collecting the data it was noted that the program slowed down substantially as $N$ increased, adding some rudimentary timing code to the data collection code, we obtained a $N$ vs $\Delta t$ graph of,
+

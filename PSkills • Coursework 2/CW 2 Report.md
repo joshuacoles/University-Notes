@@ -18,13 +18,15 @@ The description as provided by the brief is given below.
 
 ![[Pasted image 20210323180304.png]]
 
-### A note on directional conduction
+### Directional Conduction
 
 This code assumes that conduction is **non-directional**, ie if two cells are connected going in one direction, they are connected going in the other also. This assumption is only relevant in the case with diagonal conductive and superconductive cells, where the super-conductive cell is clearly connected to the conductive one, however the other direction is ambiguous.
 
 This assumption is only used in the [[Pseudocode#Cluster Finder]] stage where we use it to avoid path finding on directed graph. This presents acute issues due to the requirements of starting at a *random* cell in the lattice, as this means we cannot use the construction of the cluster to find said conduction path.
 
 ![[Development]]
+
+![[Output]]
 
 ![[Results]]
 
