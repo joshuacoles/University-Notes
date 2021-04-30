@@ -20,8 +20,9 @@ In fact we can also identify the following other trends in the data.
 2. These S-curves are only really relevant in some "middle" section of the plot, at the very low and high number of conductors the percentages are effectively 0% or 100%.
 3. The curves themselves seem to be offset from each other by some amount, dependent on the $f_{SC}$ value.
 
-We can quantify this offset by determining the value $n$ such that the percentage of grids with a path is closest to $50\%$ for a given $f_{SC}$ value.
+We can quantify this offset by determining the value $n$ such that the percentage of grids with a path is closest to $50\%$ for a given $f_{SC}$ value. This graph is shown below
 
+![[n-offset-fsc-w-with.svg]]
 Statistical explorations have two complementary components empirical analysis of data and theoretical consideration of the problem.
 
 Empirical analysis is by far the more straight-forward of the two, and is especially profitable on large banks of data where statistical noise inherent in all "real world" problems is less perceptible. However this should be guided by theoretical small scale analysis which provides insights into the 
