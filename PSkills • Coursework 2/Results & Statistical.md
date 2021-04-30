@@ -1,6 +1,6 @@
 ## Results & Statistical Analysis
 
-> A version of this with interactive graphs can be found at
+> A version of this with interactive graphs can be found at [ipfs link](https://ipfs.io/ipfs/QmPDXNLYyJ1r5Cg7xzRXXW1fvDWXz8dw9QeSkQNigN6QFZ?filename=Stats.html) (this link is content address and thus cannot be updated, preventing cheating). However the below shall suffice.
 
 Statistical explorations have two complementary components empirical analysis of data and theoretical consideration of the problem.
 
