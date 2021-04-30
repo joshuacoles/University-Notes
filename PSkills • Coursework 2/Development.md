@@ -276,26 +276,22 @@ We then proceed to test if the cell is connected. For this we assign each Cell T
 ```ad-pseudocode
 - Given
 	- A starting position $p$ in Grid $g$
-	- A delta $d = (\Delta x, \Delta y, \Delta z)$.
-- Let $q$
-- a starting position $p = (x, y, z)$ in Grid $g$ and a delta $d = (\Delta x, \Delta y, \Delta z)$.
-- Let $q = p + d$.
-- Phase 1
-	- If $p = q$, the positions are not connected as $p$ is not connected to $p$.
-	- If $q$ is outside off the grid $g$, the positions are not connected.
-- Phase 2
-	- Compute the signature of $d$.
-	- Let $t_x$ be the cell type of positions $p$ and $q$ in $g$ and $s_x$ their strengths.
-	- If either $s_q$ or $s_p$ are $0$, the cells are not connected.
-	- Let $s$ be the maximum of these strengths $s_p$ and $s_q$
-	- If
+	- A delta $\Delta p = (\Delta x, \Delta y, \Delta z)$.
+- Let $q = p + \Delta p$
+- Let $d$ be the taxicab distance between $p$ and $q$.
+- If the distance $d$ is zeo the positions are not connected.
+- If the poisition $q$ is not in the bounds of grid $g$ the positions arenot connected.
+- Let $s_p$ and $s_q$ be the strengths of the cells at position $p$ and $q$ respectively in $g$.
+- If either $s_p$ or $s_q$ is equal to $0$, the cells are not connected.
+- Then the cells are connected if the distance $d$ is less than or equal to either of the strengths $s_q$ or $s_p$
 ```
+
+displayed in code again below.
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
-    // Ignore current position
-    if (dx == 0 && dy == 0 && dz == 0) return false;
-    int sig = 3 - (dx == 0) - (dy == 0) - (dz == 0);
+    int taxiCabDistance = abs(dx) + abs(dy) + abs(dz);
+    if (taxiCabDistance == 0) return false;
 
     Pos candidate = offsetPosition(from, dx, dy, dz);
     if (!positionInBounds(grid, candidate)) return false;
@@ -305,17 +301,9 @@ bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int d
     int fromStrength = strengthOf(fromType);
     int candidateStrength = strengthOf(candidateType);
 
-    // If either are zero, no connection can form.
-    if (fromStrength * candidateStrength != 0) {
-        // We use the maximum function to represent bi-directionality (ie can connect if a or b can)
-        int maxStrength = max(fromStrength, candidateStrength);
+    if (fromStrength == 0 || candidateStrength == 0) return false;
 
-        if (sig <= maxStrength) {
-            return true;
-        }
-    }
-
-    return false;
+    return taxiCabDistance <= fromStrength || taxiCabDistance <= candidateStrength;
 }
 ```
 
@@ -340,7 +328,7 @@ Within this algorithm we are using the assumption that connection is non-directe
 
 The code used for data collection is in `entrypoints/data_collection.c` and mainly consists of sampling (in batches of 100) all $(N, f_{SC})$ combinations in a specified range, saving the resulting data to a csv file for later analysis. These values were hard coded and changed as needed but could easily be adapted to be taken on the command line if need be.
 
-This process also served as testing to ensure the program produced results without crashing or memory issues at a wide range of values. It does not however ensure *correct* behaviour (bar seeing it goes to $0\%$ and $100%$ in the extremes). This was accomplished with smaller scale testing by hand to ensure the program behaves as is specified in the brief, examples of which can be seen in the Question Output section
+This process also served as testing to ensure the program produced results without crashing or memory issues at a wide range of values. It does not however ensure *correct* behaviour (bar seeing it goes to $0\%$ and $100%$ in the extremes). This was accomplished with smaller scale testing by hand to ensure the program behaves as is specified in the brief, examples of which can be seen in the Question Output section.
 
 ### Time Complexity Analysis
 
@@ -349,3 +337,5 @@ When collecting the data it was noted that the program slowed down substantially
 ![[Unknown-2.png|time complexity analysis]]
 
 Where we can see that while a linear and quadratic fail to fit, a cubic does, implying our performance class is in-fact $O(n^3)$. This tells us two things. Firstly that the main source of time complexity in the program is the Cluster Finding code, as this is the only part which is dependent on $N$. Secondly that we are likely far from optimum to our solution, which we would expect to be roughly $O(n^2)$ or even $O(n \log n)$ (as is Dijkstra's algorithm #todo cite).
+
+This is confirmed by running the program under a profiler, seeing that the $97.1\%$ of execution time when running on a $12 \times 12$ grid was spent in `performSearch` and of that approximately $67.8\%$ was spent in
