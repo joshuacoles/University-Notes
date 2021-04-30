@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Valgrind",
+                "query": "entrypoints",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -125,11 +124,11 @@
   "active": "b8480a5abaa0579c",
   "lastOpenFiles": [
     "PSkills • Coursework 2/CW 2 Report.md",
-    "PSkills • Coursework 2/Results & Statistical.md",
+    "PSkills • Coursework 2/Output.md",
     "PSkills • Coursework 2/Development.md",
+    "PSkills • Coursework 2/Results & Statistical.md",
     "PSkills • Coursework 2/Results.md",
     "PSkills • Coursework 2/outputs/q3.png",
-    "PSkills • Coursework 2/Output.md",
     "PSkills • Coursework 2/Random Generation, Uniformity.md",
     "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/Untitled.md",
