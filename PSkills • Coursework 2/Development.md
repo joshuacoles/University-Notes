@@ -228,8 +228,7 @@ This first step is done in the `findConnected` function, pseudocode of which is 
 - Once this has completed, return the *cells array*.
 ```
 
-
-shown below
+shown below in code.
 
 ```c
 /**
@@ -270,9 +269,17 @@ int findConnected(Grid grid, Pos from, Pos *out) {
 }
 ```
 
-Where you can see that there is explicit consideration for 2D grids removing the need for $z$ dimension iteration if we know that all values with $\Delta z \ne 1$ will be outside of the grid, improving code efficiency in the 2D case while allowing us to still use mostly 3D code.
+Here we can see explicit consideration for 2D grids, removing the need for iteration in the  $z$ dimension if we know that all values with $\Delta z \ne 1$ will be outside of the grid's bounds. This improves the efficiency of the overall Cluster Finding step in the 2D case while allowing us to still use mostly 3D code.
 
-We then proceed to test if the cell is connected
+We then proceed to test if the cell is connected. This is done by assigning each cell in the neighbourhood a *signature*, based off the number of dimension in which it is offset from original cell. For example in the 2D case it would be,
+
+```
+2 1 2
+1 0 1
+2 1 2
+```
+
+
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
