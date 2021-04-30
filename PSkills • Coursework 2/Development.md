@@ -330,7 +330,7 @@ The code used for data collection is in `entrypoints/data_collection.c` and main
 
 This process also served as testing to ensure the program produced results without crashing or memory issues at a wide range of values. It does not however ensure *correct* behaviour (bar seeing it goes to $0\%$ and $100%$ in the extremes). This was accomplished with smaller scale testing by hand to ensure the program behaves as is specified in the brief, examples of which can be seen in the Question Output section.
 
-In addition a run of a $12 \times 12$ grid was also completed while running [Valgrind](http://valgrind.org) to detect any memory mismanagement.
+In addition a run of a $12 \times 12$ grid was also completed while running [Valgrind](http://valgrind.org) to detect any memory mismanagement where no errors were reported.
 
 ### Time Complexity Analysis
 
