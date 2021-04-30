@@ -28,6 +28,6 @@ This assumption is only used in the [[Pseudocode#Cluster Finder]] stage where we
 
 ![[Output]]
 
-![[Results]]
+![[Results & Statistical]]
 
 ![[Possible Extensions]]

@@ -1,5 +1,7 @@
 ## Results & Statistical Analysis
 
+This is an abridged explor
+
 Statistical explorations have two complementary components empirical analysis of data and theoretical consideration of the problem.
 
 Empirical analysis is by far the more straight-forward of the two, and is especially profitable on large banks of data where statistical noise inherent in all "real world" problems is less perceptible. However this should be guided by theoretical small scale analysis which provides insights into the 
