@@ -219,9 +219,13 @@ This first step is done in the `findConnected` function, pseudocode of which is 
 - Given
 	- A Grid $g$.
 	- A Position $p$ in that grid.
-- If the Cell at Position $p$ in $g$ is an *Insulator*, return an empty array.
+- Let *cells* be an empty array which will contain the cells connected to $p$.
+- If the Cell at Position $p$ in $g$ is an *Insulator*, return the empty *cells array*
 - Else iterate through each position $q$ the neighbourhood of $p$.
-	- The neighbourhood of $p$ being defined as the region $[-1, 1]$ cells away in all dimensions ($x, y, z$ for 3D grids, $[]$)
+	- The neighbourhood of $p$ being defined as the region $[-1, 1]$ cells away in all dimensions ($x, y, z$ for 3D grids, $x, y$ for 2D).
+	- For each position $q$ test if the cell is connected to $p$.
+	- If it is connected to $p$ then append it to the *cells array* and continue.
+- Once this has completed, return the *cells array*.
 ```
 
 
