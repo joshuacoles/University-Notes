@@ -269,7 +269,7 @@ int findConnected(Grid grid, Pos from, Pos *out) {
 }
 ```
 
-Here we can see explicit consideration for 2D grids, removing the need for iteration in the  $z$ dimension if we know that all values with $\Delta z \ne 1$ will be outside of the grid's bounds. This improves the efficiency of the overall Cluster Finding step in the 2D case while allowing us to still use mostly 3D code. This could be extended into the fully fledged *Chebyshev distance metric function* in future versions (the .
+Here we can see explicit consideration for 2D grids, removing the need for iteration in the  $z$ dimension if we know that all values with $\Delta z \ne 1$ will be outside of the grid's bounds. This improves the efficiency of the overall Cluster Finding step in the 2D case while allowing us to still use mostly 3D code. 
 
 We then proceed to test if the cell is connected. This is done by assigning each cell in the neighbourhood a *signature*, based off the number of dimension in which it is offset from original cell. For example in the 2D case it would be,
 
@@ -279,7 +279,19 @@ We then proceed to test if the cell is connected. This is done by assigning each
 2 1 2
 ```
 
-we then assign a *strength* to each cell type, $0$ for Insulators, $1$ for Standard Conductors, and $2$ for Super Conductors. This method allowed for code which works, independently of the dimension in which it operates, and allows for easier extension to for instance a 3rd type of conductor in 3D which connects to corners offset in three dimensions (as they do not in the current code).
+we then assign a *strength* to each cell type, $0$ for Insulators, $1$ for Standard Conductors, and $2$ for Super Conductors. This method allowed for code which works, independently of the dimension in which it operates, and allows for easier extension to for instance a 3rd type of conductor in 3D which connects to corners offset in three dimensions (as they do not in the current code). 
+
+```ad-pseudocode
+- Given a starting position $p = (x, y, z)$ in Grid $g$ and a delta $d = (\Delta x, \Delta y, \Delta z)$.
+- If $d = (0,0,0)$, the positions are not connected as $p$ is not connected to $p$.
+- Compute the signature of $d$.
+- Let $q = p + d$.
+- If $q$ is outside off the grid $g$, the positions are not connected.
+- Let $t_p$ be the cell type of position $p$ in $g$, and $t_q$ the cell type of position $q$.
+- Let $s$ be the maximum strengths of these
+```
+
+This could be extended into the fully fledged [*Chebyshev distance metric function*](https://en.wikipedia.org/wiki/Chebyshev_distance) in future versions (the metric used on chess boards).
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
