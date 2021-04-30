@@ -1,25 +1,13 @@
 ## Question Output
 
-### q1a
-![[q1a.png]]
+### Question 1
+![[q1.png]]
 
 
-### q1b
+### Question 2
 
-![[q1b.png]]
+![[q2.png]]
 
-### q2a
-
-![[q2a.png]]
-
-### q2b
-
-![[q2b.png]]
-
-### q2c
-
-![[q2c.png]]
-
-### q3
+### Question 3
 
 ![[q3.png]]

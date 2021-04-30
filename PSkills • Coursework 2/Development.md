@@ -190,7 +190,7 @@ Note that this is a very paired down List implementation, only implementing need
 - Add the Initial Position to the set of ***Cluster Points***, the ***Process Queue***.
 ```
 
-We do not explicitly search for an insulator as this would increase the time complexity of this step from linear to quadratic with the dimension.
+We do not explicitly search for an insulator as this would increase the time complexity of this step from constant worst case time to quadratic with the dimension.
 
 ##### Single Search Iteration
 
