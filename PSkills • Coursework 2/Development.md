@@ -283,15 +283,17 @@ we then assign a *strength* to each cell type, $0$ for Insulators, $1$ for Stand
 
 ```ad-pseudocode
 - Given a starting position $p = (x, y, z)$ in Grid $g$ and a delta $d = (\Delta x, \Delta y, \Delta z)$.
-- If $d = (0,0,0)$, the positions are not connected as $p$ is not connected to $p$.
-- Compute the signature of $d$.
 - Let $q = p + d$.
-- If $q$ is outside off the grid $g$, the positions are not connected.
-- Let $t_p$ be the cell type of position $p$ in $g$, and $t_q$ the cell type of position $q$.
-- Let $s$ be the maximum strengths of these
+- Phase 1
+	- If $p = q$, the positions are not connected as $p$ is not connected to $p$.
+	- If $q$ is outside off the grid $g$, the positions are not connected.
+- Phase 2
+	- Compute the signature of $d$.
+	- Let $t_x$ be the cell type of positions $p$ and $q$ in $g$ and $s_x$ their strengths.
+	- If either $s_q$ or $s_p$ are $0$, the cells are not connected.
+	- Let $s$ be the maximum of these strengths $s_p$ and $s_q$
+	- If
 ```
-
-This could be extended into the fully fledged [*Chebyshev distance metric function*](https://en.wikipedia.org/wiki/Chebyshev_distance) in future versions (the metric used on chess boards).
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
