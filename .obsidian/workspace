@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "n_{vw}",
+                "query": "n^2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",

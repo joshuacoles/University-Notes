@@ -190,9 +190,7 @@ Note that this is a very paired down List implementation, only implementing need
 - Add the Initial Position to the set of ***Cluster Points***, the ***Process Queue***.
 ```
 
-We do not explicitly search for an insulator as this would increase the time 
-
-> #todo failed sufficient times note. Do we in-fact want to replace this in code since we are already at $O(n^2)$
+We do not explicitly search for an insulator as this would increase the time complexity of this step from linear to quadratic with the dimension.
 
 ##### Single Search Iteration
 
@@ -320,5 +318,8 @@ This process also served as testing to ensure the program produced results witho
 
 ### Time Complexity Analysis
 
-When collecting the data it was noted that the program slowed down substantially as $N$ increased, adding some rudimentary timing code to the data collection code, we obtained a $N$ vs $\Delta t$ graph of,
+When collecting the data it was noted that the program slowed down substantially as $N$ increased, adding some rudimentary timing code to the data collection code, we obtained a $N$ vs $T$ graph of,
 
+![[Unknown-2.png|time complexity analysis]]
+
+Where we can see that while a linear and quadratic fail to fit, a cubic does, implying our performance class is in-fact $O(n^3)$. This tells us two things. Firstly that the main source of time complexity in the program is the Cluster Finding code, as this is the only part which is dependent on $N$. Secondly that we are likely far from optimum to our solution, which we would expect to be roughly $O(n^2)$ or even $O(n \log n)$ (as is Dijkstra's algorithm).
