@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/Results & Statistical.md",
+            "file": "PSkills • Coursework 2/CW 2 Report.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PSkills • Coursework 2/Results & Statistical.md",
+            "file": "PSkills • Coursework 2/CW 2 Report.md",
             "mode": "preview"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PSkills • Coursework 2/Results & Statistical.md",
+                "file": "PSkills • Coursework 2/CW 2 Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PSkills • Coursework 2/Results & Statistical.md"
+                "file": "PSkills • Coursework 2/CW 2 Report.md"
               }
             }
           },
@@ -124,10 +123,10 @@
   },
   "active": "b8480a5abaa0579c",
   "lastOpenFiles": [
+    "PSkills • Coursework 2/CW 2 Report.md",
     "PSkills • Coursework 2/Results & Statistical.md",
     "PSkills • Coursework 2/Development.md",
     "PSkills • Coursework 2/Results.md",
-    "PSkills • Coursework 2/CW 2 Report.md",
     "PSkills • Coursework 2/outputs/q3.png",
     "PSkills • Coursework 2/Output.md",
     "PSkills • Coursework 2/Random Generation, Uniformity.md",
