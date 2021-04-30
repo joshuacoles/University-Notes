@@ -1,6 +1,6 @@
 ## Results & Statistical Analysis
 
-This is an abridged explor
+> A version of this with interactive graphs can be found at
 
 Statistical explorations have two complementary components empirical analysis of data and theoretical consideration of the problem.
 
