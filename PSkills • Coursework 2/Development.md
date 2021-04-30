@@ -213,7 +213,51 @@ We do not explicitly search for an insulator as this would increase the time com
 
 ##### Reachable Cells
 
-Determining which cells are reachable and then connected to a given cell is done in two steps: firstly iterating all cells within $[-1, 1]$ in all dimensions, these are the reachable and from then testing if these two 
+Determining which cells are reachable and then connected to a given cell is done in two steps: firstly iterating all cells within $[-1, 1]$ in all dimensions, these are the reachable and from there testing if these two cells have Cell Types such that they can form a connection.
+
+This first step is done in the `findConnected` function shown below
+
+```c
+/**
+ * Finds all cells which are connected to the cell at `from` in `grid`.
+ *
+ * @returns length, the number connected cells found in the reachable neighbourhood, placed in the Pos *out array.
+ * */
+int findConnected(Grid grid, Pos from, Pos *out) {
+    CellType fromType = cellTypeOf(grid, from);
+
+    // An insulator cannot connect to or from anything.
+    if (fromType == INSULATOR) return 0;
+
+    int length = 0;
+
+    // If we know this is a 2D grid, existing in a 3D, we can skip all `z` iteration.
+    if (grid.z_dim == 1) {
+        for (int i = -1; i <= 1; ++i) {
+            for (int j = -1; j <= 1; ++j) {
+                if (testCandidate(grid, from, fromType, i, j, 0)) {
+                    out[length++] = offsetPosition(from, i, j, 0);
+                }
+            }
+        }
+    } else {
+        for (int i = -1; i <= 1; ++i) {
+            for (int j = -1; j <= 1; ++j) {
+                for (int k = -1; k <= 1; ++k) {
+                    if (testCandidate(grid, from, fromType, i, j, k)) {
+                        out[length++] = offsetPosition(from, i, j, k);
+                    }
+                }
+            }
+        }
+    }
+
+    return length;
+}
+
+```
+
+Where you can 
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
@@ -242,7 +286,12 @@ bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int d
     return false;
 }
 
-int findReachable(Grid grid, Pos from, Pos *out) {
+/**
+ * Finds all cells which are connected to the cell at `from` in `grid`.
+ *
+ * @returns length, the number connected cells found in the reachable neighbourhood, placed in the Pos *out array.
+ * */
+int findConnected(Grid grid, Pos from, Pos *out) {
     CellType fromType = cellTypeOf(grid, from);
 
     // An insulator cannot connect to or from anything.
@@ -251,7 +300,7 @@ int findReachable(Grid grid, Pos from, Pos *out) {
     int length = 0;
 
     // If we know this is a 2D grid, existing in a 3D, we can skip all `z` iteration.
-    if (grid.is2D) {
+    if (grid.z_dim == 1) {
         for (int i = -1; i <= 1; ++i) {
             for (int j = -1; j <= 1; ++j) {
                 if (testCandidate(grid, from, fromType, i, j, 0)) {
@@ -273,24 +322,6 @@ int findReachable(Grid grid, Pos from, Pos *out) {
 
     return length;
 }
-```
-
-```c
-todo doc this in report
-Firstly we note can classify each delta (an (i,j) pair) by a signature, aka the number of zeros in
-its delta. This is displayed schematically below:
-0 1 0
-1 2 1
-0 1 0
-With conductors connecting to sigs >= 1 and super-conductors sigs >= 0 (obviously ignoring the center).
-With the intention of allowing this to easily generalise to higher dimensions however we adapt this logic
-to be sig'(p) = Number of Dimensions - Number of Zeros, hence becoming,
-2 1 2
-1 0 1
-2 1 2
-Where we ignore sig'(p) == 0 as the central point, then conductors are sig' <= 1, and super-condcutors
-sig' <= 2. This would allow us to create a third class of conductor in 3D which could connect to cells
-with a sig' of 3.
 ```
 
 ##### Conduction Path Existence Predicate
