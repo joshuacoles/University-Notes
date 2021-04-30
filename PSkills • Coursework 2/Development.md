@@ -330,6 +330,8 @@ The code used for data collection is in `entrypoints/data_collection.c` and main
 
 This process also served as testing to ensure the program produced results without crashing or memory issues at a wide range of values. It does not however ensure *correct* behaviour (bar seeing it goes to $0\%$ and $100%$ in the extremes). This was accomplished with smaller scale testing by hand to ensure the program behaves as is specified in the brief, examples of which can be seen in the Question Output section.
 
+In addition a run of a $12 \times 12$ grid was also completed while running [Valgrind](http://valgrind.org) to detect any memory mismanagement.
+
 ### Time Complexity Analysis
 
 When collecting the data it was noted that the program slowed down substantially as $N$ increased, adding some rudimentary timing code to the data collection code, we obtained a $N$ vs $T$ graph of,
@@ -338,4 +340,4 @@ When collecting the data it was noted that the program slowed down substantially
 
 Where we can see that while a linear and quadratic fail to fit, a cubic does, implying our performance class is in-fact $O(n^3)$. This tells us two things. Firstly that the main source of time complexity in the program is the Cluster Finding code, as this is the only part which is dependent on $N$. Secondly that we are likely far from optimum to our solution, which we would expect to be roughly $O(n^2)$ or even $O(n \log n)$ (as is Dijkstra's algorithm #todo cite).
 
-This is confirmed by running the program under a profiler, seeing that the $97.1\%$ of execution time when running on a $12 \times 12$ grid was spent in `performSearch` and of that approximately $67.8\%$ was spent in
+This is confirmed by running the program under a profiler, seeing that the $97.1\%$ of execution time when running on a $12 \times 12$ grid was spent in `performSearch` and of that approximately $67.8\%$ was spent in `containsPos`. While this was slightly unexpected, is not shocking as it is called frequently throughout the process and was hand written as opposed to more traditionally relying on a highly optimised standard library implementation.
