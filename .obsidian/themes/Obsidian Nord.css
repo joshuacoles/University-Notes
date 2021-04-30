@@ -25,6 +25,12 @@
     --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
 }
 
+@media print {
+    html {
+        font-size: 10px;
+    }
+}
+
 .theme-dark
 {
     --background-primary:         var(--dark0);

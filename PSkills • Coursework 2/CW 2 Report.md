@@ -4,6 +4,10 @@ cssclass: split-pdf
 
 # Course Work 2
 
+Student Number: 199057324
+Compiler Used: `clang 12.0.5`
+Date: 30/04/2021
+
 ## Problem Specification
 
 The question posed in this problem is to simulate the conductivity of disordered materials as a grid of cells, of three varieties: 
