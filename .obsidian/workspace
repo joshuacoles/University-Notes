@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "PSkills • Coursework 2/Development.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "PSkills • Coursework 2/Development.md",
             "mode": "preview"
           }
         },
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "PSkills • Coursework 2/Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "PSkills • Coursework 2/Development.md"
               }
             }
           },
@@ -123,15 +124,15 @@
   },
   "active": "b8480a5abaa0579c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/Development.md",
     "PSkills • Coursework 2/CW 2 Report.md",
     "PSkills • Coursework 2/Output.md",
+    "PSkills • Coursework 2/Random Generation, Uniformity.md",
+    "PSkills • Coursework 2/Results.md",
+    "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/Untitled.md",
     "PSkills • Coursework 2/PSkills • Coursework 2.md",
-    "PSkills • Coursework 2/Results.md",
     "PSkills • Coursework 2/Pseudocode.md",
-    "PSkills • Coursework 2/Random Generation, Uniformity.md",
     "PSkills • Coursework 2/Todo.md"
   ]
 }

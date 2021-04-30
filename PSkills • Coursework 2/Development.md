@@ -213,7 +213,7 @@ We do not explicitly search for an insulator as this would increase the time com
 
 ##### Reachable Cells
 
-Determining which cells
+Determining which cells are reachable and then connected to a given cell is done in two steps: firstly iterating all cells within $[-1, 1]$ in all dimensions, these are the reachable and from then testing if these two 
 
 ```c
 bool testCandidate(Grid grid, Pos from, CellType fromType, int dx, int dy, int dz) {
