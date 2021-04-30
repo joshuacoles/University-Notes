@@ -271,7 +271,11 @@ int findConnected(Grid grid, Pos from, Pos *out) {
 
 Here we can see explicit consideration for 2D grids, removing the need for iteration in the  $z$ dimension if we know that all values with $\Delta z \ne 1$ will be outside of the grid's bounds. This improves the efficiency of the overall Cluster Finding step in the 2D case while allowing us to still use mostly 3D code. 
 
-We then proceed to test if the cell is connected. This is done by assigning each cell in the neighbourhood a *signature*, based off the number of dimension in which it is offset from original cell. For example in the 2D case it would be,
+We then proceed to test if the cell is connected. For this we assign each Cell Type  a *strength* to each cell type, $0$ for Insulators, $1$ for Standard Conductors, and $2$ for Super Conductors, and then use this to determine 
+
+the [Taxicab Metric Function](https://en.wikipedia.org/wiki/Taxicab_geometry) to determine the "distance" between two positions, then 
+
+This is done by assigning each cell in the neighbourhood a *signature*, based off the number of dimension in which it is offset from original cell. For example in the 2D case it would be,
 
 ```
 2 1 2
