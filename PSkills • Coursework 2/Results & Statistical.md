@@ -8,7 +8,7 @@
 > A live version is available at https://files.enigmatic.dev/stats.html **however this will be updated past the submission deadline and should not be marked** (I just really want to work on this some more).
 >>>>>>> 251f4d06ea2c49aab5cade6d692b96cc2476547c
 
-To start any statistical analysis you need *data*, this was obtained using the `entrypoints/data_collection.c` harness (which also served as a useful batch tester) wherein we iterated over all $N$ and $f_{SC}$ values in a given region. 
+To start any statistical analysis you need *data*, this was obtained using the `data_collection.c` harness (which also served as a useful batch tester) wherein we iterated over all $N$ and $f_{SC}$ values in a given region. 
 
 Initially this was attempted with the $100 \times 100$ grid however as discussed in the Time Complexity Analysis section our code runs at $O(n^3)$ time complexity with respect to the number of conductors $N$, and thus such a sample for this grid was infeasible, having to be halted part of the way through. Instead the code was run on a smaller $25 \times 25$ grid with data show below.
 
