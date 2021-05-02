@@ -22,14 +22,14 @@ While the majority of the questions involve a 2D grid, the code was written to h
 
 The program is split across multiple files to improve readability and uses header files to present a clean interface between them. There are two files with a `main` method:
 
-- Primarily `main.c` for the `Coursework_2_c` target containing all of the questions (questions in `entrypoints/questions.c`)
+- Primarily `main.c` for the `Coursework_2_c` target containing all of the questions (questions in `questions.c`)
 - A secondary `main_data_collection.c` which was separated out to allow for easier data collection in the stats section.
 
 The program is split into three mostly separate components. The `Grid` (in `grid.c`) which handles memory for the 3D grid of cells, as well as their different varieties, with the corresponding rules for current propagation.
 
 The `ClusterFinder` (in `cluster_finder.c`) which performs the actual cluster generation and determines if a path has been formed. It holds an immutable reference to the `Grid` that it operates on, and takes in either a pre-chosen, or random grid position to use as an initial position. It also maintains a number of lists which are used in the Cluster Finding algorithm.
 
-The *runner* / entrypoint (`main.c` & `entrypoints/questions.c`), aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats. Each question part has its own entrypoint, in addition to a couple used for testing and data-collection for statistical work.
+The *runner* / entrypoint (`main.c` & `questions.c`), aka the code which brings everything together, generating a number of `Grid`s, submitting them each to `ClusterFinder`s then collecting stats. Each question part has its own entrypoint, in addition to a couple used for testing and data-collection for statistical work.
 
 ### Main Algorithms
 
@@ -326,7 +326,7 @@ Within this algorithm we are using the assumption that connection is non-directe
 
 ### Testing & Data Collection
 
-The code used for data collection is in `entrypoints/data_collection.c` and mainly consists of sampling (in batches of 100) all $(N, f_{SC})$ combinations in a specified range, saving the resulting data to a csv file for later analysis. These values were hard coded and changed as needed but could easily be adapted to be taken on the command line if need be.
+The code used for data collection is in `data_collection.c` and mainly consists of sampling (in batches of 100) all $(N, f_{SC})$ combinations in a specified range, saving the resulting data to a csv file for later analysis. These values were hard coded and changed as needed but could easily be adapted to be taken on the command line if need be.
 
 This process also served as testing to ensure the program produced results without crashing or memory issues at a wide range of values. It does not however ensure *correct* behaviour (bar seeing it goes to $0\%$ and $100%$ in the extremes). This was accomplished with smaller scale testing by hand to ensure the program behaves as is specified in the brief, examples of which can be seen in the Question Output section.
 
