@@ -8,6 +8,32 @@ Student Number: 199057324
 Compiler Used: `clang 12.0.5`
 Date: 30/04/2021
 
+## Compiling
+
+You cannot submit txt files to the cmake file is provided here. Or refer to my **non anonymous** [github](https://github.com/joshuacoles/Coursework-2/tree/c) for a full set of code.
+
+```cmake
+cmake_minimum_required(VERSION 3.17)
+project(Coursework_2_c C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(Coursework_2_c
+        main.c
+        grid.h grid.c
+        helpers.h helpers.c
+        cluster_finder.h cluster_finder.c
+        pos.c pos.h questions.c questions.h data_collection.c data_collection.h)
+
+add_executable(datacollection
+        main_data_collection.c
+        grid.h grid.c
+        helpers.h helpers.c
+        cluster_finder.h cluster_finder.c
+        pos.c pos.h questions.c questions.h data_collection.c data_collection.h)
+
+```
+
 ## Problem Specification
 
 The question posed in this problem is to simulate the conductivity of disordered materials as a grid of cells, of three varieties: 
