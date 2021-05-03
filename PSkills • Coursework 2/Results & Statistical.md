@@ -2,11 +2,7 @@
 
 > A version of this with interactive graphs, including in 3D, can be found at this [ipfs link](https://ipfs.io/ipfs/QmPDXNLYyJ1r5Cg7xzRXXW1fvDWXz8dw9QeSkQNigN6QFZ?filename=Stats.html) (this link is content address and thus cannot be updated, preventing cheating). However the below shall suffice.
 > 
-<<<<<<< HEAD
-> A live version is available at https://files.enigmatic.dev/stats.html **however this will be updated past submission**.
-=======
 > A live version is available at https://files.enigmatic.dev/stats.html **however this will be updated past the submission deadline and should not be marked** (I just really want to work on this some more).
->>>>>>> 251f4d06ea2c49aab5cade6d692b96cc2476547c
 
 To start any statistical analysis you need *data*, this was obtained using the `data_collection.c` harness (which also served as a useful batch tester) wherein we iterated over all $N$ and $f_{SC}$ values in a given region. 
 
@@ -30,7 +26,6 @@ We can quantify this offset by determining the value $n$ such that the percentag
 
 ![[n-offset-fsc-w-with.svg]]
 
-<<<<<<< HEAD
 Where we have imposed a quadratic fit to the data. We can see that this causes the previously offset graphs to lineup as desired (mainly by the mess of overlapping colours).
 
 ![[n-offset-lineup.svg]]
@@ -39,19 +34,9 @@ The next quantity to observe is the curviness of the these plots, which we can s
 
 ![[curviness-overlay.png]]
 
-This is a brief overview of the differeent 
+This is a brief overview of the different 
 
-### Accuracy of points themselves
-=======
 > Note that an exponential *failed to fit* at all, against expectations.
-
-Where we have imposed a quadratic fit to the data. We can see that this causes the previously offset graphs to lineup as desired (mainly by the mess of overlapping colours).
-
-![[n-offset-lineup.svg]]
-
-The next quantity to observe is the curviness of the these plots, which we can see is dependent on the size of the grid in the following example (green being $100×100$, blue $25×25$, and purple $15×15$).
-
-![[curviness-overlay.png]]
 
 This is a brief overview of the different quantities which seem to inform the 2D behaviour of this model. The observations are:
 
@@ -62,4 +47,3 @@ This is a brief overview of the different quantities which seem to inform the 2D
 ### Accuracy of points themselves
 
 All of this data has been based on 100 grids which were generated with a given $(N, f_{SC})$ pair to determine if a path had formed. It is assumed that this number accurately reflects the behaviour of the system we wish to observe, relying on the Central Limits Theorem for claims on accuracy. In completing this process one error was resolved which was obscuring the true distribution. This was in allowing an insulator to be chosen as the initial point, thus stopping the upper region of the graph from ever reaching $100\%$.
->>>>>>> 251f4d06ea2c49aab5cade6d692b96cc2476547c
