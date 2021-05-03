@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
             "mode": "preview"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md"
+                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md"
               }
             }
           }
@@ -123,15 +122,15 @@
   },
   "active": "60267050f23cfd74",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+    "073. Lec 31, Intrinsic semiconductors.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+    "Condensed Matter/Lectures/2. Drude Model/042. Lec 12, Electrons in solids, Drude model.md",
     "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/PSkills • Coursework 2.md",
     "PSkills • Coursework 2/Results & Statistical.md",
     "PSkills • Coursework 2/Random Generation, Uniformity.md",
     "PSkills • Coursework 2/CW 2 Report.md",
-    "PSkills • Coursework 2/Output.md",
-    "PSkills • Coursework 2/Development.md",
-    "PSkills • Coursework 2/Results.md"
+    "PSkills • Coursework 2/Output.md"
   ]
 }
