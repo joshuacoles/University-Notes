@@ -4,39 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b8480a5abaa0579c",
+        "id": "60267050f23cfd74",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PSkills • Coursework 2/CW 2 Report.md",
-            "mode": "source"
-          }
-        },
-        "group": "9e9950f85b3e2a53"
-      },
-      {
-        "id": "a7a3102bc975723d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
-      },
-      {
-        "id": "cc14f744993fd66a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PSkills • Coursework 2/CW 2 Report.md",
-            "mode": "preview"
-          }
-        },
-        "group": "9e9950f85b3e2a53"
       }
     ],
     "direction": "vertical"
@@ -92,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,14 +79,20 @@
             "id": "a34bdcbce14706a0",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "914fd71447291bb4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb0491f87ae8a93e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -122,6 +100,14 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
+            }
+          },
+          {
+            "id": "2bb37c325f95808c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           }
         ],
@@ -132,17 +118,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a7a3102bc975723d",
+  "active": "60267050f23cfd74",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/CW 2 Report.md",
+    "PSkills • Coursework 2/PSkills • Coursework 2.md",
+    "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/Output.md",
     "PSkills • Coursework 2/Development.md",
     "PSkills • Coursework 2/Results & Statistical.md",
     "PSkills • Coursework 2/Results.md",
     "PSkills • Coursework 2/outputs/q3.png",
     "PSkills • Coursework 2/Random Generation, Uniformity.md",
-    "PSkills • Coursework 2/Untitled.md",
-    "PSkills • Coursework 2/PSkills • Coursework 2.md"
+    "PSkills • Coursework 2/Untitled.md"
   ]
 }
