@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "preview"
+            "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+            "mode": "source"
           }
         },
         "group": "da5dabeedad2da1c"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md"
               }
             }
           }
@@ -139,6 +139,8 @@
   },
   "active": "60267050f23cfd74",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
     "conflict-files-obsidian-git.md",
     "PSkills • Coursework 2/PSkills • Coursework 2.md",
     "PSkills • Coursework 2/Results & Statistical.md",
@@ -146,8 +148,6 @@
     "PSkills • Coursework 2/CW 2 Report.md",
     "PSkills • Coursework 2/Output.md",
     "PSkills • Coursework 2/Development.md",
-    "PSkills • Coursework 2/Results.md",
-    "PSkills • Coursework 2/outputs/q3.png",
-    "PSkills • Coursework 2/Untitled.md"
+    "PSkills • Coursework 2/Results.md"
   ]
 }
