@@ -22,7 +22,7 @@
           "type": "markdown",
           "state": {
             "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "group": "da5dabeedad2da1c"
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "entrypoints",
+                "query": "tag:#lecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,11 +61,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -93,22 +95,6 @@
             }
           },
           {
-            "id": "a34bdcbce14706a0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "914fd71447291bb4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "bb0491f87ae8a93e",
             "type": "leaf",
             "state": {
@@ -129,8 +115,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
