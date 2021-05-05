@@ -21,6 +21,8 @@ When working with Semiconductors we take the following assumptions / conventions
 - We measure energies from the peak of the [[Valence Band]], labeling it $\epsi = 0$.
 - We approximate the energies of the states in these bands as parabolic in $\|\vk\|$, cf [[#Energies of the Bands]].
 
+Properties of Semiconductors are often modeled using [[Electron Holes]] in the [[Valence Band]] and Electrons in the [[Conduction Band]] as opposed to Electrons in both as these lead to a far more useful theory.
+
 ## [[Direct Band Gap Semiconductors|Direct]] vs [[Indirect Band Gap Semiconductors|Indirect]]
 
 A [[Direct Band Gap Semiconductors|Direct Band Gap Semiconductor]] has the maxima of the [[Valence Band]] at the same $\vk$ as the minima of the [[Conduction Band]]. In an [[Indirect Band Gap Semiconductors|Indirect Band Gap Semiconductor]] this is not the case. This is shown below.
@@ -38,10 +40,20 @@ Hence, in an [[Indirect Band Gap Semiconductors]], a [[Phonon]] (lattice vibrati
 
 ## Energies of the Bands
 
-As per our approximation of the Band Energies as parabolic in $\|\vk\|$ we take the following for their given energies.
+As per our approximation of the Band Energies as parabolic in $\|\vk\|$ we take the following for their given energies. Note that the signs of these are determined by the [[Effective Mass]] of the electrons inhabiting them which is dependent on $\frac{\d^2 \epsi}{\d k^2}$ (cf [[064. Lec 27, Equation of motion#Effective Mass|Lec 27 > Effective Mass]]).
 
 ### [[Conduction Band]]
 
 $$
-\epsi_{C}
+\epsi_{CB}(\vk) = E_G + \frac{\hbar^2 k^2}{2 m^*_C}
 $$
+
+where $E_G$ is the [[Band Gap]] and $m^*_C$ is the [[Effective Mass]] of a Conduction Band Electron, and thus positive as it is at a minimum.
+
+### [[Valence Band]]
+
+$$
+\epsi_{VB}(\vk) = \frac{\hbar^2 k^2}{2 m^*_V}
+$$
+
+noting that $m^*_V$ is **negative** as the valance band is at its maximum.

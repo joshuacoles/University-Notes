@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e612e8673a7e666a",
+        "id": "c274397e9942a8e6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Semiconductors/Semiconductors.md",
+            "file": "Condensed Matter/Concepts/Degenerate.md",
             "mode": "source"
           }
         },
-        "group": "cc81e140f3ab8b2f"
+        "group": "9d89184781bc851e"
       },
       {
-        "id": "e673172f2897af98",
+        "id": "7705243974a30661",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Semiconductors/Semiconductors.md",
+            "file": "Condensed Matter/Concepts/Degenerate.md",
             "mode": "preview"
           }
         },
-        "group": "cc81e140f3ab8b2f"
+        "group": "9d89184781bc851e"
       }
     ],
     "direction": "vertical"
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
-    "collapsed": true
+    "width": 471.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Semiconductors/Semiconductors.md",
+                "file": "Condensed Matter/Concepts/Degenerate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Semiconductors/Semiconductors.md"
+                "file": "Condensed Matter/Concepts/Degenerate.md"
               }
             }
           },
@@ -121,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e612e8673a7e666a",
+  "active": "c274397e9942a8e6",
   "lastOpenFiles": [
+    "Condensed Matter/Concepts/Degenerate.md",
     "Condensed Matter/Semiconductors/Semiconductors.md",
-    "Condensed Matter/Lectures/5. Semiconductors/071. Lec 29, Semiconductors, Introduction.md",
-    "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
-    "Attachments/Direct vs Indirect Band Gap Semiconductor Comparison.png",
-    "Attachments/Pasted image 20210427171424.png",
-    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
-    "Attachments/Example Semiconductor Bandgap.png",
-    "Attachments/Pasted image 20210427170136.png",
-    "Condensed Matter/Semiconductors/Untitled.md",
-    "conflict-files-obsidian-git.md"
+    "Condensed Matter/Primitive Lattice Vector.md",
+    "Condensed Matter/Free Electron Gas.md",
+    "Condensed Matter/Crystal Symmetries.md",
+    "Condensed Matter/Bravais Lattices.md",
+    "Condensed Matter/Bravais Lattices An Aside on Maths.md",
+    "Condensed Matter/Semiconductors/Electron Holes.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/064. Lec 27, Equation of motion.md",
+    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md"
   ]
 }
