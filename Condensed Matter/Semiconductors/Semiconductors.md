@@ -1,0 +1,1 @@
+A Semiconductor is a crystal with a band

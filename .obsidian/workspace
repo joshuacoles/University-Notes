@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+            "file": "Condensed Matter/Semiconductors/Semiconductors.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+            "file": "Condensed Matter/Semiconductors/Semiconductors.md",
             "mode": "preview"
           }
         },
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5
+    "width": 471.5,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+                "file": "Condensed Matter/Semiconductors/Semiconductors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md"
+                "file": "Condensed Matter/Semiconductors/Semiconductors.md"
               }
             }
           },
@@ -122,15 +123,15 @@
   },
   "active": "e612e8673a7e666a",
   "lastOpenFiles": [
+    "Condensed Matter/Semiconductors/Semiconductors.md",
+    "Condensed Matter/Semiconductors/Untitled.md",
+    "Condensed Matter/Lectures/5. Semiconductors/071. Lec 29, Semiconductors, Introduction.md",
     "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
     "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
     "conflict-files-obsidian-git.md",
     "Condensed Matter/Lectures/072. Lec 30, Semiconductors, holes and EOM.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/5. Semiconductors/071. Lec 29, Semiconductors, Introduction.md",
     "Condensed Matter/Lectures/4. Quantum Free Electrons/062. Lec 25, Bloch's theorem.md",
-    "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Lectures/4. Quantum Free Electrons/064. Lec 27, Equation of motion.md",
-    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md"
   ]
 }
