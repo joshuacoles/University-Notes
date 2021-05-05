@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+            "file": "Condensed Matter/Semiconductors/Electron Holes.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+            "file": "Condensed Matter/Semiconductors/Electron Holes.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+                "file": "Condensed Matter/Semiconductors/Electron Holes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md"
+                "file": "Condensed Matter/Semiconductors/Electron Holes.md"
               }
             }
           },
@@ -120,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7705243974a30661",
+  "active": "c274397e9942a8e6",
   "lastOpenFiles": [
+    "Condensed Matter/Semiconductors/Electron Holes.md",
+    "Condensed Matter/Semiconductors/Semiconductors.md",
     "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
     "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
-    "Condensed Matter/Semiconductors/Semiconductors.md",
     "Condensed Matter/Sommerfeld Theory/Sommerfeld Theory.md",
     "Condensed Matter/Concepts/Degenerate.md",
     "Condensed Matter/Primitive Lattice Vector.md",
     "Condensed Matter/Free Electron Gas.md",
     "Condensed Matter/Crystal Symmetries.md",
-    "Condensed Matter/Bravais Lattices.md",
-    "Condensed Matter/Bravais Lattices An Aside on Maths.md"
+    "Condensed Matter/Bravais Lattices.md"
   ]
 }
