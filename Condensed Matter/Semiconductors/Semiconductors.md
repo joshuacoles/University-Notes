@@ -57,3 +57,7 @@ $$
 $$
 
 noting that $m^*_V$ is **negative** as the valance band is at its maximum.
+
+## Equation of Motion
+
+PRevi
