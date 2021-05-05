@@ -63,7 +63,7 @@
 
 ## Week 8
 
-- [[v32 Extrinsic semiconductors]]
+- [[081. Lec 32, Extrinsic semiconductors]]
 - [[v33 Introduction to Magnetism]]
 - [[v34 Paramagnetism]]
 

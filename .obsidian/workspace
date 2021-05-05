@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+            "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+            "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "n_{vw}",
+                "query": "\"Primitive Lattice Vector\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+                "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md"
+                "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md"
               }
             }
           },
@@ -123,15 +124,15 @@
   },
   "active": "c274397e9942a8e6",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
-    "Condensed Matter/Semiconductors/Semiconductors.md",
-    "Condensed Matter/Semiconductors/Electron Holes.md",
+    "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
+    "Condensed Matter/Crystal Structure/Primitive Lattice Vector.md",
     "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
-    "Condensed Matter/Sommerfeld Theory/Sommerfeld Theory.md",
-    "Condensed Matter/Concepts/Degenerate.md",
-    "Condensed Matter/Primitive Lattice Vector.md",
-    "Condensed Matter/Free Electron Gas.md",
-    "Condensed Matter/Crystal Symmetries.md",
-    "Condensed Matter/Bravais Lattices.md"
+    "Condensed Matter/Lectures/5. Semiconductors/v32 Extrinsic semiconductors.md",
+    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
+    "Condensed Matter/Lectures/Condensed Matter Lectures.md",
+    "Condensed Matter/Lectures/v32 Extrinsic semiconductors.md",
+    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
   ]
 }
