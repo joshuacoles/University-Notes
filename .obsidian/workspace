@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "60267050f23cfd74",
+        "id": "e612e8673a7e666a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "cc81e140f3ab8b2f"
+      },
+      {
+        "id": "e673172f2897af98",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
+            "mode": "preview"
+          }
+        },
+        "group": "cc81e140f3ab8b2f"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Intrinsic\"",
+                "query": "n_{vw}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -52,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 471.5
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,23 +93,23 @@
             }
           },
           {
-            "id": "bb0491f87ae8a93e",
+            "id": "a34bdcbce14706a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md"
+              }
+            }
+          },
+          {
+            "id": "914fd71447291bb4",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "2bb37c325f95808c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Untitled.md"
               }
             }
           }
@@ -108,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "60267050f23cfd74",
+  "active": "e612e8673a7e666a",
   "lastOpenFiles": [
-    "Untitled.md",
     "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
-    "conflict-files-obsidian-git.md",
     "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
-    "073. Lec 31, Intrinsic semiconductors.md",
+    "conflict-files-obsidian-git.md",
+    "Condensed Matter/Lectures/072. Lec 30, Semiconductors, holes and EOM.md",
     "Condensed Matter/Lectures/000. Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/2. Drude Model/042. Lec 12, Electrons in solids, Drude model.md"
+    "Condensed Matter/Lectures/5. Semiconductors/071. Lec 29, Semiconductors, Introduction.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/064. Lec 27, Equation of motion.md",
+    "Condensed Matter/Lectures/062. Lec 25, Bloch's theorem.md"
   ]
 }
