@@ -1,0 +1,2 @@
+- No Permanent Dipoles => [[Diamagnetism|Diamagnetic]]
+	- Else it 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md",
+            "file": "Condensed Matter/Lectures/6. Magnetism/091. Lec 35, Diamagnetism.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md",
+            "file": "Condensed Matter/Lectures/6. Magnetism/091. Lec 35, Diamagnetism.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md",
+                "file": "Condensed Matter/Lectures/6. Magnetism/091. Lec 35, Diamagnetism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md"
+                "file": "Condensed Matter/Lectures/6. Magnetism/091. Lec 35, Diamagnetism.md"
               }
             }
           },
@@ -122,15 +122,15 @@
   },
   "active": "c274397e9942a8e6",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md",
     "Condensed Matter/Lectures/6. Magnetism/091. Lec 35, Diamagnetism.md",
     "Condensed Matter/Lectures/6. Magnetism/092. Lec 36, Ferromagnetism.md",
+    "Condensed Matter/Magnetism/Untitled.md",
+    "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
+    "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md",
     "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
     "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
     "Condensed Matter/Lectures/6. Magnetism/Untitled.md",
     "Condensed Matter/Lectures/6. Magnetism/Landé g-factor.md",
-    "isbn.nu/9780030493461..md",
-    "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
-    "Condensed Matter/Lectures/6. Magnetism/Ferromagnetism.md"
+    "isbn.nu/9780030493461..md"
   ]
 }
