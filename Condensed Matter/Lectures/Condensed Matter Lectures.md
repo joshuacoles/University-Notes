@@ -64,18 +64,21 @@
 ## Week 8
 
 - [[081. Lec 32, Extrinsic semiconductors]]
-- [[v33 Introduction to Magnetism]]
-- [[v34 Paramagnetism]]
+- [[082. Lec 33, Introduction to Magnetism]]
+- [[083. Lec 34, Paramagnetism]]
 
 ## Week 9
 
-- [[v35 Diamagnetism]]
-- [[v36 Ferromagnetism]]
+- [[091. Lec 35, Diamagnetism]]
+- [[092. Lec 36, Ferromagnetism]]
 
 ## Week 10
 
-- TBD
+ - [[v37 Introduction to crystal dynamics]]
+ - [[v38 Vibrations of a monatomic chain]]
+ - [[v39 Vibrations of a diatomic chain]]
 
 ## Week 11
 
-- TBD
+- [[v40 Vibrational heat capacity - Einstein model]]
+- [[v41 Vibrational heat capacity - Debye model]]

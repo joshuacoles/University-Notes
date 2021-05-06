@@ -37,7 +37,6 @@ Hence, in an [[Indirect Band Gap Semiconductors]], a [[Phonon]] (lattice vibrati
 
 [[Intrinsic Semiconductors]] are pure Crystals, where we assume there are negligible impurities and defects, which are capable of semi-conduction in their own right. This is compared with [[Extrinsic Semiconductors]] where their Semiconductor nature is aided through [[Doping]], through either the addition of Electron Donors or Electron Acceptors.
 
-
 ## Energies of the Bands
 
 As per our approximation of the Band Energies as parabolic in $\|\vk\|$ we take the following for their given energies. Note that the signs of these are determined by the [[Effective Mass]] of the electrons inhabiting them which is dependent on $\frac{\d^2 \epsi}{\d k^2}$ (cf [[064. Lec 27, Equation of motion#Effective Mass|Lec 27 > Effective Mass]]).
@@ -58,6 +57,56 @@ $$
 
 noting that $m^*_V$ is **negative** as the valance band is at its maximum.
 
-## Equation of Motion
+## Equations of Motion
 
-PRevi
+We previously saw that Equation of Motion for a Quantum Electron is,
+
+$$
+\hbar \frac{\d \vk}{\d t} = -e(\E + \vv(\vk) \cp \B)
+$$
+
+where $\vv(\vk) = \frac 1\hbar \frac{\d \epsi}{\d\vk}$ is the group velocity based on the [[Dispersion]] of the band at $\vk$. For parabolic bands as per the assumption, 
+
+$$
+\epsi(\vk) = \epsi(0) + \frac{\hbar^2\vk^2}{2m^*}
+$$
+
+giving a [[Group Wave Velocity]] of,
+
+$$
+\vv(\vk) = \frac{\hbar \vk}{m^*}
+$$
+
+and hence the standard momentum relation of $\hbar \vk = m^* \vv$.
+
+Further, for electrons the [[Conduction Band]], including the effects of impurities, defects and lattice vibrations, we obtain,
+
+$$
+m_e^* \frac{\d \vv_e}{\d t} = -e(\E + \vv_e \cp \B) - m_e^* \frac{\vv_e}{\tau_e}
+$$
+
+where $m_e^* = m_C^*$. Remarkably this is is the exact same equation as seen in the [[Drude Model]] (cf. [[042. Lec 12, Electrons in solids, Drude model]]). But with different values for the coefficients, specifically the effective mass and the change in the scattering coefficient to reflect that scattering occurs off impurities and other such listed above, not the lattice itself.
+
+For holes in the [[Valence Band]],
+
+$$
+m_h^* \frac{\d \vv_e}{\d t} = +e(\E + \vv_h \cp \B) - m_h^* \frac{\vv_h}{\tau_h}
+$$
+
+where $m_h^* = -m_V^*$. This is the source of the [[Hall Coefficent]]'s anomalous sign in some materials.
+
+## [[Current Densities]]
+
+Both [[Electron Holes|Holes]] and Electrons act as charge carriers in semiconductors and hence,
+
+$$
+\begin{gather}
+\vj_e = n(-e)\vv_e
+\qquad
+\vj_h = n(-e)\vv_e
+\\\\
+\vj = \vj_e + \vh_h
+\end{gather}
+$$
+
+where $\vj_e$ is in the [[Conduction Band]] and $\vj_h$ is in the [[Valence Band]].

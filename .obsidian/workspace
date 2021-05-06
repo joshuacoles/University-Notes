@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
+            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
+            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Primitive Lattice Vector\"",
+                "query": "\"Effective Mass\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,13 +61,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 249,
-    "collapsed": true
+    "width": 249
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
+                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md"
+                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md"
               }
             }
           },
@@ -122,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c274397e9942a8e6",
+  "active": "7705243974a30661",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/011. Lec 1, Crystal Structure, Intro to crystallography.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
-    "Condensed Matter/Crystal Structure/Primitive Lattice Vector.md",
-    "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
-    "Condensed Matter/Lectures/5. Semiconductors/v32 Extrinsic semiconductors.md",
-    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md",
-    "Condensed Matter/Lectures/Condensed Matter Lectures.md",
-    "Condensed Matter/Lectures/v32 Extrinsic semiconductors.md",
-    "Condensed Matter/Lectures/000. Condensed Matter Lectures.md"
+    "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
+    "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
+    "Condensed Matter/Lectures/3. Sommerfeld Model/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
+    "Condensed Matter/Lectures/3. Sommerfeld Model/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
+    "Condensed Matter/Lectures/3. Sommerfeld Model/056. Lec 23, Sommerfeld model, Assessment.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/064. Lec 27, Equation of motion.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/062. Lec 25, Bloch's theorem.md",
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/061. Lec 24, Electrons in periodic potentials.md",
+    "Condensed Matter/Quantum Free Electrons/Free Electron Gas.md"
   ]
 }
