@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "c15d8175d9cbaafb",
+    "type": "split",
+    "children": [
+      {
+        "id": "86d0dbce9c4e97ac",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Density of States.md",
+            "mode": "source"
+          }
+        },
+        "group": "a4cc6cc32dd06f0b"
+      },
+      {
+        "id": "3df42c3a839e9caa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Density of States.md",
+            "mode": "preview"
+          }
+        },
+        "group": "a4cc6cc32dd06f0b"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e3a1527e84dfc25",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "file-explorer",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "search",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "6f6315a4d78079b2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "backlink",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Density of States.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ]
+  },
+  "active": "86d0dbce9c4e97ac",
+  "lastOpenFiles": [
+    "Density of States.md",
+    "Untitled 1.md"
+  ]
+}

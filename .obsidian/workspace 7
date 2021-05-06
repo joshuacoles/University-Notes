@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "7b1405387c2c62fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "f352e999d4424cef",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Density of States.md",
+            "mode": "source"
+          }
+        },
+        "group": "39b22bc02820b007"
+      },
+      {
+        "id": "faf03b22a3af9001",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Density of States.md",
+            "mode": "preview"
+          }
+        },
+        "group": "39b22bc02820b007"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa52f75562404c2f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "file-explorer",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "search",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "d5e0071ba394762a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "backlink",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Density of States.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ]
+  },
+  "active": "f352e999d4424cef",
+  "lastOpenFiles": [
+    "Density of States.md"
+  ]
+}

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
+            "file": "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
+            "file": "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
             "mode": "preview"
           }
         },
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249
+    "width": 279,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
+                "file": "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md"
+                "file": "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md"
               }
             }
           },
@@ -120,8 +121,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7705243974a30661",
+  "active": "c274397e9942a8e6",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
     "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
     "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
     "Condensed Matter/Lectures/3. Sommerfeld Model/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
@@ -130,7 +132,6 @@
     "Condensed Matter/Lectures/4. Quantum Free Electrons/064. Lec 27, Equation of motion.md",
     "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md",
     "Condensed Matter/Lectures/4. Quantum Free Electrons/062. Lec 25, Bloch's theorem.md",
-    "Condensed Matter/Lectures/4. Quantum Free Electrons/061. Lec 24, Electrons in periodic potentials.md",
-    "Condensed Matter/Quantum Free Electrons/Free Electron Gas.md"
+    "Condensed Matter/Lectures/4. Quantum Free Electrons/061. Lec 24, Electrons in periodic potentials.md"
   ]
 }
