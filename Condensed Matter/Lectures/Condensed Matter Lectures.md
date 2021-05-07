@@ -74,9 +74,9 @@
 
 ## Week 10
 
- - [[v37 Introduction to crystal dynamics]]
- - [[v38 Vibrations of a monatomic chain]]
- - [[v39 Vibrations of a diatomic chain]]
+ - [[101. Lec 37, Introduction to crystal dynamics]]
+ - [[102. Lec 38, Vibrations of a monatomic chain]]
+ - [[103. Lec 39, Vibrations of a diatomic chain]]
 
 ## Week 11
 

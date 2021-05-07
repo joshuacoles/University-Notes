@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c274397e9942a8e6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/6. Magnetism/092. Lec 36, Ferromagnetism.md",
-            "mode": "source"
-          }
-        },
-        "group": "59b0eb6e6507ee3c"
-      },
-      {
         "id": "b06cd06830c7f0e7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/6. Magnetism/092. Lec 36, Ferromagnetism.md",
-            "mode": "preview"
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
+            "mode": "source"
           }
-        },
-        "group": "59b0eb6e6507ee3c"
+        }
       }
     ],
     "direction": "vertical"
@@ -61,13 +48,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/6. Magnetism/092. Lec 36, Ferromagnetism.md",
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/6. Magnetism/092. Lec 36, Ferromagnetism.md"
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md"
               }
             }
           },
@@ -116,23 +101,36 @@
             }
           }
         ]
+      },
+      {
+        "id": "89ad71b20fd0b443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09ed0adfea733e4b",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "c274397e9942a8e6",
+  "active": "b06cd06830c7f0e7",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/6. Magnetism/092. Lec 36, Ferromagnetism.md",
-    "Condensed Matter/Lectures/6. Magnetism/083. Lec 34, Paramagnetism.md",
-    "Condensed Matter/Lectures/6. Magnetism/091. Lec 35, Diamagnetism.md",
-    "Condensed Matter/Magnetism/Untitled.md",
-    "Condensed Matter/Lectures/6. Magnetism/082. Lec 33, Introduction to Magnetism.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
-    "Condensed Matter/Lectures/6. Magnetism/Untitled.md",
-    "Condensed Matter/Lectures/6. Magnetism/Landé g-factor.md",
-    "isbn.nu/9780030493461..md"
+    "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
+    "Condensed Matter/Lectures/Condensed Matter Lectures.md",
+    "Condensed Matter/Magnetism/Magnetism.md",
+    "Condensed Matter/Sommerfeld Theory/Sommerfeld Theory.md",
+    "Workbench.md",
+    "Todo.md",
+    "Possible Extensions.md",
+    "Workbench.md.md",
+    "Untitled.md",
+    "Density of States.md"
   ]
 }
