@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md"
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md"
               }
             }
           },
@@ -137,8 +137,8 @@
   },
   "active": "b06cd06830c7f0e7",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
     "Condensed Matter/Lectures/7. Crystal Dynamics/101. Lec 37, Introduction to crystal dynamics.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
     "Condensed Matter/Lectures/Condensed Matter Lectures.md",
     "Condensed Matter/Magnetism/Magnetism.md",
     "Condensed Matter/Sommerfeld Theory/Sommerfeld Theory.md",
