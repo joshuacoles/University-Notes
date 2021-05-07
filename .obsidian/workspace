@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tanh",
+                "query": "\"Curie Temperature\"Curie Temperature",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
