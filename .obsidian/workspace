@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mono",
+                "query": "\"Law of Dulong and Petit\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md"
+                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md"
               }
             }
           },
@@ -136,6 +137,8 @@
   },
   "active": "b06cd06830c7f0e7",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
+    "Condensed Matter/Lectures/2. Drude Model/044. Lec 14, Drude model, Heat capacity.md",
     "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
     "Condensed Matter/Lectures/112. Lec41, Vibrational heat capacity, Debye model.md",
     "Condensed Matter/Lectures/Condensed Matter Lectures.md",
@@ -143,8 +146,6 @@
     "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md",
     "Condensed Matter/Lectures/1. Crystal Structure/024. Lec 6, Crystal Structure 3, The basis.md",
     "conflict-files-obsidian-git.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
-    "Electromagnetism 2/Lectures/Part 1/Lec 8, Time varying Charges and Currents.md"
+    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md"
   ]
 }
