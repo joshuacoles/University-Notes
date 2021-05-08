@@ -7,11 +7,8 @@
         "id": "b06cd06830c7f0e7",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "94f18419a2a74562"
       },
@@ -82,7 +79,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md"
-              }
+              "state": {}
             }
           },
           {
