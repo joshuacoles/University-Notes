@@ -80,5 +80,6 @@
 
 ## Week 11
 
-- [[v40 Vibrational heat capacity - Einstein model]]
-- [[v41 Vibrational heat capacity - Debye model]]
+- [[111. Lec40, Vibrational heat capacity, Einstein model]]
+- [[112. Lec41, Vibrational heat capacity, Debye model]]
+
