@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md"
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md"
               }
             }
           },
@@ -137,15 +137,15 @@
   },
   "active": "b06cd06830c7f0e7",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
+    "Archive/MA.22 Analysis 2B/112. Gradient.md",
     "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
     "Archive/MA.22 Analysis 2B/111. Partial Derivative.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
     "Condensed Matter/Lectures/Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md",
     "Condensed Matter/Quantum Free Electrons/Bloch Wave.md",
     "Condensed Matter/Quantum Free Electrons/Bloch's Theorem.md",
-    "PSkills • Coursework 2/PSkills • Coursework 2.md",
-    "PSkills • Coursework 2/Development.md",
-    "PSkills • Coursework 2/CW 2 Report.md"
+    "PSkills • Coursework 2/PSkills • Coursework 2.md"
   ]
 }
