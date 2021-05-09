@@ -31,7 +31,6 @@ add_executable(datacollection
         helpers.h helpers.c
         cluster_finder.h cluster_finder.c
         pos.c pos.h questions.c questions.h data_collection.c data_collection.h)
-
 ```
 
 ## Problem Specification
