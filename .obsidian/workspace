@@ -6,11 +6,11 @@
       {
         "id": "b06cd06830c7f0e7",
         "type": "leaf",
-        "dimension": 63.23060573857598,
+        "dimension": 51.17283950617284,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "d7e1c8f97a867f3f",
         "type": "leaf",
-        "dimension": 36.76939426142402,
+        "dimension": 48.82716049382716,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
             "mode": "preview"
           }
         },
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 279,
+    "collapsed": true
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md"
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md"
               }
             }
           },
@@ -139,15 +140,15 @@
   },
   "active": "b06cd06830c7f0e7",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
+    "Attachments/Pasted image 20210508111726.png",
     "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
     "Templates/Backlinked Template.md",
     "Condensed Matter/Lectures/7. Crystal Dynamics/Debye model of Vibrational Heat Capacity 2.md",
     "•Templates/Untitled.md",
     "PSkills • Coursework 2/PSkills • Coursework 2.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
     "Archive/MA.22 Analysis 2B/112. Gradient.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
-    "Archive/MA.22 Analysis 2B/111. Partial Derivative.md",
-    "Condensed Matter/Lectures/Condensed Matter Lectures.md"
+    "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md"
   ]
 }
