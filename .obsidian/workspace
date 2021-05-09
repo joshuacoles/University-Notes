@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
             "mode": "preview"
           }
         },
@@ -61,13 +61,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md"
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md"
               }
             }
           },
@@ -138,6 +136,7 @@
   },
   "active": "b06cd06830c7f0e7",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
     "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
     "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md",
     "conflict-files-obsidian-git.md",
@@ -146,7 +145,6 @@
     "Condensed Matter/Lectures/112. Lec41, Vibrational heat capacity, Debye model.md",
     "Condensed Matter/Lectures/Condensed Matter Lectures.md",
     "Condensed Matter/Lectures/111. Lec40, Vibrational heat capacity, Einstein model.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/024. Lec 6, Crystal Structure 3, The basis.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md"
+    "Condensed Matter/Lectures/1. Crystal Structure/024. Lec 6, Crystal Structure 3, The basis.md"
   ]
 }
