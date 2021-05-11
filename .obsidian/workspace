@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
+            "file": "Condensed Matter/1. Crystal Structure/Millar Notation.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
+            "file": "Condensed Matter/1. Crystal Structure/Millar Notation.md",
             "mode": "source"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
+                "file": "Condensed Matter/1. Crystal Structure/Millar Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Concat1.md"
+                "file": "Condensed Matter/1. Crystal Structure/Millar Notation.md"
               }
             }
           },
@@ -140,15 +140,15 @@
   },
   "active": "454b52956211713b",
   "lastOpenFiles": [
+    "Condensed Matter/1. Crystal Structure/Millar Notation.md",
+    "Condensed Matter/1. Crystal Structure/Unit Cell.md",
+    "Condensed Matter/1. Crystal Structure/Untitled.md",
+    "Condensed Matter/1. Crystal Structure/i2.md",
     "Condensed Matter/1. Crystal Structure/Concat1.md",
+    "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
     "Condensed Matter/1. Crystal Structure/1. Cystal Structure.md",
     "Condensed Matter/1. Crystal Structure/Crystal Basis.md",
     "Examples of Crystal Structures.md",
-    "Unit Cell.md",
-    "Condensed Matter/1. Crystal Structure/Millar Notation.md",
-    "Millar Notation.md",
-    "Untitled.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/011. Lec 1, Crystal Structure, Intro to crystallography.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md"
+    "Unit Cell.md"
   ]
 }

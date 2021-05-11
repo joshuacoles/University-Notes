@@ -1,74 +1,3 @@
-# Crystal
-A solid material who's constituents are arranged in a highly ordered microscopic structure.
-
-# Crystal Structure
-
-Has two components,
-
-- [[Crystal Lattice]]
-- [[Crystal Basis]]
-
-The lattice is an infinite set of points determined by the translational symmetries of the structure. With the crystal structure as a whole being distinguished by the [[Crystal Symmetries]] of the combined [[Crystal Lattice]] and [[Crystal Basis]].
-
-> This is done as will be seen later, as the choice of [[Primitive Lattice Vector]], [[Unit Cell|Units Cells]] or [[Crystal Basis]] representation is not unique for a given physical structure.
-
-This is then turned into a physical crystal structure by the addition of the [[Crystal Basis]], which is a microscopic structure which decorates each **lattice point**.
-
-This structure strongly influences the properties of the material.
-
-# Crystal Lattice
-
-The Crystal Lattice is an infinite set of points determined by the translational symmetries of the structure. Each Lattice Point has identical surroundings to all the others.
-
-The lattice can be defined by [[Primitive Lattice Vector]], which are vectors between Lattice Points, these are not unique. For example,
-
-![Lattice Example|500](https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/two-dimensional-lattice.svg)
-
-The set of lattice points is the span of these [[Primitive Lattice Vector]] over the Integers. A vector of this form is known as a [[Lattice Vector]].
-
-The length of these [[Primitive Lattice Vector]] are called the *lattice constants* or [[Lattice Parameters]]. They are normally given in either $\mathrm{nm}$ or $\angstrom$. These can be used as an alternative definition of the [[Crystal Lattice]] in terms of the lengths of the [[Primitive Lattice Vector]] and angles between them.
-
-## In 3D
-
-When the 14 [[Bravais Lattices#In 3D]] are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
-
-![Bravais lattices in three dimensions.](https://users.aber.ac.uk/ruw/teach/334/bravais_3d.png)
-
-However as is shown below, focusing on only a new crystal structures accounts for a large proportion of the elemental solids.
-
-![[Pasted image 20210219153045.png]]
-
-These are,
-
-- `fcc`, [[Face Centered Cubic Crystal Lattice]]
-- `bcc`, [[Body Centered Cubic Crystal Lattice]]
-- `Diamond`, [[Diamond Crystal Lattice]]
-- `hcp`, [[Hexagonal Close Packing Crystal Lattice]]
-
-
----
-
-
-
-# Crystal Symmetries
-
-As discussed in [[Crystal Structure]], each structure is distinguished by its [[Crystal Symmetries]]. These can include,
-
-- Translations by a [[Lattice Vector]] $\vec{R}$.
-- Inversions through a point, $\r \to -\r$.
-- Reflection in a plane.
-- Rotations around a point (normally generated of the form $\frac{360\deg}{n}$).
-
-Or some combination of these.
-
-> **Note**: This combination can be true precluding individual components. Ie it is only symmetric under $r = \mathrm{rot}(x^c) \circ \mathrm{translate}(x)$, not $\mathrm{translate}(x)$ and $\mathrm{rot}(x^c)$ individually.
-
-This links deeply with [[Group Theory]].
-
-These symmetries give us the [[Bravais Lattices]] in 2D and 3D.
-
----
-
 # [[Bravais Lattices]]
 
 The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crystal Lattices]] in 2D and 3D.
@@ -174,43 +103,23 @@ When considering [[Bravais Lattices]] in 3D one encounters 14 symmetrically dist
 
 > See https://en.wikipedia.org/wiki/Bravais_lattice#In_3_dimensions
 
-# [[Crystal Symmetries]]
+## In 3D
 
-As discussed in [[Bravais Lattices An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
+When the 14 [[Bravais Lattices#In 3D]] are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
 
-For example the addition of the basis as shown below removes the rotational symmetry of the [[Square Crystal Lattice]] that the [[Crystal Basis]] has been imposed on.
+![Bravais lattices in three dimensions.](https://users.aber.ac.uk/ruw/teach/334/bravais_3d.png)
 
-![[Pasted image 20210219133742.png]]
+However as is shown below, focusing on only a new crystal structures accounts for a large proportion of the elemental solids.
 
-This leads to a total of 17 distinct [[Crystal Structure|Crystal Structures]], called the [[Wallpaper Groups]]. #todo.
+![[Pasted image 20210219153045.png]]
 
----
+These are,
 
-# [[Crystal Basis]]
-
-The [[Crystal Basis]] is the identical assembly of atoms associated with each lattice point.
-
-![Screenshot 2021-02-18 at 22.28.55](file:///Users/joshuacoles/Desktop/Screenshot%202021-02-18%20at%2022.28.55.png)
-
-Positions in the unit cell are specified as proportions of the vectors which span the unit cell.
-
-These are given as a tuple $(u, v, w) \in [0, 1]^3$ (or just $(u, v)$ if in 2D) and correspond to the location $\vec{r} = u \vec{a} + v \vec{b} + w \vec{c}$ relative to the relevant lattice point.
-
-
----
-
-```
-wikipedia: https://en.wikipedia.org/wiki/Atomic_packing_factor
-```
-
-# [[Packing Fraction]]
-
-The [[Packing Fraction]] of a [[Crystal Structure]] is the fraction of the volume of the [[Unit Cell]] they occupy.
-
+- `fcc`, [[Face Centered Cubic Crystal Lattice]]
+- `bcc`, [[Body Centered Cubic Crystal Lattice]]
+- `Diamond`, [[Diamond Crystal Lattice]]
+- `hcp`, [[Hexagonal Close Packing Crystal Lattice]]
 
 [[Examples of Crystal Structures]]
 
 ---
-
-[[Millar Notation]]
-[[Unit Cell]]
