@@ -6,7 +6,7 @@
       {
         "id": "454b52956211713b",
         "type": "leaf",
-        "dimension": 50.176056338028175,
+        "dimension": 56.66860803727432,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,12 +19,12 @@
       {
         "id": "c670ac06889bb2b3",
         "type": "leaf",
-        "dimension": 49.82394366197183,
+        "dimension": 43.33139196272568,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "group": "5fea49a7a7d2f1c5"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Directions",
+                "query": "\"Directions in Crystals\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -141,14 +141,14 @@
   "active": "454b52956211713b",
   "lastOpenFiles": [
     "Condensed Matter/1. Crystal Structure/Concat1.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/011. Lec 1, Crystal Structure, Intro to crystallography.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
-    "Condensed Matter/1. Crystal Structure/Untitled.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/021. Lec 3, Crystal Structure 3, Probes.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/022. Lec 4, Crystal Structure 3, Bragg's law.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/013. Week 1 Live Session.md",
     "Condensed Matter/1. Crystal Structure/1. Cystal Structure.md",
-    "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
-    "Condensed Matter/1. Crystal Structure/index.md"
+    "Condensed Matter/1. Crystal Structure/Crystal Basis.md",
+    "Examples of Crystal Structures.md",
+    "Unit Cell.md",
+    "Condensed Matter/1. Crystal Structure/Millar Notation.md",
+    "Millar Notation.md",
+    "Untitled.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md"
   ]
 }
