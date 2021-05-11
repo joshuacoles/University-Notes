@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Crystal Structure.md",
+            "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Crystal Structure.md",
+            "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Directions in Crystals\"",
+                "query": "Nearest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Crystal Structure.md",
+                "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Crystal Structure.md"
+                "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md"
               }
             }
           },
@@ -138,17 +139,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c670ac06889bb2b3",
+  "active": "454b52956211713b",
   "lastOpenFiles": [
-    "Condensed Matter/1. Crystal Structure/Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Crystal Lattice.md",
     "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
-    "Condensed Matter/1. Crystal Structure/1. Cystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md",
-    "Condensed Matter/1. Crystal Structure/Millar Notation.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/022. Lec 4, Crystal Structure 3, Bragg's law.md",
-    "Condensed Matter/cmp-cs-ne.md",
-    "Condensed Matter/1. Crystal Structure/Unit Cells/Unit Cell.md",
-    "Condensed Matter/1. Crystal Structure/Unit Cells/Conventional Unit Cell.md"
+    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Simple Cubic Crystal Lattice.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Sodium Chloride Crystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Diamond Crystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Face Centered Cubic Crystal Lattice.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Cesium Chloride Crystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Body Centered Cubic Crystal Lattice.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Examples of Crystal Structures.md",
+    "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md"
   ]
 }

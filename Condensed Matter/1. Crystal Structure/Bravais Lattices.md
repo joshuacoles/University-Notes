@@ -5,7 +5,7 @@ The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crysta
 ## In 2D
 The [[Bravais Lattices]] in 2D are shown grouped by their [[Crystal Family]] below.
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/ee/2d-bravais.svg)
+![[2d-bravais.svg]]
 
 > See [Wikipedia: Bravais lattice In 2 dimensions](https://en.wikipedia.org/wiki/Bravais_lattice#In_2_dimensions). #todo
 
@@ -53,6 +53,13 @@ These latticed have additional symmetries than the translational symmetry inhere
 
 ## Additional
 
+```ad-info
+title: Lattice Group Theory
+
+A Lattice in Group Theory ([wiki](https://en.wikipedia.org/wiki/Lattice_(group)))
+
+```
+
 - [[Bravais Lattices]]: [Wikipedia](https://en.wikipedia.org/wiki/Bravais_lattice).
 - Lattice in Group Theory: [Wikipedia](https://en.wikipedia.org/wiki/Lattice_(group)).
 	> In geometry and group theory, a lattice in $\R^n$ is a subgroup of the additive group $\R^n$ which is isomorphic to the additive group $\Z^n$, and which spans the real vector space $\R^n$.
@@ -98,15 +105,9 @@ And thus identifying the [[Crystal Lattice]].
 
 ## In 3D
 
-When considering [[Bravais Lattices]] in 3D one encounters 14 symmetrically distinct [[Crystal Lattice|Crystal Lattices]].
+When the 14 Bravais Lattices are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
 
-> See https://en.wikipedia.org/wiki/Bravais_lattice#In_3_dimensions
-
-## In 3D
-
-When the 14 [[Bravais Lattices#In 3D]] are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
-
-![Bravais lattices in three dimensions.](https://users.aber.ac.uk/ruw/teach/334/bravais_3d.png)
+![[bravais_3d.png]]
 
 However as is shown below, focusing on only a new crystal structures accounts for a large proportion of the elemental solids.
 
@@ -119,6 +120,4 @@ These are,
 - `Diamond`, [[Diamond Crystal Lattice]]
 - `hcp`, [[Hexagonal Close Packing Crystal Lattice]]
 
-[[Examples of Crystal Structures]]
-
----
+> See https://en.wikipedia.org/wiki/Bravais_lattice#In_3_dimensions

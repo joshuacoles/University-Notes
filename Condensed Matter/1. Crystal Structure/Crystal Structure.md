@@ -28,14 +28,15 @@ Or some combination of these.
 
 This links deeply with [[Group Theory]] and gives us the [[Bravais Lattices]] in 2D and 3D.
 
-As discussed in [[Bravais Lattices An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
+### Addition of the Basis
+
+The addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only **remove** symmetries from the system, **not add them**. This leads to an increase in the number of symmetrically distinct Crystal Structures).
 
 For example the addition of the basis as shown below removes the rotational symmetry of the [[Square Crystal Lattice]] that the [[Crystal Basis]] has been imposed on.
 
 ![[Pasted image 20210219133742.png]]
 
 This leads to a total of 17 distinct [[Crystal Structure|Crystal Structures]], called the [[Wallpaper Groups]]. #todo.
-
 
 ## Packing Fraction
 
