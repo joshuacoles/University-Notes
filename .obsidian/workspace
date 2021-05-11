@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Laue Conditions.md",
+            "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Laue Conditions.md",
+            "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Laue Conditions.md",
+                "file": "Condensed Matter/1. Crystal Structure/Concat1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Laue Conditions.md"
+                "file": "Condensed Matter/1. Crystal Structure/Concat1.md"
               }
             }
           },
@@ -116,7 +116,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "89ad71b20fd0b443",
@@ -135,20 +136,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "454b52956211713b",
   "lastOpenFiles": [
-    "Condensed Matter/1. Crystal Structure/Laue Conditions.md",
-    "Condensed Matter/1. Crystal Structure/Lattice Point.md",
-    "Condensed Matter/1. Crystal Structure/Crystallographic Restriction Theorem.md",
-    "Condensed Matter/1. Crystal Structure/Crystal Symmetries.md",
-    "Condensed Matter/1. Crystal Structure/Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Crystal Lattice.md",
-    "Condensed Matter/1. Crystal Structure/Crystal Basis.md",
-    "Condensed Matter/1. Crystal Structure/Brillouin Zone.md",
-    "Condensed Matter/cmp-cs-ne.md",
-    "Condensed Matter/Lectures/Condensed Matter Lectures.md"
+    "Condensed Matter/1. Crystal Structure/Concat1.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/011. Lec 1, Crystal Structure, Intro to crystallography.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
+    "Condensed Matter/1. Crystal Structure/Untitled.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/021. Lec 3, Crystal Structure 3, Probes.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/022. Lec 4, Crystal Structure 3, Bragg's law.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/013. Week 1 Live Session.md",
+    "Condensed Matter/1. Crystal Structure/1. Cystal Structure.md",
+    "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
+    "Condensed Matter/1. Crystal Structure/index.md"
   ]
 }

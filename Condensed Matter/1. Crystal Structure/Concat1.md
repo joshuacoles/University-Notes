@@ -1,16 +1,7 @@
----
-tags:
-- lecture,
-- cmp/crystal-structure
-- week/1
----
+# Crystal
+A solid material who's constituents are arranged in a highly ordered microscopic structure.
 
-## Crystal
-- Solid material who's constituents are arranged in a highly ordered microscopic structure 
-
----
-
-## [[Crystal Structure]]
+# [[Crystal Structure]]
 
 Has two components,
 
@@ -27,13 +18,13 @@ This structure strongly influences the properties of the material.
 
 ---
 
-## [[Crystal Lattice]]
+# [[Crystal Lattice]]
 
 The Crystal Lattice is an infinite set of points determined by the translational symmetries of the structure. Each Lattice Point has identical surroundings to all the others.
 
 The lattice can be defined by [[Primitive Lattice Vector]], which are vectors between Lattice Points, these are not unique. For example,
 
-![[two-dimensional-lattice.svg]]
+![Lattice Example|500](https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/two-dimensional-lattice.svg)
 
 The set of lattice points is the span of these [[Primitive Lattice Vector]] over the Integers. A vector of this form is known as a [[Lattice Vector]].
 
@@ -204,3 +195,178 @@ This leads to a total of 17 distinct [[Crystal Structure|Crystal Structures]], c
 Recap:
 
 ![[Pasted image 20210219134204.png]]
+
+---
+
+---
+tags:
+- lecture,
+- cmp/crystal-structure
+- week/1
+---
+
+## [[Bravais Lattices]]
+
+### In 3D
+
+When considering [[Bravais Lattices]] in 3D one encounters 14 symmetrically distinct [[Crystal Lattice|Crystal Lattices]].
+
+> See https://en.wikipedia.org/wiki/Bravais_lattice#In_3_dimensions
+
+---
+
+## [[Crystal Structures in 3D]]
+
+When the 14 [[Bravais Lattices#In 3D]] are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
+
+![Bravais lattices in three dimensions.](https://users.aber.ac.uk/ruw/teach/334/bravais_3d.png)
+
+However as is shown below, focusing on only a new crystal structures accounts for a large proportion of the elemental solids.
+
+![[Pasted image 20210219153045.png]]
+
+These are,
+
+- `fcc`, [[Face Centered Cubic Crystal Lattice]]
+- `bcc`, [[Body Centered Cubic Crystal Lattice]]
+- `Diamond`, [[Diamond Crystal Lattice]]
+- `hcp`, [[Hexagonal Close Packing Crystal Lattice]]
+
+---
+
+## [[Simple Cubic Crystal Lattice]]
+
+![[Simple Cubic Slide.pdf]]
+
+This both the name given to the [[Bravais Lattices]] and also the [[Crystal Structure]] when decorated with the single atom [[Crystal Basis|basis]] $(0, 0, 0)$ (this is in fact, the only single atom basis possible, as all others are just translations of this).
+
+### [[Packing Fraction]]
+- $V_{\text{cell}} = a^3$
+- $r_{\text{atom}} = \frac{R_{nn}}{2} = \frac{a}{2}$.
+- N = $4 \times \frac 14$
+- $V_{\text{atoms}} = \frac 43 \pi (r_{\text{atom}})^3 \cdot N$
+- $\mathrm{PF} = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\pi}{6}$
+
+---
+
+```
+wikipedia: https://en.wikipedia.org/wiki/Atomic_packing_factor
+```
+
+## [[Packing Fraction]]
+
+The [[Packing Fraction]] of a [[Crystal Structure]] is the fraction of the volume of the [[Unit Cell]] they occupy.
+
+#todo
+
+---
+
+## [[Face Centered Cubic Crystal Lattice]]
+
+![[FCC Slide.pdf]]
+
+This both the name given to the [[Bravais Lattices]] and also the [[Crystal Structure]] when decorated with the single atom [[Crystal Basis|basis]] $(0, 0, 0)$.
+
+This can also be represented as a 4 atom [[Crystal Basis]], 8 $\frac 18$th on the corners, 6 $\frac 12$ves on the faces. We can compute a [[Conventional Unit Cell]] for this [[Crystal Structure]] as,
+
+- The bottom left corner $(0,0,0)$.
+- The three faces closest to it, $\(\frac 12,\frac 12, 0\), \(\frac 12, 0, \frac 12\), \(0, \frac 12,\frac 12\)$.
+
+This can also be expressed in the form of a [[Primitive Unit Cell]], as shown below
+
+![](https://i.stack.imgur.com/TGa4T.png)
+
+> https://physics.stackexchange.com/questions/210963/primitive-unit-cell-of-fcc #todo
+
+with [[Primitive Lattice Vector]],
+
+$$
+\vec a_1 = \frac{a}{2}(\hat x + \hat y),
+\hspace{.5cm}
+\vec a_2 = \frac{a}{2}(\hat y + \hat z),
+\hspace{.5cm}
+\vec a_3 = \frac{a}{2}(\hat x + \hat z).
+$$
+
+- $R_{nn}$ #todo 
+- [[Packing Fraction]] #todo 
+
+---
+
+## [[Body Centered Cubic Crystal Lattice]]
+
+Again, this the name of the [[Crystal Lattice]] and also the [[Crystal Structure]] formed when imposing the [[Unitary Crystal Basis]] $(0,0,0)$.
+
+![[BCC Slide.pdf]]
+
+The [[Conventional Unit Cell]] for this structure is a 2 atom basis ($8 \times \frac 18 \text{ (corner) } + 1 \text{ (inside)}$) imposed on a [[Simple Cubic Crystal Lattice]].
+
+> So for all of these we are expressing a complex crystal lattice, as a basis on a more simple one I think? Right?
+
+---
+
+## [[Cesium Chloride Crystal Structure]]
+
+This is a [[Crystal Structure]] based on the [[Body Centered Cubic Crystal Lattice]] with a different atom in the body centered position.
+
+![[CsCl CS.pdf]]
+
+This is widely adopted by ionic compounds as the nearest neighbour of any atom is one of the opposite species.
+
+---
+
+## [[Sodium Chloride Crystal Structure]]
+
+This crystal structure is another frequently adopted by ionic compounds. It can be expressed either as a [[Simple Cubic Crystal Lattice]] with a two atom heterogeneous [[Crystal Basis]] of #todo; or a [[Face Centered Cubic Crystal Lattice]] with a basis $r: (0,0,0), g: (\frac 12, \frac 12, \frac 12)$.
+
+![[Pasted image 20210220142118.png]]
+
+---
+
+## [[Diamond Crystal Structure]]
+
+> **Programming Note**: Wait have we been talking about [[Crystal Lattice]] or [[Crystal Structure]] for this entire time? I think structures... will need to rename #todo.
+
+![[ZB Diamond Slide.pdf]]
+
+This structure is called the [[Zincblend Crystal Structure]] if the red and green atoms are distinct, the [[Diamond Crystal Structure]] if they are not.
+
+---
+
+## [[Directions in Crystals]]
+
+One of the most important features of [[Crystal Structure|Crystal Structures]] is that they are [[Anisotrophy|anisotropic]], having different behaviours traveling in directions in the [[Crystal Structure]], for example the speed of electron travel.
+
+This means that it is advantageous to be able to talk about directions in a crystal structure fluently. We do this by identifying directions with the [[Lattice Vector]] $\r = h\vec{a} + k\vec{b} + l\vec{c}$. Since these are purely directional, their magnitude is irrelevant and thus we can scale them to be of use in calculation.
+
+While in pure maths it would be traditional to talk about these as *unit vectors*, we instead use an integer based approach of taking $h, j, k \in \Z$, being integers such that $\mathrm{gcd}\,\set{h, j, k} = 1$.
+
+These coefficients are known as [[Millar Indices]] and are written as $\mlri hkl$ (no commas). Further you use an overbar to represent negative values. For example $\r = -\vec{a} + 2\vec{b}$ would be written as $\mlri {\bar{1}}20$.
+
+## Symmetrically Equivalent Directions
+
+Due to the highly symmetric nature of crystal, many directions will be symmetrically equivalent. We represent these as $\mlrs hkl$.
+
+For example in a [[Simple Cubic Crystal Structure]], $\mlrs 100 \equiv \mlri 100, \mlri {\bar1}00, \mlri 010$, etc.
+
+---
+
+## [[Planes in Crystals]]
+
+Planes on which [[Lattice Point|Lattice Points]] lie are also specified using [[Millar Indices]]. These are denoted $\mlrp hkl$.
+
+![[Pasted image 20210220144950.png]]
+
+> #todo write this method up
+
+### Symmetrically Equivalent Planes
+
+As with [[012. Lec 2, Crystal Structure, 3D crystals#Symmetrically Equivalent Directions]] it is useful to address groups of symmetrically equivalent  planes together, we do this using the notation $\mlrps hkl$. Eg. $\mlrps 111 \equiv \mlrp 111, \mlrp {\bar1}11, \mlrp {\bar1}1{\bar1}$.
+
+### Examples for [[Simple Cubic Crystal Lattice]]
+
+![[Pasted image 20210220145025.png]]
+
+---
+
+![[Pasted image 20210220145419.png]]
