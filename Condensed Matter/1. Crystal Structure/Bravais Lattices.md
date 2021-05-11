@@ -2,7 +2,6 @@
 
 The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crystal Lattices]] in 2D and 3D.
 
-
 ## In 2D
 The [[Bravais Lattices]] in 2D are shown grouped by their [[Crystal Family]] below.
 

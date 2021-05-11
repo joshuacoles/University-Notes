@@ -15,14 +15,6 @@ This structure strongly influences the properties of the material.
 
 ## Crystal Symmetries
 
-As discussed in [[Bravais Lattices An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
-
-For example the addition of the basis as shown below removes the rotational symmetry of the [[Square Crystal Lattice]] that the [[Crystal Basis]] has been imposed on.
-
-![[Pasted image 20210219133742.png]]
-
-This leads to a total of 17 distinct [[Crystal Structure|Crystal Structures]], called the [[Wallpaper Groups]]. #todo.
-
 As discussed in [[Crystal Structure]], each structure is distinguished by its [[Crystal Symmetries]]. These can include,
 
 - Translations by a [[Lattice Vector]] $\vec{R}$.
@@ -34,10 +26,17 @@ Or some combination of these.
 
 > **Note**: This combination can be true precluding individual components. Ie it is only symmetric under $r = \mathrm{rot}(x^c) \circ \mathrm{translate}(x)$, not $\mathrm{translate}(x)$ and $\mathrm{rot}(x^c)$ individually.
 
-This links deeply with [[Group Theory]].
+This links deeply with [[Group Theory]] and gives us the [[Bravais Lattices]] in 2D and 3D.
 
-These symmetries give us the [[Bravais Lattices]] in 2D and 3D.
+As discussed in [[Bravais Lattices An Aside on Maths#^730d59]], the addition of a [[Crystal Basis]] onto the [[Crystal Lattice]] can only remove symmetries from the system (and thus increasing the number of symmetrically distinct [[Crystal Structure|Crystal Structures]]).
+
+For example the addition of the basis as shown below removes the rotational symmetry of the [[Square Crystal Lattice]] that the [[Crystal Basis]] has been imposed on.
+
+![[Pasted image 20210219133742.png]]
+
+This leads to a total of 17 distinct [[Crystal Structure|Crystal Structures]], called the [[Wallpaper Groups]]. #todo.
+
 
 ## Packing Fraction
 
-The [[Packing Fraction]] of a [[Crystal Structure]] is the fraction of the volume of the [[Unit Cell]] they occupy.
+The Packing Fraction of a Crystal Structure is the fraction of the volume of the [[Unit Cell]] they occupy.
