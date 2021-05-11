@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
+            "file": "Condensed Matter/1. Crystal Structure/Crystal Lattice.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
+            "file": "Condensed Matter/1. Crystal Structure/Crystal Lattice.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
+                "file": "Condensed Matter/1. Crystal Structure/Crystal Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md"
+                "file": "Condensed Matter/1. Crystal Structure/Crystal Lattice.md"
               }
             }
           },
@@ -140,15 +140,15 @@
   },
   "active": "454b52956211713b",
   "lastOpenFiles": [
+    "Condensed Matter/1. Crystal Structure/Crystal Lattice.md",
+    "Condensed Matter/1. Crystal Structure/Crystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/Millar Notation.md",
+    "Condensed Matter/1. Crystal Structure/Crystal Basis.md",
+    "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
+    "Condensed Matter/1. Crystal Structure/1. Cystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/1. Crystal Structure.md",
     "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
     "conflict-files-obsidian-git.md",
-    "Condensed Matter/3. Sommerfeld Theory/Periodic Boundary Conditions.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
-    "Condensed Matter/1.2 Crystal Probes/i2.md",
-    "Condensed Matter/1. Crystal Structure/1. Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Examples of Crystal Structures & Lattices.md",
-    "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Sodium Chloride Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Simple Cubic Crystal Lattice.md"
+    "Condensed Matter/3. Sommerfeld Theory/Periodic Boundary Conditions.md"
   ]
 }
