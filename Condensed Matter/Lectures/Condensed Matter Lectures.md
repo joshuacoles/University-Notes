@@ -7,7 +7,7 @@
 1. [[011. Lec 1, Crystal Structure, Intro to crystallography]]
 	- [[Bravais Lattices An Aside on Maths]]
 2. [[012. Lec 2, Crystal Structure, 3D crystals]]
-	- [[202102191521]]
+	- [[Crystallographic Restriction Theorem]]
 - [[013. Week 1 Live Session]]
 
 ## Week 2, Experimental Analysis of Crystal Structures
@@ -27,7 +27,7 @@
 9. [[032. Lec 9, Crystal structure 4, The Reciprocal Lattice ]]
 10. [[033. Lec 10, Crystal structure 4, The Structure Factor]]
 
-## Week 4
+## Week 4, Drude Model
 
 11. [[041. Lec 11, Electrons in solids, Introduction]]
 12. [[042. Lec 12, Electrons in solids, Drude model]]
@@ -37,7 +37,7 @@
 16. [[046. Lec 16, Drude model, Thermal conductivity]]
 17. [[047. Lec 17, Drude model, Assessment]]
 
-## Week 5
+## Week 5, 
 
 - [[051. Lec 18, Electrons in solids, The Sommerfeld model]]
 - [[052. Lec 19, Sommerfeld model, Density of states]]
