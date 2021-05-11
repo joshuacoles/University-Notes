@@ -5,7 +5,7 @@ The [[Bravais Lattices]] are the symmetrically distinct [[Crystal Lattice|Crysta
 ## In 2D
 The [[Bravais Lattices]] in 2D are shown grouped by their [[Crystal Family]] below.
 
-![[2d-bravais.svg]]
+![](https://upload.wikimedia.org/wikipedia/commons/e/ee/2d-bravais.svg)
 
 > See [Wikipedia: Bravais lattice In 2 dimensions](https://en.wikipedia.org/wiki/Bravais_lattice#In_2_dimensions). #todo
 
@@ -16,7 +16,7 @@ Where the names and characterising [[Lattice Parameters]] are given below,
 - $h$ is hexagonal, characterised by only one parameter $|a|$.
 - $t$ is rectangular, characterised by only one parameter $|a|$.
 
-See [[#Classification in 2D]] for discussions of identification.
+See [[Bravais Lattices An Aside on Maths#Classification in 2D]] for discussions of identification.
 
 These latticed have additional symmetries than the translational symmetry inherent in their generation.
 
@@ -51,24 +51,24 @@ These latticed have additional symmetries than the translational symmetry inhere
 
 > Additional resource: https://users.aber.ac.uk/ruw/teach/334/bravais.php
 
-```ad-info
-title: Lattice Group Theory
+## Additional
 
-A Lattice in Group Theory ([wiki](https://en.wikipedia.org/wiki/Lattice_(group))) is described as,
+- [[Bravais Lattices]]: [Wikipedia](https://en.wikipedia.org/wiki/Bravais_lattice).
+- Lattice in Group Theory: [Wikipedia](https://en.wikipedia.org/wiki/Lattice_(group)).
+	> In geometry and group theory, a lattice in $\R^n$ is a subgroup of the additive group $\R^n$ which is isomorphic to the additive group $\Z^n$, and which spans the real vector space $\R^n$.
+	> 	
+	> In other words, for any basis of $\R^n$, the subgroup of all linear combinations with integer coefficients of the basis vectors forms a lattice. A lattice may be viewed as a regular tiling of a space by a primitive cell.
 
-> ... a lattice in $\R^n$ is a subgroup of the additive group $\R^n$ which is isomorphic to the additive group $\Z^n$, and which spans the real vector space $\R^n$.
-```
+
+- > Note that a pattern with this lattice of translational symmetry cannot have more, but may have less symmetry than the lattice itself
+	- A [[Crystal Basis]] can remove symmetries but it cannot add any. ^730d59
 
 ### Classification in 2D
 
 For the classification of a given lattice:
-1. Start with one point and take a nearest second point.
+1. start with one point and take a nearest second point.
 3. For the third point, not on the same line, consider its distances to both points. 
 	- Among the points for which the smaller of these two distances is least, choose a point for which the larger of the two is least.
-
-```ad-info
-title: Algorithmic Definition of the above
-collapse:
 
 This is equivalent to.
 
@@ -84,9 +84,7 @@ $$
 	- Let $S$ be the set of $p_2$ such that $\Delta_1$ is minimised.
 	- Choose $p_2$ to be the member of $S$ such that $\Delta_2$ within $S$.
 
-```
-
-These three points giving us a triangle, having sides $\Delta_1, \Delta_2, \Delta_3$. Having 5 arrangements described and show below.
+These three points giving us a triangle, having sides $\Delta_1, \Delta_2, \Delta_3$. Having 5 arrangements.
 
 - (#1) Scalene, $\Delta_1 \neq \Delta_2 \neq \Delta 3$. *Oblique*
 - (#4) Equilateral, *Hexagonal*
@@ -96,11 +94,19 @@ These three points giving us a triangle, having sides $\Delta_1, \Delta_2, \Delt
 
 ![[Pasted image 20210219130113.png]]
 
+And thus identifying the [[Crystal Lattice]].
+
 ## In 3D
 
-When the 14 Bravais Lattices are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
+When considering [[Bravais Lattices]] in 3D one encounters 14 symmetrically distinct [[Crystal Lattice|Crystal Lattices]].
 
-![[bravais_3d.png]]
+> See https://en.wikipedia.org/wiki/Bravais_lattice#In_3_dimensions
+
+## In 3D
+
+When the 14 [[Bravais Lattices#In 3D]] are decorated with a [[Crystal Basis]] you obtain **230** different crystallographic groups, which further multiply to **1651** groups when magnetic differentiations are accounted for.
+
+![Bravais lattices in three dimensions.](https://users.aber.ac.uk/ruw/teach/334/bravais_3d.png)
 
 However as is shown below, focusing on only a new crystal structures accounts for a large proportion of the elemental solids.
 
@@ -113,4 +119,6 @@ These are,
 - `Diamond`, [[Diamond Crystal Lattice]]
 - `hcp`, [[Hexagonal Close Packing Crystal Lattice]]
 
-> See https://en.wikipedia.org/wiki/Bravais_lattice#In_3_dimensions
+[[Examples of Crystal Structures]]
+
+---

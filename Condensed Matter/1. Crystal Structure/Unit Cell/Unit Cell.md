@@ -19,7 +19,13 @@ The area of a [[Unit Cell]] is computable from the [[Primitive Lattice Vector]] 
 
 There are three special Unit Cell varieties,
 
+<<<<<<< HEAD
 - [[Primitive Unit Cell]], a Unit Cell containing exactly one lattice point
 	- [[Wigner-Seitz Cell]], a Primitive Unit Cell constructed to contain the area closest to a given Lattice Point.
 - [[Conventional Unit Cell]], a Unit Cell chosen for its mathematical usefulness.
+=======
+- [[Primitive Unit Cell]]
+	- [[Wigner-Seitz Cell]]
+- [[Conventional Unit Cell]]
+>>>>>>> c15acde81b58666d0c2d4cfb249e6f41caa302fd
 

@@ -6,7 +6,7 @@
       {
         "id": "454b52956211713b",
         "type": "leaf",
-        "dimension": 50.84449621432732,
+        "dimension": 34.08824677860211,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "c670ac06889bb2b3",
         "type": "leaf",
-        "dimension": 49.15550378567268,
+        "dimension": 65.91175322139789,
         "state": {
           "type": "markdown",
           "state": {
@@ -141,6 +141,7 @@
   "active": "454b52956211713b",
   "lastOpenFiles": [
     "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
+    "conflict-files-obsidian-git.md",
     "Condensed Matter/3. Sommerfeld Theory/Periodic Boundary Conditions.md",
     "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
     "Condensed Matter/1.2 Crystal Probes/i2.md",
@@ -148,7 +149,6 @@
     "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Examples of Crystal Structures & Lattices.md",
     "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md",
     "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Sodium Chloride Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Simple Cubic Crystal Lattice.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Diamond Crystal Structure.md"
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Simple Cubic Crystal Lattice.md"
   ]
 }
