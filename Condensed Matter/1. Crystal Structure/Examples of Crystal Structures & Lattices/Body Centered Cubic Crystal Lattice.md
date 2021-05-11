@@ -1,3 +1,10 @@
+---
+aliases:
+- Body Centered Cubic
+- BCC
+- Body Centered Cubic Crystal Structure
+---
+
 # [[Body Centered Cubic Crystal Lattice]]
 
 Again, this the name of the [[Crystal Lattice]] and also the [[Crystal Structure]] formed when imposing the [[Unitary Crystal Basis]] $(0,0,0)$.

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
+            "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
+            "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Nearest",
+                "query": "\"Simple Cubic Crystal Structure\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
+                "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/1. Crystal Structure/Bravais Lattices.md"
+                "file": "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md"
               }
             }
           },
@@ -141,15 +140,15 @@
   },
   "active": "454b52956211713b",
   "lastOpenFiles": [
-    "Condensed Matter/1. Crystal Structure/Bravais Lattices.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/012. Lec 2, Crystal Structure, 3D crystals.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Simple Cubic Crystal Lattice.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Sodium Chloride Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Diamond Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Face Centered Cubic Crystal Lattice.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Cesium Chloride Crystal Structure.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Body Centered Cubic Crystal Lattice.md",
-    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures/Examples of Crystal Structures.md",
-    "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md"
+    "Condensed Matter/3. Sommerfeld Theory/3. Sommerfeld Theory.md",
+    "Condensed Matter/3. Sommerfeld Theory/Periodic Boundary Conditions.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
+    "Condensed Matter/1.2 Crystal Probes/i2.md",
+    "Condensed Matter/1. Crystal Structure/1. Crystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Examples of Crystal Structures & Lattices.md",
+    "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Sodium Chloride Crystal Structure.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Simple Cubic Crystal Lattice.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Diamond Crystal Structure.md"
   ]
 }

@@ -2,9 +2,10 @@
 
 ![[Simple Cubic Slide.pdf]]
 
-This both the name given to the [[Bravais Lattices]] and also the [[Crystal Structure]] when decorated with the single atom [[Crystal Basis|basis]] $(0, 0, 0)$ (this is in fact, the only single atom basis possible, as all others are just translations of this).
+This both the name given to the [[Bravais Lattices]] and also the [[Crystal Structure]] when decorated with the [[Unitary Crystal Basis]],
 
 ### [[Packing Fraction]]
+
 - $V_{\text{cell}} = a^3$
 - $r_{\text{atom}} = \frac{R_{nn}}{2} = \frac{a}{2}$.
 - N = $4 \times \frac 14$
