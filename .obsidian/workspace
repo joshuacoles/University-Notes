@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
+            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md"
+                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md"
               }
             }
           },
@@ -126,15 +126,15 @@
   },
   "active": "e30c4f7eec96dde3",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/Dispersion Relation.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/112.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
+    "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
+    "Condensed Matter/Lectures/5. Semiconductors/071. Lec 29, Semiconductors, Introduction.md",
+    "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
     "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/054. Lec 21, Sommerfeld model, Thermal conductivity.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/055. Lec 22, Sommerfeld model, Conduction & scattering.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/056. Lec 23, Sommerfeld model, Assessment.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/052. Lec 19, Sommerfeld model, Density of states.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/051. Lec 18, Electrons in solids, The Sommerfeld model.md",
-    "Condensed Matter/Lectures/4. Quantum Free Electrons/063. Lec 26, Energy bands.md",
-    "Condensed Matter/Lectures/4. Quantum Free Electrons/062. Lec 25, Bloch's theorem.md",
-    "Condensed Matter/Lectures/4. Quantum Free Electrons/061. Lec 24, Electrons in periodic potentials.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md"
+    "Condensed Matter/Lectures/3. Sommerfeld Model/054. Lec 21, Sommerfeld model, Thermal conductivity.md"
   ]
 }
