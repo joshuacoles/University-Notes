@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
+            "file": "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483
+    "width": 485
   },
   "right": {
     "id": "846dd805de4795a5",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
+                "file": "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md"
+                "file": "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md"
               }
             }
           },
@@ -126,15 +126,15 @@
   },
   "active": "e30c4f7eec96dde3",
   "lastOpenFiles": [
-    "Condensed Matter/Lectures/7. Crystal Dynamics/112. Lec41, Vibrational heat capacity, Debye model.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/Dispersion Relation.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/112.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/103. Lec 39, Vibrations of a diatomic chain.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/102. Lec 38, Vibrations of a monatomic chain.md",
-    "Condensed Matter/Lectures/7. Crystal Dynamics/111. Lec40, Vibrational heat capacity, Einstein model.md",
-    "Condensed Matter/Lectures/5. Semiconductors/071. Lec 29, Semiconductors, Introduction.md",
-    "Condensed Matter/Lectures/5. Semiconductors/081. Lec 32, Extrinsic semiconductors.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/053. Lec 20, Sommerfeld model, Heat capacity.md",
-    "Condensed Matter/Lectures/3. Sommerfeld Model/054. Lec 21, Sommerfeld model, Thermal conductivity.md"
+    "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/Reciprocal Lattice.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/025. Lec 7, Crystal Structure 3, Form factors.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
+    "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Examples of Crystal Structures & Lattices.md",
+    "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md",
+    "Condensed Matter/1. Crystal Structure/Unit Cell/Conventional Unit Cell.md",
+    "Condensed Matter/1. Crystal Structure/1. Crystal Structure.md",
+    "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md"
   ]
 }
