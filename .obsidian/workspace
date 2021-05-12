@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+            "file": "Condensed Matter/Lectures/3. Sommerfeld Model/056. Lec 23, Sommerfeld model, Assessment.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
+                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/056. Lec 23, Sommerfeld model, Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md"
+                "file": "Condensed Matter/Lectures/3. Sommerfeld Model/056. Lec 23, Sommerfeld model, Assessment.md"
               }
             }
           },
@@ -126,6 +126,8 @@
   },
   "active": "e30c4f7eec96dde3",
   "lastOpenFiles": [
+    "Condensed Matter/Lectures/3. Sommerfeld Model/056. Lec 23, Sommerfeld model, Assessment.md",
+    "Condensed Matter/Lectures/2. Drude Model/042. Lec 12, Electrons in solids, Drude model.md",
     "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
     "Condensed Matter/Lectures/1. Crystal Structure/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
     "Condensed Matter/Lectures/1. Crystal Structure/Reciprocal Lattice.md",
@@ -133,8 +135,6 @@
     "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
     "Condensed Matter/1. Crystal Structure/Examples of Crystal Structures & Lattices/Examples of Crystal Structures & Lattices.md",
     "Condensed Matter/1. Crystal Structure/Unit Cell/Unit Cell.md",
-    "Condensed Matter/1. Crystal Structure/Unit Cell/Conventional Unit Cell.md",
-    "Condensed Matter/1. Crystal Structure/1. Crystal Structure.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md"
+    "Condensed Matter/1. Crystal Structure/Unit Cell/Conventional Unit Cell.md"
   ]
 }
