@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e30c4f7eec96dde3",
+        "id": "a8d668f214d2927d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md"
-              }
+              "state": {}
             }
           },
           {
@@ -124,7 +118,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e30c4f7eec96dde3",
+  "active": "a8d668f214d2927d",
   "lastOpenFiles": [
     "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md",
     "Condensed Matter/Lectures/1. Crystal Structure/024. Lec 6, Crystal Structure 3, The basis.md",
