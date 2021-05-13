@@ -15,108 +15,74 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c5db58097b179f96",
-    "type": "split",
+    "id": "67b3b227cf362989",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "e3374a7d630104cf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8e19ccc7d55557bd",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "1320c0a382ab0e8b",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "\"Conduction Electron Density\"",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 485
-  },
-  "right": {
-    "id": "846dd805de4795a5",
-    "type": "split",
-    "children": [
-      {
-        "id": "b296e87ee4562328",
-        "type": "tabs",
-        "dimension": 50.141043723554304,
-        "children": [
-          {
-            "id": "701156f48ac80795",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a34bdcbce14706a0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "914fd71447291bb4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        "id": "9dac4650f0830b7d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
       },
       {
-        "id": "89ad71b20fd0b443",
-        "type": "tabs",
-        "dimension": 49.858956276445696,
-        "children": [
-          {
-            "id": "09ed0adfea733e4b",
-            "type": "leaf",
-            "state": {
-              "type": "dangling-links",
-              "state": {}
-            }
+        "id": "17bfc43032814fc2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "8967bd325ba4ba1b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    ]
+  },
+  "right": {
+    "id": "6429672b00076c17",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a4a073443ff056c9",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f390d500e286d6e5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ]
   },
   "active": "a8d668f214d2927d",
   "lastOpenFiles": [
