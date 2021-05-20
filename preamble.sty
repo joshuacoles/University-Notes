@@ -144,3 +144,383 @@
 \newcommand\intl{\int\limits}
 
 \newcommand{\expp}[1]{\exp{\({#1}\)}}
+
+
+% Math Import
+
+\newcommand\({\left(}
+\newcommand\){\right)}
+
+\newcommand{\cp}{\times}
+\newcommand{\dp}{\cdot}
+\newcommand{\fdp}{\overset{\F}\dp}
+
+\newcommand{\nab}{\nabla}
+\newcommand{\divrg}{\nab \cdot}
+\newcommand{\curl}{\nab \cp}
+\newcommand{\lap}{\Delta}
+
+\newcommand{\parfrac}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\dparfrac}[2]{\displaystyle\frac{\partial #1}{\partial #2}}
+
+\newcommand{\d}{\mathrm{d}}
+\newcommand{\dd}[2]{\frac{\d #1}{\d #2}}
+\newcommand{\pp}[2]{\frac{\p #1}{\p #2}}
+\newcommand{\fr}[2]{\frac{#1}{#2}}
+
+\newcommand{\seq}[2]{(#1)_{#2\in \N }}
+\newcommand{\seqq}[3]{(#1)_{#2\in #3 }}
+\newcommand{\st}{\text{ st. }}
+\newcommand{\sut}{\,\, \textrm {such that } \,}
+\newcommand{\ip}[1]{\langle #1 \rangle}
+\newcommand{\conj}[1]{\bar{#1}}
+\newcommand{\ad}[1]{{#1}^\ast}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\S}{\mathbb{S}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\E}{\mathbb{E}}
+
+\newcommand{\unit}[1]{~\mathrm{#1}}
+
+\newcommand{\Re}{\mathop{\mathrm{Re}}}
+\newcommand{\Im}{\mathop{\mathrm{Im}}}
+
+\newcommand\uvi{\mathbf{i}}
+\newcommand\uvj{\mathbf{j}}
+\newcommand\uvk{\mathbf{k}}
+
+\newcommand{\comp}{\circ}
+
+\newcommand{\pmat}[1]{\begin{pmatrix}#1\end{pmatrix}}
+
+\newcommand{\Forall}{\forall\,}
+\newcommand{\Exists}{\exists\,}
+
+\newcommand{\footnotename}{footnote}
+
+\def \LWRfootnote {1}
+
+\newcommand {\footnote }[2][\LWRfootnote ]{{}^{\mathrm {#1}}}
+
+\newcommand {\footnotemark }[1][\LWRfootnote ]{{}^{\mathrm {#1}}}
+
+\newcommand \ensuremath [1]{#1}
+
+\def \mathchar {\ifnextchar &quot;\LWRabsorbquotenumber \LWRabsorbnumber }
+
+\def \mathcode #1={\mathchar }
+
+\let \delcode \mathcode 
+
+\let \delimiter \mathchar 
+
+\let \LWRref \ref 
+
+\renewcommand {\ref }{\ifstar \LWRref \LWRref }
+
+\newcommand {\intertext }[1]{\text {#1}\notag \\}
+
+\newcommand {\id }{\mathrm {id}}
+
+\newcommand {\eps }{\varepsilon }
+
+\newcommand {\calA }{\mathcal {A}}
+\newcommand {\calE }{\mathcal {E}}
+\newcommand {\calF }{\mathcal {F}}
+\newcommand {\calH }{\mathcal {H}}
+\newcommand {\calL }{\mathcal {L}}
+\newcommand {\calM }{\mathcal {M}}
+
+                \newcommand{\footnotename}{footnote}
+
+                \def \LWRfootnote {1}
+
+                \newcommand {\footnote }[2][\LWRfootnote ]{{}^{\mathrm {#1}}}
+
+                \newcommand {\footnotemark }[1][\LWRfootnote ]{{}^{\mathrm {#1}}}
+
+                \newcommand \ensuremath [1]{#1}
+
+                \newcommand {\LWRframebox }[2][]{\fbox {#2}} \newcommand {\framebox }[1][]{\LWRframebox } 
+
+                \newcommand {\setlength }[2]{}
+
+                \newcommand {\addtolength }[2]{}
+
+                \newcommand {\setcounter }[2]{}
+
+                \newcommand {\addtocounter }[2]{}
+
+                \newcommand {\cline }[1]{}
+
+                \newcommand {\directlua }[1]{\text {(directlua)}}
+
+                \newcommand {\luatexdirectlua }[1]{\text {(directlua)}}
+
+                \newcommand {\protect }{}
+
+                \def \LWRabsorbnumber #1 {}
+
+                \def \LWRabsorbquotenumber &quot;#1 {}
+
+                \def \mathchar {\ifnextchar &quot;\LWRabsorbquotenumber \LWRabsorbnumber }
+
+                \def \mathcode #1={\mathchar }
+
+                \let \delcode \mathcode 
+
+                \let \delimiter \mathchar 
+
+                \let \LWRref \ref 
+
+                \renewcommand {\ref }{\ifstar \LWRref \LWRref }
+
+                \newcommand {\intertext }[1]{\text {#1}\notag \\}
+
+                 \newcommand {\multicolumn }[3]{#3}
+
+                \newcommand {\id }{\operatorname {id}}
+
+                \newcommand {\GL }{\operatorname {GL}}
+
+                \newcommand {\im }{\operatorname {im}}
+
+                \newcommand {\rank }{\operatorname {rank}}
+
+                \newcommand {\sol }{\operatorname {sol}}
+
+                \newcommand {\ann }{\operatorname {ann}}
+
+                \newcommand {\rO }{\operatorname {O}}
+
+                \newcommand {\rU }{\operatorname {U}}
+
+                \newcommand {\rSU }{\operatorname {SU}}
+
+                \newcommand {\ev }{\operatorname {ev}}
+
+                \newcommand {\bil }{\operatorname {Bil}}
+
+                \newcommand {\rad }{\operatorname {rad}}
+
+                \newcommand {\Span }[1]{\operatorname {span}\{#1\}}
+
+                \newcommand {\R }{\mathbb {R}}
+
+                \newcommand {\C }{\mathbb {C}}
+
+                \newcommand {\Z }{\mathbb {Z}}
+
+                \newcommand {\F }{\mathbb {F}}
+
+                \newcommand {\Q }{\mathbb {Q}}
+
+                \newcommand {\N }{\mathbb {N}}
+
+                \renewcommand {\P }{\mathbb {P}}
+
+                \newcommand {\I }{\mathrm {I}}
+
+                \newcommand {\half }{\tfrac 12}
+
+                \newcommand {\rel }{\mathrel {\mathrm {rel}}}
+
+                \renewcommand {\vec }[3]{(#1_{#2},\dots ,#1_{#3})}
+
+                \newcommand {\lst }[3]{#1_{#2},\dots ,#1_{#3}}
+
+                \newcommand {\plst }[3]{#1_{#2}+\dots +#1_{#3}}
+
+                \newcommand {\oplst }[3]{#1_{#2}\oplus \dots \oplus #1_{#3}}
+
+                \newcommand {\pplst }[3]{#1_{#2}\times \dots \times #1_{#3}}
+
+                \newcommand {\dlst }[3]{\lst {#1^{*}}{#2}{#3}}
+
+                \newcommand {\dlc }[4]{\lc #1{#2^{*}}#3#4}
+
+                \newcommand {\hmg }[3]{[#1_{#2},\dots ,#1_{#3}]}
+
+                \newcommand {\rng }[2]{#1,\dots ,#2}
+
+                \newcommand {\lc }[4]{#1_{#3}#2_{#3}+\dots +#1_{#4}#2_{#4}}
+
+                \newcommand {\plus }[2]{#1+\dots +#2}
+
+                \newcommand {\set }[1]{\{#1\}}
+
+                \newcommand {\abs }[1]{\lvert #1\rvert }
+
+                \newcommand {\ip }[1]{\langle #1\rangle }
+
+                \newcommand {\norm }[1]{\|#1\|}
+
+                \newcommand {\bx }{\mathbf {x}}
+
+                \newcommand {\be }{\mathbf {e}}
+
+                \newcommand {\bq }{\mathbf {q}}
+
+                \newcommand {\bu }{\mathbf {u}}
+
+                \newcommand {\by }{\mathbf {y}}
+
+                \newcommand {\bv }{\mathbf {v}}
+
+                \newcommand {\E }{\mathbb {E}}
+
+                \newcommand {\cI }{\mathcal {I}}
+
+                \newcommand {\cB }{\mathcal {B}}
+
+                \newcommand {\sub }{\subseteq }
+
+                %\newcommand {\st }{\mathrel {|}}
+
+                \newcommand {\bw }[3]{#1\leq #2\leq #3}
+
+                \newcommand {\col }[3]{(#1_{#2})_{#2\in #3}}
+
+                \newcommand {\supp }{\mathrm {supp}}
+
+                \newcommand {\restr }[1]{_{|#1}}
+
+\newcommand {\remark }[1]{\begin {flushleft}\textbf {Remark:\ }{#1}\end {flushleft}}
+
+\newcommand {\solution }[1]{\begin {flushleft}\textbf {Solution:\ }{#1}\end {flushleft}}
+
+\newcommand {\neremark }[1]{\begin {flushleft}\textbf {[** Remark:\ }{#1\hfill \textbf {**]}}\end {flushleft}}
+
+\newcommand {\remarks }[1]{\begin {flushleft}\textbf {Remarks:\ }{#1}\end {flushleft}}
+
+\newcommand {\note }[1]{\begin {flushleft}\textbf {Note:\ }{#1}\end {flushleft}}
+
+\newcommand {\netheorem }[2]{\begin {flushleft}\textbf {[**} \theorem {#1}{#2}\rm \textbf {**]}\end {flushleft}}
+
+\newcommand {\proof }[1]{\begin {flushleft}\textbf {Proof:\ }{#1\hfill $\Box $}\end {flushleft}}
+
+\newcommand {\neproof }[1]{\begin {flushleft}\textbf {[** Proof:\‚}{#1\hfill $\Box $ \textbf {**]}}\end {flushleft}}
+
+\newcommand {\notes }[1]{\begin {flushleft}\textbf {Notes:\ }{#1}\end {flushleft}}
+
+\newcommand {\definition }[2]{\begin {flushleft}\textbf {Definition ({#1}):\ }{#2}\end {flushleft}}
+
+\newcommand {\proofof }[2]{\begin {flushleft}\textbf {Proof ({#1}):\ }{#2\hfill $\Box $}\end {flushleft}}
+
+\newcommand {\neproofof }[2]{\begin {flushleft}\textbf {[** Proof ({#1}):\‚}{#2\hfill $\Box $ \textbf {**]}}\end {flushleft}}
+
+
+\newcommand {\Per }{\ensuremath {\mathrm {Per}}}
+
+\newcommand {\vsp }{\vspace {0.25cm}}
+
+\newcommand {\bfu }{\mathbf {u}}
+
+\newcommand {\bff }{\mathbf {f}}
+
+\def \i {\mathrm {i}}
+
+\newcommand {\tr }{\ensuremath {\mathrm {tr}}}
+
+\def \llra {\longleftrightarrow }
+
+\def \fl {\flushleft }
+
+\newcommand {\bi }{\begin {itemize}}
+
+\newcommand {\ei }{\end {itemize}}
+
+\newcommand {\be }{\begin {enumerate}}
+
+\newcommand {\ee }{\end {enumerate}}
+
+\def \Re {\ensuremath {\mathrm {Re}}}
+
+\newcommand {\e }{\ensuremath {\mathrm {e}}}
+
+\newcommand {\p }{\partial }
+
+\newcommand \bolda {\boldsymbol {a}}
+
+\newcommand \boldb {\boldsymbol {b}}
+
+\newcommand \boldB {\boldsymbol {B}}
+
+\newcommand \boldc {\boldsymbol {c}}
+
+\newcommand \rd {\,\d}
+
+\newcommand \boldd {\boldsymbol {d}}
+\newcommand \bolde {\boldsymbol {e}}
+\newcommand \boldf {\boldsymbol {f}}
+
+\newcommand \boldE {\boldsymbol {E}}
+
+\newcommand \boldF {\boldsymbol {F}}
+
+\newcommand \boldG {\boldsymbol {G}}
+
+\newcommand \boldg {\boldsymbol {g}}
+
+\newcommand \boldi {\boldsymbol {i}}
+
+\newcommand \boldj {\boldsymbol {j}}
+
+\newcommand \boldk {\boldsymbol {k}}
+
+\newcommand \boldm {\boldsymbol {m}}
+
+\newcommand \boldn {\boldsymbol {n}}
+
+\newcommand \boldwiden {\widehat {\boldsymbol {n}}}
+
+\newcommand \boldq {\boldsymbol {q}}
+
+\newcommand \boldr {\boldsymbol {r}}
+
+\newcommand \boldt {\boldsymbol {t}}
+
+\newcommand \boldS {\boldsymbol {S}}
+
+\newcommand \boldu {\boldsymbol {u}}
+
+\newcommand \boldv {\boldsymbol {v}}
+
+\newcommand \boldx {\boldsymbol {x}}
+
+\newcommand \boldzero {\boldsymbol {0}}
+
+\newcommand \boldomega {\boldsymbol {\omega }}
+
+\newcommand{\bfF}{\mathbf {F}}
+\newcommand{\bfa}{\mathbf {a}}
+\newcommand{\bfb}{\mathbf {b}}
+\newcommand{\bfv}{\mathbf {v}}
+\newcommand{\bfx}{\mathbf {x}}
+\newcommand{\bfy}{\mathbf {y}}
+\newcommand{\bfz}{\mathbf {z}}
+
+\newcommand{\bfalpha }{\ensuremath {\boldsymbol {\alpha }}}
+\newcommand{\bfomega }{\ensuremath {\boldsymbol {\omega }}}
+
+\newcommand {\calA }{\ensuremath {\mathcal {A}}}
+\newcommand {\calF }{\ensuremath {\mathcal {F}}}
+\newcommand {\calO }{\ensuremath {\mathcal {O}}}
+\newcommand {\calS }{\ensuremath {\mathcal {S}}}
+\newcommand {\Lip }{\ensuremath {\mathrm {Lip}}}
+
+\newcommand {\pdiff }[2]{\ensuremath {\frac {\partial #1}{\partial #2}}}
+
+\newcommand {\diff }[2]{\ensuremath {\frac {\rd #1}{\rd #2}}}
+
+\newcommand {\bdot }{\bold \cdot }
+
+\newcommand {\bsigma }{\bold \sigma }

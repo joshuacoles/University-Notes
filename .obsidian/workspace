@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dogma.md",
-            "mode": "source"
+            "file": "Workbench 2.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dogma.md",
+                "file": "Workbench 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dogma.md"
+                "file": "Workbench 2.md"
               }
             }
           }
@@ -109,15 +109,15 @@
   },
   "active": "a8d668f214d2927d",
   "lastOpenFiles": [
-    "Dogma.md",
-    "Density of States.md",
-    "Possible Extensions.md",
-    "conflict-files-obsidian-git.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/024. Lec 6, Crystal Structure 3, The basis.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/022. Lec 4, Crystal Structure 3, Bragg's law.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/025. Lec 7, Crystal Structure 3, Form factors.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md"
+    "Workbench 2.md",
+    "Workbench.md",
+    "PDEs/PDEs.md",
+    "PDEs/11 Fourier Series I/11.8 Fourier Coefficients.md",
+    "PDEs/11 Fourier Series I/11.5 Properties of Even and Odd Functions.md",
+    "PDEs/11 Fourier Series I/11 Fourier Series I.md",
+    "Vector Calc/Vector Calc.md",
+    "Vector Calc/5 Surfaces and surface integrals/5.15 Flux Integral.md",
+    "Vector Calc/5 Surfaces and surface integrals/5.4 Parametric Representation.md",
+    "Vector Calc/3 Line Integrals/3.11 Example of Line Integral of Scalar Field.md"
   ]
 }

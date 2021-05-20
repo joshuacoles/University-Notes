@@ -1,0 +1,1 @@
+- When doing [[3.6 Arc Length|arclength]] integrals, pay attention to the $\|\cdot\|$

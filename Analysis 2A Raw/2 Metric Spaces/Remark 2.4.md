@@ -1,0 +1,3 @@
+### [[Remark 2.4]]
+
+The properties in the definition of the norm are natural ones to require of a length: The length of $x$ is $0$ if and only if $x$ is the $0$-vector; multiplying a vector by $\lambda$ multiplies its length by $|\lambda |$; and the length of the side $x + y$ (in a triangle) is less than or equal to the sum of the lengths of the sides $x$, $y$. Because of this last interpretation, property (N3) is referred to as the triangle inequality (as for the distance).
