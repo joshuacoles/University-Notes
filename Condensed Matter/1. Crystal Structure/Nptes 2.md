@@ -1,0 +1,2 @@
+- rnn is distance between two atoms
+- atom size is rnn/2
