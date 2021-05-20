@@ -7,8 +7,11 @@
         "id": "a8d668f214d2927d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Dogma.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dogma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dogma.md"
+              }
             }
           }
         ]
@@ -103,15 +109,15 @@
   },
   "active": "a8d668f214d2927d",
   "lastOpenFiles": [
+    "Dogma.md",
+    "Density of States.md",
+    "Possible Extensions.md",
+    "conflict-files-obsidian-git.md",
     "Condensed Matter/Lectures/1. Crystal Structure/023. Lec 5, Crystal Structure 3, Worked example.md",
     "Condensed Matter/Lectures/1. Crystal Structure/024. Lec 6, Crystal Structure 3, The basis.md",
     "Condensed Matter/Lectures/1. Crystal Structure/031. Lec 8, Crystal structure 4, Reciprocal Lattice, Prelude.md",
     "Condensed Matter/Lectures/1. Crystal Structure/022. Lec 4, Crystal Structure 3, Bragg's law.md",
     "Condensed Matter/Lectures/1. Crystal Structure/025. Lec 7, Crystal Structure 3, Form factors.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/033. Lec 10, Crystal structure 4, The Structure Factor.md",
-    "Condensed Matter/Lectures/1. Crystal Structure/Reciprocal Lattice.md",
-    "Condensed Matter/Lectures/5. Semiconductors/073. Lec 31, Intrinsic semiconductors.md",
-    "Condensed Matter/Lectures/5. Semiconductors/072. Lec 30, Semiconductors, holes and EOM.md"
+    "Condensed Matter/Lectures/1. Crystal Structure/032. Lec 9, Crystal structure 4, The Reciprocal Lattice.md"
   ]
 }
