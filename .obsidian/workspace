@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Workbench 2.md",
-            "mode": "preview"
+            "file": "Mathematical Methods/PDEs/16 Wave Equation/16.2 Solving the Wave Equation.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Analysis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workbench 2.md",
+                "file": "Mathematical Methods/PDEs/16 Wave Equation/16.2 Solving the Wave Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workbench 2.md"
+                "file": "Mathematical Methods/PDEs/16 Wave Equation/16.2 Solving the Wave Equation.md"
               }
             }
           }
@@ -104,20 +104,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "a8d668f214d2927d",
   "lastOpenFiles": [
-    "Workbench 2.md",
+    "Mathematical Methods/PDEs/16 Wave Equation/16.2 Solving the Wave Equation.md",
+    "a posteriori.md",
+    "Dogma.md",
     "Workbench.md",
-    "PDEs/PDEs.md",
-    "PDEs/11 Fourier Series I/11.8 Fourier Coefficients.md",
-    "PDEs/11 Fourier Series I/11.5 Properties of Even and Odd Functions.md",
-    "PDEs/11 Fourier Series I/11 Fourier Series I.md",
-    "Vector Calc/Vector Calc.md",
-    "Vector Calc/5 Surfaces and surface integrals/5.15 Flux Integral.md",
-    "Vector Calc/5 Surfaces and surface integrals/5.4 Parametric Representation.md",
-    "Vector Calc/3 Line Integrals/3.11 Example of Line Integral of Scalar Field.md"
+    "Workbench 2.md",
+    "Todo.md",
+    "Layout.md",
+    "PSkills • Coursework 2/PSkills • Coursework 2.md",
+    "Zettle/202102231637.md",
+    "Zettle/202102202127.md"
   ]
 }

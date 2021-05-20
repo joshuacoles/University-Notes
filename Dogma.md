@@ -22,3 +22,38 @@ Can we move the header into the metadata and generate custom HTML from that?
 - Number keying notes is freeing, do it
 - Its okay to have notes for the same concept at different conceptual levels (eg. continuity, differentiability, etc), have them all link to a "common note" maybe?
 
+# Layout
+
+The course is organised into a number of strands:
+
+1. Algebra
+2. Analysis
+3. Mathematical Methods
+4. Physics
+5. Projects
+
+under each there are a number of modules
+
+1. Algebra
+	1. Algebra • 1A
+	2. Algebra • 1B
+	3. Algebra • 2A
+	4. Algebra • 2B
+2. Analysis
+	1. Analysis • 1A
+	2. Analysis • 1B
+	3. Analysis • 2A
+	4. Analysis • 2B
+3. Mathematical Methods
+	1. MM • PDEs
+	2. MM • Vector Calculus
+4. Physics
+	1. Quantum Mechanics
+	2. Condensed Matter
+	3. EM
+	4. Thermodynamics
+5. Projects
+	1. PSkills • Coursework 1
+	2. PSkills • Coursework 2
+
+We group Physics together as they are all descriptions of "reality" where as the maths modules are distinct entities unto themselves.
