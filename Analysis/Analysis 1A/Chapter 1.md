@@ -1,7 +1,6 @@
-Chapter 1  
-  
-[Some basic concepts](MA10207-web.html#QQ2-5-4)
---------------------------------------------------------------
+Chapter 1
+
+## [Some basic concepts](MA10207-web.html#QQ2-5-4)
 
 Analysis is the theory of limits and the concepts dependent on limits, including derivatives and integrals. In this course, we will see a mathematically rigorous development of the theory. This means that all statements will be accompanied by proofs, based on logical arguments. For this reason, we first discuss the basic elements of logic, followed by other notions that the theory depends on.
 
@@ -9,21 +8,21 @@ Analysis is the theory of limits and the concepts dependent on limits, including
 
 But let’s first clarify a key expression in the preceding paragraph.
 
-Definition 1.  
-  
+Definition 1.
+
 A **statement** (or **proposition**) is a sentence that is either true or false but not both.
 
-Example 2.  
-  
+Example 2.
+
 The following are statements.
 
-*   7 is an odd integer. (True)
-*   $2 < 7$ . (True)
-*   All integers are odd. (False)
+- 7 is an odd integer. (True)
+- $2 < 7$ . (True)
+- All integers are odd. (False)
 
 But the following is **not** a statement.
 
-*   Welcome to the University of Bath!
+- Welcome to the University of Bath!
 
 If we have two statements, we can form other statements (compound statements) from them using the logical connectives ‘and’ and ‘or’. In the following, let $P$ and $Q$ denote two statements. (Here $P$ and $Q$ are place holders that may be replaced by **any** statement.)
 
@@ -35,19 +34,19 @@ Disjunction
 
 The expression $P \vee Q$ stands for ‘ $P$ or $Q$ ’. This statement is true if either $P$ or $Q$ or both are true; otherwise it is false.
 
-Remark.  
-  
+Remark.
+
 We always use the inclusive or; so $P \vee Q$ means ‘either $P$ or $Q$ **or both**’. This is still the case if we use words instead of symbols; so ‘ $P$ or $Q$ ’ means the same. Even the phrase ‘either $P$ or $Q$ ’ should be interpreted this way. The word ‘either’ is used merely as an aid to parse a sentence.
 
-Example 3.  
-  
+Example 3.
+
 Consider the following statement.
 
-*   All integers are odd, and $2 < 7$ .
+- All integers are odd, and $2 < 7$ .
 
 This is false, as not all integers are odd. But consider the following.
 
-*   All integers are odd, or $2 < 7$ .
+- All integers are odd, or $2 < 7$ .
 
 This statement is true, as $2 < 7$ .
 
@@ -121,12 +120,12 @@ The expression $P \Leftrightarrow Q$ stands for ‘ $P \Rightarrow Q$ and $Q \Ri
 
 Instead of ‘if $P$ , then $Q$ ’, we sometimes say ‘ $P$ implies $Q$ ’. The statement $P \Leftrightarrow Q$ can be expressed in words by saying ‘ $P$ is equivalent to $Q$ ’ or ‘ $P$ if, and only if, $Q$ ’. A common abbreviation for the latter is ‘ $P$ iff $Q$ ’.
 
-Example 4.  
-  
+Example 4.
+
 Consider a number $x$ . Then the following are true statements.
 
-*   $x > 0 \Rightarrow x \geq 0$ .
-*   $x > 0 \Leftrightarrow - x < 0$ .
+- $x > 0 \Rightarrow x \geq 0$ .
+- $x > 0 \Leftrightarrow - x < 0$ .
 
 The above concepts have the following truth tables.
 
@@ -174,13 +173,13 @@ true
 
 These are laws about how to manipulate complex chains of conjunctions and disjunctions.
 
-Proposition 5 (Distributive laws).  
-  
+Proposition 5 (Distributive laws).
+
 Given any three statements $P , Q , R$ , the following equivalences hold true.
 
 $$
 \begin{align}
-P\wedge\left( Q \vee R \right) & \Leftrightarrow\left( P \wedge Q \right)\vee\left( P \wedge R \right) & & \\ P\vee\left( Q \wedge R \right) & \Leftrightarrow\left( P \vee Q \right)\wedge\left( P \vee R \right) & & 
+P\wedge\left( Q \vee R \right) & \Leftrightarrow\left( P \wedge Q \right)\vee\left( P \wedge R \right) & & \\ P\vee\left( Q \wedge R \right) & \Leftrightarrow\left( P \vee Q \right)\wedge\left( P \vee R \right) & &
 \end{align}
 $$
 
@@ -388,20 +387,20 @@ false
 
 Comparing the last columns, we see that the first equivalence holds true. The second one is proved with the same method, but we omit the details here. □
 
-Proposition 6 (De Morgan’s laws).  
-  
+Proposition 6 (De Morgan’s laws).
+
 Given two statements $P$ and $Q$ , the following equivalences hold true.
 
 $$
 \begin{align}
-\neg\left( P \vee Q \right) & \Leftrightarrow\negP\wedge\negQ & & \\ \neg\left( P \wedge Q \right) & \Leftrightarrow\negP\vee\negQ & & 
+\neg\left( P \vee Q \right) & \Leftrightarrow\negP\wedge\negQ & & \\ \neg\left( P \wedge Q \right) & \Leftrightarrow\negP\vee\negQ & &
 \end{align}
 $$
 
 Proof. This is proved with the same method as Proposition [5](#x5-6001r5). We omit the details. □
 
-Example 7.  
-  
+Example 7.
+
 What is the negation of the statement $P \Rightarrow Q$ ?
 
 We first recall that $\neg P \vee Q$ is another way to write $P \Rightarrow Q$ . Then by De Morgan’s law,
@@ -418,8 +417,8 @@ $$
 
 That is, $P \wedge \neg Q$ is another way to express $\neg \left( P \Rightarrow Q \right)$ .
 
-Proposition 8 (Contrapositive).  
-  
+Proposition 8 (Contrapositive).
+
 Given two statements $P$ and $Q$ , the implication
 
 $$
@@ -438,8 +437,8 @@ Proof. We already know that the implication $P \Rightarrow Q$ is equivalent to $
 
 Again we begin with a definition of the sort of object we consider here.
 
-Definition 9.  
-  
+Definition 9.
+
 A **set** is a collection of distinct objects. These objects are called the **elements** of the set.
 
 The order of the elements doesn’t matter. For example, the set $\left\{ 1 , 2 , 3 \right\}$ comprises the numbers $1$ , $2$ , and $3$ , and is exactly the same as $\left\{ 3 , 2 , 1 \right\}$. That is,
@@ -562,8 +561,8 @@ $$
 
 (meaning ‘there exists a real number $x$ such that $x^{2} \geq 0$ ).
 
-Example 10.  
-  
+Example 10.
+
 Is this a true statement:
 
 $$
@@ -574,28 +573,28 @@ Yes, this is a true statement, because there does a exist an integer $x$ that is
 
 We have seen De Morgan’s laws in Proposition [6](#x5-6003r6), which tell us how conjunction and disjunction behave under negation. We have a similar law for quantifiers. In the following, we write $P \left( x \right)$ for a statement depending on a variable $x$ .
 
-Proposition 11.  
-  
+Proposition 11.
 
 1.  The statements
-    
+
     $$
     \neg \left( \forall x : P \left( x \right) \right) \text{and} \exists x : \neg P \left( x \right)
     $$
-    
+
     are equivalent.
+
 2.  The statements
-    
+
     $$
     \neg \left( \exists x : P \left( x \right) \right) \text{and} \forall x : \neg P \left( x \right)
     $$
-    
+
     are equivalent.
 
 This proposition should be intuitively clear. It is not proved here, because it belongs to the theory of logic rather than analysis.
 
-Example 12.  
-  
+Example 12.
+
 We have seen in Example [10](#x5-8002r10) that
 
 $$
@@ -614,22 +613,22 @@ is **not** true.
 
 A question that we study a lot in analysis is how one varying quantity depends on another. The following concepts formalises the idea of quantities depending on one another.
 
-Definition 13.  
-  
+Definition 13.
+
 Let $A$ and $B$ be sets. A **function** from $A$ to $B$ is a rule that assigns to each element of $A$ a unique element of $B$ . We write $f : A \rightarrow B$ to indicate that the symbol $f$ denotes a function from $A$ to $B$ . Given any $a \in A$ , we then write $f \left( a \right)$ for the element from $B$ assigned to $a$ by the function. The set $A$ is called the **domain** of $f$ and $B$ is called the **codomain** or **target set** of $f$ .
 
 So in order to specify a function, we need three things: a domain, a codomain, and a rule.
 
-Example 14.  
-  
+Example 14.
+
 We may define a function from $ℝ$ to $ℝ$ by assigning to every real number $x$ its square. This gives a function $f : ℝ \rightarrow ℝ$ with the property that $f \left( x \right) = x^{2}$ for all $x \in ℝ$ .
 
 As the example shows, an equation such as $f \left( x \right) = x^{2}$ can be used to describe a specific function once the domain and codomain are known. Another way to refer to the same rule is $x \rightarrow tail x^{2}$ . The function should not be confused with the expression $x^{2}$ , however. In order to obtain a well-defined function, we need to say what the domain and the codomain are and we need to specify the rule. Even so, you will sometimes see phrases such as ‘the function $f \left( x \right) = x^{2}$ ’. This wording is acceptable when the context leaves no doubt about the domain and codomain, but should not be used otherwise.
 
 Not all functions are given by such a convenient formula.
 
-Example 15.  
-  
+Example 15.
+
 We may define a function $f : ℝ \rightarrow ℚ$ as follows: if $x \in ℝ$ is a rational number, then $f \left( x \right) = \frac{1}{2}$ . Otherwise $f \left( x \right) = 0$ . Thus
 
 $$
@@ -650,8 +649,8 @@ What characterises the natural numbers are the following fundamental properties:
 
 The last property is the principle of induction and is the basis for various proofs of statements about the natural numbers.
 
-Example 16.  
-  
+Example 16.
+
 Prove that $1 + 2 + \dots  + n = n \left( n + 1 \right) / 2$ for all $n \in ℕ$ .
 
 **Solution.** Let $\Lambda \subseteq ℕ$ be the set of all $n \in ℕ$ such that the formula holds true. Then clearly $1 \in \Lambda$ , as $1 = 1 \cdot 2 / 2$ .
@@ -660,7 +659,7 @@ Moreover, if $n \in \Lambda$ , then
 
 $$
 \begin{align}
-\begin{matrix}1+2+\dots +\left( n + 1 \right) & =\left( 1 + \dots  + n \right)+\left( n + 1 \right) \\ & =\frac{n \left( n + 1 \right)}{2}+\left( n + 1 \right) \\ & =\frac{\left( n + 1 \right) \left( n + 2 \right)}{2}.\end{matrix} & 
+\begin{matrix}1+2+\dots +\left( n + 1 \right) & =\left( 1 + \dots  + n \right)+\left( n + 1 \right) \\ & =\frac{n \left( n + 1 \right)}{2}+\left( n + 1 \right) \\ & =\frac{\left( n + 1 \right) \left( n + 2 \right)}{2}.\end{matrix} &
 \end{align}
 $$
 

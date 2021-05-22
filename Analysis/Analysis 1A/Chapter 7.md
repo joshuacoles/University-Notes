@@ -1,12 +1,11 @@
-Chapter 7  
-  
-[Real functions](MA10207-web.html#QQ2-12-37)
------------------------------------------------------------
+Chapter 7
+
+## [Real functions](MA10207-web.html#QQ2-12-37)
 
 From now on, we study functions $f : I \rightarrow ℝ$ , where the domain $I$ is a subset of $ℝ$ , typically an interval. Such functions can be visualised with the help of their graphs.
 
-Definition 113.  
-  
+Definition 113.
+
 Let $I \subseteq ℝ$ and consider a function $f : I \rightarrow ℝ$ . The **graph** of $f$ is the set $\left\{\left( x , f \left( x \right) \right) : x \in ℝ\right\} \subseteq I \times ℝ$ .
 
 Since the graph of $f$ is a subset of $I \times ℝ$ , which in turn is a subset of $ℝ^{2}$ , we can draw a sketch of it. This is not the only purpose of a graph, but for the moment, this is what we mostly use it for (in the lectures but not in these notes).
@@ -15,8 +14,8 @@ Since the graph of $f$ is a subset of $I \times ℝ$ , which in turn is a subset
 
 The following notion is about what happens if we evaluate a function at the points given by a convergent sequence.
 
-Definition 114.  
-  
+Definition 114.
+
 Let $I \subseteq ℝ$ and $x_{0} \in I$ . Consider a function $f : I \rightarrow ℝ$ . We say that $f$ is **sequentially continuous at $x_{0}$** if for every sequence $\left(\left( x_{n} \right)\right)_{n \in ℕ}$ in $I$ with $x_{0} = \underset{n \rightarrow \infty}{ \lim } x_{n}$ ,
 
 $$
@@ -33,8 +32,8 @@ $$
 
 for all convergent sequences $\left(\left( x_{n} \right)\right)_{n \in ℕ}$ in $I$ with limit in $I$ .
 
-Example 115.  
-  
+Example 115.
+
 The function $f : ℝ \rightarrow ℝ$ with $f \left( x \right) = x^{2} - 3 x + 9$ is sequentially continuous, because
 
 $$
@@ -43,8 +42,8 @@ $$
 
 whenever $\left(\left( x_{n} \right)\right)_{n \in ℕ}$ is a sequence in $ℝ$ with $x_{0} = \underset{n \rightarrow \infty}{ \lim } x_{n}$ by the algebra of limits theorem.
 
-Example 116.  
-  
+Example 116.
+
 The function $f : \left[ 0 , \infty \right) \rightarrow ℝ$ given by
 
 $$
@@ -55,8 +54,8 @@ $$
 
 is not sequentially continuous at $0$ . For example, if $x_{n} = 1 / n$ for $n \in ℕ$ , then $x_{n} \rightarrow 0$ and $f \left( x_{n} \right) = n \rightarrow \infty$ as $n \rightarrow \infty$ , but $f \left( 0 \right) = 0$ .
 
-Example 117.  
-  
+Example 117.
+
 Consider the function $f : \left( 0 , \infty \right) \rightarrow ℝ$ given by
 
 $$
@@ -67,8 +66,8 @@ for $x \in \left( 0 , \infty \right)$ . This function is sequentially continuous
 
 The following is the key theorem of this chapter.
 
-Theorem 118 (Intermediate value theorem).  
-  
+Theorem 118 (Intermediate value theorem).
+
 Let $a , b \in ℝ$ with $a < b$ and let $y \in ℝ$ . Suppose that $f : \left[ a , b \right] \rightarrow ℝ$ is sequentially continuous. If $f \left( a \right) \leq y \leq f \left( b \right)$ or $f \left( a \right) \geq y \geq f \left( b \right)$ , then there exists $c \in \left[ a , b \right]$ such that $f \left( c \right) = y$ .
 
 Proof.  We only consider the case that $f \left( a \right) \leq y \leq f \left( b \right)$ , as the other case is similar.
@@ -95,8 +94,8 @@ $$
 
 Thus $f \left( L \right) = y$ . □
 
-Corollary 119 ( $n$ -th roots).  
-  
+Corollary 119 ( $n$ -th roots).
+
 Let $n \in ℕ$ and $a > 0$ . Then there exists $x > 0$ such that $x^{n} = a$ .
 
 Proof.  If $a \leq 1$ , consider the function $f : \left[ 0 , 1 \right] \rightarrow ℝ$ with $f \left( x \right) = x^{n}$ . It is sequentially continuous by the algebra of limits theorem. Moreover, we find that $f \left( 0 \right) = 0 < a$ and $f \left( 1 \right) = 1 \geq a$ . Thus the intermediate value theorem implies that there exists $x \in \left[ 0 , 1 \right]$ with $f \left( x \right) = a$ . Hence $x^{n} = a$ .
@@ -107,8 +106,8 @@ If $a > 1$ , consider $b = 1 / a < 1$ first. By the above arguments, there exist
 
 If we have a power series with radius of convergence $R > 0$ , then it defines a function $f : \left( - R , R \right) \rightarrow ℝ$ . In this section we consider a special power series and the corresponding function.
 
-Definition 120.  
-  
+Definition 120.
+
 For $x \in ℝ$ define
 
 $$
@@ -119,8 +118,8 @@ Theorem [100](MA10207-webch5.html#x10-33010r100) implies that this power series 
 
 The following will be useful for some computations with the exponential function.
 
-Lemma 121 (Binomial theorem).  
-  
+Lemma 121 (Binomial theorem).
+
 For all $x , y \in ℝ$ and all $n \in ℕ$ ,
 
 $$
@@ -129,8 +128,8 @@ $$
 
 Proof.  The proof is covered in the exercises. □
 
-Proposition 122.  
-  
+Proposition 122.
+
 For all $x , y \in ℝ$ ,
 
 $$
@@ -141,7 +140,7 @@ Proof.  Using Theorem [96](MA10207-webch5.html#x10-32001r96), we find that
 
 $$
 \begin{align}
-\begin{matrix} \exp \left( x \right) \exp \left( y \right) & =\left( \sum_{n = 0}^{\infty} \frac{x^{n}}{n !} \right)\left( \sum_{n = 0}^{\infty} \frac{y^{n}}{n !} \right) \\ & =\sum_{n = 0}^{\infty}\sum_{i = 0}^{n}\frac{x^{i} y^{n - i}}{i ! \left( n - i \right) !} \\ & =\sum_{n = 0}^{\infty}\frac{1}{n !}\sum_{i = 0}^{n}\frac{n !}{i ! \left( n - i \right) !}x^{i}y^{n - i}.\end{matrix} & 
+\begin{matrix} \exp \left( x \right) \exp \left( y \right) & =\left( \sum_{n = 0}^{\infty} \frac{x^{n}}{n !} \right)\left( \sum_{n = 0}^{\infty} \frac{y^{n}}{n !} \right) \\ & =\sum_{n = 0}^{\infty}\sum_{i = 0}^{n}\frac{x^{i} y^{n - i}}{i ! \left( n - i \right) !} \\ & =\sum_{n = 0}^{\infty}\frac{1}{n !}\sum_{i = 0}^{n}\frac{n !}{i ! \left( n - i \right) !}x^{i}y^{n - i}.\end{matrix} &
 \end{align}
 $$
 
@@ -153,14 +152,14 @@ $$
 
 □
 
-Corollary 123.  
-  
+Corollary 123.
+
 The exponential function satisfies $\exp  \left( x \right) > 0$ for all $x \in ℝ$ .
 
 Proof.  This is an exercise. □
 
-Proposition 124.  
-  
+Proposition 124.
+
 The function $\exp  : ℝ \rightarrow ℝ$ is sequentially continuous.
 
 Proof.  We first note that for all $x \in \left[ - 1 , 1 \right]$ ,
@@ -191,8 +190,8 @@ $$
 
 □
 
-Corollary 125.  
-  
+Corollary 125.
+
 The exponential function is injective and attains every value in $\left( 0 , \infty \right)$ .
 
 Consequently, we can turn $\exp$ into a bijection $ℝ \rightarrow \left( 0 , \infty \right)$ by restricting the codomain.
@@ -225,12 +224,12 @@ $$
 
 We now apply the intermediate value theorem to the restriction of $\exp$ to $\left[ - M , M \right]$ . We conclude that there exists $x \in \left[ - M , M \right]$ with $\exp  \left( x \right) = a$ . □
 
-Definition 126.  
-  
+Definition 126.
+
 The inverse function of $\exp  : ℝ \rightarrow \left( 0 , \infty \right)$ is called the **natural logarithm** and denoted by $log$ .
 
-Proposition 127.  
-  
+Proposition 127.
+
 For all $u , v > 0$ ,
 
 $$
@@ -239,8 +238,8 @@ $$
 
 Proof.  This follows immediately from Proposition [122](#x12-39005r122). □
 
-Definition 128.  
-  
+Definition 128.
+
 For $a > 0$ and $x \in ℝ$ , define $a^{x} =  \exp  \left( x log a \right)$ .
 
 For the number $e =  \exp  \left( 1 \right)$ , this gives
@@ -251,8 +250,7 @@ $$
 
 For this reason, the exponential function is often denoted by $x \rightarrow tail e^{x}$ .
 
-Proposition 129.  
-  
+Proposition 129.
 
 1.  $a^{x y} = \left(\left( a^{x} \right)\right)^{y}$ for all $a > 0$ and $x , y \in ℝ$ .
 2.  $\left(\left( a b \right)\right)^{x} = a^{x} b^{x}$ for all $a , b > 0$ and $x \in ℝ$ .
@@ -298,8 +296,8 @@ $$
 
 We do not discuss trigonometric functions in detail here, but we give a definition of some of them in terms of power series and we derive some of their most basic properties.
 
-Definition 130.  
-  
+Definition 130.
+
 For all $x \in ℝ$ ,
 
 $$
@@ -310,7 +308,7 @@ We compare the coefficients of these two power series with the coefficients for 
 
 $$
 \begin{align}
- \exp \left( x \right) & =1+x+\frac{x^{2}}{2}+\frac{x^{3}}{6}+\frac{x^{4}}{24}+\frac{x^{5}}{120}+\dots  & & \\ cos\left( x \right) & =1-\frac{x^{2}}{2}+\frac{x^{4}}{24}-\dots  & & \\ sin\left( x \right) & =x-\frac{x^{3}}{6}+\frac{x^{5}}{120}-\dots  & & \\ & & 
+ \exp \left( x \right) & =1+x+\frac{x^{2}}{2}+\frac{x^{3}}{6}+\frac{x^{4}}{24}+\frac{x^{5}}{120}+\dots  & & \\ cos\left( x \right) & =1-\frac{x^{2}}{2}+\frac{x^{4}}{24}-\dots  & & \\ sin\left( x \right) & =x-\frac{x^{3}}{6}+\frac{x^{5}}{120}-\dots  & & \\ & &
 \end{align}
 $$
 
@@ -318,8 +316,8 @@ By comparison with the series $\sum_{n = 0}^{\infty} \frac{\left(\left|x\right|\
 
 From the above power series representation, it is not immediately obvious that $cos$ and $sin$ are the familiar **cosine** and **sine** functions. In order to see this, it’s best to work with complex numbers and make use of the formula $\exp  \left( i x \right) = cos \left( x \right) + i sin \left( x \right)$ . But this discussion is postponed for later. Nevertheless, the following formula makes the connection more plausible.
 
-Proposition 131.  
-  
+Proposition 131.
+
 For every $x \in ℝ$ , the identity $\left(cos\right)^{2} \left( x \right) + \left(sin\right)^{2} \left( x \right) = 1$ holds true.
 
 Proof.  We use Theorem [96](MA10207-webch5.html#x10-32001r96) to compute
@@ -332,7 +330,7 @@ where
 
 $$
 \begin{align}
-\begin{matrix}c_{n} & =\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !}\cdot 1+\frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 2}}{\left( 2 n - 2 \right) !}\cdot\frac{- x^{2}}{2}+\dots +1\cdot\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !} \\ & =\left(\left( - 1 \right)\right)^{n}x^{2 n}\left(\frac{1}{\left( 2 n \right) ! 0 !} + \frac{1}{\left( 2 n - 2 \right) ! 2 !} + \dots  + \frac{1}{0 ! \left( 2 n \right) !}\right)\end{matrix} & 
+\begin{matrix}c_{n} & =\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !}\cdot 1+\frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 2}}{\left( 2 n - 2 \right) !}\cdot\frac{- x^{2}}{2}+\dots +1\cdot\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !} \\ & =\left(\left( - 1 \right)\right)^{n}x^{2 n}\left(\frac{1}{\left( 2 n \right) ! 0 !} + \frac{1}{\left( 2 n - 2 \right) ! 2 !} + \dots  + \frac{1}{0 ! \left( 2 n \right) !}\right)\end{matrix} &
 \end{align}
 $$
 
@@ -340,7 +338,7 @@ and for every $n \in ℕ_{0}$ . Similarly,
 
 $$
 \begin{align}
-\begin{matrix}\left(sin\right)^{2}\left( x \right) & =\left(\left( \sum_{n = 0}^{\infty} \frac{\left(\left( - 1 \right)\right)^{n} x^{2 n + 1}}{\left( 2 n + 1 \right) !} \right)\right)^{2} \\ & =\left( \sum_{n = 1}^{\infty} \frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 1}}{\left( 2 n - 1 \right) !} \right)\left( \sum_{n = 0}^{\infty} \frac{\left(\left( - 1 \right)\right)^{n} x^{2 n + 1}}{\left( 2 n + 1 \right) !} \right)=\sum_{n = 0}^{\infty}c_{n}^{′},\end{matrix} & 
+\begin{matrix}\left(sin\right)^{2}\left( x \right) & =\left(\left( \sum_{n = 0}^{\infty} \frac{\left(\left( - 1 \right)\right)^{n} x^{2 n + 1}}{\left( 2 n + 1 \right) !} \right)\right)^{2} \\ & =\left( \sum_{n = 1}^{\infty} \frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 1}}{\left( 2 n - 1 \right) !} \right)\left( \sum_{n = 0}^{\infty} \frac{\left(\left( - 1 \right)\right)^{n} x^{2 n + 1}}{\left( 2 n + 1 \right) !} \right)=\sum_{n = 0}^{\infty}c_{n}^{′},\end{matrix} &
 \end{align}
 $$
 
@@ -348,7 +346,7 @@ where $c_{0}^{′} = 0$ and
 
 $$
 \begin{align}
-\begin{matrix}c_{n}^{′} & =\frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 1}}{\left( 2 n - 1 \right) !}\cdot x+\frac{\left(\left( - 1 \right)\right)^{n - 2} x^{2 n - 3}}{\left( 2 n - 3 \right) !}\cdot\frac{- x^{3}}{6}+\dots +x\cdot\frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 1}}{\left( 2 n - 1 \right) !} \\ & =-\left(\left( - 1 \right)\right)^{n}x^{2 n}\left(\frac{1}{\left( 2 n - 1 \right) ! 1 !} + \frac{1}{\left( 2 n - 3 \right) ! 3 !} + \dots  + \frac{1}{1 ! \left( 2 n - 1 \right) !}\right)\end{matrix} & 
+\begin{matrix}c_{n}^{′} & =\frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 1}}{\left( 2 n - 1 \right) !}\cdot x+\frac{\left(\left( - 1 \right)\right)^{n - 2} x^{2 n - 3}}{\left( 2 n - 3 \right) !}\cdot\frac{- x^{3}}{6}+\dots +x\cdot\frac{\left(\left( - 1 \right)\right)^{n - 1} x^{2 n - 1}}{\left( 2 n - 1 \right) !} \\ & =-\left(\left( - 1 \right)\right)^{n}x^{2 n}\left(\frac{1}{\left( 2 n - 1 \right) ! 1 !} + \frac{1}{\left( 2 n - 3 \right) ! 3 !} + \dots  + \frac{1}{1 ! \left( 2 n - 1 \right) !}\right)\end{matrix} &
 \end{align}
 $$
 
@@ -358,7 +356,7 @@ We now compute $c_{n} + c_{n}^{′}$ for every $n \in ℕ_{0}$ . Clearly $c_{0} 
 
 $$
 \begin{align}
-\begin{matrix}c_{n}+c_{n}^{′} & =\left(\left( - 1 \right)\right)^{n}x^{2 n}\left(\frac{1}{\left( 2 n \right) ! 0 !} - \frac{1}{\left( 2 n - 1 \right) ! 1 !} + \frac{1}{\left( 2 n - 2 \right) ! 2 !} - \frac{1}{\left( 2 n - 3 \right) ! 3 !}\right) \\ & \left( + \dots  + \frac{1}{0 ! \left( 2 n \right) !}\right) \\ & =\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !}\sum_{i = 0}^{2 n}\frac{\left( 2 n \right) !}{\left( 2 n - i \right) ! i !}1^{2 n - i}\left(\left( - 1 \right)\right)^{i} \\ & =\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !}\left(\left( 1 - 1 \right)\right)^{2 n}=0\end{matrix} & 
+\begin{matrix}c_{n}+c_{n}^{′} & =\left(\left( - 1 \right)\right)^{n}x^{2 n}\left(\frac{1}{\left( 2 n \right) ! 0 !} - \frac{1}{\left( 2 n - 1 \right) ! 1 !} + \frac{1}{\left( 2 n - 2 \right) ! 2 !} - \frac{1}{\left( 2 n - 3 \right) ! 3 !}\right) \\ & \left( + \dots  + \frac{1}{0 ! \left( 2 n \right) !}\right) \\ & =\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !}\sum_{i = 0}^{2 n}\frac{\left( 2 n \right) !}{\left( 2 n - i \right) ! i !}1^{2 n - i}\left(\left( - 1 \right)\right)^{i} \\ & =\frac{\left(\left( - 1 \right)\right)^{n} x^{2 n}}{\left( 2 n \right) !}\left(\left( 1 - 1 \right)\right)^{2 n}=0\end{matrix} &
 \end{align}
 $$
 
@@ -372,8 +370,8 @@ $$
 
 The following is an immediate consequence.
 
-Corollary 132.  
-  
+Corollary 132.
+
 For every $x \in ℝ$ , the inequalities
 
 $$
