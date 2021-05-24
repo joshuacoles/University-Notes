@@ -1,7 +1,7 @@
 ### 2.4 Unordered choice: combinations
 
 A combination is an unordered arrangement of objects. Suppose that we
-have a set $E=\left\{ e_{1} , … ⁡ , e_{n} \right}$ of $n$ distinct
+have a set $E=\set{ e_{1} , … ⁡ , e_{n} }$ of $n$ distinct
 elements and wish to choose $r$ elements from $E$ so that the
 arrangement of the elements is irrelevant. How many ways can we do this?
 
@@ -16,29 +16,29 @@ The order of the scoops does not matter. There are two cases:
 You are not allowed to pick the same flavour twice (sampling without
 replacement).
 From Corollary [8](nose5.htm#x14-230028) there are
-$3!/\left( 3 - 2 \right)!=6$ permutations: $\left( V , S right)$,
-$\left( S , V \right)$, $\left( V , L \right)$, $\left( L , V right)$,
-$\left( S , L \right)$, $\left( L , S right)$ but as the order of the
+$3!/( 3 - 2 )!=6$ permutations: $( V , S )$,
+$( S , V )$, $( V , L )$, $( L , V )$,
+$( S , L )$, $( L , S )$ but as the order of the
 scoops don't matter then each option appears twice and thus there are
-only $\frac{3 !}{\left( 3 - 2 right) ! 2 !}=3$ combinations:
-$\left( V , S \right)$ $\left( = \left( S , V \right) right)$,
-$\left( V , L \right)$ $\left( = \left( L , V \right) right)$,
-$\left( S , L \right)$ $\left( = \left( L , S \right) right)$.
+only $\frac{3 !}{( 3 - 2 ) ! 2 !}=3$ combinations:
+$( V , S )$ $( = ( S , V ) )$,
+$( V , L )$ $( = ( L , V ) )$,
+$( S , L )$ $( = ( L , S ) )$.
 
 2.  
 
 You are allowed to pick the same flavour twice (sampling with
 replacement).
 From Corollary [7](nose5.htm#x14-220017) there are $3^{2}=9$
-permutations: $\left( V , S \right)$, $\left( S , V right)$,
-$\left( V , L \right)$, $\left( L , V \right)$, $\left( S , L right)$,
-$\left( L , S \right)$, $\left( V , V \right)$, $\left( S , S right)$,
-$\left( L , L right)$ but as the order of the scoops don't matter there
-are only six combinations: $\left( V , S right)$
-$\left( = \left( S , V \right) \right)$, $\left( V , L right)$
-$\left( = \left( L , V \right) \right)$, $\left( S , L right)$
-$\left( = \left( L , S \right) \right)$, $\left( V , V right)$,
-$\left( S , S \right)$, $\left( L , L right)$. Note that in discounting
+permutations: $( V , S )$, $( S , V )$,
+$( V , L )$, $( L , V )$, $( S , L )$,
+$( L , S )$, $( V , V )$, $( S , S )$,
+$( L , L )$ but as the order of the scoops don't matter there
+are only six combinations: $( V , S )$
+$( = ( S , V ) )$, $( V , L )$
+$( = ( L , V ) )$, $( S , L )$
+$( = ( L , S ) )$, $( V , V )$,
+$( S , S )$, $( L , L )$. Note that in discounting
 the order, we treat differently the choices with no repetition (which,
 in this case, can be ordered two ways) to those with repetition (which,
 in this case, can only be ordered one way).
@@ -53,14 +53,14 @@ We consider the number of ways of choosing $r$ different elements from a
 set of $n$ elements where order does not matter.
 
 From Corollary [8](nose5.htm#x14-230028), the number of ordered samples
-(or permutations) is $n!/\left( n - r right)!$. The number of times
+(or permutations) is $n!/( n - r )!$. The number of times
 that we have counted each choice, when we do not take account of order,
 is the number of distinct ways of arranging $r$ different objects. From
 Corollary [9](nose5.htm#x14-230089), there are $r!$ ways of doing this.
-Therefore, for each of the $n!/\left( n - r right)!$ different
+Therefore, for each of the $n!/( n - r )!$ different
 permutations there are $r!$ permutations which contain the same
 elements. Thus, when order does not matter, there are
-$n!/\left\{ \left( n - r \right) ! r ! \right}$ distinct combinations.
+$n!/\set{ ( n - r ) ! r ! }$ distinct combinations.
 We thus have the following corollary.
 
 Corollary 10 (Unordered choice: sampling without replacement,
@@ -71,7 +71,7 @@ from a set of $n$ elements where order does not matter is
 
 $$
 \begin{align}
-\left(\frac{n}{r}\right) & := & \frac{n !}{r ! \left( n - r \right) !}. & \text{(2.3)}\text{}text{}
+(\frac{n}{r}) & := & \frac{n !}{r ! ( n - r ) !}. & \text{(2.3)}\text{}text{}
 \end{align}
 $$
 
@@ -79,16 +79,16 @@ Notes
 
 1.  
 
-$\left(\frac{n}{r}right)$ is read as "$n$ choose $r$".
+$(\frac{n}{r})$ is read as "$n$ choose $r$".
 
 2.  
 
-The numbers $\left(\frac{n}{r}right)$ are called the binomial
+The numbers $(\frac{n}{r})$ are called the binomial
 coefficients and occur in the expansion[3](#fn3x2)
 
 $$
 \begin{align}
-\left(\left( x + y \right)\right)^{n} & = & \sum_{r = 0}^{n}\left(\frac{n}{r}\right)x^{r}y^{n - r} & \text{} \\ & = & \left(\frac{n}{0}\right)y^{n}+\left(\frac{n}{1}\right)xy^{n - 1}+\dots +\left(\frac{n}{n - 1}\right)x^{n - 1}y+\left(\frac{n}{n}\right)x^{n}. & text{}
+(( x + y ))^{n} & = & \sum_{r = 0}^{n}(\frac{n}{r})x^{r}y^{n - r} & \text{} \\ & = & (\frac{n}{0})y^{n}+(\frac{n}{1})xy^{n - 1}+\dots +(\frac{n}{n - 1})x^{n - 1}y+(\frac{n}{n})x^{n}. & text{}
 \end{align}
 $$
 
@@ -99,7 +99,7 @@ $r=0,1,…⁡,n$
 
 $$
 \begin{align}
-\left(\frac{n}{r}\right) & = & \left(\frac{n}{n - r}\right). & text{}
+(\frac{n}{r}) & = & (\frac{n}{n - r}). & text{}
 \end{align}
 $$
 
@@ -108,32 +108,32 @@ fish in total, tag them and return them to the lake. Later, we return
 and catch $3$ fish from the lake. What's the probability that exactly
 $r$ of them are tagged?
 
-Let $\Omega=\left\{$all subsets of size $3$ from $10$ fish$\right}$
+Let $\Omega=\set{$all subsets of size $3$ from $10$ fish$}$
 then
 
 $$
 \begin{align}
-\left|\Omega\left|=\left(\frac{1 0}{3}\right)=\frac{1 0 !}{3 ! 7 !}=\frac{1 0 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1}=120. & & & text{}
+|\Omega|=(\frac{1 0}{3})=\frac{1 0 !}{3 ! 7 !}=\frac{1 0 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1}=120. & & & text{}
 \end{align}
 $$
 
-Let $E_{r}=\left{$subsets of size $3$ of $10$ fish with exactly $r$
-marked fish$\right}$ then, for each
-$r\in\left\{ 0 , 1 , 2 , 3 \right}$,
+Let $E_{r}=\set{$subsets of size $3$ of $10$ fish with exactly $r$
+marked fish$}$ then, for each
+$r\in\set{ 0 , 1 , 2 , 3 }$,
 
 $$
 \begin{align}
-\left|E_{r}\left| & = & \left( \text{\# subsets of size }r\text{ from }6\text{ marked fish} \right) & \text{} \\ & & \times\left( \text{\# subsets of size }\left( 3 - r \right)\text{ from }4\text{ unmarked fish} \right) & \text{} \\ & = & \left(\frac{6}{r}\right)\times\left(\frac{4}{3 - r}\right). & text{}
+|E_{r}| & = & ( \text{\# subsets of size }r\text{ from }6\text{ marked fish} ) & \text{} \\ & & \times( \text{\# subsets of size }( 3 - r )\text{ from }4\text{ unmarked fish} ) & \text{} \\ & = & (\frac{6}{r})\times(\frac{4}{3 - r}). & text{}
 \end{align}
 $$
 
 As all fish are assumed equally likely to be caught, then each sample
 point of $Omega$ is equally likely so that, for each
-$r\in\left\{ 0 , 1 , 2 , 3 \right}$,
+$r\in\set{ 0 , 1 , 2 , 3 }$,
 
 $$
 \begin{align}
-ℙ\left( E_{r} \right) & = & \frac{\left| E_{r} \left|}{\left| \Omega \left|}=\frac{\left(\frac{6}{r}\right) \left(\frac{4}{3 - r}\right)}{1 2 0} & text{}
+ℙ( E_{r} ) & = & \frac{| E_{r} |}{| \Omega |}=\frac{(\frac{6}{r}) (\frac{4}{3 - r})}{1 2 0} & text{}
 \end{align}
 $$
 
@@ -141,7 +141,7 @@ Thus, for example,
 
 $$
 \begin{align}
-ℙ\left( \left\{ \text{none tagged} \right\} \right) & = & ℙ\left( E_{0} \right)=\frac{1}{1 2 0}\left(\frac{6}{0}\right)\left(\frac{4}{3}\right)=\frac{1}{3 0} & \text{} \\ & & & \text{} \\ ℙ\left( \left\{ \text{exactly 2 tagged} \right\} \right) & = & ℙ\left( E_{2} \right)=\frac{1}{1 2 0}\left(\frac{6}{2}\right)\left(\frac{4}{1}\right)=\frac{1}{1 2 0}\frac{6 \cdot 5 \cdot 4}{2 \cdot 1}=\frac{1}{2}. & text{}
+ℙ( \set{ \text{none tagged} \right\} ) & = & ℙ( E_{0} )=\frac{1}{1 2 0}(\frac{6}{0})(\frac{4}{3})=\frac{1}{3 0} & \text{} \\ & & & \text{} \\ ℙ( \set{ \text{exactly 2 tagged} \right\} ) & = & ℙ( E_{2} )=\frac{1}{1 2 0}(\frac{6}{2})(\frac{4}{1})=\frac{1}{1 2 0}\frac{6 \cdot 5 \cdot 4}{2 \cdot 1}=\frac{1}{2}. & text{}
 \end{align}
 $$
 
@@ -150,20 +150,20 @@ the probability of getting a full house, that is, three of one number
 and a pair of another number?
 
 We first find the number of different hands of five cards. Let
-$\Omega=\left\{$subsets of $5$ cards$\right}$ then
-$\left|\Omega\left|=\left(\frac{5 2}{5}right)$ .
+$\Omega=\set{$subsets of $5$ cards$}$ then
+$|\Omega|=(\frac{5 2}{5})$ .
 
 We now count how many possible ways there are of obtaining a full house.
 There are 13 ways of choosing the number of the card that is in the
-triple and, having done so, there are $\left(\frac{4}{3}right)$ ways of
+triple and, having done so, there are $(\frac{4}{3})$ ways of
 choosing the three suits. As there are only four cards of each number
 then there are 12 ways of choosing the number of the card that is in the
-pair and $\left(\frac{4}{2}right)$ ways of choosing the suits. If we
-let $E=\left\{$get a full house$\right}$ then
+pair and $(\frac{4}{2})$ ways of choosing the suits. If we
+let $E=\set{$get a full house$}$ then
 
 $$
 \begin{align}
-\left|E\left| & = & 13\times\left(\frac{4}{3}\right)\times 12\times\left(\frac{4}{2}\right) & text{}
+|E| & = & 13\times(\frac{4}{3})\times 12\times(\frac{4}{2}) & text{}
 \end{align}
 $$
 
@@ -171,7 +171,7 @@ As all hands are equally likely,
 
 $$
 \begin{align}
-ℙ\left( E \right)=\frac{\left| E \left|}{\left| \Omega \left|} & = & \frac{1 3 \times 1 2 \times \left(\frac{4}{3}\right) \times \left(\frac{4}{2}\right)}{\left(\frac{5 2}{5}\right)} & \text{} \\ & = & 13\cdot 12\cdot 4\cdot\frac{4 \cdot 3}{2 \cdot 1}\frac{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{5 2 \cdot 5 1 \cdot 5 0 \cdot 4 9 \cdot 4 8} & \text{} \\ & & & \text{} \\ & = & \frac{6}{4 1 6 5}=0.0014\text{(4 d.p)}. & text{}
+ℙ( E )=\frac{| E |}{| \Omega |} & = & \frac{1 3 \times 1 2 \times (\frac{4}{3}) \times (\frac{4}{2})}{(\frac{5 2}{5})} & \text{} \\ & = & 13\cdot 12\cdot 4\cdot\frac{4 \cdot 3}{2 \cdot 1}\frac{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{5 2 \cdot 5 1 \cdot 5 0 \cdot 4 9 \cdot 4 8} & \text{} \\ & & & \text{} \\ & = & \frac{6}{4 1 6 5}=0.0014\text{(4 d.p)}. & text{}
 \end{align}
 $$
 
@@ -183,26 +183,26 @@ with $r$ objects in one subset and $n-r$ objects in the other. We can
 extend this to $k$ subsets where we place $n_{i}$ objects into the $i$th
 subset.
 
--   there are $\left(\frac{n}{n_{1}}right)$ ways of choosing the first
+-   there are $(\frac{n}{n_{1}})$ ways of choosing the first
     subset, leaving $n-n_{1}$ objects;
--   there are $\left(\frac{n - n_{1}}{n_{2}}right)$ ways of choosing
+-   there are $(\frac{n - n_{1}}{n_{2}})$ ways of choosing
     the second subset, leaving $n-n_{1}-n_{2}$ objects; $$
     begin{align}
     \vdots⁡\vdots⁡\vdots⁡\vdots⁡\vdots⁡ & & & text{}
     end{align}
     $$
 -   there are
-    $\left(\frac{n - n_{1} - \dots - n_{k - 2}}{n_{k - 1}}right)$ ways
-    of choosing the $\left( k - 1 right)$th subset, leaving
+    $(\frac{n - n_{1} - \dots - n_{k - 2}}{n_{k - 1}})$ ways
+    of choosing the $( k - 1 )$th subset, leaving
     $n-n_{1}-dots -n_{k - 1}=n_{k}$ objects;
--   there are $\left(\frac{n - n_{1} - \dots - n_{k - 1}}{n_{k}}right)$
+-   there are $(\frac{n - n_{1} - \dots - n_{k - 1}}{n_{k}})$
     ways of choosing the $k$th subset, leaving no objects remaining.
 
 Noting that
 
 $$
 \begin{align}
-\left(\frac{n}{m}\right)\left(\frac{n - m}{q}\right)=\frac{n !}{m ! \left( n - m \right) !}\frac{\left( n - m \right) !}{q ! \left( n - m - q \right) !}=\frac{n !}{m ! q ! \left( n - m - q \right) !} & & & text{}
+(\frac{n}{m})(\frac{n - m}{q})=\frac{n !}{m ! ( n - m ) !}\frac{( n - m ) !}{q ! ( n - m - q ) !}=\frac{n !}{m ! q ! ( n - m - q ) !} & & & text{}
 \end{align}
 $$
 
@@ -210,7 +210,7 @@ we may show that
 
 $$
 \begin{align}
-\left(\frac{n}{n_{1}}\right)\left(\frac{n - n_{1}}{n_{2}}\right)\times\dots \times\left(\frac{n - n_{1} - \dots  - n_{k - 1}}{n_{k}}\right) & = & \frac{n !}{n_{1} ! n_{2} ! \dots  n_{k} !} & text{}
+(\frac{n}{n_{1}})(\frac{n - n_{1}}{n_{2}})\times\dots \times(\frac{n - n_{1} - \dots  - n_{k - 1}}{n_{k}}) & = & \frac{n !}{n_{1} ! n_{2} ! \dots  n_{k} !} & text{}
 \end{align}
 $$
 
@@ -222,7 +222,7 @@ of sizes $n_{1},n_{2},…⁡,n_{k}$ where $n_{1}+n_{2}+dots +n_{k}=n$ is
 
 $$
 \begin{align}
-\left(\frac{n}{n_{1} , n_{2} , … ⁡ , n_{k}}\right) & := & \frac{n !}{n_{1} ! n_{2} ! \dots  n_{k} !}. & \text{(2.4)}\text{}text{}
+(\frac{n}{n_{1} , n_{2} , … ⁡ , n_{k}}) & := & \frac{n !}{n_{1} ! n_{2} ! \dots  n_{k} !}. & \text{(2.4)}\text{}text{}
 \end{align}
 $$
 
@@ -235,12 +235,12 @@ that $n_{2}=n-n_{1}=n-r$.
 
 2.  
 
-The numbers $\left(\frac{n}{n_{1} , n_{2} , … ⁡ , n_{k}}right)$ are
+The numbers $(\frac{n}{n_{1} , n_{2} , … ⁡ , n_{k}})$ are
 called the multinomial coefficients and occur in the expansion
 
 $$
 \begin{align}
-\left(\left( x_{1} + x_{2} + \dots  + x_{k} \right)\right)^{n} & = & \sum\left(\frac{n}{n_{1} , n_{2} , \dots  , n_{k}}\right)x_{1}^{n_{1}}x_{2}^{n_{2}}\dots x_{k}^{n_{k}} & text{}
+(( x_{1} + x_{2} + \dots  + x_{k} ))^{n} & = & \sum(\frac{n}{n_{1} , n_{2} , \dots  , n_{k}})x_{1}^{n_{1}}x_{2}^{n_{2}}\dots x_{k}^{n_{k}} & text{}
 \end{align}
 $$
 
@@ -259,21 +259,21 @@ where $n_{1}+n_{2}+dots +n_{k}=n$.
 Example 23 A pack of cards is dealt between $N,E,S$ and $W$. What's the
 probability $N$ and $S$ each get $2$ aces?
 
-Let $\Omega=\left{$partitions of $52$ cards into 4 hands of $13$
-cards$\right}$ so
+Let $\Omega=\set{$partitions of $52$ cards into 4 hands of $13$
+cards$}$ so
 
 $$
 \begin{align}
-\left|\Omega\left|=\left(\frac{5 2}{1 3 , 1 3 , 1 3 , 1 3}\right)=\frac{5 2 !}{1 3 ! 1 3 ! 1 3 ! 1 3 !}=\frac{5 2 !}{\left(\left( 1 3 ! \right)\right)^{4}}. & & & text{}
+|\Omega|=(\frac{5 2}{1 3 , 1 3 , 1 3 , 1 3})=\frac{5 2 !}{1 3 ! 1 3 ! 1 3 ! 1 3 !}=\frac{5 2 !}{(( 1 3 ! ))^{4}}. & & & text{}
 \end{align}
 $$
 
-Let $E=\left{$partitions of $52$ cards into $4$ hands of $13$ with $2$
-aces for $N$and $S\right}$ then
+Let $E=\set{$partitions of $52$ cards into $4$ hands of $13$ with $2$
+aces for $N$and $S}$ then
 
 $$
 \begin{align}
-\left|E\left| & = & \left( \text{\# ways choosing }2\text{ of }4\text{ aces for }N\text{} \right) & \text{} \\ & & \times\left( \text{\# ways dividing }48\text{ non aces into }11,13,11,13\text{} \right) & \text{} \\ & = & \left(\frac{4}{2}\right)\times\left(\frac{4 8}{1 1 , 1 3 , 1 1 , 1 3}\right)=\frac{4 !}{2 ! 2 !}\times\frac{4 8 !}{1 1 ! 1 3 ! 1 1 ! 1 3 !}. & text{}
+|E| & = & ( \text{\# ways choosing }2\text{ of }4\text{ aces for }N\text{} ) & \text{} \\ & & \times( \text{\# ways dividing }48\text{ non aces into }11,13,11,13\text{} ) & \text{} \\ & = & (\frac{4}{2})\times(\frac{4 8}{1 1 , 1 3 , 1 1 , 1 3})=\frac{4 !}{2 ! 2 !}\times\frac{4 8 !}{1 1 ! 1 3 ! 1 1 ! 1 3 !}. & text{}
 \end{align}
 $$
 
@@ -281,14 +281,14 @@ As all partitions of $52$ cards are equally likely,
 
 $$
 \begin{align}
-ℙ\left( E \right) & = & \frac{\left(\frac{4}{2}\right) \left(\frac{4 8}{1 1 , 1 3 , 1 1 , 1 3}\right)}{\left(\frac{5 2}{1 3 , 1 3 , 1 3 , 1 3}\right)} & \text{} \\ & = & \frac{4 !}{2 ! 2 !}\frac{4 8 !}{\left(\left( 1 1 ! \right)\right)^{2} \left(\left( 1 3 ! \right)\right)^{2}}\frac{\left(\left( 1 3 ! \right)\right)^{4}}{5 2 !}=\frac{4 6 8}{2 0 8 2 5}=0.0225\left( \text{4dp} \right). & text{}
+ℙ( E ) & = & \frac{(\frac{4}{2}) (\frac{4 8}{1 1 , 1 3 , 1 1 , 1 3})}{(\frac{5 2}{1 3 , 1 3 , 1 3 , 1 3})} & \text{} \\ & = & \frac{4 !}{2 ! 2 !}\frac{4 8 !}{(( 1 1 ! ))^{2} (( 1 3 ! ))^{2}}\frac{(( 1 3 ! ))^{4}}{5 2 !}=\frac{4 6 8}{2 0 8 2 5}=0.0225( \text{4dp} ). & text{}
 \end{align}
 $$
 
 #### 2.4.3 Sampling with replacement
 
 We now consider how to choose $r$ elements from a set
-$E=\left\{ e_{1} , e_{2} , … ⁡ , e_{n} \right}$ of $n$ elements, with
+$E=\set{ e_{1} , e_{2} , … ⁡ , e_{n} }$ of $n$ elements, with
 replacement, when the order in which they are drawn does not matter. Any
 such sample consists of $m_{1}$ picks of $e_{1}$, $m_{2}$ picks of
 $e_{2}$, $…⁡$, $m_{n}$ picks of $e_{n}$ where each $m_{i}$ is a
@@ -324,7 +324,7 @@ matter is
 
 $$
 \begin{align}
-\left(\frac{n - 1 + r}{r}\right) & = & \frac{\left( n - 1 + r \right) !}{r ! \left( n - 1 \right) !}. & text{}
+(\frac{n - 1 + r}{r}) & = & \frac{( n - 1 + r ) !}{r ! ( n - 1 ) !}. & text{}
 \end{align}
 $$
 
@@ -334,14 +334,14 @@ then there are
 
 $$
 \begin{align}
-\left(\frac{3 - 1 + 2}{2}\right)=\left(\frac{4}{2}\right)=\frac{4 !}{2 ! 2 !}=6 & & & text{}
+(\frac{3 - 1 + 2}{2})=(\frac{4}{2})=\frac{4 !}{2 ! 2 !}=6 & & & text{}
 \end{align}
 $$
 
 possible selections.
 
 [3](#fn3x2-bk)Taking $x=y=1$ gives that
-$\left(\sum ⁡\right)_{r = 0}^{n}\left(\frac{n}{r}right)=2^{n}$ and
+$(\sum ⁡)_{r = 0}^{n}(\frac{n}{r})=2^{n}$ and
 provides a proof as to the number of elements in the power set of a set
 of size $n$ being $2^{n}$ as we sum over the number of subsets with $0$
 elements, $1$ element, $…⁡$, $n$ elements.

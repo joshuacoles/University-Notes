@@ -1,7 +1,7 @@
 ### 2.3 Ordered choice: permutations
 
 A permutation is an ordered arrangement of objects. Suppose that
-$E=\left\{ e_{1} , … ⁡ , e_{n} \right}$ is a set and we wish to choose
+$E=\set{ e_{1} , … ⁡ , e_{n} }$ is a set and we wish to choose
 $r$ elements from $E$ and list them in order. How many ways can we do
 this?
 
@@ -26,38 +26,38 @@ the rolls scores a $6$ otherwise you lose. What is the probability that
 you lose?
 
 We can think of each roll as being the selection of an element from the
-set $\left\{ 1 , 2 , … ⁡ , 6 \right}$ and duplication is allowed so it
+set $\set{ 1 , 2 , … ⁡ , 6 }$ and duplication is allowed so it
 is as if we are sampling with replacement from
-$\left\{ 1 , 2 , … ⁡ , 6 \right}$. If $s_{i}$ denotes the score on the
+$\set{ 1 , 2 , … ⁡ , 6 }$. If $s_{i}$ denotes the score on the
 $i$th roll then the sample space is
 
 $$
 \begin{align}
-\Omega & = & \left\{ \left( s_{1} , s_{2} , s_{3} , s_{4} \right) : s_{1} , s_{2} , s_{3} , s_{4} \in \left\{ 1 , 2 , … ⁡ , 6 \right\} \right\}=\left(\left\{ 1 , 2 , … ⁡ , 6 \right\}\right)^{4} & text{}
+\Omega & = & \set{ ( s_{1} , s_{2} , s_{3} , s_{4} ) : s_{1} , s_{2} , s_{3} , s_{4} \in \set{ 1 , 2 , … ⁡ , 6 \right\} \right\}=(\set{ 1 , 2 , … ⁡ , 6 \right\})^{4} & text{}
 \end{align}
 $$
 
-(so, for example, the sample point $\left( 1 , 5 , 3 , 5 right)$
+(so, for example, the sample point $( 1 , 5 , 3 , 5 )$
 corresponds to an outcome of $1$ on the first roll, $5$ on the second
 roll, $3$ on the third roll , and $5$ on the last roll). Using Corollary
-[7](#x14-220017), $\left|\Omegaleft|=6^{4}$. Let
-$E=\left\{ \text{you lose} \right\}=\left\{ \text{you don’t roll a 6} \right}$
+[7](#x14-220017), $|\Omega|=6^{4}$. Let
+$E=\set{ \text{you lose} \right\}=\set{ \text{you don’t roll a 6} }$
 then the number of ways of $E$ occurring can be thought of as the number
 of ways of choosing $4$ elements from the set
-$\left\{ 1 , 2 , 3 , 4 , 5 \right}$ when duplication is allowed,
+$\set{ 1 , 2 , 3 , 4 , 5 }$ when duplication is allowed,
 
 $$
 \begin{align}
-E & = & \left\{ \left( s_{1} , s_{2} , s_{3} , s_{4} \right) : s_{1} , s_{2} , s_{3} , s_{4} \in \left\{ 1 , 2 , … ⁡ , 5 \right\} \right\}=\left(\left\{ 1 , 2 , … ⁡ , 5 \right\}\right)^{4} & text{}
+E & = & \set{ ( s_{1} , s_{2} , s_{3} , s_{4} ) : s_{1} , s_{2} , s_{3} , s_{4} \in \set{ 1 , 2 , … ⁡ , 5 \right\} \right\}=(\set{ 1 , 2 , … ⁡ , 5 \right\})^{4} & text{}
 \end{align}
 $$
 
-Thus, $\left|Eleft|=5^{4}$. As the die is fair then all outcomes are
+Thus, $|E|=5^{4}$. As the die is fair then all outcomes are
 equally likely and so,
 
 $$
 \begin{align}
-ℙ\left( E \right) & = & \frac{\left| E \left|}{\left| \Omega \left|}=\frac{5^{4}}{6^{4}}=\frac{6 2 5}{1 2 9 6}. & text{}
+ℙ( E ) & = & \frac{| E |}{| \Omega |}=\frac{5^{4}}{6^{4}}=\frac{6 2 5}{1 2 9 6}. & text{}
 \end{align}
 $$
 
@@ -68,17 +68,17 @@ order from a set of $n$ elements. Thus, once an item has been chosen, it
 is not replaced and so the number of remaining elements decrease. There
 are $n$ ways to choose the first item. Having not replaced this item,
 there are then $n-1$ ways to choose the second item and so on so that
-once $\left( r - 1 right)$ have been chosen (and not replaced), there
-are then $n-\left( r - 1 right)$ ways to choose the $r$th item. Using
+once $( r - 1 )$ have been chosen (and not replaced), there
+are then $n-( r - 1 )$ ways to choose the $r$th item. Using
 the multiplication principle, Theorem [6](nose4.htm#x13-200026), we thus
 have
-$n\times\left( n - 1 \right)\times\dots \times\left( n - \left( r - 1 \right) right)$
+$n\times( n - 1 )\times\dots \times( n - ( r - 1 ) )$
 ways of choosing the $r$ elements in order. For any non-negative integer
 $m$, define $m$-factorial, written $m!$, by
 
 $$
 \begin{align}
-m! & = & \left\{\begin{matrix} \begin{matrix}m\left( m - 1 \right)\left( m - 2 \right)\dots 3\times 2\times 1 & \text{if}m=1,2,3,…⁡; \\ 1 & \text{if}m=0.\end{matrix} \end{matrix}\right. \}& text{}
+m! & = & \set{\begin{matrix} \begin{matrix}m( m - 1 )( m - 2 )\dots 3\times 2\times 1 & \text{if}m=1,2,3,…⁡; \\ 1 & \text{if}m=0.\end{matrix} \end{matrix}\right. \}& text{}
 \end{align}
 $$
 
@@ -92,7 +92,7 @@ in order from a set of $n$ elements is
 
 $$
 \begin{align}
-n\left( n - 1 \right)\left( n - 2 \right)\dots \left( n - \left( r - 1 \right) \right) & = & \frac{n \left( n - 1 \right) \dots  \left( n - \left( r - 1 \right) \right) \left( n - r \right) \left( n - \left( r + 1 \right) \right) \dots  1}{\left( n - r \right) \left( n - \left( r + 1 \right) \dots  1} & \text{} \\ & = & \frac{n !}{\left( n - r \right) !}. & text{}
+n( n - 1 )( n - 2 )\dots ( n - ( r - 1 ) ) & = & \frac{n ( n - 1 ) \dots  ( n - ( r - 1 ) ) ( n - r ) ( n - ( r + 1 ) ) \dots  1}{( n - r ) ( n - ( r + 1 ) \dots  1} & \text{} \\ & = & \frac{n !}{( n - r ) !}. & text{}
 \end{align}
 $$
 
@@ -104,7 +104,7 @@ random without replacement. Then
 
 $$
 \begin{align}
-\left|\Omega\left| & = & 52\times 51\times 50\times 49\times 48. & text{}
+|\Omega| & = & 52\times 51\times 50\times 49\times 48. & text{}
 \end{align}
 $$
 
@@ -114,7 +114,7 @@ picture cards in each suit) then
 
 $$
 \begin{align}
-\left|E\left| & = & 12\times 11\times 10\times 9\times 8 & text{}
+|E| & = & 12\times 11\times 10\times 9\times 8 & text{}
 \end{align}
 $$
 
@@ -122,7 +122,7 @@ As all sequences of cards are equally likely,
 
 $$
 \begin{align}
-ℙ\left( E \right) & = & \frac{\left| E \left|}{\left| \Omega \left|}=\frac{1 2 \times 1 1 \times 1 0 \times 9 \times 8}{5 2 \times 5 1 \times 5 0 \times 4 9 \times 4 8}=0.0003\left( \text{4dp} \right). & text{}
+ℙ( E ) & = & \frac{| E |}{| \Omega |}=\frac{1 2 \times 1 1 \times 1 0 \times 9 \times 8}{5 2 \times 5 1 \times 5 0 \times 4 9 \times 4 8}=0.0003( \text{4dp} ). & text{}
 \end{align}
 $$
 
