@@ -1,4 +1,11 @@
 Split up [[1.1 Notation]], factoring in,
+	
+```{r}
+set.seed(1213)  # for reproducibility
+x = cumsum(rnorm(100))
+mean(x);
+plot(x, type = 'l')  # Brownian motion
+```
 
 [[2.9 Notation of Triple Integrals]]
 [[2.3 Notation of Double Integrals]]

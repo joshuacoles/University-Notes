@@ -5,17 +5,17 @@
 
 ## Things
 
-- [[Electric Field]], $\vec{E}(\vec{r}, t)$
-- [[Magnetic Field]], $\vec{B}(\vec{r}, t)$
+- [[Electric Field]], $\E(\r, t)$
+- [[Magnetic Field]], $\B(\r, t)$
 
 Represented by sources:
 
-- [[Current Density]] $\vec{J}(\vec{r}, t)$
-- [[Electric Charge Density]] $\rho(\vec{r}, t)$.
+- [[Current Density]] $\J(\r, t)$
+- [[Electric Charge Density]] $\rho(\r, t)$.
 	- A [[Scalar Field]]
 
 Having potentials
-- [[Electrostatic potential]], $\phi(\vec{r})$
+- [[Electrostatic Potential]], $\phi(\r)$
 	- Electrostatics is well, static, so no $t$ dependence.
 
 ---

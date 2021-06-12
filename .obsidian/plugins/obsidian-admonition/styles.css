@@ -52,7 +52,31 @@
 }
 
 .admonition-content {
-    margin: 0 0.6rem;
+    margin: 10px 15px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.admonition-content-copy {
+    color: var(--text-faint);
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    transition: 0.3s opacity ease-in;
+}
+
+.admonition-content-copy:hover {
+    color: var(--text-normal);
+}
+
+.admonition:hover .admonition-content-copy,
+.admonition-content-copy:hover {
+    opacity: 1;
+}
+.admonition-title:hover + .admonition-content .admonition-content-copy {
+    opacity: 0;
 }
 
 details.admonition:not([open]) {
@@ -62,16 +86,18 @@ details.admonition:not([open]) {
 
 details.admonition > summary {
     outline: none;
-    list-style: none;
-    display: block;
+    display: block !important;
+    list-style: none !important;
+    list-style-type: none !important;
     min-height: 1rem;
     border-top-left-radius: 0.1rem;
     border-top-right-radius: 0.1rem;
     cursor: pointer;
 }
 
-details.admonition > summary::-webkit-details-marker {
-    display: none;
+details.admonition > summary::-webkit-details-marker,
+details.admonition > summary::marker {
+    display: none !important;
 }
 
 details.admonition > summary > .collapser {
@@ -101,9 +127,34 @@ details.admonition[open] > summary > .collapser > .handle {
 }
 
 /** Settings */
-.use-csv-marker > svg {
-    color: yellow;
-    margin-right: 8px;
+.admonition-setting-additional-container
+    > .setting-item:not(.setting-item-heading) {
+    border: 0px;
+}
+
+.admonition-setting-additional-container {
+    border-bottom: 1px solid var(--background-modifier-border);
+    border-top: 1px solid var(--background-modifier-border);
+    padding: 18px 0 0 0;
+}
+
+.admonition-setting-additional-container > .setting-item-heading:only-child {
+    padding-bottom: 18px;
+}
+
+.admonition-setting-additional-container > .additional {
+    margin: 6px 12px;
+}
+.admonition-setting-additional-container > .additional > .setting-item {
+    border-top: 0;
+    padding-top: 9px;
+}
+.admonition-setting-additional-container
+    > .additional
+    > .setting-item
+    > .setting-item-control
+    > *:first-child {
+    margin: 0 6px;
 }
 
 .setting-item > .admonition {
@@ -135,6 +186,12 @@ input.is-invalid {
     font-size: 0.875em;
     color: #dc3545;
 }
+
+.admonition-suggester-icon svg {
+    width: 1em;
+}
+
+/** Internal */
 
 .admonition li.task-list-item.is-checked p {
     text-decoration: line-through;

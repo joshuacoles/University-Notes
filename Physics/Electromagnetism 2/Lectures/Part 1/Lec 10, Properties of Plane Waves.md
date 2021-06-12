@@ -64,7 +64,7 @@ $$
 \end{align*}
 $$
 
-However in a [[Source Free Vacuum]], we have $\rho(0) = 0 \implies \divrg \E = 0$. Thus either $k_x$ or $\E_z$ must be zero — of which it clearly cannot be the former as this would imply no spacial propagation of any kind, and thus must be the latter, ie, $\E_z = 0$.
+However in a [[Source Free Vacuum]], we have $\rho(0) = 0 \implies \divrg \E = 0$. Thus either $k_z$ or $\E_z$ must be zero — of which it clearly cannot be the former as this would imply no spacial propagation of any kind, and thus must be the latter, ie, $\E_z = 0$.
 
 This gives us the consequence that the [[Electric Field]] of a plane wave in a [[Source Free Vacuum]] must be a **transverse wave** (god its been a while since i've talked about those).
 

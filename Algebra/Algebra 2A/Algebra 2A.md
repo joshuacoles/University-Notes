@@ -13,8 +13,8 @@
 		4. [[1.4#1 4 4 The rank-nullity theorem]]
 
 [[2.0]]
-[[2.2]]
-[[2.3]]
+[[Algebra/Algebra 2A/2.2]]
+[[Algebra/Algebra 2A/2.3]]
 
 [[3.0]]
 [[3.2]]
