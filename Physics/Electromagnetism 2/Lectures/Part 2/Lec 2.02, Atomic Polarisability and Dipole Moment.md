@@ -42,5 +42,5 @@ $$
 Assuming a steady state we known that,
 
 $$
-\F
+\vF
 $$

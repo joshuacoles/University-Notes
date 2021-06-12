@@ -39,20 +39,20 @@ $$
 
 where $S$ is some surface, often (unfortunately) given by context.
 
-The [[Electro-motive Force]] $\varepsilon$ is an electric potential difference **not** derived from [[Coloumb's Law]], induced empirically by an additional force $\F'$.
+The [[Electro-motive Force]] $\varepsilon$ is an electric potential difference **not** derived from [[Coloumb's Law]], induced empirically by an additional force $\vF'$.
 
 To try to adapt our current understandings to this case we take the following thought experiment. Imagine the current is a single charge $Q$ moving around the circuit $C$.
 
 Then $Q\eps$ is the work done moving round the circuit $C$ (bounding the surface $S$), which is obviously given by,
 
 $$
-Q\eps = W = \int_C \F' \cdot \d\r \implies \eps = \frac 1Q \int_C \F' \cdot \d\r,
+Q\eps = W = \int_C \vF' \cdot \d\r \implies \eps = \frac 1Q \int_C \vF' \cdot \d\r,
 $$
 
 which by [[#^a23c60]], we have,
 
 $$
-- \frac{\partial}{\partial t} \int_S \B \cdot \d\vec{S} = \frac 1Q \int_C \F' \cdot \d\r.
+- \frac{\partial}{\partial t} \int_S \B \cdot \d\vec{S} = \frac 1Q \int_C \vF' \cdot \d\r.
 $$
 
 We have two choices,
@@ -60,11 +60,11 @@ We have two choices,
 1. $\B$ is static, the circuit (ie, $S$ and $C$) are moving.
 2. The circuit is static, $\B$ is changing with time.
 
-In the first case, $\F' = Q(\vec{u} \cp \B)$ (form the [[Lorentz Force]]), where $\vec{u}$ is the additional velocity of $Q$ due to the motion of $C$.
+In the first case, $\vF' = Q(\vec{u} \cp \B)$ (form the [[Lorentz Force]]), where $\vec{u}$ is the additional velocity of $Q$ due to the motion of $C$.
 
-However in the second case, since $\vec{u}$ from above would be $0$, the force $\F'$ must be due to an **extra [[Electric Field]]**.
+However in the second case, since $\vec{u}$ from above would be $0$, the force $\vF'$ must be due to an **extra [[Electric Field]]**.
 
-> This is obvious as $\F' = Q(\E' + \vec{u} \cp \B')$ , if $\vec{u} = 0 \implies \F' = Q\E'$.
+> This is obvious as $\vF' = Q(\E' + \vec{u} \cp \B')$ , if $\vec{u} = 0 \implies \vF' = Q\E'$.
 
 Since these are equivalent depending on your [[Frame of Reference]], we choose 2 and take,
 
@@ -72,7 +72,7 @@ $$
 \eps = \int_C \E' \dp \d\r = - \frac{\partial}{\partial t} \int_S \B \cdot \d\vec{S}.
 $$
 
-> Note we lost the factor of $\frac 1Q$ as that got eaten in $\F' = Q\E'$.
+> Note we lost the factor of $\frac 1Q$ as that got eaten in $\vF' = Q\E'$.
 
 Applying [[8.2 Stokes’ Theorem]] on the LHS,
 

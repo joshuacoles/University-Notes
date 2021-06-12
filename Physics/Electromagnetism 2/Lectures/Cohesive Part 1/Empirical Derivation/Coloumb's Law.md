@@ -3,7 +3,7 @@
 Coloumb's Law is an [[Empirical Law]] and states that the force between 2 **stationary** charges $Q_1$ and $Q_2$ is given by,
 
 $$
-\F_e = \frac{1}{4\pi\epsi_0} \frac{Q_1 Q_2}{r^2} \uvec{r}
+\vF_e = \frac{1}{4\pi\epsi_0} \frac{Q_1 Q_2}{r^2} \uvec{r}
 $$
 
 - Note [[Permittivity of Free Space]] has units $\mathrm{F. m^{-1}}$.
