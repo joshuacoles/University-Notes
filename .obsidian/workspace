@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Physics/Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic Polarisability and Dipole Moment.md",
+            "file": "Probability & Stats/Probability & Stats 1A/6 Probability Generating Functions/6.1 Probability Generating Function.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Physics/Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic Polarisability and Dipole Moment.md",
+            "file": "Probability & Stats/Probability & Stats 1A/6 Probability Generating Functions/6.1 Probability Generating Function.md",
             "mode": "preview"
           }
         },
@@ -60,13 +60,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "597d58bef801f3d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "15d2efeceee2b5d2",
@@ -82,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic Polarisability and Dipole Moment.md",
+                "file": "Probability & Stats/Probability & Stats 1A/6 Probability Generating Functions/6.1 Probability Generating Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic Polarisability and Dipole Moment.md"
+                "file": "Probability & Stats/Probability & Stats 1A/6 Probability Generating Functions/6.1 Probability Generating Function.md"
               }
             }
           }
@@ -124,15 +131,15 @@
   },
   "active": "db69127c5f119efd",
   "lastOpenFiles": [
-    "Physics/Electromagnetism 2/Lectures/Part 2/Lec 2.02, Atomic polarizability and dipole moment.md",
-    "Physics/Electromagnetism 2/Lectures/000. Electromagnetism 2 Lectures.md",
-    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 2, Maxwells Eqs Intro.md",
-    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 1, Introduction.md",
-    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1/Cohesive Part 1.md",
-    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1/Empirical Derivation/Coloumb's Law.md",
-    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 3, Electrostatics, Coloumb's Law.md",
-    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1/Maxwell's Equations.md",
-    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1/Empirical Derivation/Untitled.md",
-    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1.md"
+    "Probability & Stats/Probability & Stats 1A/6 Probability Generating Functions/2-nose20.htm.md",
+    "Probability & Stats/Probability & Stats 1A/7 Common Distributions/2-nose26.htm.md",
+    "Probability & Stats/Probability & Stats 1A/7 Common Distributions/Negative Binomial Distribution.md",
+    "Probability & Stats/Probability & Stats 1A/7 Common Distributions/Bernoulli distribution.md",
+    "Probability & Stats/Probability & Stats 1A/1 Foundations of Probability/1.4 Kolmogorov's Axioms of Probability.md",
+    "Probability & Stats/Probability & Stats 1A/1 Foundations of Probability/1.2 Sample Space.md",
+    "Probability & Stats/Probability & Stats 1A/1 Foundations of Probability/1 Foundations of Probability.md",
+    "Probability & Stats/Probability & Stats 1A/2 Combinatorics/2 Combinatorics.md",
+    "Probability & Stats/Probability & Stats 1A/7 Common Distributions/Binomial Distribution.md",
+    "Probability & Stats/Probability & Stats 1A/7 Common Distributions/2-nose27.htm.md"
   ]
 }

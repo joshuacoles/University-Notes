@@ -1,0 +1,16 @@
+- EM
+  - Module front Lec1
+  - Maxwell's Equations
+    - List
+    - Empirical Derivation
+      - Coloumb => Gauss Lec4
+      - Electrostatics => $\nabla \times \vec{E} = 0$ and Potential Lec5
+      - Magnetics, Magnetostatics
+      - Time Varying
+    - Link to super position
+  - EM Waves
+    - Plane waves
+    - Polarisation
+    - Poynting vector
+    - radiation pressure
+

@@ -4,7 +4,6 @@
 > 	- [[Lec 1, Introduction|Previous]]
 >  	- [[Lec 3, Electrostatics, Coloumb's Law|Next]]
 
-
 ## [[Maxwell's Equations]]
 
 4 differential equations, relating [[Electric Field]] $\E$ and [[Magnetic Field]] $\B$.
