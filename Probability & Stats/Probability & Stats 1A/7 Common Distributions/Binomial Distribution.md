@@ -15,6 +15,8 @@ $$
 \end{cases}
 $$
 
+with
+
 - $\Expt(X) = np$.
 - $\Var(X) = np(1- p)$
 - $G_{X}( s )=(\left\{ ( 1 - p ) + s p \right\})^{n}$
