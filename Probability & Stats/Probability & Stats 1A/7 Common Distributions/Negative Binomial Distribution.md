@@ -15,4 +15,4 @@ with
 
 - $\Expt(X)=\frac{r}{p}$
 - $\Var(X) = \frac{r ( 1 - p )}{p^{2}}$
-- $G_{X}( s )=((\frac{s p}{1 - s ( 1 - p )}))^{r}$
+- $G_{X}( s )=\(\frac{s p}{1 - s ( 1 - p )}\)^r$

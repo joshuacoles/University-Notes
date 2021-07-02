@@ -8266,6 +8266,7 @@ Dropzone.propTypes = {
   onDropRejected: import_prop_types.default.func,
   validator: import_prop_types.default.func
 };
+var es_default = Dropzone;
 var initialState = {
   isFocused: false,
   isFileDialogActive: false,
@@ -9095,9 +9096,9 @@ function joinAttributes(attributes) {
     return acc + "".concat(attributeName, '="').concat(htmlEscape(attributes[attributeName]), '" ');
   }, "").trim();
 }
-function joinStyles(styles3) {
-  return Object.keys(styles3 || {}).reduce(function(acc, styleName) {
-    return acc + "".concat(styleName, ": ").concat(styles3[styleName], ";");
+function joinStyles(styles2) {
+  return Object.keys(styles2 || {}).reduce(function(acc, styleName) {
+    return acc + "".concat(styleName, ": ").concat(styles2[styleName], ";");
   }, "");
 }
 function transformIsMeaningful(transform2) {
@@ -9209,8 +9210,8 @@ function makeIconMasking(_ref2) {
   };
 }
 function makeIconStandard(_ref2) {
-  var children = _ref2.children, attributes = _ref2.attributes, main = _ref2.main, transform2 = _ref2.transform, styles3 = _ref2.styles;
-  var styleString = joinStyles(styles3);
+  var children = _ref2.children, attributes = _ref2.attributes, main = _ref2.main, transform2 = _ref2.transform, styles2 = _ref2.styles;
+  var styleString = joinStyles(styles2);
   if (styleString.length > 0) {
     attributes["style"] = styleString;
   }
@@ -9242,14 +9243,14 @@ function makeIconStandard(_ref2) {
   };
 }
 function asIcon(_ref2) {
-  var children = _ref2.children, main = _ref2.main, mask = _ref2.mask, attributes = _ref2.attributes, styles3 = _ref2.styles, transform2 = _ref2.transform;
+  var children = _ref2.children, main = _ref2.main, mask = _ref2.mask, attributes = _ref2.attributes, styles2 = _ref2.styles, transform2 = _ref2.transform;
   if (transformIsMeaningful(transform2) && main.found && !mask.found) {
     var width = main.width, height = main.height;
     var offset = {
       x: width / height / 2,
       y: 0.5
     };
-    attributes["style"] = joinStyles(_objectSpread2({}, styles3, {
+    attributes["style"] = joinStyles(_objectSpread2({}, styles2, {
       "transform-origin": "".concat(offset.x + transform2.x / 16, "em ").concat(offset.y + transform2.y / 16, "em")
     }));
   }
@@ -9720,7 +9721,7 @@ var parse = {
 };
 var icon = resolveIcons(function(iconDefinition) {
   var params = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-  var _params$transform = params.transform, transform2 = _params$transform === void 0 ? meaninglessTransform : _params$transform, _params$symbol = params.symbol, symbol = _params$symbol === void 0 ? false : _params$symbol, _params$mask = params.mask, mask = _params$mask === void 0 ? null : _params$mask, _params$maskId = params.maskId, maskId = _params$maskId === void 0 ? null : _params$maskId, _params$title = params.title, title = _params$title === void 0 ? null : _params$title, _params$titleId = params.titleId, titleId = _params$titleId === void 0 ? null : _params$titleId, _params$classes = params.classes, classes = _params$classes === void 0 ? [] : _params$classes, _params$attributes = params.attributes, attributes = _params$attributes === void 0 ? {} : _params$attributes, _params$styles = params.styles, styles3 = _params$styles === void 0 ? {} : _params$styles;
+  var _params$transform = params.transform, transform2 = _params$transform === void 0 ? meaninglessTransform : _params$transform, _params$symbol = params.symbol, symbol = _params$symbol === void 0 ? false : _params$symbol, _params$mask = params.mask, mask = _params$mask === void 0 ? null : _params$mask, _params$maskId = params.maskId, maskId = _params$maskId === void 0 ? null : _params$maskId, _params$title = params.title, title = _params$title === void 0 ? null : _params$title, _params$titleId = params.titleId, titleId = _params$titleId === void 0 ? null : _params$titleId, _params$classes = params.classes, classes = _params$classes === void 0 ? [] : _params$classes, _params$attributes = params.attributes, attributes = _params$attributes === void 0 ? {} : _params$attributes, _params$styles = params.styles, styles2 = _params$styles === void 0 ? {} : _params$styles;
   if (!iconDefinition)
     return;
   var prefix = iconDefinition.prefix, iconName = iconDefinition.iconName, icon2 = iconDefinition.icon;
@@ -9755,7 +9756,7 @@ var icon = resolveIcons(function(iconDefinition) {
       titleId,
       extra: {
         attributes,
-        styles: styles3,
+        styles: styles2,
         classes
       }
     });
@@ -10139,136 +10140,158 @@ var VaultChangeModal = class extends import_obsidian.Modal {
 };
 
 // src/components/FileComponent.tsx
-function FileComponent({ plugin, fileList, activeFolderPath, setView, pinnedFiles, setPinnedFiles, excludedExtensions }) {
-  const [activeFile, setActiveFile] = (0, import_react3.useState)(null);
-  const { acceptedFiles, getRootProps, getInputProps } = useDropzone({ noClick: true });
-  const files = acceptedFiles.map((file) => __async(this, null, function* () {
-    file.arrayBuffer().then((arrayBuffer) => {
-      plugin.app.vault.adapter.writeBinary(activeFolderPath + "/" + file.name, arrayBuffer);
-    });
-  }));
-  const openFile = (file, e) => {
-    plugin.app.workspace.openLinkText(file.path, "/", import_obsidian2.Keymap.isModifier(e, "Mod") || e.button === 1);
-    setActiveFile(file);
-  };
-  const triggerContextMenu = (file, e) => {
-    const fileMenu = new import_obsidian2.Menu(plugin.app);
-    fileMenu.addItem((menuItem) => {
-      menuItem.setIcon("pin");
-      if (pinnedFiles.contains(file))
-        menuItem.setTitle("Unpin");
-      else
-        menuItem.setTitle("Pin to Top");
-      menuItem.onClick((ev) => {
-        if (pinnedFiles.contains(file)) {
-          let newPinnedFiles = pinnedFiles.filter((pinnedFile) => pinnedFile !== file);
-          setPinnedFiles(newPinnedFiles);
-        } else {
-          setPinnedFiles([...pinnedFiles, file]);
-        }
-      });
-    });
-    fileMenu.addItem((menuItem) => {
-      menuItem.setTitle("Rename");
-      menuItem.setIcon("pencil");
-      menuItem.onClick((ev) => {
-        let vaultChangeModal = new VaultChangeModal(plugin.app, file, "rename");
-        vaultChangeModal.open();
-      });
-    });
-    fileMenu.addItem((menuItem) => {
-      menuItem.setTitle("Delete");
-      menuItem.setIcon("trash");
-      menuItem.onClick((ev) => {
-        plugin.app.vault.delete(file, true);
-      });
-    });
-    plugin.app.workspace.trigger("file-menu", fileMenu, file, "file-explorer");
-    fileMenu.showAtPosition({ x: e.pageX, y: e.pageY });
-    return false;
-  };
-  const getFileNameAndExtension = (fullName) => {
-    var index = fullName.lastIndexOf(".");
-    return {
-      fileName: fullName.substring(0, index),
-      extension: fullName.substring(index + 1)
+var FileComponent = class extends import_react3.default.Component {
+  constructor() {
+    super(...arguments);
+    this.state = {
+      activeFile: null,
+      highlight: false
     };
-  };
-  const getFolderName = (folderPath) => {
-    if (folderPath === "/")
-      return plugin.app.vault.getName();
-    let index = folderPath.lastIndexOf("/");
-    if (index !== -1)
-      return folderPath.substring(index + 1);
-    return folderPath;
-  };
-  const customFiles = (fileList2) => {
-    let sortedfileList;
-    if (excludedExtensions.length > 0)
-      sortedfileList = fileList2.filter((file) => !excludedExtensions.contains(file.extension));
-    sortedfileList = sortedfileList.sort((a, b) => a.name.localeCompare(b.name));
-    if (pinnedFiles.length > 0) {
-      sortedfileList = sortedfileList.reduce((acc, element) => {
-        if (pinnedFiles.contains(element))
-          return [element, ...acc];
-        return [...acc, element];
-      }, []);
-    }
-    return sortedfileList;
-  };
-  const createNewFile = (e, folderPath) => __async(this, null, function* () {
-    let targetFolder = plugin.app.vault.getAbstractFileByPath(folderPath);
-    if (!targetFolder)
-      return;
-    let modal = new VaultChangeModal(plugin.app, targetFolder, "create note");
-    modal.open();
-  });
-  const handleGoBack = (e) => {
-    setView("folder");
-  };
-  return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("div", {
-    className: "oz-explorer-container",
-    style: { width: "100%", height: "100%" }
-  }, /* @__PURE__ */ import_react3.default.createElement("div", {
-    className: "oz-flex-container"
-  }, /* @__PURE__ */ import_react3.default.createElement("div", {
-    className: "nav-action-button oz-nav-action-button"
-  }, /* @__PURE__ */ import_react3.default.createElement(FontAwesomeIcon, {
-    icon: faArrowCircleLeft,
-    onClick: (e) => handleGoBack(e),
-    size: "lg"
-  })), /* @__PURE__ */ import_react3.default.createElement("div", {
-    className: "nav-action-button oz-nav-action-button"
-  }, /* @__PURE__ */ import_react3.default.createElement(FontAwesomeIcon, {
-    icon: faPlusCircle,
-    onClick: (e) => createNewFile(e, activeFolderPath),
-    size: "lg"
-  }))), /* @__PURE__ */ import_react3.default.createElement("div", {
-    className: "oz-file-tree-header"
-  }, getFolderName(activeFolderPath)), /* @__PURE__ */ import_react3.default.createElement("div", __spreadProps(__spreadValues({}, getRootProps()), {
-    style: { width: "100%", height: "100%" }
-  }), /* @__PURE__ */ import_react3.default.createElement("input", __spreadValues({}, getInputProps())), /* @__PURE__ */ import_react3.default.createElement("div", {
-    className: "oz-file-tree-files"
-  }, customFiles(fileList).map((file) => {
-    return /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "nav-file oz-nav-file",
-      key: file.path,
-      onClick: (e) => openFile(file, e),
-      onContextMenu: (e) => triggerContextMenu(file, e)
+    this.onDrop = (files) => {
+      files.map((file) => __async(this, null, function* () {
+        file.arrayBuffer().then((arrayBuffer) => {
+          this.props.plugin.app.vault.adapter.writeBinary(this.props.activeFolderPath + "/" + file.name, arrayBuffer);
+        });
+      }));
+    };
+    this.fullHeightStyle = { width: "100%", height: "100%" };
+    this.openFile = (file, e) => {
+      this.props.plugin.app.workspace.openLinkText(file.path, "/", import_obsidian2.Keymap.isModifier(e, "Mod") || e.button === 1);
+      this.setState({ activeFile: file });
+    };
+    this.triggerContextMenu = (file, e) => {
+      const fileMenu = new import_obsidian2.Menu(this.props.plugin.app);
+      fileMenu.addItem((menuItem) => {
+        menuItem.setIcon("pin");
+        if (this.props.pinnedFiles.contains(file))
+          menuItem.setTitle("Unpin");
+        else
+          menuItem.setTitle("Pin to Top");
+        menuItem.onClick((ev) => {
+          if (this.props.pinnedFiles.contains(file)) {
+            let newPinnedFiles = this.props.pinnedFiles.filter((pinnedFile) => pinnedFile !== file);
+            this.props.setPinnedFiles(newPinnedFiles);
+          } else {
+            this.props.setPinnedFiles([...this.props.pinnedFiles, file]);
+          }
+        });
+      });
+      fileMenu.addItem((menuItem) => {
+        menuItem.setTitle("Rename");
+        menuItem.setIcon("pencil");
+        menuItem.onClick((ev) => {
+          let vaultChangeModal = new VaultChangeModal(this.props.plugin.app, file, "rename");
+          vaultChangeModal.open();
+        });
+      });
+      fileMenu.addItem((menuItem) => {
+        menuItem.setTitle("Delete");
+        menuItem.setIcon("trash");
+        menuItem.onClick((ev) => {
+          this.props.plugin.app.vault.delete(file, true);
+        });
+      });
+      this.props.plugin.app.workspace.trigger("file-menu", fileMenu, file, "file-explorer");
+      fileMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+      return false;
+    };
+    this.getFileNameAndExtension = (fullName) => {
+      var index = fullName.lastIndexOf(".");
+      return {
+        fileName: fullName.substring(0, index),
+        extension: fullName.substring(index + 1)
+      };
+    };
+    this.getFolderName = (folderPath) => {
+      if (folderPath === "/")
+        return this.props.plugin.app.vault.getName();
+      let index = folderPath.lastIndexOf("/");
+      if (index !== -1)
+        return folderPath.substring(index + 1);
+      return folderPath;
+    };
+    this.customFiles = (fileList) => {
+      let sortedfileList;
+      if (this.props.excludedExtensions.length > 0) {
+        sortedfileList = fileList.filter((file) => !this.props.excludedExtensions.contains(file.extension));
+      }
+      sortedfileList = sortedfileList.sort((a, b) => a.name.localeCompare(b.name, "en", { numeric: true }));
+      if (this.props.pinnedFiles.length > 0) {
+        sortedfileList = sortedfileList.reduce((acc, element) => {
+          if (this.props.pinnedFiles.contains(element))
+            return [element, ...acc];
+          return [...acc, element];
+        }, []);
+      }
+      return sortedfileList;
+    };
+    this.createNewFile = (e, folderPath) => __async(this, null, function* () {
+      let targetFolder = this.props.plugin.app.vault.getAbstractFileByPath(folderPath);
+      if (!targetFolder)
+        return;
+      let modal = new VaultChangeModal(this.props.plugin.app, targetFolder, "create note");
+      modal.open();
+    });
+    this.handleGoBack = (e) => {
+      this.props.setView("folder");
+    };
+  }
+  componentDidMount() {
+    document.querySelector('div.workspace-leaf-content[data-type="file-tree-view"] > div.view-content').scrollTo(0, 0);
+  }
+  render() {
+    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "oz-explorer-container",
+      style: this.fullHeightStyle
     }, /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "nav-file-title oz-nav-file-title" + (activeFile === file ? " is-active" : ""),
-      "data-path": file.path
-    }, getFileNameAndExtension(file.name).extension !== "md" && /* @__PURE__ */ import_react3.default.createElement("span", {
-      className: "nav-file-tag"
-    }, getFileNameAndExtension(file.name).extension), /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "nav-file-title-content"
-    }, getFileNameAndExtension(file.name).fileName, pinnedFiles.contains(file) && /* @__PURE__ */ import_react3.default.createElement(FontAwesomeIcon, {
-      icon: faThumbtack,
-      style: { marginLeft: "3px", float: "right" },
-      size: "xs"
-    }))));
-  })))));
-}
+      className: "oz-flex-container"
+    }, /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "nav-action-button oz-nav-action-button"
+    }, /* @__PURE__ */ import_react3.default.createElement(FontAwesomeIcon, {
+      icon: faArrowCircleLeft,
+      onClick: (e) => this.handleGoBack(e),
+      size: "lg"
+    })), /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "nav-action-button oz-nav-action-button"
+    }, /* @__PURE__ */ import_react3.default.createElement(FontAwesomeIcon, {
+      icon: faPlusCircle,
+      onClick: (e) => this.createNewFile(e, this.props.activeFolderPath),
+      size: "lg"
+    }))), /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "oz-file-tree-header"
+    }, this.getFolderName(this.props.activeFolderPath)), /* @__PURE__ */ import_react3.default.createElement(es_default, {
+      onDrop: this.onDrop,
+      noClick: true,
+      onDragEnter: () => this.setState({ highlight: true }),
+      onDragLeave: () => this.setState({ highlight: false }),
+      onDropAccepted: () => this.setState({ highlight: false }),
+      onDropRejected: () => this.setState({ highlight: false })
+    }, ({ getRootProps, getInputProps }) => /* @__PURE__ */ import_react3.default.createElement("div", __spreadProps(__spreadValues({}, getRootProps()), {
+      className: this.state.highlight ? "drag-entered" : "",
+      style: this.fullHeightStyle
+    }), /* @__PURE__ */ import_react3.default.createElement("input", __spreadValues({}, getInputProps())), /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "oz-file-tree-files"
+    }, this.customFiles(this.props.fileList).map((file) => {
+      return /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "nav-file oz-nav-file",
+        key: file.path,
+        onClick: (e) => this.openFile(file, e),
+        onContextMenu: (e) => this.triggerContextMenu(file, e)
+      }, /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "nav-file-title oz-nav-file-title" + (this.state.activeFile === file ? " is-active" : ""),
+        "data-path": file.path
+      }, this.getFileNameAndExtension(file.name).extension !== "md" && /* @__PURE__ */ import_react3.default.createElement("span", {
+        className: "nav-file-tag"
+      }, this.getFileNameAndExtension(file.name).extension), /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "nav-file-title-content"
+      }, this.getFileNameAndExtension(file.name).fileName, this.props.pinnedFiles.contains(file) && /* @__PURE__ */ import_react3.default.createElement(FontAwesomeIcon, {
+        icon: faThumbtack,
+        style: { marginLeft: "3px", float: "right" },
+        size: "xs"
+      }))));
+    }))))));
+  }
+};
 
 // src/components/FolderComponent.tsx
 var import_react7 = __toModule(require_react());
@@ -10866,12 +10889,12 @@ var AnimatedInterpolation = /* @__PURE__ */ function(_AnimatedWithChildren) {
   return AnimatedInterpolation2;
 }(AnimatedWithChildren);
 var _uniqueId = 0;
-function findAnimatedStyles(node, styles3) {
+function findAnimatedStyles(node, styles2) {
   if (typeof node.update === "function")
-    styles3.add(node);
+    styles2.add(node);
   else
     node.__getChildren().forEach(function(child) {
-      return findAnimatedStyles(child, styles3);
+      return findAnimatedStyles(child, styles2);
     });
 }
 var AnimatedValue = /* @__PURE__ */ function(_AnimatedWithChildren) {
@@ -12579,17 +12602,20 @@ var import_react5 = __toModule(require_react());
 var MinusSquareO = (props) => /* @__PURE__ */ import_react5.default.createElement("svg", __spreadProps(__spreadValues({}, props), {
   viewBox: "64 -65 897 897"
 }), /* @__PURE__ */ import_react5.default.createElement("g", null, /* @__PURE__ */ import_react5.default.createElement("path", {
-  d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 347h-442q-14 0 -25 10.5t-11 25.5v0q0 15 11 25.5t25 10.5h442q14 0 25 -10.5t11 -25.5v0\n  q0 -15 -11 -25.5t-25 -10.5z"
+  d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 347h-442q-14 0 -25 10.5t-11 25.5v0q0 15 11 25.5t25 10.5h442q14 0 25 -10.5t11 -25.5v0\n  q0 -15 -11 -25.5t-25 -10.5z",
+  fill: "var(--interactive-accent)"
 })));
 var PlusSquareO = (props) => /* @__PURE__ */ import_react5.default.createElement("svg", __spreadProps(__spreadValues({}, props), {
   viewBox: "64 -65 897 897"
 }), /* @__PURE__ */ import_react5.default.createElement("g", null, /* @__PURE__ */ import_react5.default.createElement("path", {
-  d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 420h-184v183q0 15 -10.5 25.5t-25.5 10.5v0q-14 0 -25 -10.5t-11 -25.5v-183h-184\n  q-15 0 -25.5 -11t-10.5 -25v0q0 -15 10.5 -25.5t25.5 -10.5h184v-183q0 -15 11 -25.5t25 -10.5v0q15 0 25.5 10.5t10.5 25.5v183h184q15 0 25.5 10.5t10.5 25.5v0q0 14 -10.5 25t-25.5 11z"
+  d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 420h-184v183q0 15 -10.5 25.5t-25.5 10.5v0q-14 0 -25 -10.5t-11 -25.5v-183h-184\n  q-15 0 -25.5 -11t-10.5 -25v0q0 -15 10.5 -25.5t25.5 -10.5h184v-183q0 -15 11 -25.5t25 -10.5v0q15 0 25.5 10.5t10.5 25.5v183h184q15 0 25.5 10.5t10.5 25.5v0q0 14 -10.5 25t-25.5 11z",
+  fill: "var(--interactive-accent)"
 })));
 var CloseSquareO = (props) => /* @__PURE__ */ import_react5.default.createElement("svg", __spreadProps(__spreadValues({}, props), {
   viewBox: "64 -65 897 897"
 }), /* @__PURE__ */ import_react5.default.createElement("g", null, /* @__PURE__ */ import_react5.default.createElement("path", {
-  d: "M717.5 589.5q-10.5 10.5 -25.5 10.5t-26 -10l-154 -155l-154 155q-11 10 -26 10t-25.5 -10.5t-10.5 -25.5t11 -25l154 -155l-154 -155q-11 -10 -11 -25t10.5 -25.5t25.5 -10.5t26 10l154 155l154 -155q11 -10 26 -10t25.5 10.5t10.5 25t-11 25.5l-154 155l154 155\n  q11 10 11 25t-10.5 25.5zM888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0z"
+  d: "M717.5 589.5q-10.5 10.5 -25.5 10.5t-26 -10l-154 -155l-154 155q-11 10 -26 10t-25.5 -10.5t-10.5 -25.5t11 -25l154 -155l-154 -155q-11 -10 -11 -25t10.5 -25.5t25.5 -10.5t26 10l154 155l154 -155q11 -10 26 -10t25.5 10.5t10.5 25t-11 25.5l-154 155l154 155\n  q11 10 11 25t-10.5 25.5zM888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0z",
+  fill: "var(--interactive-accent)"
 })));
 
 // src/components/treeComponent/TreeComponent.tsx
@@ -12597,7 +12623,8 @@ var Tree = class extends import_react6.default.Component {
   constructor() {
     super(...arguments);
     this.state = {
-      open: this.props.open
+      open: this.props.open,
+      highlight: false
     };
     this.toggle = () => {
       if (this.props.children) {
@@ -12614,29 +12641,51 @@ var Tree = class extends import_react6.default.Component {
         this.setState((state) => ({ open: !this.state.open }));
       }
     };
+    this.onDrop = (files) => {
+      files.map((file) => __async(this, null, function* () {
+        file.arrayBuffer().then((arrayBuffer) => {
+          this.props.plugin.app.vault.adapter.writeBinary(this.props.folder.path + "/" + file.name, arrayBuffer);
+        });
+      }));
+    };
     this.folderNameClickEvent = () => this.props.onClick();
     this.folderContextMenuEvent = () => this.props.onContextMenu();
   }
   render() {
-    const { open } = this.state;
-    const { children, content, type, style, springConfig } = this.props;
-    const Icon = children ? open ? MinusSquareO : PlusSquareO : CloseSquareO;
-    return /* @__PURE__ */ import_react6.default.createElement("div", {
-      style: __spreadValues(__spreadValues({}, styles2.tree), style),
+    const Icon = this.props.children ? this.state.open ? MinusSquareO : PlusSquareO : CloseSquareO;
+    return /* @__PURE__ */ import_react6.default.createElement(es_default, {
+      onDrop: this.onDrop,
+      noClick: true,
+      onDragEnter: () => this.setState({ highlight: true }),
+      onDragLeave: () => this.setState({ highlight: false })
+    }, ({ getRootProps, getInputProps }) => /* @__PURE__ */ import_react6.default.createElement("div", {
+      style: __spreadValues({}, this.props.style),
       className: "treeview"
+    }, /* @__PURE__ */ import_react6.default.createElement("div", __spreadProps(__spreadValues({}, getRootProps({ className: "dropzone" })), {
+      className: "oz-folder-element" + (this.state.highlight ? " drag-entered" : ""),
+      "data-path": this.props.folder.path
+    }), /* @__PURE__ */ import_react6.default.createElement("input", __spreadValues({}, getInputProps())), /* @__PURE__ */ import_react6.default.createElement("div", {
+      style: { width: "100%" }
+    }, /* @__PURE__ */ import_react6.default.createElement("div", {
+      className: "oz-icon-div"
     }, /* @__PURE__ */ import_react6.default.createElement(Icon, {
-      className: "toggle",
-      style: __spreadProps(__spreadValues({}, styles2.toggle), { opacity: children ? 1 : 0.3 }),
+      className: "oz-folder-toggle",
+      style: { opacity: this.props.children ? 1 : 0.3 },
       onClick: this.toggle
-    }), /* @__PURE__ */ import_react6.default.createElement("span", {
-      style: __spreadProps(__spreadValues({}, styles2.type), { marginRight: type ? 10 : 0 })
-    }, type), /* @__PURE__ */ import_react6.default.createElement("span", {
-      style: { verticalAlign: "middle" },
+    })), /* @__PURE__ */ import_react6.default.createElement("div", {
+      className: "oz-folder-block",
       onClick: this.folderNameClickEvent,
       onContextMenu: this.folderContextMenuEvent
-    }, content), !open && this.props.folderFileCountMap[this.props.folder.path] && /* @__PURE__ */ import_react6.default.createElement("span", {
-      style: { float: "right", paddingRight: "12px" }
-    }, this.props.folderFileCountMap[this.props.folder.path]), /* @__PURE__ */ import_react6.default.createElement(Spring, __spreadProps(__spreadValues({
+    }, /* @__PURE__ */ import_react6.default.createElement("div", {
+      className: "oz-folder-type",
+      style: { marginRight: this.props.type ? 10 : 0 }
+    }, " ", this.props.type, " "), /* @__PURE__ */ import_react6.default.createElement("div", {
+      className: "oz-folder-name"
+    }, this.props.content), !this.state.open && this.props.folderFileCountMap[this.props.folder.path] && /* @__PURE__ */ import_react6.default.createElement("div", {
+      className: "oz-folder-count"
+    }, /* @__PURE__ */ import_react6.default.createElement("span", {
+      className: "nav-file-tag"
+    }, this.props.folderFileCountMap[this.props.folder.path]))))), /* @__PURE__ */ import_react6.default.createElement(Spring, {
       native: true,
       immediate: true,
       config: __spreadProps(__spreadValues({}, config2.default), {
@@ -12645,158 +12694,156 @@ var Tree = class extends import_react6.default.Component {
       }),
       from: { height: 0, opacity: 0, transform: "translate3d(20px,0,0)" },
       to: {
-        height: open ? "auto" : 0,
-        opacity: open ? 1 : 0,
-        transform: open ? "translate3d(0px,0,0)" : "translate3d(20px,0,0)"
-      }
-    }, springConfig && springConfig(open)), {
+        height: this.state.open ? "auto" : 0,
+        opacity: this.state.open ? 1 : 0,
+        transform: this.state.open ? "translate3d(0px,0,0)" : "translate3d(20px,0,0)"
+      },
       render: Contents
-    }), this.props.children));
+    }, this.props.children)));
   }
 };
 var Contents = (_a) => {
   var _b = _a, { children } = _b, style = __objRest(_b, ["children"]);
   return /* @__PURE__ */ import_react6.default.createElement(extendedAnimated.div, {
-    style: __spreadValues(__spreadValues({}, style), styles2.contents)
+    style: __spreadValues({}, style),
+    className: "oz-folder-contents"
   }, children);
-};
-var styles2 = {
-  tree: {
-    position: "relative",
-    padding: "4px 0px 0px 0px",
-    textOverflow: "ellipsis",
-    whiteSpace: "nowrap",
-    overflow: "hidden",
-    verticalAlign: "middle"
-  },
-  toggle: {
-    width: "1em",
-    height: "1em",
-    marginRight: 10,
-    cursor: "pointer",
-    verticalAlign: "middle"
-  },
-  type: {
-    textTransform: "uppercase",
-    fontFamily: "monospace",
-    fontSize: "0.6em",
-    verticalAlign: "middle"
-  },
-  contents: {
-    willChange: "transform, opacity, height",
-    marginLeft: 6,
-    padding: "4px 0px 0px 14px",
-    borderLeft: "1px dashed",
-    borderLeftColor: "var(--text-muted)",
-    fontSize: 12.8
-  }
 };
 
 // src/components/FolderComponent.tsx
-function FolderComponent({ plugin, folderTree, activeFolderPath, setActiveFolderPath, setView, openFolders, setOpenFolders, excludedFolders, folderFileCountMap }) {
-  const treeStyles = { color: "--var(--text-muted)", fill: "#c16ff7", width: "100%", left: 10, top: 10 };
-  const handleFolderNameClick = (folderPath) => {
-    setActiveFolderPath(folderPath);
-  };
-  return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement(Tree, {
-    content: plugin.app.vault.getName(),
-    open: true,
-    style: treeStyles,
-    onClick: () => handleFolderNameClick("/"),
-    setOpenFolders,
-    openFolders,
-    folder: plugin.app.vault.getRoot(),
-    folderFileCountMap
-  }, folderTree && /* @__PURE__ */ import_react7.default.createElement(NestedChildrenComponent, {
-    plugin,
-    folderTree,
-    activeFolderPath,
-    setActiveFolderPath,
-    setView,
-    openFolders,
-    setOpenFolders,
-    excludedFolders,
-    folderFileCountMap
-  })));
-}
-function NestedChildrenComponent({ plugin, folderTree, activeFolderPath, setActiveFolderPath, setView, openFolders, setOpenFolders, excludedFolders, folderFileCountMap }) {
-  if (!folderTree.children)
-    return null;
-  const handleFolderNameClick = (folderPath) => {
-    setActiveFolderPath(folderPath);
-  };
-  const handleContextMenu = (event, folder) => {
-    let e = event;
-    if (event === void 0)
-      e = window.event;
-    const fileMenu = new import_obsidian3.Menu(plugin.app);
-    fileMenu.addItem((menuItem) => {
-      menuItem.setTitle("New Folder");
-      menuItem.setIcon("folder");
-      menuItem.onClick((ev) => {
-        let vaultChangeModal = new VaultChangeModal(plugin.app, folder, "create folder");
-        vaultChangeModal.open();
+var FolderComponent = class extends import_react7.default.Component {
+  constructor() {
+    super(...arguments);
+    this.treeStyles = { color: "--var(--text-muted)", fill: "#c16ff7", width: "100%", left: 10, top: 10 };
+    this.handleFolderNameClick = (folderPath) => {
+      this.props.setActiveFolderPath(folderPath);
+    };
+  }
+  render() {
+    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement(ConditionalRootFolderWrapper, {
+      condition: this.props.plugin.settings.showRootFolder,
+      wrapper: (children) => {
+        return /* @__PURE__ */ import_react7.default.createElement(Tree, {
+          plugin: this.props.plugin,
+          content: this.props.plugin.app.vault.getName(),
+          open: true,
+          style: this.treeStyles,
+          onClick: () => this.handleFolderNameClick("/"),
+          setOpenFolders: this.props.setOpenFolders,
+          openFolders: this.props.openFolders,
+          folder: this.props.plugin.app.vault.getRoot(),
+          folderFileCountMap: this.props.folderFileCountMap
+        }, children);
+      }
+    }, this.props.folderTree && /* @__PURE__ */ import_react7.default.createElement(NestedChildrenComponent, {
+      plugin: this.props.plugin,
+      folderTree: this.props.folderTree,
+      activeFolderPath: this.props.activeFolderPath,
+      setActiveFolderPath: this.props.setActiveFolderPath,
+      setView: this.props.setView,
+      openFolders: this.props.openFolders,
+      setOpenFolders: this.props.setOpenFolders,
+      excludedFolders: this.props.excludedFolders,
+      setExcludedFolders: this.props.setExcludedFolders,
+      folderFileCountMap: this.props.folderFileCountMap
+    })));
+  }
+};
+var ConditionalRootFolderWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
+var NestedChildrenComponent = class extends import_react7.default.Component {
+  constructor() {
+    super(...arguments);
+    this.handleFolderNameClick = (folderPath) => {
+      this.props.setActiveFolderPath(folderPath);
+    };
+    this.handleContextMenu = (event, folder) => {
+      let e = event;
+      if (event === void 0)
+        e = window.event;
+      const fileMenu = new import_obsidian3.Menu(this.props.plugin.app);
+      fileMenu.addItem((menuItem) => {
+        menuItem.setTitle("New Folder");
+        menuItem.setIcon("folder");
+        menuItem.onClick((ev) => {
+          let vaultChangeModal = new VaultChangeModal(this.props.plugin.app, folder, "create folder");
+          vaultChangeModal.open();
+        });
       });
-    });
-    fileMenu.addItem((menuItem) => {
-      menuItem.setTitle("Delete");
-      menuItem.setIcon("trash");
-      menuItem.onClick((ev) => {
-        plugin.app.vault.delete(folder, true);
+      fileMenu.addItem((menuItem) => {
+        menuItem.setTitle("Delete");
+        menuItem.setIcon("trash");
+        menuItem.onClick((ev) => {
+          this.props.plugin.app.vault.delete(folder, true);
+        });
       });
-    });
-    fileMenu.addItem((menuItem) => {
-      menuItem.setTitle("Rename");
-      menuItem.setIcon("pencil");
-      menuItem.onClick((ev) => {
-        let vaultChangeModal = new VaultChangeModal(plugin.app, folder, "rename");
-        vaultChangeModal.open();
+      fileMenu.addItem((menuItem) => {
+        menuItem.setTitle("Rename");
+        menuItem.setIcon("pencil");
+        menuItem.onClick((ev) => {
+          let vaultChangeModal = new VaultChangeModal(this.props.plugin.app, folder, "rename");
+          vaultChangeModal.open();
+        });
       });
-    });
-    plugin.app.workspace.trigger("file-menu", fileMenu, folder, "file-explorer");
-    fileMenu.showAtPosition({ x: e.pageX, y: e.pageY });
-    return false;
-  };
-  const customSort = (folderTree2) => {
-    let newTree;
-    if (excludedFolders.length > 0)
-      newTree = folderTree2.filter((tree) => !excludedFolders.contains(tree.folder.path));
-    newTree = newTree.sort((a, b) => a.folder.name.localeCompare(b.folder.name));
-    return newTree;
-  };
-  return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, Array.isArray(folderTree.children) && customSort(folderTree.children).map((child) => {
-    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, {
-      key: child.folder.path
-    }, child.folder.children.some((child2) => child2 instanceof import_obsidian3.TFolder) ? /* @__PURE__ */ import_react7.default.createElement(Tree, {
-      content: child.folder.name,
-      open: openFolders.contains(child.folder) ? true : false,
-      onClick: () => handleFolderNameClick(child.folder.path),
-      onContextMenu: (e) => handleContextMenu(e, child.folder),
-      setOpenFolders,
-      openFolders,
-      folder: child.folder,
-      folderFileCountMap
-    }, /* @__PURE__ */ import_react7.default.createElement(NestedChildrenComponent, {
-      plugin,
-      folderTree: child,
-      activeFolderPath,
-      setActiveFolderPath,
-      setView,
-      openFolders,
-      setOpenFolders,
-      excludedFolders,
-      folderFileCountMap
-    })) : /* @__PURE__ */ import_react7.default.createElement(Tree, {
-      content: child.folder.name,
-      onClick: () => handleFolderNameClick(child.folder.path),
-      onContextMenu: (e) => handleContextMenu(e, child.folder),
-      setOpenFolders,
-      openFolders,
-      folder: child.folder,
-      folderFileCountMap
+      fileMenu.addItem((menuItem) => {
+        menuItem.setTitle("Add to Excluded Folders");
+        menuItem.setIcon("switch");
+        menuItem.onClick((ev) => {
+          this.props.setExcludedFolders([...this.props.excludedFolders, folder.path]);
+        });
+      });
+      this.props.plugin.app.workspace.trigger("file-menu", fileMenu, folder, "file-explorer");
+      fileMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+      return false;
+    };
+    this.customSort = (folderTree) => {
+      let newTree;
+      if (this.props.excludedFolders.length > 0) {
+        newTree = folderTree.filter((tree) => !this.props.excludedFolders.contains(tree.folder.path));
+      }
+      newTree = newTree.sort((a, b) => a.folder.name.localeCompare(b.folder.name, "en", { numeric: true }));
+      return newTree;
+    };
+  }
+  render() {
+    if (!this.props.folderTree.children)
+      return null;
+    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, Array.isArray(this.props.folderTree.children) && this.customSort(this.props.folderTree.children).map((child) => {
+      return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, {
+        key: child.folder.path
+      }, child.folder.children.some((child2) => child2 instanceof import_obsidian3.TFolder) ? /* @__PURE__ */ import_react7.default.createElement(Tree, {
+        plugin: this.props.plugin,
+        content: child.folder.name,
+        open: this.props.openFolders.contains(child.folder) ? true : false,
+        onClick: () => this.handleFolderNameClick(child.folder.path),
+        onContextMenu: (e) => this.handleContextMenu(e, child.folder),
+        setOpenFolders: this.props.setOpenFolders,
+        openFolders: this.props.openFolders,
+        folder: child.folder,
+        folderFileCountMap: this.props.folderFileCountMap
+      }, /* @__PURE__ */ import_react7.default.createElement(NestedChildrenComponent, {
+        plugin: this.props.plugin,
+        folderTree: child,
+        activeFolderPath: this.props.activeFolderPath,
+        setActiveFolderPath: this.props.setActiveFolderPath,
+        setView: this.props.setView,
+        openFolders: this.props.openFolders,
+        setOpenFolders: this.props.setOpenFolders,
+        excludedFolders: this.props.excludedFolders,
+        setExcludedFolders: this.props.setExcludedFolders,
+        folderFileCountMap: this.props.folderFileCountMap
+      })) : /* @__PURE__ */ import_react7.default.createElement(Tree, {
+        plugin: this.props.plugin,
+        content: child.folder.name,
+        onClick: () => this.handleFolderNameClick(child.folder.path),
+        onContextMenu: (e) => this.handleContextMenu(e, child.folder),
+        setOpenFolders: this.props.setOpenFolders,
+        openFolders: this.props.openFolders,
+        folder: child.folder,
+        folderFileCountMap: this.props.folderFileCountMap
+      }));
     }));
-  }));
-}
+  }
+};
 
 // src/components/MainComponent.tsx
 var MainTreeComponent = class extends import_react8.default.Component {
@@ -12817,11 +12864,11 @@ var MainTreeComponent = class extends import_react8.default.Component {
     this.setView = (view) => this.setState({ view });
     this.setPinnedFiles = (pinnedFiles) => {
       this.setState({ pinnedFiles });
-      this.setNewFileList(this.state.activeFolderPath);
+      this.savePinnedFilesToSettings();
     };
     this.setNewFileList = (folderPath) => {
       let filesPath = folderPath ? folderPath : this.state.activeFolderPath;
-      this.setState({ fileList: getFilesUnderPath(filesPath, this.props.plugin.app) });
+      this.setState({ fileList: getFilesUnderPath(filesPath, this.props.plugin) });
     };
     this.setOpenFolders = (openFolders) => {
       this.setState({ openFolders });
@@ -12846,6 +12893,10 @@ var MainTreeComponent = class extends import_react8.default.Component {
         excludedFolders.push(excludedFolder.trim());
       }
       this.setState({ excludedFolders });
+    };
+    this.setExcludedFolders = (excludedFolders) => {
+      this.setState({ excludedFolders });
+      this.saveExcludedFoldersToSettings();
     };
     this.componentWillUnmount = () => {
       this.saveOpenFoldersToSettings();
@@ -12905,6 +12956,10 @@ var MainTreeComponent = class extends import_react8.default.Component {
     this.props.plugin.settings.pinnedFiles = pinnedFiles;
     this.props.plugin.saveSettings();
   }
+  saveExcludedFoldersToSettings() {
+    this.props.plugin.settings.excludedFolders = this.state.excludedFolders.join(", ");
+    this.props.plugin.saveSettings();
+  }
   componentDidMount() {
     console.log("File Tree Component Mounted");
     this.setState({ folderTree: createFolderTree(this.rootFolder) });
@@ -12932,6 +12987,7 @@ var MainTreeComponent = class extends import_react8.default.Component {
       openFolders: this.state.openFolders,
       setOpenFolders: this.setOpenFolders,
       excludedFolders: this.state.excludedFolders,
+      setExcludedFolders: this.setExcludedFolders,
       folderFileCountMap: this.state.folderFileCountMap
     }) : /* @__PURE__ */ import_react8.default.createElement(FileComponent, {
       plugin: this.props.plugin,
@@ -12944,17 +13000,17 @@ var MainTreeComponent = class extends import_react8.default.Component {
     }));
   }
 };
-var getFilesUnderPath = (path, app) => {
+var getFilesUnderPath = (path, plugin) => {
   var filesUnderPath = [];
-  recursiveFx(path, app);
-  function recursiveFx(path2, app2) {
-    var folderObj = app2.vault.getAbstractFileByPath(path2);
+  recursiveFx(path, plugin.app);
+  function recursiveFx(path2, app) {
+    var folderObj = app.vault.getAbstractFileByPath(path2);
     if (folderObj instanceof import_obsidian4.TFolder && folderObj.children) {
       for (let child of folderObj.children) {
         if (child instanceof import_obsidian4.TFile)
           filesUnderPath.push(child);
-        if (child instanceof import_obsidian4.TFolder)
-          recursiveFx(child.path, app2);
+        if (child instanceof import_obsidian4.TFolder && plugin.settings.showFilesFromSubFolders)
+          recursiveFx(child.path, app);
       }
     }
   }
@@ -13037,6 +13093,8 @@ var FileTreeView = class extends import_obsidian5.ItemView {
 var import_obsidian6 = __toModule(require("obsidian"));
 var DEFAULT_SETTINGS = {
   ribbonIcon: true,
+  showRootFolder: true,
+  showFilesFromSubFolders: true,
   excludedExtensions: "",
   excludedFolders: "",
   folderCount: true,
@@ -13058,12 +13116,20 @@ var FileTreeAlternativePluginSettingsTab = class extends import_obsidian6.Plugin
       this.plugin.saveSettings();
       this.plugin.refreshIconRibbon();
     }));
+    new import_obsidian6.Setting(containerEl).setName("Show Root Folder").setDesc(`Turn on if you want your Root Folder "${this.plugin.app.vault.getName()}" to be visible in the file tree`).addToggle((toggle) => toggle.setValue(this.plugin.settings.showRootFolder).onChange((value) => {
+      this.plugin.settings.showRootFolder = value;
+      this.plugin.saveSettings();
+      this.plugin.refreshTreeLeafs();
+    }));
+    new import_obsidian6.Setting(containerEl).setName("Include Files From Subfolders to the File List").setDesc(`Turn on this option if you want to see the list of files from all subfolders in addition to the selected folder`).addToggle((toggle) => toggle.setValue(this.plugin.settings.showFilesFromSubFolders).onChange((value) => {
+      this.plugin.settings.showFilesFromSubFolders = value;
+      this.plugin.saveSettings();
+    }));
     containerEl.createEl("h2", { text: "Folder Count Settings" });
     new import_obsidian6.Setting(containerEl).setName("Folder Count").setDesc("Turn on if you want see the number of notes/files under file tree.").addToggle((toggle) => toggle.setValue(this.plugin.settings.folderCount).onChange((value) => {
       this.plugin.settings.folderCount = value;
       this.plugin.saveSettings();
-      this.plugin.detachFileTreeLeafs();
-      this.plugin.openFileTreeLeaf();
+      this.plugin.refreshTreeLeafs();
     }));
     new import_obsidian6.Setting(containerEl).setName("Folder Count Details").setDesc("Select which files you want to be included into count").addDropdown((dropdown) => {
       dropdown.addOption("notes", "Notes");
@@ -13118,6 +13184,10 @@ var FileTreeAlternativePlugin = class extends import_obsidian7.Plugin {
         leaf.view.destroy();
         leaf.detach();
       }
+    };
+    this.refreshTreeLeafs = () => {
+      this.detachFileTreeLeafs();
+      this.openFileTreeLeaf();
     };
   }
   onload() {
