@@ -1,1 +1,11 @@
-{"ribbonIcon":true,"excludedExtensions":"","excludedFolders":"","folderCount":true,"folderCountOption":"notes","openFolders":[],"pinnedFiles":[]}
+{
+  "ribbonIcon": true,
+  "showRootFolder": true,
+  "showFilesFromSubFolders": true,
+  "excludedExtensions": "",
+  "excludedFolders": "",
+  "folderCount": true,
+  "folderCountOption": "notes",
+  "openFolders": [],
+  "pinnedFiles": []
+}

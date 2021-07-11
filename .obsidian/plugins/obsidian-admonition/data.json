@@ -1,1 +1,16 @@
-{"userAdmonitions":{"pseudocode":{"type":"pseudocode","color":"179, 107, 250","icon":"project-diagram"}},"syntaxHighlight":true,"copyButton":false,"version":"6.1.1","autoCollapse":false,"defaultCollapseType":"open","syncLinks":true,"enableMarkdownProcessor":false}
+{
+  "userAdmonitions": {
+    "pseudocode": {
+      "type": "pseudocode",
+      "color": "179, 107, 250",
+      "icon": "project-diagram"
+    }
+  },
+  "syntaxHighlight": true,
+  "copyButton": false,
+  "version": "6.1.1",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "syncLinks": true,
+  "enableMarkdownProcessor": false
+}

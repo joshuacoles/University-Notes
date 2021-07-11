@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algebra/Algebra 1A/4 Group Theory/2-MA10209-webse4.md",
+            "file": "Algebra/Algebra 2B/0.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algebra/Algebra 1A/4 Group Theory/2-MA10209-webse4.md",
+            "file": "Algebra/Algebra 2B/0.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebra 1A/4 Group Theory/2-MA10209-webse4.md",
+                "file": "Algebra/Algebra 2B/0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebra 1A/4 Group Theory/2-MA10209-webse4.md"
+                "file": "Algebra/Algebra 2B/0.md"
               }
             }
           },
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebra 1A/4 Group Theory/2-MA10209-webse4.md",
+                "file": "Algebra/Algebra 2B/0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,19 +138,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "d09f49d80279e92a",
+  "active": "0d1dccd1b2f8f1e8",
   "lastOpenFiles": [
-    "Algebra/Algebra 1A/4 Group Theory/2-MA10209-webse4.md",
-    "Algebra/Algebra 1A/1.2 Functions/1.2 Functions.md",
-    "Algebra/Algebra 1A/1.1 Naive set theory/1.1 Naive set theory.md",
-    "Algebra/Algebra 1A/2 Numbers and Arithmetic/2-MA10209-webse2.md",
-    "Algebra/Algebra 1A/1.4 Equivalence Relations/Partitions and Equivalence Relations.md",
-    "Algebra/Algebra 1A/1.4 Equivalence Relations/Partition.md",
-    "Algebra/Algebra 1A/1.4 Equivalence Relations/Equivalence Relation.md",
-    "Algebra/Algebra 1A/1.4 Equivalence Relations/1.4 Equivalence Relations.md",
-    "Algebra/Algebra 1A/1.3 Cardinality and Counting/1.3 Cardinality and Counting.md",
-    "Algebra/Algebra 1A/Algebra 1A.md"
+    "Algebra/Algebra 2B/0.md",
+    "Algebra/Algebra 2B/4.md",
+    "Algebra/Algebra 2B/3.md",
+    "Algebra/Algebra 2B/2.md",
+    "Algebra/Algebra 2B/1.md",
+    "Algebra/Algebra 2B/__index__.md",
+    "Algebra/Algebra 2A/Algebra 2A.md",
+    "Algebra/Algebra 1A/Algebra 1A.md",
+    "Algebra/Algebra 2B/Untitled.md",
+    "Dogma.md"
   ]
 }

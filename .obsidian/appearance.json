@@ -1,1 +1,10 @@
-{"baseFontSize":18,"cssTheme":"Molecule","theme":"moonstone","enabledCssSnippets":["naked-embed","quote-fix"]}
+{
+  "baseFontSize": 16,
+  "cssTheme": "California Coast",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "naked-embed",
+    "quote-fix",
+    "califoria-fix"
+  ]
+}
