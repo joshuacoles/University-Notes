@@ -1,4 +1,4 @@
-[[Algebra 2B/0]]
+[[Algebra/Algebra 2B/0/0]]
 
 [[Algebra 2B/1]]
 
@@ -8,6 +8,6 @@
 
 [[Algebra 2B/4]]
 
-[[Algebra 2B/5]]
+[[index, MAIN IDEAS]]
 
-[[Algebra 2B/6]]
+[[index, MAIN NOTATION]]

@@ -1,0 +1,1 @@
+At a minimum, every noun should have a primary linkable note.

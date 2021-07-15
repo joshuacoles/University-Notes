@@ -1,3 +1,7 @@
+---
+aliases: Equivalence Relations
+---
+
 # Equivalence Relation
 
 As for functions, a relation $\sim$ on a set $A$ (such as $\leq$ of $ℝ$ ) can be characterised by its graph, that is, $\set{(a, b)\in A \times A : a \sim b }$. In other words, two relations on the same set $A$ are equal if and only if their graphs are equal (as subsets of $A \times A$ ).
@@ -8,9 +12,9 @@ Let $\sim$ be a relation on a set $A$ be:
 2. **[[Symmetric]]** *iff* $\Forall a, b \in A : a \sim b \implies b \sim a$.
 3. **[[Transitive]]** *iff* $\Forall a, b, c \in A : a \sim b \land b \sim c \Rightarrow a \sim c$.
 
-When all of these hold we call $\sim$ an [[Equivalence Relation]].
+When all of these hold we call $\sim$ an Equivalence Relation.
 
-## Example
+## Examples
 
 1. On any set, $=$ is an equivalence relation.
 

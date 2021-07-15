@@ -1,6 +1,10 @@
+---
+aliases: Partition Function, Partitions
+---
+
 # Partition
 
-A **Partition** of a set $A$ is a subset $Q \sub \calP(A) \setminus \set{ ∅ }$, ie. a collection of non-empty subsets of $A$. Defined such that for all $a \in A$, there is a unique $X \in Q$ such that $a \in X$ (in other words, the subsets are disjoint and their union is $A$).
+A **Partition** of a set $A$ is a subset $Q \sub \calP(A) \setminus \set{\emptyset}$, ie. a collection of non-empty subsets of $A$. Defined such that for all $a \in A$, there is a unique $X \in Q$ such that $a \in X$ (in other words, the subsets are disjoint and their union is $A$).
 
 $$
 \bigcup_{q \in Q} q = A

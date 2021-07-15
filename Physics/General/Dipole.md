@@ -43,3 +43,7 @@ V(\r)
 &= \frac{\vp \dp \r}{4 \pi \epsi_0 r^3}.
 \end{align}
 $$
+
+```ad-info
+See [[Electric dipole.pdf]] for further info on Dipoles and derivations thereof.
+```

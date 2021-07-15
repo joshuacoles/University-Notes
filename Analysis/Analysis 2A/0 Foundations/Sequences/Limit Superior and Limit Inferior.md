@@ -1,4 +1,4 @@
-### [[Definition 0.5]]
+### [[Limit Superior and Limit Inferior]]
 
 (Limit superior and limit inferior) Let $(\alpha _k)_{k\in \N }$ be a real sequence. We define
 

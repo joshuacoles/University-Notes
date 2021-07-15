@@ -1,6 +1,6 @@
 # [[Partition|Partitions]] and [[Equivalence Relation|Equivalence Relations]]
 
-### Partition => Equivalence Relation
+### Partition $\Rightarrow$ Equivalence Relation
 
 If $Q$ is a partition of $A$, then it determines an equivalence relation by
 
@@ -10,7 +10,7 @@ $$
 
 Proof. See Example [1.33](#x5-8002r33) (e). □
 
-### Partition &leftarrow; Equivalence Relation
+### Partition $\Leftarrow$ Equivalence Relation
 
 Let $\sim$ be an equivalence relation on $A$ . For each $a \in A$ define the **equivalence classes**
 

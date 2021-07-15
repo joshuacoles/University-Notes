@@ -1,4 +1,4 @@
-### [[Proposition 0.3]]
+### [[Converge Properties of Common Sequences]]
 
 The following limits hold:
 

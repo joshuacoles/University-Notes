@@ -1,4 +1,4 @@
-### [[Proposition 0.6]]
+### [[Properties of limsup & liminf]]
 
 (Properties of $\limsup$ and $\liminf$) Let $(\alpha _k)_k$ be a real sequence; let $L_1:= \liminf _{k\to \infty } \alpha _k$ and $L_2:= \limsup _{k\to \infty } \alpha _k$. Suppose further that $L_1,L_2\in \R$. Then
 

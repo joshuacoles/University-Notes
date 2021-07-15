@@ -1,4 +1,4 @@
-## Power Set
+# Power Set
 
 For any set $A$ , the **power set**
 
@@ -10,11 +10,11 @@ Thus $B \in \mathcal{P}(A) \iff B \subseteq A$ .
 
 For example, if $A = \set{1, 2}$, then $P(A) = \set{∅, \set{1}, \set{2}, \set{1, 2}}$. Note that we always have $∅ \in P(A)$ and $A \in P (A)$ .
 
-### Size of Power Set of Finite Set
+## Size of Power Set of Finite Set
 
 If $A$ is finite, then $P ( A )$ is finite and $\left|P ( A )\right| = 2^{\left|A\right|}$ .
 
-#### Proof
+### Proof
 
 To determine a subset of $A$ , we must include or omit each of the elements of $A$ , which requires $\left|A\right|$ binary choices. □
 
