@@ -1,45 +1,45 @@
 {
   "main": {
-    "id": "bc41e641831161be",
+    "id": "7967212edbbccb48",
     "type": "split",
     "children": [
       {
-        "id": "0d1dccd1b2f8f1e8",
+        "id": "8314da176481c558",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algebra/Algebra 2B/0.md",
+            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
             "mode": "source"
           }
         },
-        "group": "3ff65074f10e9d7a"
+        "group": "312b1c94b66796d8"
       },
       {
-        "id": "d09f49d80279e92a",
+        "id": "a9f620e8e3249ba9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algebra/Algebra 2B/0.md",
+            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
             "mode": "preview"
           }
         },
-        "group": "3ff65074f10e9d7a"
+        "group": "312b1c94b66796d8"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b1267ea3ce4dc29b",
+    "id": "6e4b46e7d31663b0",
     "type": "split",
     "children": [
       {
-        "id": "8752736848b2fee4",
+        "id": "5255f55849174393",
         "type": "tabs",
         "children": [
           {
-            "id": "afdb59488ebe8b89",
+            "id": "15b8ad7858eff2b4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "64dc09697f4ae402",
+            "id": "9e6a0abf31a36f99",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "\\left\\{",
+                "query": "\"1 Vector Spaces\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,7 @@
             }
           },
           {
-            "id": "92581e2b1d757802",
+            "id": "6a68bdb2627ee97d",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -73,35 +73,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380
+    "width": 317
   },
   "right": {
-    "id": "15d2efeceee2b5d2",
+    "id": "916bf1c952e22201",
     "type": "split",
     "children": [
       {
-        "id": "0556a7ea3da28b1b",
+        "id": "256491ef6314b304",
         "type": "tabs",
         "children": [
           {
-            "id": "419adf4029dd95f9",
+            "id": "8d66fb5028f37259",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebra 2B/0.md",
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "5f3b610c0cebbfb1",
+            "id": "ae66758aa80f805f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "dd6094f4a4745c94",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,46 +124,68 @@
             }
           },
           {
-            "id": "61b7d00ac2b48abb",
+            "id": "af998c439929252c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebra 2B/0.md"
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md"
               }
             }
           },
           {
-            "id": "e6341f9a4632c8fd",
+            "id": "cd130612dd0c2fa2",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "localgraph",
               "state": {
-                "file": "Algebra/Algebra 2B/0.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "0d1dccd1b2f8f1e8",
+  "active": "8314da176481c558",
   "lastOpenFiles": [
-    "Algebra/Algebra 2B/0.md",
-    "Algebra/Algebra 2B/4.md",
-    "Algebra/Algebra 2B/3.md",
-    "Algebra/Algebra 2B/2.md",
-    "Algebra/Algebra 2B/1.md",
-    "Algebra/Algebra 2B/__index__.md",
-    "Algebra/Algebra 2A/Algebra 2A.md",
-    "Algebra/Algebra 1A/Algebra 1A.md",
-    "Algebra/Algebra 2B/Untitled.md",
-    "Dogma.md"
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec19.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Maxwells Equations in Materials.md",
+    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 11, Impedance of Free Space.md",
+    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 10, Properties of Plane Waves.md",
+    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 9, Waves in a Vacuum.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Auxiliary Fields in LIH Materials.md",
+    "Analysis/Analysis 2B/3 Second Order Derivatives/3.2 Symmetry of the Hessian.md",
+    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1/Maxwell's Equations.md",
+    "Algebra/Linear Algebra/Linear Algebra.md"
   ]
 }

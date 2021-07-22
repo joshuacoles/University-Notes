@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 18,
+  "cssTheme": "Molecule",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "naked-embed",
+    "quote-fix"
+  ]
+}

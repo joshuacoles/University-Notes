@@ -8,9 +8,9 @@
   },
   "syntaxHighlight": true,
   "copyButton": false,
-  "version": "6.1.1",
+  "version": "6.2.2",
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "syncLinks": true,
-  "enableMarkdownProcessor": false
+  "enableMarkdownProcessor": true
 }

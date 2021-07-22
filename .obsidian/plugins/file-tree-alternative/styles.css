@@ -1,15 +1,27 @@
 .oz-file-tree-header{
     height: 22px;
     color: var(--text-normal);
-    margin-top: 0px;
+    margin-top: 3px;
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     text-align: center;
 }
 
 .oz-nav-action-button{
     margin-bottom: 2px !important;
+    color: var(--text-normal);
+    display: inline-block;
+    padding: 3px 0px 0 3px !important;
+}
+
+.oz-input-container{
+    margin-bottom: 3px !important;
+    margin-top: 3px !important;
+}
+
+.oz-nav-buttons-right-block{
+    text-align: right;
 }
 
 .oz-nav-file-title{
@@ -71,6 +83,7 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
     font-family: monospace;
     font-size: 0.6em;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .oz-folder-name{
@@ -89,5 +102,10 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
 
 .oz-folder-count{
     float: right;
-    padding-right: 34px;
+    padding-right: 28px;
+}
+
+.oz-input-container > input {
+    padding-left: 8px;
+    padding-right: 4px;
 }

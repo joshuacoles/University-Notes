@@ -2,10 +2,15 @@
   "ribbonIcon": true,
   "showRootFolder": true,
   "showFilesFromSubFolders": true,
+  "searchFunction": true,
   "excludedExtensions": "",
   "excludedFolders": "",
   "folderCount": true,
   "folderCountOption": "notes",
-  "openFolders": [],
+  "openFolders": [
+    "Physics",
+    "Physics/Electromagnetism 2",
+    "Physics/Electromagnetism 2/Lectures"
+  ],
   "pinnedFiles": []
 }

@@ -1,11 +1,16 @@
 :root {
+    /*  All of these are 1/3rd of their original value. */
     --h1-margin-top: 1;
     --h2-margin-top: 0.75;
+    --h3-margin-top: calc(1.75 / 3);
     --h4-margin-top: 0.5;
     --h5-margin-top: 0.5;
     --h6-margin-top: 0.5;
+
+    /* --nav-indent: 10px; */
 }
 
+/*  Remove additional space in admonitions. */
 .admonition-content > :first-child {
     margin-top: 0 !important;
 }
@@ -14,12 +19,6 @@
     margin-bottom: 0 !important;
 }
 
-/* .admonition-content {
-    margin: 0 !important;
-    padding: 10px 15px;
-}
-
-.admonition-content > p{
-    margin: 0 !important;
-    padding: 0 1em;
+/* .nav-folder-children > .nav-file, .nav-folder-children > .nav-folder {
+    margin-left: var(--nav-indent);
 } */

@@ -2,6 +2,7 @@
   "obsidian-dangling-links",
   "folder-note-plugin",
   "obsidian-languagetool-plugin",
+  "obsidian-latex-environments",
   "macOS-keyboard-nav-obsidian",
   "note-refactor-obsidian",
   "obsidian-plugin-prettier",
@@ -18,8 +19,5 @@
   "obsidian-link-indexer",
   "tag-wrangler",
   "adjacency-matrix-maker",
-  "file-tree-alternative",
-  "obsidian-focus-mode",
-  "obsidian-hider",
-  "obsidian-latex-environments"
+  "file-tree-alternative"
 ]
