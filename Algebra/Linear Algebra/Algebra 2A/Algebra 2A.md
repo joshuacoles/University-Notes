@@ -1,11 +1,11 @@
 ### Contents
 
 1. [[1.0]]
-	1. [[1.1]]
-	2. [[1.2]]
-	3. [[1.3]]
-		1. [[1.3#1 3 1 Standard bases]]
-		2. [[1.3#1 3 2 Useful facts]]
+	1. [[Vector Space]]
+	2. [[Vector Subspace]]
+	3. [[Bases]]
+		1. [[Bases#1 3 1 Standard bases]]
+		2. [[Bases#1 3 2 Useful facts]]
 	4. [[1.4]]
 		1. [[1.4#1 4 1 Vector spaces of linear maps]]
 		2. [[1.4#1 4 2 Linear maps and matrices]]

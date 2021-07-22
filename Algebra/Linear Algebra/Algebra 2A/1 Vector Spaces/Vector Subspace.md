@@ -1,6 +1,16 @@
-#### 1.2 Subspaces
+---
+aliases: 
+- Subspace
+- Subspaces
+- Vector Subspace
+- Vector Subspaces
+- Linear Subspace
+- Linear Subspaces
+---
 
-###### Definition
+# Vector Subspace
+
+A **Vector Subspace** of 
 
 . A _vector_ (or _linear_) _subspace_ of a vector space $V$ over $\F$ is a non-empty subset $U\sub V$ which is closed under addition and scalar multiplication: whenever $u,u_1,u_2\in U$ and $\lambda \in \F$, then $u_1+u_2\in U$ and $\lambda u\in U$.
 

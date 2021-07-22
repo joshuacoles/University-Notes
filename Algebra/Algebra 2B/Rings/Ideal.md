@@ -1,8 +1,12 @@
 # Ideal
 
-A **nonempty** subset $I$ of a [[Ring]] $R$ is called an **Ideal** in $R$ if and only if $I$ is a [[Subgroup]] of $(R, +)$ such that 
+A **nonempty** subset $I \sub R$ of a [[Ring]] $R$ is called an **Ideal** in $R$ if and only if $I$ is a [[Subgroup]] of $(R, +)$ such that 
 
-$$ \Forall a \in I, r \in R :\quad ra \in I \land ar \in I$$
+$$
+\Forall a \in I, r \in R :\quad ra \in I \land ar \in I
+$$
+
+ie. of $r \in R$ by any $a \in I$, remain
 
 ## Quick Check
 
@@ -15,7 +19,9 @@ This is a short cut similar to I.8.
 
 ## One Sided Ideals
 
-What we have defined is a two-sided ideal. It is also possible, and occasionally useful, to define a left ideal to be a subgroup $L$ of $(R, +)$ for which $ra \in L$ whenever $r\in R$ and $a\in L$ (but perhaps $ar \notin L$). Obviously if $R$ is a commutative ring, left ideal, right ideals and two-sided ideals are all the same thing.
+What we have defined is a two-sided ideal. It is also possible, and occasionally useful, to define a left ideal to be a subgroup $L$ of $(R, +)$ for which $ra \in L$ whenever $r\in R$ and $a\in L$ (but perhaps $ar \notin L$).
+
+Obviously if $R$ is a commutative ring, left ideal, right ideals and two-sided ideals are all the same thing.
 
 ## In [[Commutative Ring|Commutative Rings]]
 
