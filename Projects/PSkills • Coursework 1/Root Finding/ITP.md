@@ -6,4 +6,4 @@ Find $x^*$ such that $f(x^*) = 0$.
 
 ## Existence and Uniqueness of Roots
 
-The [[Intermediary Value Theorem]] guarantees the existance of roots
+The [[Intermediary Value Theorem]] guarantees the existence of roots

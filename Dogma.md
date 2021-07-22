@@ -1,4 +1,4 @@
- # Dogma
+# Dogma
 
 ## Physics
 - Physics tells a narrative so we start with that narrative in the form of the `Lectures` folder
