@@ -101,4 +101,58 @@ $$
 
 where $Z_0$ is the [[Impedance of Free Space]] (see [[Lec 11, Impedance of Free Space]]).
 
-# Conducting Mat
+# EM Waves in Idealised LIH Conductor
+
+If a material is a conductor it obeys [[Ohm's Law]],
+
+$$ V = IR $$
+
+which can be written in terms of the vector fields as,
+
+$$ \vJ = \sigma \vE $$
+
+where $\sigma$ is the [[Conductivity]] of the material.
+
+```ad-note
+[[Conductivity]] is the inverse of [[Resistivity]] which has units $\ohm\mathrm{.m}$. This also explains the change from Potential $V$ to Force Field $\vE$.
+
+Sigma has units of $\unit{S.m^{-1} = \ohm^{-1} m^{-1}}$.
+```
+
+We have seen [[Conductivity]] $\sigma$ in the static limit or pseudo-static limit (very slow moving). Of interest here is the [[Optical Conductivity]] $\sigma(\omega)$ which is a generalisation of the static conductivity ($\sigma = \lim_{w \to \infty}\sigma(w)$).
+
+Now obtaining an equation for EM waves in an Idealised Conductor (noting still we have $\rho_f = 0$ why???? [cf](https://physics.stackexchange.com/questions/22773/in-electrostatics-why-the-electric-field-inside-a-conductor-is-zero)). This diverges from the previous derivation of an insulator after the application of the [[Maxwell–Ampére Law in Materials]],
+
+$$
+\nab^2 \vE =
+\mu \p_t (\vJ_f + \p_t \vD)
+$$
+
+as we now no longer have $\vJ_f = 0$.  Instead we apply the [[Constitutive Equation]] in a conductor $\vJ = \sigma \vE$ giving us,
+
+$$
+\nab^2 \vE =
+\mu \p_t (\sigma \vE + \p_t \vD).
+$$
+
+From here we can treat the $\vD$ term as before giving us,
+
+$$
+\nab^2 \vE =
+\mu\epsi\frac{\p^2 \vE}{\p t^2}
++ \mu\sigma \frac{\p \vE}{\p t}
+$$
+
+Here we see we **no longer have a [[Wave Equation]]**, we do not have sufficient maths to deal with this PDE rigorously however in true physicist fashion we will just kinda... try.
+
+## Attempting a Solution
+
+Instead of the standard time dependence $ik$ we will instead use an arbitrary complex constant $\gamma$ giving us,
+
+$$ \vE = \vE_0 \pw{\gamma x - i\omega t} $$
+
+which when substituted results in,
+
+$$
+\gamma^2 \vE = \mu
+$$
