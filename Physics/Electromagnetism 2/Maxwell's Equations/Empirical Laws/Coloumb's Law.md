@@ -6,7 +6,9 @@ $$
 \vF_e = \frac{1}{4\pi\epsi_0} \frac{Q_1 Q_2}{r^2} \uvec{r}
 $$
 
-- Note [[Permittivity of Free Space]] has units $\mathrm{F. m^{-1}}$.
+```ad-note
+The [[Permittivity of Free Space]] has units $\mathrm{F. m^{-1}}$.
+```
 
 ## Empirical Definition of the Electric Field
 

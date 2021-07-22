@@ -43,7 +43,7 @@ $$
 
 however nothing prevents $\E$ & $\B$ from rotating in the plane, perpendicular to $\vec{k}$ (ie. $\E_0$ has a time dependence, see later circular polarisation, this being called [[Linear Polarisation]]).
 
-## $\vec{H}$ [[H Field| Fields]] and [[Wave Impedance]]
+## $\vH$ [[H Field| Fields]] and [[Wave Impedance]]
 
 Often seen when studying fields inside materials, the $\vec{H}$ is often just known as the *Magnetic Field*, much to the dismay of undergrads across the land. In these contexts the $\B$ field is known as the *Induction*. However thankfully in [[Source Free Vacuum]] (or non-magnetic materials), these are trivially related as,
 

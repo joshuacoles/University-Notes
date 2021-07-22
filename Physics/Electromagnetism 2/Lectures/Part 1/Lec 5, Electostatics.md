@@ -124,7 +124,7 @@ $$
 $$
 
 ### Generalising to [[Charge Distributions]]
-Using the [[Principle of Superposition]] we get,
+Using the [[14.8  Principle of superposition|Principle of superposition]] we get,
 
 $$
 \phi(\r) = \frac 1{4\pi\epsilon_0} \int_V \frac{\rho(\vec{s})}{\|\r - \vec{s}\|} \,\d V.

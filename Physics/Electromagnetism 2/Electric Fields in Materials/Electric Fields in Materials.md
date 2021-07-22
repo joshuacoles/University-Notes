@@ -62,3 +62,5 @@ In this course we will will be dealing with materials known as [[LIH Materials]]
 - **Isotropic**: $\vP \parallel \vE$.
 	- In non-isotropic materials $\epsi_r$ is a tensor.
 - **Homogeneous**: $\vP$ is constant across the material.
+
+## Example: Capacitor iwth 
