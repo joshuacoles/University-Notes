@@ -147,12 +147,85 @@ Here we see we **no longer have a [[Wave Equation]]**, we do not have sufficient
 
 ## Attempting a Solution
 
-Instead of the standard time dependence $ik$ we will instead use an arbitrary complex constant $\gamma$ giving us,
+Instead of the standard space dependence $ik$ we will instead use an arbitrary complex constant $\gamma$ giving us,
 
 $$ \vE = \vE_0 \pw{\gamma x - i\omega t} $$
 
 which when substituted results in,
 
 $$
-\gamma^2 \vE = \mu
+\gamma^2 \vE =
+\mu\epsi (-i\omega)^2 \vE + 
+\mu\sigma (-i\omega)  \vE
 $$
+
+Now splitting $\gamma = -a + bi$ we get,
+
+```ad-note
+collapse:
+We will see why we have the $-a$ vs $+a$ later on.
+```
+
+$$
+\gamma^2 = (a^2 - b^2) - (2ab) i = (-\mu\epsi\omega^2) - i(\mu\sigma\omega)
+$$
+
+and hence
+
+$$
+\begin{align}
+a^2 - b^2 &= -\mu\epsi\omega^2 
+\\
+-2ab &= -i\mu\sigma\omega.
+\end{align}
+$$
+
+Taking the ratio of these quantities gives us,
+
+$$
+\frac{-2ab}{a^2 - b^2}
+= \frac{-i\mu\sigma\omega}{-\mu\epsi\omega^2}
+= \frac{\sigma}{\epsi\omega}.
+$$
+
+which can be seen to be a dimensionless property.
+
+## What does this ratio mean?
+
+If we look further at [[Maxwell–Ampére Law in Materials]] in a conductor, with this trial solution we obtain
+
+$$
+\begin{align}
+\curl \vH
+&= \vJ_f + \p_t \vD \\
+&= \sigma\vE + \epsi \p_t \vE
+\end{align}
+$$
+
+which by observing $\p_t \vE = -i\omega\vE \implies \vE = \frac{1}{-i\omega}\p_t \vE$ gives us,
+
+$$
+\begin{align}
+\curl \vH 
+&= \sigma\frac{1}{-i\omega}\p_t \vE + \epsi \p_t \vE \\
+&= \epsi_0\epsi_r\(1 + i\frac{\sigma}{\omega\epsi} \) \p_t \vE. \\
+\end{align}
+$$
+
+This forms a dielectric function,
+
+$$
+\epsi(\omega) = \epsi_r(\omega) + i\frac{\sigma(\omega)}{\epsi_0\omega} = \epsi' + i\epsi''
+$$
+
+which is the object connecting time-varying external electric field to the magnetic field intensity created in response.
+
+In particular, it captures both the 'insulating aspect', expressed by the dielectric “constant” $\epsi_r$, and the conduction of a material, through the appearance of Conductivity $\sigma$ in the dimensionless ratio $\frac{\sigma}{\epsi\omega}$.
+
+![[Dielectric_responses.svg]]
+
+where each peak is a resonance of a different object in material.
+
+We will however approximate this greatly with $\epsi'$ being constant and $\epsi''$ being determined by a constant Conductivity.
+
+---

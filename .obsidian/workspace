@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8314da176481c558",
+        "id": "4779832da7911bf0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
-            "mode": "source"
-          }
-        },
-        "group": "312b1c94b66796d8"
-      },
-      {
-        "id": "a9f620e8e3249ba9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+            "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
             "mode": "preview"
           }
-        },
-        "group": "312b1c94b66796d8"
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md"
+                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md"
               }
             }
           },
@@ -139,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
+                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8314da176481c558",
+  "active": "4779832da7911bf0",
   "lastOpenFiles": [
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec21.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/rec19.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Maxwells Equations in Materials.md",
-    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 11, Impedance of Free Space.md",
-    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 10, Properties of Plane Waves.md",
-    "Physics/Electromagnetism 2/Lectures/Part 1/Lec 9, Waves in a Vacuum.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Auxiliary Fields in LIH Materials.md",
-    "Analysis/Analysis 2B/3 Second Order Derivatives/3.2 Symmetry of the Hessian.md",
-    "Physics/Electromagnetism 2/Lectures/Cohesive Part 1/Maxwell's Equations.md",
-    "Algebra/Linear Algebra/Linear Algebra.md"
+    "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
+    "Mathematical Methods/PDEs/15 Heat Equation/15.2 Solving the Heat Equation under Homogenous Boundary Conditions.md",
+    "Analysis/Analysis 2A/Analysis 2A.md",
+    "Analysis/Analysis 2A/2 Metric Spaces/Example 42.md",
+    "Analysis/Analysis 2A/2 Metric Spaces/Definition 2.7.md",
+    "_Meta/Post Delivery Notes.md",
+    "_Meta/Extraction Thesis.md",
+    "_Meta/Structure.md",
+    "_Meta/Minimum effort.md",
+    "_Meta/Untitled.md"
   ]
 }

@@ -15,3 +15,7 @@ This includes,
 - Styling of notes to allow for easier human extraction.
 - Detection of note internal TOC even when not present.
 
+## Structure
+
+- When creating empty notes and lazy, just screenshot in the material or link to it with a tag of #programming-note/develop.
+- At a minimum, every noun should have a primary **linkable note**.

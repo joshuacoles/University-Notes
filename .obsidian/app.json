@@ -71,7 +71,8 @@
     "piecewise",
     "Subspaces",
     "reorientate",
-    "Idealised"
+    "Idealised",
+    "linkable"
   ],
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
