@@ -43,7 +43,7 @@ $$
 
 however nothing prevents $\E$ & $\B$ from rotating in the plane, perpendicular to $\vec{k}$ (ie. $\E_0$ has a time dependence, see later circular polarisation, this being called [[Linear Polarisation]]).
 
-## $\vH$ [[H Field| Fields]] and [[Wave Impedance]]
+## $\vH$ [[H Field| Fields]] and [[Impedance|Wave Impedance]]
 
 Often seen when studying fields inside materials, the $\vec{H}$ is often just known as the *Magnetic Field*, much to the dismay of undergrads across the land. In these contexts the $\B$ field is known as the *Induction*. However thankfully in [[Source Free Vacuum]] (or non-magnetic materials), these are trivially related as,
 
@@ -74,6 +74,6 @@ $$
 \frac{|\E|}{|\vec{H}|} = \frac{\mu_0 \omega}{k_z} = \mu_0 c = \sqrt{\frac{\mu}{\epsi_0}}.
 $$
 
-Where this result is the same for all waves in [[Source Free Vacuum]], and is called the [[Wave Impedance]] (in this case the [[Impedance of Free Space]] $Z_0$).
+Where this result is the same for all waves in [[Source Free Vacuum]], and is called the [[Impedance|Wave Impedance]] (in this case the [[Impedance]] of Free Space $Z_0$).
 
 > In fact this quantity has the units of electrical impedance as is equal to $Z_0 = 377\, \Omega$.

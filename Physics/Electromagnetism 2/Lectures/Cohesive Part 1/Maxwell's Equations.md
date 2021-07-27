@@ -4,12 +4,12 @@ Maxwell's Equations are 4 *vector differential equations* which relate and deter
 
 In a vacuum (in Differential Form),
 
-| Law                           | Equation                                                           |
-| ----------------------------- | ------------------------------------------------------------------ |
-| [[Gauss's Law]]               | $\divrg \E = \dfrac{\rho}{\epsilon_0}$                       |
-| [[Maxwell–Faraday equation]]  | $\curl \E = \p_t \B$                                 |
-| [[Gauss's law for magnetism]] | $\divrg \B = 0$                                              |
-| [[Maxwell–Ampère's circuital law]]    | $\curl \B = \mu_0 \J + \epsi_0 \mu_0 \partial_t\E$ |
+| Law                                | Equation                                           |
+| ---------------------------------- | -------------------------------------------------- |
+| [[Gauss's Law]]                    | $\divrg \E = \dfrac{\rho}{\epsilon_0}$             |
+| [[Maxwell–Faraday equation]]       | $\curl \E = \p_t \B$                               |
+| [[Gauss's law for magnetism]]      | $\divrg \B = 0$                                    |
+| [[Maxwell–Ampère's circuital law]] | $\curl \B = \mu_0 \J + \epsi_0 \mu_0 \partial_t\E$ | 
 
 where the constants in these equations are,
 
