@@ -1,3 +1,7 @@
+---
+aliases: Groups, Group
+---
+
 # Group
 
 A Group is a pair $(G, *)$, where $G$ is a set, $*$ is a binary operation on $G$ and the following axioms hold:

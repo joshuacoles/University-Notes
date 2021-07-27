@@ -1,4 +1,3 @@
-[[next](MA10210se3.html)] [[prev](MA10210se1.html)] [[prev-tail](MA10210se1.html#tailMA10210se1.html)] [[tail](#tailMA10210se2.html)] [[up](MA10210ch1.html#MA10210se2.html)]
 
 ### 1.2 [Solving linear systems: Gaussian elimination](MA10210.html#QQ2-5-4)
 
@@ -6,16 +5,20 @@ A general system of $m$ linear equations in $n$ unknowns
 
 $$
 \begin{align}
-a_{1 1}x_{1}+\dots +a_{1 n}x_{n} & = & b_{1} & \text{} \\ \vdots & & \vdots & \text{} \\ a_{m 1}x_{1}+\dots +a_{m n}x_{n} & = & b_{m} & \text{}
+a_{1 1} x_{1} + \dots +a_{1 n}x_{n} & = & b_{1} & \text{} \\ \vdots & & \vdots & \text{} \\ a_{m 1}x_{1}+\dots +a_{m n}x_{n} & = & b_{m} & \text{}
 \end{align}
 $$
 
 written in matrix form, i.e. $Ax=b$ , or
 
 $$
-\begin{align}
-\begin{pmatrix} a_{1 1} & \dots  & a_{1 n} \\ \vdots & & \vdots \\ a_{m 1} & \dots  & a_{m n} \end{pmatrix} \begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix} = \begin{pmatrix} b_{1} \\ \vdots \\ b_{m} \end{pmatrix}
-\end{align}
+\pmat{
+	a_{1 1} & \dots & a_{1 n} \\
+	\vdots 	& 		& \vdots \\
+	a_{m 1} & \dots & a_{m n}
+}
+\pmat{x_1   \\ \vdots \\ x_2} =
+\pmat{b_{1} \\ \vdots \\ b_{m}}
 $$
 
 is solved by reducing $A$ to row echelon form (REF) to give an equivalent system which is easy to solve. The method is called Gaussian elimination.

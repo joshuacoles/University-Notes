@@ -1,32 +1,45 @@
 {
   "main": {
-    "id": "7967212edbbccb48",
+    "id": "0220bfb5c1caf401",
     "type": "split",
     "children": [
       {
-        "id": "4779832da7911bf0",
+        "id": "fea3453deb8165f5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
+            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
+            "mode": "source"
+          }
+        },
+        "group": "8d7f6511d4ae6701"
+      },
+      {
+        "id": "f63b6a732252d844",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "8d7f6511d4ae6701"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6e4b46e7d31663b0",
+    "id": "923ea6bd4f0a6e40",
     "type": "split",
     "children": [
       {
-        "id": "5255f55849174393",
+        "id": "66200b0eb50dfab5",
         "type": "tabs",
         "children": [
           {
-            "id": "15b8ad7858eff2b4",
+            "id": "857874aeec86684f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +47,12 @@
             }
           },
           {
-            "id": "9e6a0abf31a36f99",
+            "id": "f3d12617348edd74",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "\"1 Vector Spaces\"",
+                "query": "\"Wave Impedance\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +62,7 @@
             }
           },
           {
-            "id": "6a68bdb2627ee97d",
+            "id": "74746db72a9b0b43",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -60,23 +73,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317
+    "width": 300
   },
   "right": {
-    "id": "916bf1c952e22201",
+    "id": "97bf07c9bc90ec9a",
     "type": "split",
     "children": [
       {
-        "id": "256491ef6314b304",
+        "id": "d509a16a4522e257",
         "type": "tabs",
         "children": [
           {
-            "id": "8d66fb5028f37259",
+            "id": "5802def6083b997e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,19 +101,19 @@
             }
           },
           {
-            "id": "ae66758aa80f805f",
+            "id": "0f3df14f8e0a44e0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "dd6094f4a4745c94",
+            "id": "8f2555150ee7a071",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -111,47 +124,12 @@
             }
           },
           {
-            "id": "af998c439929252c",
+            "id": "9803425a9dabaa04",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md"
-              }
-            }
-          },
-          {
-            "id": "cd130612dd0c2fa2",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
+                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md"
               }
             }
           }
@@ -162,17 +140,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4779832da7911bf0",
+  "active": "fea3453deb8165f5",
   "lastOpenFiles": [
-    "Algebra/Linear Algebra/Algebra 2A/4/4.2.md",
-    "Mathematical Methods/PDEs/15 Heat Equation/15.2 Solving the Heat Equation under Homogenous Boundary Conditions.md",
-    "Analysis/Analysis 2A/Analysis 2A.md",
-    "Analysis/Analysis 2A/2 Metric Spaces/Example 42.md",
-    "Analysis/Analysis 2A/2 Metric Spaces/Definition 2.7.md",
-    "_Meta/Post Delivery Notes.md",
-    "_Meta/Extraction Thesis.md",
-    "_Meta/Structure.md",
-    "_Meta/Minimum effort.md",
-    "_Meta/Untitled.md"
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Untitled.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Governing Equation of EM Waves in an LIH Material.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in Idealised LIH Insulator.md",
+    "Physics/Electromagnetism 2/Glossary/Ohm's Law.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Material.md",
+    "Physics/Electromagnetism 2/LIH Materials/LIH Materials.md",
+    "Physics/Electromagnetism 2/LIH Materials/Maxwells Equations in Materials.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in Idealised LIH Insulator 1.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Impedance in a Conductor.md"
   ]
 }

@@ -2,14 +2,12 @@
 
 [[0 Preface]]
 
-
 ## Part 1
 
 1. [[1 Partial and Directional Derivatives]]
 2. [[2 Differentiability]]
 3. [[3 Second Order Derivatives]]
 4. [[4 Maxima and Minima]]
-
 
 ## Part 2
 

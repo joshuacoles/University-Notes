@@ -1,0 +1,2 @@
+- Capitalisation of linkable objects if not linked
+	- Exceptions include common objects such as Set or Function

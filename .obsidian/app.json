@@ -72,12 +72,18 @@
     "Subspaces",
     "reorientate",
     "Idealised",
-    "linkable"
+    "linkable",
+    "Homomorphisms",
+    "Homomorphism",
+    "Ampére",
+    "generalisation",
+    "Ohmic"
   ],
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "trashOption": "local",
   "promptDelete": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "fileSortOrder": "alphabetical"
 }

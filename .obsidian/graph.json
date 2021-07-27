@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-file:Workbench",
+  "search": "path:Physics",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.3828777531448442,
+  "scale": 0.2606904947760565,
   "close": true
 }

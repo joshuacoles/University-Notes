@@ -41,22 +41,30 @@ Let $f : A \to A$ be a [[Bijection]] from a finite set $A$ to itself (also calle
 
 $$
 f^{n} = \begin{cases}
-\underset{n\text{ times}}{\underbrace{f \circ \dots  \circ f}} & n>0
+\underset{n ~ \text{times}}{\underbrace{
+	f \circ \dots \circ f
+}} & n > 0
+
 \\\\
 
-\left(Id\right)_{A} & n=0
+(Id)_A & n = 0
+
 \\\\
 
-\underset{-n\text{ times}}{\underbrace{f^{- 1} \circ \dots  \circ f^{- 1}}} & n<0
+\underset{-n ~ \text{times}}{\underbrace{
+	f^{-1} \circ \dots \circ f^{-1}}
+} & n < 0
 \end{cases}
 $$
 
-One can check the power laws $f^{n} \circ f^{m} = f^{n + m}$ and $\left((f^{n})\right)^{m} = f^{n m}$, for all $n, m \in ℤ$ .
+One can check the power laws $f^{n} \circ f^{m} = f^{n + m}$ and $((f^{n}))^{m} = f^{n m}$, for all $n, m \in ℤ$ .
 
 Consider the relation,
 
 $$
-a \sim b \quad\iff\quad \Exists n \in \Z \quad\st a = f^n(b)
+a \sim b
+\quad\iff\quad
+\Exists n \in \Z \quad \st a = f^n(b)
 $$
 
 - [[Reflexive]], clearly with $n = 0$, $a=f^{0}(a)$.
@@ -66,7 +74,7 @@ $$
 The equivalence classes are called *orbits* of $f$ and these are finite, as $A$ is finite. This helps give a simple picture of the action of $f$, because it must ‘cycle’ the elements in each orbit, that is,
 
 $$
-f: a_1 \rightarrow a_2 \rightarrow \dots \rightarrow  a_n \rightarrow a_1
+f: a_1 \to a_2 \to \dots \to  a_n \to a_1
 $$
 
 Note that the cycle must return to the beginning, because $f$ is injective and every other element in it has a predecessor. i.e. $a_{k} = f (a_{k - 1})$ unless $k = 1$.

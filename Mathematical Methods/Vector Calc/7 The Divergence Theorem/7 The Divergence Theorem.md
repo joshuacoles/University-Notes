@@ -19,7 +19,7 @@ For our current purposes we assume that $\Omega \sub \R^3$ will be a smooth volu
 - Boundary [[Definition 2.22]]
 	- This surface need not be wholly connected, ie it may have two disjoint non continuous parts (ball with a ball cavity).	
 - Closure [[Definition 2.18]]
-- Interior [[Definition 2.12]]
+- Interior [[Interior of Set]]
 
 ---
 

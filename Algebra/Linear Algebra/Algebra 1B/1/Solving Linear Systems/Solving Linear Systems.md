@@ -1,6 +1,6 @@
-[[next](MA10210se2.html)] [[tail](#tailMA10210se1.html)] [[up](MA10210ch1.html#MA10210se1.html)]
 
-### 1.1 [Introduction](MA10210.html#QQ2-4-3)
+# Solving Linear Systems
+
 
 In this section we provide some elementary examples and set the scene for this course.
 
@@ -9,15 +9,16 @@ Solve the following system of equations.
 
 $$
 \begin{align}
-\left( 1 \right): & & 3x-y=1 & \text{} \\ \left( 2 \right): & & -x+2y=3 & \text{}
+3x - y  &= 1 \tag{1} \\
+-x + 2y &= 3 \tag{2}
 \end{align}
 $$
 
 Solution. 
-
 $$
 \begin{align}
-\left( 1 \right)+3\left( 2 \right): & & 5y=10 & \text{} \\ \Rightarrow & & y=2 & \text{}
+5y &=10 \tag{$(1) + 3 \dp (2)$} \\ 
+&\implies  y = 2
 \end{align}
 $$
 
@@ -92,7 +93,7 @@ $3x+2y+z=5$
 
 Solution. 
 
-![No alt text was set.](diagrams/fig1.svg)
+![[fig1.svg]]
 
 Solve the matrix equation, i.e.
 
@@ -144,9 +145,3 @@ $2x+2y+4z=3$
 $x+y+2z=1$
 
 Solution.  The two equations are not consistent and so the system has no solutions.  
-
-Question: When does a system of equations $Ax=b$ has a unique solution; multiple solutions; no solutions? These are to be discussed in next section.  
-
-Scope of the course: Solving linear systems and properties of matrices/linear maps/linear operators.
-
-[[next](MA10210se2.html)] [[front](MA10210se1.html)] [[up](MA10210ch1.html#MA10210se1.html)]

@@ -23,4 +23,21 @@ $$
 
 ## Examples
 
-For example, if $A = \set{ 1, 2, 3, 4, 5 }$, then $Q = \set{ \set{ 1, 3, 5 }, \set{ 2, 4 } }$ is a partition of $A$, but $Q = \set{ \set{ 1, 2 }, \set{ 3, 4 } }$ is not, nor is $Q = \set{ \set{ 1, 2 }, \set{ 2, 3 }, \set{ 3, 4 }, \set{ 4, 5 } }$.
+For example, if $A = \set{1, 2, 3, 4, 5}$, then
+
+$$ Q = \set{\set{1, 3, 5}, \set{2, 4}} $$
+
+is a partition of $A$, but
+
+$$ Q = \set{\set{1, 2}, \set{3, 4}} $$
+
+is not, nor is
+
+$$
+Q = \set{
+	\set{1, 2},
+	\set{2, 3},
+	\set{3, 4},
+	\set{4, 5}
+}.
+$$
