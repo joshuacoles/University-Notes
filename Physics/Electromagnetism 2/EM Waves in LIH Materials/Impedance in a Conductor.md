@@ -30,7 +30,11 @@ Z
 \end{align}
 $$
 
-where our [[Impedance|Intrinsic Impedance]] is in general a complex **quantity**. We can see that the expected real value is restored if $\frac{\sigma}{\omega\epsi} \ll 1$, ie in a poor conductor / dielectric giving us,
+where our [[Impedance|Intrinsic Impedance]] is in general a complex **quantity**.
+
+## Dielectric / Poor Conductor
+
+We can see that the expected real value is restored (cf [[EM Waves in Idealised LIH Insulator#Impedance]]) if $\frac{\sigma}{\omega\epsi} \ll 1$, ie in a poor conductor / dielectric giving us,
 
 $$
 Z = \frac{\mu}{\epsi}

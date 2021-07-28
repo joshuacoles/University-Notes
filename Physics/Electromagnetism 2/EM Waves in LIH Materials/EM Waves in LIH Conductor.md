@@ -1,48 +1,19 @@
 # EM Waves in LIH Conductor
 
-Here we extend on the work in [[EM Waves in Idealised LIH Insulator]] to account for cases where $\sigma \ne 0$ and the material obeys [[Ohm's Law]],
+As seen in the [[Governing Equation of EM Waves in an LIH Material]]: for a general conductor with [[Conductivity]] $\sigma \ne 0$, such that it obeys [[Ohm's Law]],
 
-$$ V = IR $$
+![[Ohm's Law#^vec]]
+![[Ohm's Law#^sigma-note]]
 
-which can be written in terms of the vector fields as,
-
-$$ \vJ = \sigma \vE $$
-
-where $\sigma$ is the [[Conductivity]] of the material.
-
-```ad-note
-[[Conductivity]] is the inverse of [[Resistivity]] which has units $\ohm\mathrm{.m}$. This also explains the change from Potential $V$ to Force Field $\vE$. Sigma has units of $\unit{S.m^{-1} = \ohm^{-1} m^{-1}}$.
-
-We have seen [[Conductivity]] $\sigma$ in the static limit or pseudo-static limit (very slow moving). Of interest here is the [[Optical Conductivity]] $\sigma(\omega)$ which is a generalisation of the static conductivity ($\sigma = \lim_{w \to \infty}\sigma(w)$).
-```
-
-Now obtaining an equation for EM waves in an Idealised Conductor (noting still we have $\rho_f = 0$[^1]), we now diverge from [[EM Waves in Idealised LIH Insulator]] (at [[EM Waves in Idealised LIH Insulator#^conductor-insulator-point|this point]]) as we no longer have $\vJ_f = 0$. 
-
-[^1]: If $\rho_f \ne 0$ this would imply that $\vD \ne \vec0$ and thus $\vE \ne \vec0$ as per the [[Maxwells Equations in Materials#Constitutive Equations in LIH Materials]]. Thus there would be a force on these free charges which we know can move. Hence we assume that these charges are in a stable configuration where there is no force. [cf](https://physics.stackexchange.com/questions/22773/in-electrostatics-why-the-electric-field-inside-a-conductor-is-zero)
-
-Instead we apply [[Ohm's Law]] to equation below,
-
-$$
-\nab^2 \vE =
-\mu \p_t (\vJ_f + \p_t \vD)
-$$
-
-giving us,
-
-$$
-\nab^2 \vE =
-\mu \p_t (\sigma \vE + \p_t \vD).
-$$
-
-From here we can now apply $\vD = \epsi\vE$ ([[Maxwells Equations in Materials#^15011a]]) giving us,
+we have a *"modified"* wave equation
 
 $$
 \nab^2 \vE =
 \mu\sigma \frac{\p \vE}{\p t}
-+ \mu\epsi\frac{\p^2 \vE}{\p t^2}
++ \mu\epsi\frac{\p^2 \vE}{\p t^2}.
 $$
 
-Here we see we **no longer have a [[Wave Equation]]**, we do not have sufficient maths to deal with this PDE rigorously however in true physicist fashion we will just kinda... try.
+We do not have sufficient maths to deal with this PDE rigorously however in true physicist fashion we will just kinda... try.
 
 ## Attempting a Solution
 
@@ -73,6 +44,10 @@ $$
 \end{align}
 $$
 
+```ad-note
+We take all variables bar $\gamma$ to be $\R$ in this case.
+```
+
 and hence
 
 $$
@@ -91,7 +66,51 @@ $$
 = \frac{\sigma}{\epsi\omega}.
 $$
 
-which can be seen to be a dimensionless property which is important in determining the conductivity of a material.
+which can be seen to be a dimensionless property which is important in determining the conductivity of a material. 
+
+### Determining Values for Wave Variables
+
+Since we have,
+
+$$
+\begin{align}
+\gamma^2 &= \mu\omega(-\epsi\omega - i\sigma) \\
+a^2 - b^2 &= -\mu\epsi\omega^2.
+\end{align}
+$$
+
+From the first we can determine,
+
+$$
+\begin{align}
+\gamma^2
+&= \mu\omega(-\epsi\omega - i\sigma) \\
+&= -\mu\epsi\omega^2\(1 + i\frac{\sigma}{\epsi\omega}\) \\
+\end{align}
+$$
+
+And hence,
+
+$$
+\begin{align}
+b^2 + a^2 &= \mu\epsi\omega^2\left[1 + \sqrt{
+	1 + \(\frac{\sigma}{\epsi\omega}\)^2	
+}\right] \\
+b^2 - a^2 &= \mu\epsi\omega^2.
+\end{align}
+$$
+
+These give us,
+
+$$
+\begin{align}
+\beta &= \omega\sqrt{\frac{\mu\epsi}{2}\(\sqrt{1 + \(\frac{\sigma}{\epsi\omega}\)^2} + 1\)} \\
+\alpha &= \omega\sqrt{\frac{\mu\epsi}{2}\(\sqrt{1 + \(\frac{\sigma}{\epsi\omega}\)^2} - 1\)}
+\end{align}
+$$
+
+noting the difference in sign of the final $\pm1$.
+
 
 ## (Complex) Wave Vector
 
@@ -136,4 +155,4 @@ Using this model (and the ratio above) we can determine important quantities suc
 - [[Dielectric Function]]
 - [[Impedance in a Conductor]]
 - [[Refractive Index in Conductors]]
-
+- [[Loss Tangent]]

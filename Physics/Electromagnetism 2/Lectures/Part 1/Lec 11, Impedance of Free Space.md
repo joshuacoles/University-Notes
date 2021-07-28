@@ -41,7 +41,7 @@ $$
 \E \dp \vec{k} = \B \dp \vec{k} = \E \dp \B = 0,
 $$
 
-however nothing prevents $\E$ & $\B$ from rotating in the plane, perpendicular to $\vec{k}$ (ie. $\E_0$ has a time dependence, see later circular polarisation, this being called [[Linear Polarisation]]).
+however nothing prevents $\E$ & $\B$ from rotating in the plane, perpendicular to $\vec{k}$ (ie. $\E_0$ has a time dependence, see later circular Polarisation, this being called [[Linear Polarisation]]).
 
 ## $\vH$ [[H Field| Fields]] and [[Impedance|Wave Impedance]]
 

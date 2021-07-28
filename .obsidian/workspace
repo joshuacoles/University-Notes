@@ -7,150 +7,117 @@
         "id": "fea3453deb8165f5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         },
-        "group": "8d7f6511d4ae6701"
+        "group": "31eeb056403304d2"
       },
       {
-        "id": "f63b6a732252d844",
+        "id": "8c2ebc860b5e5b0b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         },
-        "group": "8d7f6511d4ae6701"
+        "group": "31eeb056403304d2"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "923ea6bd4f0a6e40",
-    "type": "split",
+    "id": "e6972465330bc38b",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "66200b0eb50dfab5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "857874aeec86684f",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "f3d12617348edd74",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "\"Wave Impedance\"",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "74746db72a9b0b43",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
+        "id": "1f75e6d5b2a94c6f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "b2e89baa74910a96",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "faa5fdda09f899f4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "97bf07c9bc90ec9a",
-    "type": "split",
+    "id": "8d9f6e7e05e96846",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "d509a16a4522e257",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5802def6083b997e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "0f3df14f8e0a44e0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "8f2555150ee7a071",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "9803425a9dabaa04",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md"
-              }
-            }
+        "id": "30c5df1aa19d06ef",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "1bc0d9df51989c41",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6b9cc783532054a9",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "fea3453deb8165f5",
   "lastOpenFiles": [
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Materials.md",
     "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Conductor.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Untitled.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Governing Equation of EM Waves in an LIH Material.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Case Study, Good Conductor.md",
     "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in Idealised LIH Insulator.md",
-    "Physics/Electromagnetism 2/Glossary/Ohm's Law.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Material.md",
-    "Physics/Electromagnetism 2/LIH Materials/LIH Materials.md",
-    "Physics/Electromagnetism 2/LIH Materials/Maxwells Equations in Materials.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in Idealised LIH Insulator 1.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Impedance in a Conductor.md"
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Case Study, Poor Conductor.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Quantification of Conductivity.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Governing Equation of EM Waves in an LIH Material.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Impedance in a Conductor.md",
+    "Physics/Electromagnetism 2/EM Waves in LIH Materials/Loss Tangent.md",
+    "Physics/Electromagnetism 2/Glossary/Ohm's Law.md"
   ]
 }
