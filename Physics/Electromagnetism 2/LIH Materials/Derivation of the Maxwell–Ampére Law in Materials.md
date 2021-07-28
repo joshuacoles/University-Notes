@@ -18,7 +18,7 @@ but we know $\vJ = \curl \vM$ and hence by the [[Divergence of a Cross Product]]
 
 $$
 \begin{align}
-\divrg \vJ 
+\divrg \vJ
 &= \divrg \vJ_f + \divrg \vJ_b \\
 &= \divrg \vJ_f + \divrg (\curl \vM) \\
 &= \divrg \vJ_f + 0 \\
@@ -47,7 +47,7 @@ $$
 we obtain the result,
 
 $$
-\frac{\p\rho}{\p t} = \frac{\p \rho_f}{\p t} 
+\frac{\p\rho}{\p t} = \frac{\p \rho_f}{\p t}
 \quad\land\quad
 \frac{\p\rho}{\p t} =
 \frac{\p\rho_f}{\p t}
@@ -97,16 +97,16 @@ which collecting terms and substituting in our auxiliary fields gives us,
 $$
 \begin{align}
 \curl \(\vB - \mu_0 \vM\) &=
-\mu_0\vJ_f + 
+\mu_0\vJ_f +
 \mu_0\frac{\p}{\p t} \(\vP + \epsi_0 \vE\) \\
 
 \curl \(\frac1{\mu_0} \vB - \vM\) &=
-\vJ_f + 
+\vJ_f +
 \frac{\p}{\p t} \(\vP + \epsi_0 \vE\) \\\\
 
 \curl \vH &=
-\vJ_f + 
-\frac{\p}{\p t} \vD 
+\vJ_f +
+\frac{\p}{\p t} \vD
 \end{align}
 $$
 

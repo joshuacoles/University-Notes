@@ -25,4 +25,3 @@ Although there are a large number of electrons within a bulk of material, most h
 ## Macroscopic [[Magnetisation]]
 
 This is the analogue of the [[Polarisation Density]]
-

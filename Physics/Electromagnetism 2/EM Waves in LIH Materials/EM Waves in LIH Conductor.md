@@ -5,7 +5,7 @@ As seen in the [[Governing Equation of EM Waves in an LIH Material]]: for a gene
 ![[Ohm's Law#^vec]]
 ![[Ohm's Law#^sigma-note]]
 
-we have a *"modified"* wave equation
+we have a _"modified"_ wave equation
 
 $$
 \nab^2 \vE =
@@ -25,7 +25,7 @@ which when substituted results in,
 
 $$
 \gamma^2 \vE =
-\mu\epsi (-i\omega)^2 \vE + 
+\mu\epsi (-i\omega)^2 \vE +
 \mu\sigma (-i\omega)  \vE
 $$
 
@@ -37,7 +37,7 @@ We set the real part as $-a$ as opposed to $+a$ as we will find later this is a 
 
 $$
 \begin{align}
-\gamma^2 
+\gamma^2
 &= (a^2 - b^2) - (2ab) i \\
 &= (-\mu\epsi\omega^2) - i(\mu\sigma\omega)\\
 &= \mu\omega(-\epsi\omega - i\sigma)
@@ -52,7 +52,7 @@ and hence
 
 $$
 \begin{align}
-a^2 - b^2 &= -\mu\epsi\omega^2 
+a^2 - b^2 &= -\mu\epsi\omega^2
 \\
 -2ab &= -i\mu\sigma\omega.
 \end{align}
@@ -66,7 +66,7 @@ $$
 = \frac{\sigma}{\epsi\omega}.
 $$
 
-which can be seen to be a dimensionless property which is important in determining the conductivity of a material. 
+which can be seen to be a dimensionless property which is important in determining the conductivity of a material.
 
 ### Determining Values for Wave Variables
 
@@ -94,7 +94,7 @@ And hence,
 $$
 \begin{align}
 b^2 + a^2 &= \mu\epsi\omega^2\left[1 + \sqrt{
-	1 + \(\frac{\sigma}{\epsi\omega}\)^2	
+	1 + \(\frac{\sigma}{\epsi\omega}\)^2
 }\right] \\
 b^2 - a^2 &= \mu\epsi\omega^2.
 \end{align}
@@ -110,7 +110,6 @@ $$
 $$
 
 noting the difference in sign of the final $\pm1$.
-
 
 ## (Complex) Wave Vector
 

@@ -44,7 +44,7 @@ $$
 
 ## Electric Field
 
-Noting the relation seen previously 
+Noting the relation seen previously
 
 $$ \vD = \epsi_0 \epsi_r \vE $$
 
@@ -60,7 +60,7 @@ Again we have a relation between $\vP$ and $\vE$ seen previously and given by,
 
 $$ \vP = \epsi_0 \chi_E \vE $$
 
-giving us, 
+giving us,
 
 $$ \vP = \frac{\chi_E Q}{\epsi_R A} \uvec z $$
 
@@ -76,7 +76,7 @@ V
 &= - \int_{z = d}^{z = 0} \frac Q{\epsi_0 \epsi_r A} \uvec{z} \dp \rd \vl \\
 &= - \frac Q{\epsi_0 \epsi_r A}  \int_{d}^{0} -1 \rd z \\
 &= - \frac Q{\epsi_0 \epsi_r A}  (-0 - -d) \\
-&= - \frac Q{\epsi_0 \epsi_r A} d 
+&= - \frac Q{\epsi_0 \epsi_r A} d
 \end{align}
 $$
 
@@ -88,7 +88,7 @@ Note that $\vE \parallel -\rd \vl$ in this case hence the inner minus sign.
 
 ## Capacitance
 
-From the Potential Difference we have the Capacitance trivially as, 
+From the Potential Difference we have the Capacitance trivially as,
 
 $$
 C = \frac QV = \frac{\epsi_0\epsi_r A}{d} = \epsi_r C_0

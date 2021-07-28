@@ -17,4 +17,3 @@ $$
 ---
 
 - Relation between [[Relative Permeability]] and Diamagnetism, dielectrics, etc.
-

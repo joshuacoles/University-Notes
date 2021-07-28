@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ce37f94-1c9f-496e-a1d8-acdd01445f65)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 13, Energy flow in plane waves|Previous]]
-> 	- [[Lec 14, Radiation pressure|Next]]
+>   - [[Lec 13, Energy flow in plane waves|Previous]]
+>   - [[Lec 14, Radiation pressure|Next]]
 
 Recapping from last lecture we have expressions for the [[Electromagnetic Energy Density]] of a system gives by,
 
@@ -23,7 +23,6 @@ Given the [[Plane Wave]], oscillating in the $x$ direction, propagating in the $
 $$
 \E = \uvi\, E_0 \exp(i(k_z z - \omega t)),
 $$
-
 
 and also for the [[H Field]],
 
@@ -92,4 +91,4 @@ $$
 
 ^28405e
 
-This is called the *Intensity of the Beam* (power per unit area), a measurable quantity which allows us to experimentally compute the values of $E_0$ and $H_0$
+This is called the _Intensity of the Beam_ (power per unit area), a measurable quantity which allows us to experimentally compute the values of $E_0$ and $H_0$

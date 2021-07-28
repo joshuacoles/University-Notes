@@ -1,12 +1,13 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=05661336-65d6-4432-8a0b-acb6010884af)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 4, Empirical Derivation of Gauss's Law|Previous]]
-> 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Next]]
+>   - [[Lec 4, Empirical Derivation of Gauss's Law|Previous]]
+>   - [[Lec 6, Introduction to Magentics, Lorentz Force|Next]]
 
 ## [[Electrostatics]]
 
 Focusing on,
+
 - The curl of the [[Electric Field]], $\nabla \times \E$
 - [[Electrostatic potential]] $\phi$.
 
@@ -124,6 +125,7 @@ $$
 $$
 
 ### Generalising to [[Charge Distributions]]
+
 Using the [[14.8  Principle of superposition|Principle of superposition]] we get,
 
 $$

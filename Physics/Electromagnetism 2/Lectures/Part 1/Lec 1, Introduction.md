@@ -1,7 +1,7 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d48bf2e7-cba3-4959-ae80-acb500f87d0a)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 2, Maxwells Eqs Intro|Next]]
+>   - [[Lec 2, Maxwells Eqs Intro|Next]]
 
 ## Things
 
@@ -12,13 +12,13 @@ Represented by sources:
 
 - [[Current Density]] $\J(\r, t)$
 - [[Electric Charge Density]] $\rho(\r, t)$.
-	- A [[Scalar Field]]
+  - A [[Scalar Field]]
 
 Having potentials
+
 - [[Electrostatic Potential]], $\phi(\r)$
-	- Electrostatics is well, static, so no $t$ dependence.
+  - Electrostatics is well, static, so no $t$ dependence.
 
 ---
 
 - Can represent vector fields with [[Flux Diagrams]] and [[Contour Diagrams]].
-

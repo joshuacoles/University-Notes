@@ -1,8 +1,8 @@
 ---
 aliases:
-- Dipoles
-- Dipole Moment
-- Dipole Moments
+  - Dipoles
+  - Dipole Moment
+  - Dipole Moments
 ---
 
 # Dipoles
@@ -17,7 +17,7 @@ First we consider the separation between $\r$ and the two charges, labeled $\r_+
 
 $$
 \begin{align}
-\r_{+} &= \r - \frac \vd2 \\ 
+\r_{+} &= \r - \frac \vd2 \\
 \r_{-} &= \r + \frac \vd2
 \end{align}
 $$
@@ -26,7 +26,7 @@ which gives us separation distances of,
 
 $$
 \begin{align}
-r_{+} &= r - \frac d2 \cos\theta \\ 
+r_{+} &= r - \frac d2 \cos\theta \\
 r_{-} &= r + \frac d2 \cos\theta
 \end{align}
 $$

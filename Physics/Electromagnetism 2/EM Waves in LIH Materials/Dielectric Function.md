@@ -18,7 +18,7 @@ gives us,
 
 $$
 \begin{align}
-\curl \vH 
+\curl \vH
 &= \sigma\frac{1}{-i\omega}\p_t \vE + \epsi \p_t \vE \\
 &= \epsi_0\epsi_r\(
 	1 + i\frac{\sigma}{\omega\epsi}

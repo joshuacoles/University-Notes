@@ -4,7 +4,6 @@
 - [[EM Waves in Idealised LIH Insulator]]
 - [[EM Waves in LIH Conductor]]
 
-
 ## Properties
 
 - [[Dielectric Function]]

@@ -1,6 +1,6 @@
 ---
-aliases: 
-- Atomic Dipoles
+aliases:
+  - Atomic Dipoles
 ---
 
 # Atomic Polarisability
@@ -17,7 +17,7 @@ $$ \vp = qd $$
 
 as is standard. Under our assumptions however we assume that this dipole $\vp$ is proportional in strength (and aligned with) the external electric field generating it thus giving us,
 
-$$ \vp = \alpha \E_{\'{ext}}. $$
+$$ \vp = \alpha \E\_{\'{ext}}. $$
 
 ```ad-info
 Note that this wonderful linear relation will become broken in molecules as they may be more readily polarised in some directions than in others.

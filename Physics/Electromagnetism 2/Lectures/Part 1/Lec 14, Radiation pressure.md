@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cec7bb50-05fb-45c7-93ba-acdd015af415)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 13, Energy flow in plane waves|Previous]]
-> 	- [[Lec 15, Polarisation|Next]]
+>   - [[Lec 13, Energy flow in plane waves|Previous]]
+>   - [[Lec 15, Polarisation|Next]]
 
 ## Photons and [[Radiation Pressure]]
 

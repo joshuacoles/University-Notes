@@ -13,4 +13,3 @@
     - Polarisation
     - Poynting vector
     - radiation pressure
-

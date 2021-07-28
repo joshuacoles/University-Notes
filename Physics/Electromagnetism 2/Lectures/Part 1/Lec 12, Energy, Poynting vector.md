@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ad510ef6-7789-4100-a099-acd7013d1d10)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 11, Impedance of Free Space|Previous]]
-> 	- [[Lec 13, Energy flow in plane waves|Next]]
+>   - [[Lec 11, Impedance of Free Space|Previous]]
+>   - [[Lec 13, Energy flow in plane waves|Next]]
 
 ## Energy in Electromagnetic Systems
 
@@ -96,7 +96,7 @@ Given a Solenoid of length $L\mathrm{~m}$, area $A\mathrm{~m^2}$ and a total of 
 ![[Clipboard 2 Mar 2021 at 14.13.png]]
 
 Applying [[Faraday's Law]], we get,
- 
+
 $$
 V = \parfrac{\Phi_{\B}}{t},
 $$
@@ -123,6 +123,7 @@ $$
 BL &= \mu_0 N I.
 \end{align*}
 $$
+
 ^b-field-mag
 
 From which we can compute the Magnetic Flux as so (assuming that the solenoid is sufficiently tightly wound as to make the helical surface perpendicular to the $\B$ field),
@@ -174,6 +175,7 @@ E = \frac 12 \mu_0 H^2 V
 $$
 
 ## General result for Energy Density
+
 Combing the two expressions we derived for the separate situations above we can obtain a more general solution for the electromagnetic volumetric energy density $U\mathrm{~J.m^{-3}}$,
 
 $$
@@ -205,11 +207,11 @@ $$
 \vec{N} = \E \cp \vec{H} = \frac{1}{\mu_0} \E \cp \B.
 $$
 
-From this we can apply the #todo vector calc identity for the [[Divergence of a Cross Product]] (and applying various of  [[Maxwell's Equations]]),
+From this we can apply the #todo vector calc identity for the [[Divergence of a Cross Product]] (and applying various of [[Maxwell's Equations]]),
 
 $$
 \begin{align*}
-\divrg (\E \cp \B) 
+\divrg (\E \cp \B)
 &= \B \dp (\curl \E) - \E \dp (\curl \B) \\
 &= \B \dp (-\partial_t \B) - \E \dp (\epsi_0\mu_0 \partial_t\E). \\
 \end{align*}
@@ -219,7 +221,7 @@ Noting that the form $\vec{X} \dp \partial_t\vec{X}$ is the form given to $\frac
 
 $$
 \begin{align*}
-\divrg (\E \cp \B) 
+\divrg (\E \cp \B)
 &= -\parfrac{}{t}\(
 \frac 12 \epsi_0 \|\E\|^2 + \frac 12 \mu_0 \|\B\|^2
 \) \\

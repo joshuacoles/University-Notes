@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8fad9c41-3aed-45fa-83c9-acd200a5f83e)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 9, Waves in a Vacuum|Previous]]
-> 	- [[Lec 11, Impedance of Free Space|Next]]
+>   - [[Lec 9, Waves in a Vacuum|Previous]]
+>   - [[Lec 11, Impedance of Free Space|Next]]
 
 Recall that the [[Wave Equation]] for $\vec{X} = \E, \B$ is given as,
 
@@ -10,7 +10,7 @@ $$
 \(\nab^2 - \frac 1{c^2} \partial_t^2\)\vec{X} = 0,
 $$
 
-in a *source-free vacuum* ($\rho = 0, \J = 0$). Remembering that,
+in a _source-free vacuum_ ($\rho = 0, \J = 0$). Remembering that,
 
 $$
 c = \frac{1}{\sqrt{\epsi_0\mu_0}}.
@@ -30,7 +30,7 @@ $$
 \end{align*}
 $$
 
-where the vector $\E_0$ is known as the [[Polarisation Vector]] and we can simplify the dot product we have defined the wave to be in the purely $z$ direction. 
+where the vector $\E_0$ is known as the [[Polarisation Vector]] and we can simplify the dot product we have defined the wave to be in the purely $z$ direction.
 
 This leads to the following questions,
 
@@ -43,7 +43,7 @@ Taking this equation in component form, we obtain,
 
 $$
 \begin{align*}
-\E(\r, t) 
+\E(\r, t)
 &= \uvi\, \E_{0,x} \exp(i\(k_zz - \omega t\)) \\
 &+ \uvj\, \E_{0,y} \exp(i\(k_zz - \omega t\)) \\
 &+ \uvk\, \E_{0,z} \exp(i\(k_zz - \omega t\)). \\
@@ -78,7 +78,7 @@ $$
 \E(\r, t) = \uvi E_0 \exp(i\(k_zz - \omega t\)).
 $$
 
-Which using [[Faraday's Law]], 
+Which using [[Faraday's Law]],
 
 $$
 \curl \E = - \partial_t \B,
@@ -87,7 +87,7 @@ $$
 gives us an expression for $\B$. Computing this in the simplified case, we get,
 
 $$
-\curl \E = 
+\curl \E =
 \begin{vmatrix}
 \uvi & \uvj & \uvk \\
 \partial_x & \partial_y & \partial_z \\
@@ -99,7 +99,7 @@ Which in workings I shall lead for the fair reader as they are simple yet long, 
 
 $$
 \begin{align*}
-\curl \E 
+\curl \E
 &= - \uvj\, (0 - ik_z E_0 \exp(i\(k_zz - \omega t\)))
 \\
 &= - \uvj\, ik_z E_0 \exp(i\(k_zz - \omega t\))

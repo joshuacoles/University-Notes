@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1a3cf4e-de1f-4b10-bb2e-acb700ccd149)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
-> 	- [[Lec 9, Waves in a Vacuum|Next]]
+>   - [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
+>   - [[Lec 9, Waves in a Vacuum|Next]]
 
 ## Time varying Currents & Fields
 
@@ -15,7 +15,7 @@ This led to the following observations,
 3. No magnetic-monopoles, ${\divrg \B = 0}$
 4. [[Ampere's Law]], ${\curl \B = \mu_0 \J}$ ^f4171c
 
-Note at this point $\E$ and $\B$ are **uncoupled**. There are two distinct phenomenon, called *"electricity"* and *"magnetism"*. This as we've seen hinted earlier with [[Lec 6, Introduction to Magentics, Lorentz Force#E B Special Relativity]] is false.
+Note at this point $\E$ and $\B$ are **uncoupled**. There are two distinct phenomenon, called _"electricity"_ and _"magnetism"_. This as we've seen hinted earlier with [[Lec 6, Introduction to Magentics, Lorentz Force#E B Special Relativity]] is false.
 
 Of these observations, (1) & (3), are correct in the general case. However (2) & (4), which talk about the curl of the relevant fields, need modification to be correct in the time-varying case.
 
@@ -120,7 +120,7 @@ $$
 \divrg (\curl \B) = \divrg (\mu_0 \J),
 $$
 
-where the LHS is always $0$ by [[Vanishing Divergence of Curl]], however the RHS is not necessarily always. Thus we see that [[Ampere's Law]] is only true if $\J$  is in fact divergence free (only rotational).
+where the LHS is always $0$ by [[Vanishing Divergence of Curl]], however the RHS is not necessarily always. Thus we see that [[Ampere's Law]] is only true if $\J$ is in fact divergence free (only rotational).
 
 To get a more general expression for $\divrg \J$, we consider the [[Conservation of Charge]], which equivalent to that of energy, says charge cannot be created nor destroyed.
 
@@ -137,7 +137,7 @@ $$
 \int_S \J \cdot \d\vec{S} = - \frac{\partial}{\partial t} \int_V \rho(\r, t) \,\d{V}.
 $$
 
-> The negative sign is there as the LHS is the charge leaving the volume so equal to -'ve of the change 
+> The negative sign is there as the LHS is the charge leaving the volume so equal to -'ve of the change
 
 Applying the [[Divergence Theorem]] to the LHS we get,
 
@@ -185,12 +185,12 @@ $$
 
 Known as the [[Maxwell–Ampére Law]] and the final one of our generally correct, [[Maxwell's Equations]].
 
-The extra term that we have added in this situation is known as the [[Displacement Current Density]] (as it has the same units as $\J$). 
+The extra term that we have added in this situation is known as the [[Displacement Current Density]] (as it has the same units as $\J$).
 
-> Interestingly this is really Maxwell's major / primary contribution, as it couples $\B$ back to $\E$. This however leads directly to the [[Electromagnetic Field]] and [[Electromagnetic Waves]], aka *light*.
+> Interestingly this is really Maxwell's major / primary contribution, as it couples $\B$ back to $\E$. This however leads directly to the [[Electromagnetic Field]] and [[Electromagnetic Waves]], aka _light_.
 
->Why was this missed before Maxwell however? This is due to its  relatively small contribution, taking it back through [[Stokes' Theorem]] we get,
-> $$ \int_C \B \cdot \d\r = \mu_0 I + \epsi_0 \mu_0 \dot\Phi_\E$$
+> Why was this missed before Maxwell however? This is due to its relatively small contribution, taking it back through [[Stokes' Theorem]] we get,
+> $$ \int*C \B \cdot \d\r = \mu_0 I + \epsi_0 \mu_0 \dot\Phi*\E$$
 > Where the $\epsi_0 \mu_0 \dot\Phi_\E$ term is tiny. However it was observed by Hertz in 1887.
 
 ## [[Maxwell's Equations]] in Vacuum

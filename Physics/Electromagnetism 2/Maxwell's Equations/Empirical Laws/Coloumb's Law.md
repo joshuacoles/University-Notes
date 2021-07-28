@@ -29,17 +29,18 @@ $$
 $$
 
 ## [[Principle of Superposition]]
+
 - Linearity
 - Field due to many charges is equal to the sum of the field of each.
-	- Note the distributive nature of that statement.
+  - Note the distributive nature of that statement.
 - Equivalent to no 2nd order interaction effects.
 
-----
+---
 
 Applying this use we can [[Charge Distributions]], to deal with non-point cases. Eg.
 
 - Let $V'$ be the volume extent of a charged object.
-- Let $\rho(\vec{r'})$ be the charge density of that object. 
+- Let $\rho(\vec{r'})$ be the charge density of that object.
 
 ![[Clipboard 1 Feb 2021 at 15.15.png]]
 

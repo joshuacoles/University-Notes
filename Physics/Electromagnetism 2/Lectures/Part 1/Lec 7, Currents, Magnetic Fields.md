@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b3892d71-a23c-45b3-b393-acb700ba728a)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
-> 	- [[Lec 8, Time varying Charges and Currents|Next]]
+>   - [[Lec 6, Introduction to Magentics, Lorentz Force|Previous]]
+>   - [[Lec 8, Time varying Charges and Currents|Next]]
 
 In [[Lec 6, Introduction to Magentics, Lorentz Force]] we focused on moving charges, instead now we now want to focus on **Currents**.
 
@@ -32,11 +32,13 @@ This is known as the [[Biot-Savart Law]] and is one of the Empirical Laws we sta
 ---
 
 ## Divergence of $\B$
+
 Starting informally we should consider the following,
+
 - Relativity argument from [[Lec 6, Introduction to Magentics, Lorentz Force]]
-	- $\B$ has no direct point source as it only arises from moving charges (???).
+  - $\B$ has no direct point source as it only arises from moving charges (???).
 - The [[Biot-Savart Law]], the field lines are perpendicular to $\uvec{e}_r$ due to the cross-product, and thus they cannot come directly from the current element.
-	- Which means intuitively they cannot have sources as there is no other privileged location in the thought experiment.
+  - Which means intuitively they cannot have sources as there is no other privileged location in the thought experiment.
 
 Thus our intuition as discussed above is that $\nabla \cdot \B = 0$ (so no [[Magnetic Charges]]). This is true!! This the [[Gauss's law for magnetism]].
 
@@ -66,8 +68,9 @@ $$
 $$
 
 To see this we take,
--  $I = \|\J\|\d S$.
--  By [[#^9ac418]], $I\d\r = \J\d S\d\r = J\d V.$
+
+- $I = \|\J\|\d S$.
+- By [[#^9ac418]], $I\d\r = \J\d S\d\r = J\d V.$
 
 Now for a general [[Current Distribution]],
 
@@ -100,12 +103,12 @@ $$
 $$
 
 > **Programming Note**: when doing vector calc move into own note.
+>
 > $$
 > \divrg (A \cp B) = B \dp (\curl A) - A \dp (\curl B)
 > $$
 
 And thus focusing only on the relevant form,
-
 
 $$
 \begin{align*}
@@ -116,15 +119,16 @@ $$
 \end{align*}
 $$
 
-
 True by considering the terms,
+
 1. The first is $0$ as $\J(\r')$ has no dependence on $\r$.
 2. The second is $0$ as $\dfrac{\uvec{R}}{R^2} = -\nab\(\dfrac{1}{R}\)$ and it's curl is zero by [[Vanishing Curl of Gradient Field]].
 
 Hence $\divrg \B = 0$. Thus we have derived [[Gauss's law for magnetism]] from [[Biot-Savart Law]].
 
 ## The curl of $\B$ (in constant current situations)
-Starting the form the empirical [[Ampere's Law]], 
+
+Starting the form the empirical [[Ampere's Law]],
 
 $$
 \int_{\partial S} \B \cdot \d\r = \mu_0 I
@@ -148,4 +152,4 @@ $$
 \curl \B = \mu_0 \J.
 $$
 
-This implies current is a **[[Rotational Source]]** of [[Magnetic Field]]. This is not *quite* a [[Maxwell's Equations|Maxwell Equations]] as it is only valid for constant [[Current Density]].
+This implies current is a **[[Rotational Source]]** of [[Magnetic Field]]. This is not _quite_ a [[Maxwell's Equations|Maxwell Equations]] as it is only valid for constant [[Current Density]].

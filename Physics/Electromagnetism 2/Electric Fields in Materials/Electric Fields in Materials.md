@@ -8,7 +8,7 @@ As materials are naturally neutral these will be in the form of [[Dipole|Induced
 
 Starting at the microscopic level we model these Atomic Dipoles using the [[Atomic Polarisability]] which gives us the equation
 
-$$ \vp = \alpha \E_{\'{ext}} $$ 
+$$ \vp = \alpha \E\_{\'{ext}} $$
 ^atomic-polarisability
 
 for the [[Dipole|Dipole Moment]] of a given atom under the external Electric Field $\E_{\'{ext}}$. Here $\alpha$ is a constant of the atom itself given by $\alpha = 3\epsi_0 V$ (see [[Atomic Polarisability#Computation]]).
@@ -18,6 +18,7 @@ for the [[Dipole|Dipole Moment]] of a given atom under the external Electric Fie
 We then combine these individual [[Atomic Dipoles]] into a macroscopic field $\vP$ known as the [[Polarisation Density]] which is defined as,
 
 $$
+
 
 $$
 
@@ -58,9 +59,9 @@ where $\epsi_r  = 1 + \chi_E$ is the [[Relative Permeability]] of the material. 
 In this course we will will be dealing with materials known as [[LIH Materials]], these are:
 
 - **Linear**: $\abs\vP \propto \abs\vE$
-	- This breaks down at high $\abs\vE$.
+  - This breaks down at high $\abs\vE$.
 - **Isotropic**: $\vP \parallel \vE$.
-	- In non-isotropic materials $\epsi_r$ is a tensor.
+  - In non-isotropic materials $\epsi_r$ is a tensor.
 - **Homogeneous**: $\vP$ is constant across the material.
 
-## Example: Capacitor iwth 
+## Example: Capacitor iwth

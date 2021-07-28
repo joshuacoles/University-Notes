@@ -24,7 +24,6 @@ which allow us to related our Auxiliary Fields to the Physical Fields.
 Note again the asymmetry of the final equation which lacks a $\frac{1}{\mu_0}$ term as might have been expected.
 ```
 
-
 ## Time Dependence
 
 In the equations above and related we included the possibility of time-dependent fields, however we have failed to consider the physical aspects: ie that **things do not necessarily react instantly to changes**.

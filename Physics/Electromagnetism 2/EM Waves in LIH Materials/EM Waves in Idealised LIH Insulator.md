@@ -7,7 +7,7 @@ $$
 \mu\epsi\frac{\p^2 \vE}{\p t^2}
 $$
 
-which we can clearly see is a [[Wave Equation]] in $\vE$. This is similar to the vacuum case (cf [[Lec 9, Waves in a Vacuum]]) and hence we can determine similar quantities in a similar manner. 
+which we can clearly see is a [[Wave Equation]] in $\vE$. This is similar to the vacuum case (cf [[Lec 9, Waves in a Vacuum]]) and hence we can determine similar quantities in a similar manner.
 
 We choose as our solution a [[Plane Wave]]
 
@@ -17,7 +17,6 @@ $$
 $$
 
 where $\uvec n$ is the direction of propagation.
-
 
 ## Phase Speed and Refractive Index
 
@@ -36,6 +35,7 @@ For non-magnetic materials $\mu_r = 1$ and hence $n = \sqrt{\epsi_r}$ knwon as [
 ```
 
 ## Magnetic Field
+
 > [Margin Note](marginnote3app://note/2EDA3946-9AC0-459E-9C86-A99CBF90C797)
 
 By applying the same logic as [[Lec 11, Impedance of Free Space#vH H Field Fields and Impedance Wave Impedance|Lec 11 > H Fields and Impedance]] to the plane wave discussed above we obtain,
@@ -63,7 +63,7 @@ which we can determine is,
 
 $$
 \begin{align}
-Z 
+Z
 &= \frac{\omega \mu}{k} \\
 &= \frac{\mu}{v_p} \\
 &= \sqrt\frac{\mu}{\epsi} \\

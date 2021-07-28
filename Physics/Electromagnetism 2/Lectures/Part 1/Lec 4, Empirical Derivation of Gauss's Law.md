@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=98b20a6c-dadb-4354-9520-acb600fee3ef)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 3, Electrostatics, Coloumb's Law|Previous]]
->  	- [[Lec 5, Electostatics|Next]]
+>   - [[Lec 3, Electrostatics, Coloumb's Law|Previous]]
+>   - [[Lec 5, Electostatics|Next]]
 
 ## [[Gauss's law]] for [[Point Charges]]
 
@@ -12,8 +12,8 @@ $$
  \int_S \E \cdot \d \vec{S} = \frac {Q_{\mathrm{enc}}}{\epsilon_0}
 $$
 
-> Remember surface integrals of this form rely on the convention that  $\d \vec{S} = \uvec{n}\,\d S$, thus being given in a more explicit sense, as 
-> $$ \int_S \E \cdot \uvec{n}\,\d S = \frac {Q_{\mathrm{enc}}}{\epsilon_0} $$
+> Remember surface integrals of this form rely on the convention that $\d \vec{S} = \uvec{n}\,\d S$, thus being given in a more explicit sense, as
+> $$ \int*S \E \cdot \uvec{n}\,\d S = \frac {Q*{\mathrm{enc}}}{\epsilon_0} $$
 
 ![[Clipboard 1 Feb 2021 at 17.39.png]]
 
@@ -53,7 +53,8 @@ $$
 \begin{align*}
 \d S\,(\uvec{e}_r \cdot \uvec{n}) &= \d S \cos \theta \\
 &= \d S_\perp
-\end{align*}$$
+\end{align*}
+$$
 
 And further applying [[Solid Angles]], $\d \Omega = \dfrac{\d S_\perp}{r^2}$, and thus,
 
@@ -144,13 +145,11 @@ $$
 $$
 
 Notes,
+
 1. We derived this for static charges but this is true for charges in motion also.
 2. This implies that "electric charges" are the [[sources]] of the [[Electric Field]] $\E$.
-	- This relationship is true forall positions.
-	- Ie
-		- At point charge $\nabla \cdot \E = \frac{\rho}{\epsilon_0}$
-		- Otherwise $\nabla \cdot \E = 0$.
-			- Note $\nabla \cdot \E = 0 \nRightarrow \E = 0$.
-
-
-
+   - This relationship is true forall positions.
+   - Ie
+     - At point charge $\nabla \cdot \E = \frac{\rho}{\epsilon_0}$
+     - Otherwise $\nabla \cdot \E = 0$.
+       - Note $\nabla \cdot \E = 0 \nRightarrow \E = 0$.

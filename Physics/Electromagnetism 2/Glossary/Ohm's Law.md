@@ -13,4 +13,5 @@ where $\sigma$ is the [[Conductivity]] of the material.
 
 We have seen [[Conductivity]] $\sigma$ in the static limit or pseudo-static limit (very slow moving). Of interest here is the [[Optical Conductivity]] $\sigma(\omega)$ which is a generalisation of the static conductivity ($\sigma = \lim_{w \to \infty}\sigma(w)$).
 ```
+
 ^sigma-note

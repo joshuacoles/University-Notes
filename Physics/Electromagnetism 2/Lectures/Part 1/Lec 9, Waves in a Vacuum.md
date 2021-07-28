@@ -1,12 +1,13 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aeeada9a-ff9d-4acd-b235-acc200b3d5d4)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 8, Time varying Charges and Currents|Previous]]
-> 	- [[Lec 10, Properties of Plane Waves|Next]]
+>   - [[Lec 8, Time varying Charges and Currents|Previous]]
+>   - [[Lec 10, Properties of Plane Waves|Next]]
 
 ## [[Electromagnetic Waves]] in a Vacuum
 
 ### The [[Wave Equation]] for $\E$
+
 [[Maxwell's Equations]] (1)-(4) are coupled equations, however they can be decoupled to give us separate [[Wave Equation|Wave Equations]] for either the [[Electric Field]] $\E$ or the [[Magnetic Field]] $\B$.
 
 To obtain a uncoupled equation for $\E$ we start off with the [[Maxwell–Faraday equation]],
@@ -50,6 +51,7 @@ $$
 which is clearly a [[Wave Equation]].
 
 ### The [[Wave Equation]] for $\B$
+
 Similar to above we can take the double curl of $\B$, applying the [[Curl of Curl Identity]],
 
 $$
@@ -64,7 +66,8 @@ $$
 \mu_0\(\curl \J\) + \epsi_0\mu_0 \partial_t \(\curl\E\) &= - \nab^2\B \\
 \mu_0\(\curl \J\) + \epsi_0\mu_0 \partial_t \(- \partial_t \B\) &= - \nab^2\B \\
 \mu_0\(\curl \J\) - \epsi_0\mu_0 \partial^2_t \B &= - \nab^2\B.
-\end{align*}$$
+\end{align*}
+$$
 
 And again choosing to consider a "source-free vacuum",
 
@@ -97,7 +100,8 @@ $$
 (\nab^2 \E)_i &= (-k^2_x - k^2_y - k^2_z)\E_{i}
 \\
 (\nab^2 \E)_i &= -(k^2)\E_{i},
-\end{align*}$$
+\end{align*}
+$$
 
 > Programming note: check that
 

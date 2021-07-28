@@ -1,8 +1,8 @@
 > - [Panotpto](https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ab5cbc7-7633-4ef8-b625-acd7012955c7)
 > - #lecture #narrative
 > - Navigation
-> 	- [[Lec 10, Properties of Plane Waves|Previous]]
-> 	- [[Lec 12, Energy, Poynting vector|Next]]
+>   - [[Lec 10, Properties of Plane Waves|Previous]]
+>   - [[Lec 12, Energy, Poynting vector|Next]]
 
 ## Recap of [[Plane Waves]]
 
@@ -20,7 +20,7 @@ $$
 \E = \E_0 \exp\(i\left[ \vec{k} \dp \r - \omega t \right]\),
 $$
 
-where $\vec{k}$ is the [[Wave Vector]] ($k = |\vec{k}|$) and $\omega$ is the *angular frequency*. Further we deduced that these solutions represent [[Transverse Wave|Transverse Waves]], ie $\E \perp \vec{k}$ (see [[Lec 10, Properties of Plane Waves#What is the Polarisation Vector]]), summed up breifly as:
+where $\vec{k}$ is the [[Wave Vector]] ($k = |\vec{k}|$) and $\omega$ is the _angular frequency_. Further we deduced that these solutions represent [[Transverse Wave|Transverse Waves]], ie $\E \perp \vec{k}$ (see [[Lec 10, Properties of Plane Waves#What is the Polarisation Vector]]), summed up breifly as:
 
 $$
 \begin{align*}
@@ -35,6 +35,7 @@ $$
 Of which we can apply the same arguments to $\B$, implying $\vec{k} \perp \B$ and further (see [[Lec 10, Properties of Plane Waves#What is the consequential Magnetic Field]]) $\E \perp \B$. The combination of these facts gives us $(\E \cp \B) \parallel k$ which gives us the direction of energy flow. This is in fact a more general result which we will discuss later.
 
 ## Note on [[Polarisation]]
+
 Currently we have,
 
 $$
@@ -45,7 +46,7 @@ however nothing prevents $\E$ & $\B$ from rotating in the plane, perpendicular t
 
 ## $\vH$ [[H Field| Fields]] and [[Impedance|Wave Impedance]]
 
-Often seen when studying fields inside materials, the $\vec{H}$ is often just known as the *Magnetic Field*, much to the dismay of undergrads across the land. In these contexts the $\B$ field is known as the *Induction*. However thankfully in [[Source Free Vacuum]] (or non-magnetic materials), these are trivially related as,
+Often seen when studying fields inside materials, the $\vec{H}$ is often just known as the _Magnetic Field_, much to the dismay of undergrads across the land. In these contexts the $\B$ field is known as the _Induction_. However thankfully in [[Source Free Vacuum]] (or non-magnetic materials), these are trivially related as,
 
 $$
 \vec{H} = \frac 1{\mu_0} \B.

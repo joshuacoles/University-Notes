@@ -8,10 +8,10 @@ When dealing with these equations in materials however they become unwieldy as t
 
 - Waves propagating across media.
 - Induced oscillations of atomic cores and electrons.
-- Temporary dipoles / current flows in materials in response to the presence of Electric and Magnetic fields.    
+- Temporary dipoles / current flows in materials in response to the presence of Electric and Magnetic fields.
 - EM waves hitting boundaries between materials and we need to be able to describe their reflection/transmission
-    
-Instead we form a **Macroscopic Variant** of these equations defining two new auxiliary fields, that describe the large-scale behaviour of matter *without having to consider atomic scale charges and quantum phenomena like spins*.
+
+Instead we form a **Macroscopic Variant** of these equations defining two new auxiliary fields, that describe the large-scale behaviour of matter _without having to consider atomic scale charges and quantum phenomena like spins_.
 
 This births a less "pure" theory but one of much more experimental use. To do this we must determine the behaviour of these dipoles.
 
@@ -23,7 +23,7 @@ Under the influence of an external [[Electric Field]] $\E_{\'{ext}}$ we model th
 
 ![[Clipboard 12 Jun 2021 at 22.29.png]]
 
-For fields that are not *too* strong we model the displacement as **linear** with the field strength (ignoring any deformation of the cloud) giving us an induced [[Dipole Moment]],
+For fields that are not _too_ strong we model the displacement as **linear** with the field strength (ignoring any deformation of the cloud) giving us an induced [[Dipole Moment]],
 
 $$
 \vp = \alpha \E_{\'{ext}}
@@ -56,11 +56,9 @@ $$
 &= \vF_\'{ind} + \vF_\'{ext} \\
 &= \E_\'{ind} + \E_\'{ext} \\
 &= \E_\'{ind} + \E_\'{ext} \\
-\E_\'{ind} &= 
+\E_\'{ind} &=
 \end{align}
 $$
-
-
 
 ## Atomic Polarisability
 
@@ -69,7 +67,6 @@ As displayed above we assume that the field has been displaced by an amount $\vd
 $$
 E_\'{ind} = \frac{-q}{4\pi\epsi_0 r^3} \vd
 $$
-
 
 Assuming a steady state we known that,
 
