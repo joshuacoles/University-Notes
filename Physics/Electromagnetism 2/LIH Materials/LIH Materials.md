@@ -1,1 +1,1 @@
-![[Maxwells Equations in Materials#Constitutive Equations in LIH Materials]]
+![[Maxwell's Equations in Materials#Constitutive Equations in LIH Materials]]

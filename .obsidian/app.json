@@ -77,7 +77,19 @@
     "Homomorphism",
     "Ampére",
     "generalisation",
-    "Ohmic"
+    "Ohmic",
+    "formalised",
+    "Generalising",
+    "Biot",
+    "Savart",
+    "Poynting",
+    "Polarisers",
+    "analyse",
+    "polarisation",
+    "Polarisations",
+    "unpolarised",
+    "grey",
+    "normals"
   ],
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
@@ -85,5 +97,6 @@
   "trashOption": "local",
   "promptDelete": false,
   "strictLineBreaks": true,
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "communityPluginSortOrder": "release"
 }

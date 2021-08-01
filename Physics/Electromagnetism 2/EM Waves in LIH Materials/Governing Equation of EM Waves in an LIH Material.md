@@ -16,7 +16,7 @@ $$
 \end{align}
 $$
 
-Now as we are working in [[LIH Materials]] we can apply the relevant [[Maxwells Equations in Materials#Constitutive Equations|Constitutive Equations]] namely,
+Now as we are working in [[LIH Materials]] we can apply the relevant [[Maxwell's Equations in Materials#Constitutive Equations|Constitutive Equations]] namely,
 
 $$
 \vD = \epsi \vE \qquad \vH = \frac 1\mu \vB
@@ -31,7 +31,7 @@ $$
 
 By definition we know $\divrg \vD = \rho_f$ and further $\rho_f = 0$[^1] and hence,
 
-[^1]: If $\rho_f \ne 0$ this would imply that $\vD \ne \vec0$ and thus $\vE \ne \vec0$ as per the [[Maxwells Equations in Materials#Constitutive Equations in LIH Materials]]. Thus there would be a force on these free charges which we know can move. Hence we assume that these charges are in a stable configuration where there is no force. [cf](https://physics.stackexchange.com/questions/22773/in-electrostatics-why-the-electric-field-inside-a-conductor-is-zero)
+[^1]: If $\rho_f \ne 0$ this would imply that $\vD \ne \vec0$ and thus $\vE \ne \vec0$ as per the [[Maxwell's Equations in Materials#Constitutive Equations in LIH Materials]]. Thus there would be a force on these free charges which we know can move. Hence we assume that these charges are in a stable configuration where there is no force. [cf](https://physics.stackexchange.com/questions/22773/in-electrostatics-why-the-electric-field-inside-a-conductor-is-zero)
 
 $$ \nab^2 \vE = \mu \p_t (\curl \vH). $$
 
@@ -48,7 +48,7 @@ $$
 \nab^2 \vE = \mu \p_t (\sigma \vE + \p_t \vD).
 $$
 
-From here we can now apply $\vD = \epsi\vE$ ([[Maxwells Equations in Materials#^15011a]]) giving us,
+From here we can now apply $\vD = \epsi\vE$ ([[Maxwell's Equations in Materials#^15011a]]) giving us,
 
 $$
 \nab^2 \vE =

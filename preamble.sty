@@ -37,6 +37,34 @@
 \newcommand{\opy}{\hat{y}} \newcommand{\opY}{\hat{Y}}
 \newcommand{\opz}{\hat{z}} \newcommand{\opZ}{\hat{Z}}
 
+% Cal
+
+\newcommand\cala{\mathcal{a}} \newcommand\calA{\mathcal{A}}
+\newcommand\calb{\mathcal{b}} \newcommand\calB{\mathcal{B}}
+\newcommand\calc{\mathcal{c}} \newcommand\calC{\mathcal{C}}
+\newcommand\cald{\mathcal{d}} \newcommand\calD{\mathcal{D}}
+\newcommand\cale{\mathcal{e}} \newcommand\calE{\mathcal{E}}
+\newcommand\calf{\mathcal{f}} \newcommand\calF{\mathcal{F}}
+\newcommand\calg{\mathcal{g}} \newcommand\calG{\mathcal{G}}
+\newcommand\calh{\mathcal{h}} \newcommand\calH{\mathcal{H}}
+\newcommand\cali{\mathcal{i}} \newcommand\calI{\mathcal{I}}
+\newcommand\calj{\mathcal{j}} \newcommand\calJ{\mathcal{J}}
+\newcommand\calk{\mathcal{k}} \newcommand\calK{\mathcal{K}}
+\newcommand\call{\mathcal{l}} \newcommand\calL{\mathcal{L}}
+\newcommand\calm{\mathcal{m}} \newcommand\calM{\mathcal{M}}
+\newcommand\caln{\mathcal{n}} \newcommand\calN{\mathcal{N}}
+\newcommand\calo{\mathcal{o}} \newcommand\calO{\mathcal{O}}
+\newcommand\calp{\mathcal{p}} \newcommand\calP{\mathcal{P}}
+\newcommand\calq{\mathcal{q}} \newcommand\calQ{\mathcal{Q}}
+\newcommand\calr{\mathcal{r}} \newcommand\calR{\mathcal{R}}
+\newcommand\cals{\mathcal{s}} \newcommand\calS{\mathcal{S}}
+\newcommand\calt{\mathcal{t}} \newcommand\calT{\mathcal{T}}
+\newcommand\calu{\mathcal{u}} \newcommand\calU{\mathcal{U}}
+\newcommand\calv{\mathcal{v}} \newcommand\calV{\mathcal{V}}
+\newcommand\calw{\mathcal{w}} \newcommand\calW{\mathcal{W}}
+\newcommand\calx{\mathcal{x}} \newcommand\calX{\mathcal{X}}
+\newcommand\caly{\mathcal{y}} \newcommand\calY{\mathcal{Y}}
+\newcommand\calz{\mathcal{z}} \newcommand\calZ{\mathcal{Z}}
 
 % Vectors
 
@@ -67,46 +95,46 @@
 \newcommand\vy{\vec{y}} \newcommand\vY{\vec{Y}}
 \newcommand\vz{\vec{z}} \newcommand\vZ{\vec{Z}}
 
-% Cal
-
-\newcommand\cala{\mathcal{a}} \newcommand\calA{\mathcal{A}}
-\newcommand\calb{\mathcal{b}} \newcommand\calB{\mathcal{B}}
-\newcommand\calc{\mathcal{c}} \newcommand\calC{\mathcal{C}}
-\newcommand\cald{\mathcal{d}} \newcommand\calD{\mathcal{D}}
-\newcommand\cale{\mathcal{e}} \newcommand\calE{\mathcal{E}}
-\newcommand\calf{\mathcal{f}} \newcommand\calF{\mathcal{F}}
-\newcommand\calg{\mathcal{g}} \newcommand\calG{\mathcal{G}}
-\newcommand\calh{\mathcal{h}} \newcommand\calH{\mathcal{H}}
-\newcommand\cali{\mathcal{i}} \newcommand\calI{\mathcal{I}}
-\newcommand\calj{\mathcal{j}} \newcommand\calJ{\mathcal{J}}
-\newcommand\calk{\mathcal{k}} \newcommand\calK{\mathcal{K}}
-\newcommand\call{\mathcal{l}} \newcommand\calL{\mathcal{L}}
-\newcommand\calm{\mathcal{m}} \newcommand\calM{\mathcal{M}}
-\newcommand\caln{\mathcal{n}} \newcommand\calN{\mathcal{N}}
-\newcommand\calo{\mathcal{o}} \newcommand\calO{\mathcal{O}}
-\newcommand\calp{\mathcal{p}} \newcommand\calP{\mathcal{P}}
-\newcommand\calq{\mathcal{q}} \newcommand\calQ{\mathcal{Q}}
-\newcommand\calr{\mathcal{r}} \newcommand\calR{\mathcal{R}}
-\newcommand\cals{\mathcal{s}} \newcommand\calS{\mathcal{S}}
-\newcommand\calt{\mathcal{t}} \newcommand\calT{\mathcal{T}}
-\newcommand\calu{\mathcal{u}} \newcommand\calU{\mathcal{U}}
-\newcommand\calv{\mathcal{v}} \newcommand\calV{\mathcal{V}}
-\newcommand\calw{\mathcal{w}} \newcommand\calW{\mathcal{W}}
-\newcommand\calx{\mathcal{x}} \newcommand\calX{\mathcal{X}}
-\newcommand\caly{\mathcal{y}} \newcommand\calY{\mathcal{Y}}
-\newcommand\calz{\mathcal{z}} \newcommand\calZ{\mathcal{Z}}
-
-
 % Unit Vectors
 \newcommand\uvec[1]{\hat{#1}}
 
+%% ijk are special cased to be bold face.
 \newcommand\uvi{\mathbf{i}}
 \newcommand\uvj{\mathbf{j}}
 \newcommand\uvk{\mathbf{k}}
 
-\newcommand\uvx{\uvec{x}}
-\newcommand\uvy{\uvec{y}}
-\newcommand\uvz{\uvec{z}}
+% hence we define uuv{i,j,k} as a replacement
+\newcommand\uuvi{\uvec{i}}
+\newcommand\uuvj{\uvec{i}} 
+\newcommand\uuvk{\uvec{i}} 
+
+% standard unit vectors with hat.
+\newcommand\uva{\uvec{a}} \newcommand\uvA{\uvec{A}}
+\newcommand\uvb{\uvec{b}} \newcommand\uvB{\uvec{B}}
+\newcommand\uvc{\uvec{c}} \newcommand\uvC{\uvec{C}}
+\newcommand\uvd{\uvec{d}} \newcommand\uvD{\uvec{D}}
+\newcommand\uve{\uvec{e}} \newcommand\uvE{\uvec{E}}
+\newcommand\uvf{\uvec{f}} \newcommand\uvF{\uvec{F}}
+\newcommand\uvg{\uvec{g}} \newcommand\uvG{\uvec{G}}
+\newcommand\uvh{\uvec{h}} \newcommand\uvH{\uvec{H}}
+\newcommand\uvI{\uvec{I}}
+\newcommand\uvJ{\uvec{J}}
+\newcommand\uvK{\uvec{K}}
+\newcommand\uvl{\uvec{l}} \newcommand\uvL{\uvec{L}}
+\newcommand\uvm{\uvec{m}} \newcommand\uvM{\uvec{M}}
+\newcommand\uvn{\uvec{n}} \newcommand\uvN{\uvec{N}}
+\newcommand\uvo{\uvec{o}} \newcommand\uvO{\uvec{O}}
+\newcommand\uvp{\uvec{p}} \newcommand\uvP{\uvec{P}}
+\newcommand\uvq{\uvec{q}} \newcommand\uvQ{\uvec{Q}}
+\newcommand\uvr{\uvec{r}} \newcommand\uvR{\uvec{R}}
+\newcommand\uvs{\uvec{s}} \newcommand\uvS{\uvec{S}}
+\newcommand\uvt{\uvec{t}} \newcommand\uvT{\uvec{T}}
+\newcommand\uvu{\uvec{u}} \newcommand\uvU{\uvec{U}}
+\newcommand\uvv{\uvec{v}} \newcommand\uvV{\uvec{V}}
+\newcommand\uvw{\uvec{w}} \newcommand\uvW{\uvec{W}}
+\newcommand\uvx{\uvec{x}} \newcommand\uvX{\uvec{X}}
+\newcommand\uvy{\uvec{y}} \newcommand\uvY{\uvec{Y}}
+\newcommand\uvz{\uvec{z}} \newcommand\uvZ{\uvec{Z}}
 
 % Vec Calc
 \newcommand{\nab}{\nabla}

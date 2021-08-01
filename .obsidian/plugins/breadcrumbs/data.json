@@ -1,0 +1,23 @@
+{
+  "parentFieldName": "parent",
+  "siblingFieldName": "sibling",
+  "childFieldName": "child",
+  "indexNote": [
+    ""
+  ],
+  "refreshIntervalTime": 2,
+  "defaultView": true,
+  "showNameOrType": true,
+  "showRelationType": true,
+  "showTrail": true,
+  "trailOrTable": 3,
+  "gridHeatmap": false,
+  "heatmapColour": " hsl(  211,  100%,  50%)",
+  "showAll": false,
+  "noPathMessage": "This note has no real or implied parents",
+  "trailSeperator": "→",
+  "respectReadableLineLength": true,
+  "wikilinkIndex": true,
+  "debugMode": false,
+  "superDebugMode": false
+}

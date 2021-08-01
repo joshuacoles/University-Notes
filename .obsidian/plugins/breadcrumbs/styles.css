@@ -1,0 +1,20 @@
+div.breadcrumbs-trail {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.breadcrumbs-matrix-square li {
+  text-align: left;
+}
+
+li.breadcrumbs-implied::marker {
+}
+
+.internal-link.breadcrumbs-link {
+  color: var(--text-accent);
+}
+
+.internal-link.breadcrumbs-link:hover {
+  color: var(--text-accent-hover, var(--text-accent));
+}

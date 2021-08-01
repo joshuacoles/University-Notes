@@ -51,4 +51,4 @@ $$
 \intl_{\vec{r'} \in V'} \rho(\vec{r'}) \,\d V
 $$
 
-This the [[Integral Form]] of [[Coloumb's Law]].
+This the [[Integral Form]] of [[Physics/Electromagnetism 2/Maxwell's Equations/Empirical Laws/Coloumb's Law]].

@@ -1,10 +1,19 @@
-# Derivation of the Maxwell–Ampére Law in Materials
+# Maxwell–Ampére Law in Materials
 
-While the first 3 of [[Maxwells Equations in Materials]] can be derived relatively easily, the 4th, the [[Maxwell–Ampére Law]] law is more complicated. In its vacuum form is given as,
+The [[Maxwell–Ampére Law]] in Materials is given as,
+
+$$ \curl \vH = \vJ_f + \frac{\p}{\p t} \vD $$
+
+where $\vJ_f$ is the Ohmic Current in the material and
+
+
+## Derivation
+
+While the first 3 of [[Maxwell's Equations in Materials]] can be derived relatively easily, the 4th, the [[Maxwell–Ampére Law]] law is more complicated. In its vacuum form is given as,
 
 $$ \curl \vB = \mu_0 \vJ + \epsi_0 \mu_0 \partial_t \vE. $$
 
-## Naive Approach
+### Naive Approach
 
 Starting naively we consider the conservation of charge expressed in the [[Continuity Equation for Electric Charge]],
 

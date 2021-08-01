@@ -13,7 +13,7 @@ $$
 
 ![[Clipboard 1 Feb 2021 at 17.39.png]]
 
-To show this wlog we take $Q$ to be at the origin, so that as per [[Coloumb's Law]],
+To show this wlog we take $Q$ to be at the origin, so that as per [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]],
 
 $$
 \E(\r) = \frac 1{4\pi\epsilon_0} \frac{Q}{r^2} \uvec{e}_r

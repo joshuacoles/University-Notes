@@ -8,7 +8,7 @@ As materials are naturally neutral these will be in the form of [[Dipole|Induced
 
 Starting at the microscopic level we model these Atomic Dipoles using the [[Atomic Polarisability]] which gives us the equation
 
-$$ \vp = \alpha \E\_{\'{ext}} $$
+$$ \vp = \alpha \E_{\'{ext}} $$
 ^atomic-polarisability
 
 for the [[Dipole|Dipole Moment]] of a given atom under the external Electric Field $\E_{\'{ext}}$. Here $\alpha$ is a constant of the atom itself given by $\alpha = 3\epsi_0 V$ (see [[Atomic Polarisability#Computation]]).

@@ -1,0 +1,12 @@
+- Empirical Laws of Electromagnetics lec2
+	- [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]] Lec3
+		- Split 3 into a bit on superposition as well
+	- [[Biot-Savart Law]]
+	- [[Ampere's Law]]
+	- [[Faraday's Law]]
+- [[Physics/Electromagnetism 2/Cohesive Part 1/Maxwell's Equations]] lec2
+	- List
+	- Empirical Derivations
+		- [[Gauss's Law]] lec4
+- Electrostatics lec5
+- Electrostatic Potential lec5

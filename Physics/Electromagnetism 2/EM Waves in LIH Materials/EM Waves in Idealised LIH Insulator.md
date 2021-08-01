@@ -41,7 +41,30 @@ For non-magnetic materials $\mu_r = 1$ and hence $n = \sqrt{\epsi_r}$ knwon as [
 By applying the same logic as [[Lec 11, Impedance of Free Space#vH H Field Fields and Impedance Wave Impedance|Lec 11 > H Fields and Impedance]] to the plane wave discussed above we obtain,
 
 $$
-\vH = \frac{k}{\omega \mu} E_0 \pw{kx - \omega t} = H_0 \pw{kx - \omega t}.
+\vH
+= \frac{k}{\omega \mu} \vE_0 \pw{kx - \omega t}
+= \vH_0 \pw{kx - \omega t}
+$$
+
+where,
+
+$$
+\vH_0 = \frac{\vE_0}{Z}.
+$$
+
+Note that in terms of the $\vB$ field we have,
+
+$$
+\vB = \frac{1}{v_p}\vE_0
+$$
+
+## Relations
+
+$$
+\begin{align}
+\vk \cp \vE &= \mu\omega\vH \\
+\vk \cp \vH &= -\epsi\omega\vE
+\end{align}
 $$
 
 ## Impedance
