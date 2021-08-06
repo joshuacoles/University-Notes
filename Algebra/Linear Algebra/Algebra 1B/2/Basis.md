@@ -58,7 +58,9 @@ $$
 v = \sum_{i = 1}^{n} (\lambda)_{i} v_{i} .
 $$
 
-### Proof Recall the map $(\phi)_{\alpha}:(\F)^{n}arrow V$ with $(\phi)_{\alpha}(x)=(\sum)_{i}x_{i}v_{i}.$  
+### Proof
+
+Recall the map $(\phi)_{\alpha}:(\F)^{n}arrow V$ with $(\phi)_{\alpha}(x)=(\sum)_{i}x_{i}v_{i}.$  
 
 By definition,
 
@@ -132,7 +134,8 @@ Use the same notation as above.
 *   $\alpha$ is L. I. if and only if every column in any REF of $A$ contains a pivot.
 *   $\alpha$ is spanning if and only if there is no zero rows in any REF of $A$ .
 
-### Proof (a) $\alpha$ L. I. $\Leftrightarrow$ $\nexists$ non-zero $\lambda\in(\F)^{k}$ such that $\sum(\lambda)_{i}v_{i}=0$  
+### Proof
+(a) $\alpha$ L. I. $\Leftrightarrow$ $\nexists$ non-zero $\lambda\in(\F)^{k}$ such that $\sum(\lambda)_{i}v_{i}=0$  
 $\Leftrightarrow$ only solution of $Ax=0$ is $x=0$  
 $\Leftrightarrow$ in REF reduction of $A$, every column contains a pivot.  
 
