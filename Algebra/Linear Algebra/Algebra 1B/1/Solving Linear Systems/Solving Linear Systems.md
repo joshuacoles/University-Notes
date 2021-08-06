@@ -32,13 +32,13 @@ $$
 
 3 points of view:
 
-(a)
+a.
 
 Intersection of two lines
 
 ![No alt text was set.](diagrams/fig01a.svg)
 
-(b)
+b.
 
 Matrix equation $Ax=b$
 
@@ -48,7 +48,7 @@ $$
 \end{align}
 $$
 
-(c)
+c.
 
 Linear combinations
 
@@ -67,7 +67,7 @@ $$
 Remark: matrix $A$ defines a ‘linear map’
 
 $$
-\left(\phi\right)_{A} : ℝ^{2} \rightarrow ℝ^{2} : x \rightarrow tail A x .
+\left(\phi\right)_{A} : \R^{2} \rightarrow \R^{2} : x \rightarrow tail A x .
 $$
 
 ![No alt text was set.](diagrams/fig01c.svg)
@@ -81,7 +81,7 @@ $$
 so a solution of $Ax=b$ exists and is unique for all $b$ .
 
 Example 2.  
-Find the line of intersection of the following two planes in $ℝ^{3}$ ,
+Find the line of intersection of the following two planes in $\R^{3}$ ,
 
 1.
 
@@ -131,7 +131,7 @@ $$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix} + t \begin{pmatrix} 0 \\ -1 \\ 2 \end{pmatrix} ,
 $$
 
-i.e. of form $L=\left\{ v + t w : t \in ℝ \right\}$, the line through point $v$ in direction $w$ .
+i.e. of form $L=\left\{ v + t w : t \in \R \right\}$, the line through point $v$ in direction $w$ .
 
 Example 3.  
 Solve the following system of equations.

@@ -103,12 +103,12 @@
 \newcommand\uvj{\mathbf{j}}
 \newcommand\uvk{\mathbf{k}}
 
-% hence we define uuv{i,j,k} as a replacement
+%% hence we define uuv{i,j,k} as a replacement
 \newcommand\uuvi{\uvec{i}}
-\newcommand\uuvj{\uvec{i}} 
-\newcommand\uuvk{\uvec{i}} 
+\newcommand\uuvj{\uvec{j}} 
+\newcommand\uuvk{\uvec{k}} 
 
-% standard unit vectors with hat.
+%% standard unit vectors with hat.
 \newcommand\uva{\uvec{a}} \newcommand\uvA{\uvec{A}}
 \newcommand\uvb{\uvec{b}} \newcommand\uvB{\uvec{B}}
 \newcommand\uvc{\uvec{c}} \newcommand\uvC{\uvec{C}}
@@ -135,6 +135,14 @@
 \newcommand\uvx{\uvec{x}} \newcommand\uvX{\uvec{X}}
 \newcommand\uvy{\uvec{y}} \newcommand\uvY{\uvec{Y}}
 \newcommand\uvz{\uvec{z}} \newcommand\uvZ{\uvec{Z}}
+
+% Matrix Work
+
+\newcommand{\col}{\mathrm{col}}
+\newcommand{\row}{\mathrm{row}}
+\newcommand{\det}{\mathrm{det}}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\ker}{\mathrm{ker}}
 
 % Vec Calc
 \newcommand{\nab}{\nabla}
@@ -460,7 +468,7 @@
 
                 \newcommand {\bw }[3]{#1\leq #2\leq #3}
 
-                \newcommand {\col }[3]{(#1_{#2})_{#2\in #3}}
+                % \newcommand {\col }[3]{(#1_{#2})_{#2\in #3}}
 
                 \newcommand {\supp }{\mathrm {supp}}
 

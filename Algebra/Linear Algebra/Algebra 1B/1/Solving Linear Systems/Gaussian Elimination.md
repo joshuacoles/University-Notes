@@ -26,7 +26,7 @@ is solved by reducing $A$ to row echelon form (REF) to give an equivalent system
 Definition 1.  
 A matrix $A$ is in row echelon form (REF) if
 
-(i)
+i.
 
 all zero rows are at the bottom,
 
@@ -61,7 +61,7 @@ Note.
 Theorem 3.  
 Any matrix $A$ can be converted to REF or RREF by a sequence of elementary row operations (ERO’s) of three types:
 
-(I)
+I.
 
 $R_{i}\rightarrow\lambda R_{i}$ ( $\lambda\neq 0$ ): multiply row $i$ by non-zero scalar,
 
@@ -134,17 +134,17 @@ A = \begin{pmatrix} 1 & 3 & 1 \\ 2 & 4 & 4 \\ -1 & 2 & s \end{pmatrix} , b = \be
 \end{align}
 $$
 
-find values of $s,t\inℝ$ for which the equation $Ax=b$ has:
+find values of $s,t\in\R$ for which the equation $Ax=b$ has:
 
-(a)
+a.
 
 unique solution;
 
-(b)
+b.
 
 no solution;
 
-(c)
+c.
 
 infinitely many solutions.
 
@@ -158,15 +158,15 @@ $$
 \end{align}
 $$
 
-(a)
+a.
 
 Solution is unique if $s\neq-6$ , so $\exists$ 3 pivots and so can solve uniquely for all 3 variables.
 
-(b)
+b.
 
 No solution if $s=-6$ but $t\neq\frac{1 1}{2}$ , for then $\left(row\right)_{3}=0$ while $b_{3}\neq 0$ , making the system inconsistent.
 
-(c)
+c.
 
 If $s=-1$ , $t=\frac{1 1}{2}$ , then have consistent system with 2 pivots, so for general solution set $x_{3}=\lambda$ , 
 $$
@@ -181,13 +181,13 @@ $$
 \left( x_{1} , x_{2} , x_{3} \right) = \left(2 , \frac{3}{2} , 0\right) + \lambda \left(- 4 , 1 , 1\right)
 $$
 
-for any $\lambda\inℝ$ .
+for any $\lambda\in\R$ .
 
 #### [Key observations](MA10210ch1.html#QQ2-5-6)
 
 In general, if $A$ is in REF, then
 
-(i)
+i.
 
 can solve linear system $Ax=b$ provided $b_{j}=0$ whenever $\left(row\right)_{j}\left( A \right)=0$ ;
 
