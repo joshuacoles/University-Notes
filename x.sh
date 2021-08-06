@@ -12,10 +12,14 @@ sd 'ℤ' '\Z' *.md
 sd 'ℂ' '\C' *.md
 sd 'ℝ' '\R' *.md
 sd '𝔽' '\F' *.md
+sd 'ℙ' '\P' *.md
 
 sd '\\text\{\}' '' *.md
 sd '& =' '&=' *.md
 sd '& ' '' *.md
+
+sd '\\left' '' *.md
+sd '\\right' '' *.md
 
 sd '\( ' '(' *.md
 sd ' \)' ')' *.md

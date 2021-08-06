@@ -11,14 +11,14 @@ evaluate the probability that $E$ occurs given that $F$ has occurred we
 need to consider the set of outcomes in $F$ that also result in $E$,
 that is the set $EcapF$.
 
-Definition 11 (Conditional probability)
-For a probability space $\left( \Omega , ℱ , ℙ \right)$ if $E,Finℱ$,
-and $ℙ\left( F right)>0$, then the conditional probability of event $E$
-given event $F$, written $ℙ\left( E \left| F right)$, is
+## Definition 1 (Conditional probability)
+For a probability space $(\Omega, ℱ, \P)$ if $E,F\inℱ$,
+and $\P(F)>0$, then the conditional probability of event $E$
+given event $F$, written $\P(E | F)$, is
 
 $$
 \begin{align}
-ℙ\left( E \left| F \right) & = & \frac{ℙ \left( E \cap F \right)}{ℙ \left( F \right)}. & \text{(3.1)}\text{}text{}
+\P(E | F) &= \frac{\P (E \cap F)}{\P (F)}. \text{(3.1)}text{}
 \end{align}
 $$
 
@@ -27,13 +27,13 @@ Notes:
 1.  
 
 What happens in the conditional probability calculation is that $F$
-becomes the sample space: $ℙ\left( F \left| F right)=1$. All other
+becomes the sample space: $\P(F | F)=1$. All other
 probabilities are then recalibrated with respect to their relationship
 with $F$.
 
 2.  
 
-It is straightforward to verify that $ℙ\left( \cdot \left| F right)$
+It is straightforward to verify that $\P(\cdot | F)$
 satisfies Kolmogorov's axioms (A1)-(A3) of Definition
 [9](nose2.htm#x10-150029). Hence, all of the consequences, that is the
 calculus of probabilities obtained in Section
@@ -44,7 +44,7 @@ events $E$ and $G$ we have:
 
 $$
 \begin{align}
-ℙ\left( E \cup G \left| F \right) & = & ℙ\left( E \left| F \right)+ℙ\left( G \left| F \right)-ℙ\left( E \cap G \left| F \right). & text{}
+\P(E \cup G | F) &= \P(E | F)+\P(G | F)-\P(E \cap G | F). text{}
 \end{align}
 $$
 
@@ -52,25 +52,25 @@ $$
 
 If $E$ and $F$ are disjoint, that is from Definition
 [6](nose1.htm#x9-110206) $E\capF=oslash$, then
-$ℙ\left( E \cap F \right)=0$ so that $ℙ\left( E \left| F right)=0$.
+$\P(E \cap F)=0$ so that $\P(E | F)=0$.
 
-Example 25 A family has three children, but you don't know their sexes.
+## Example 2 A family has three children, but you don't know their sexes.
 What's the probability that all three are boys when somebody tells you
 there are at least two boys?
 
 Let
-$\Omega=\left\{ B B B , B B G , B G B , G B B , B G G , G B G , G G B , G G G \right}$
+$\Omega=\{ B B B, B B G, B G B, G B B, B G G, G B G, G G B, G G G }$
 where, for example, $GBB$ represents eldest a girl, middle and youngest
-are boys. If we set $E=\left\{ \text{Three boys} \right}$ and
-$F=\left\{ \text{At least two boys} \right}$ then
-$E=\left\{ B B B \right}$,
-$F=\left\{ B B B , B B G , B G B , G B B \right}$ and
-$E\capF=\left\{ B B B \right}$. If we assume that all sample points of
+are boys. If we set $E=\{ \text{Three boys} }$ and
+$F=\{ \text{At least two boys} }$ then
+$E=\{ B B B }$,
+$F=\{ B B B, B B G, B G B, G B B }$ and
+$E\capF=\{ B B B }$. If we assume that all sample points of
 $Omega$ are equally likely then
 
 $$
 \begin{align}
-ℙ\left( E \right) & = & \frac{\left| E \left|}{\left| \Omega \left|}=\frac{1}{8}, & \text{} \\ ℙ\left( F \right) & = & \frac{\left| F \left|}{\left| \Omega \left|}=\frac{4}{8}=\frac{1}{2}, & \text{} \\ ℙ\left( E \cap F \right) & = & \frac{\left| E \cap F \left|}{\left| \Omega \left|}=\frac{1}{8}. & text{}
+\P(E) &= \frac{| E |}{| \Omega |}=\frac{1}{8},  \\ \P(F) &= \frac{| F |}{| \Omega |}=\frac{4}{8}=\frac{1}{2},  \\ \P(E \cap F) &= \frac{| E \cap F |}{| \Omega |}=\frac{1}{8}. text{}
 \end{align}
 $$
 
@@ -79,13 +79,10 @@ children are boys given that there are at least two boys is
 
 $$
 \begin{align}
-ℙ\left( E \left| F \right)=\frac{\left(\frac{\left| E \cap F \left|}{\left| \Omega \left|}\right)}{\left(\frac{\left| F \left|}{\left| \Omega \left|}\right)}=\frac{\left| E \cap F \left|}{\left| F \left|}=\frac{1}{4}. & & & text{}
+\P(E | F)=\frac{(\frac{| E \cap F |}{| \Omega |})}{(\frac{| F |}{| \Omega |})}=\frac{| E \cap F |}{| F |}=\frac{1}{4}. text{}
 \end{align}
 $$
 
-Notice that $ℙ\left( E \left| F \right)>ℙ\left( E right)$ which is not
+Notice that $\P(E | F)>\P(E)$ which is not
 a surprise: learning that there are at least two boys increases the
 probability that there are three boys.
-
-\
-

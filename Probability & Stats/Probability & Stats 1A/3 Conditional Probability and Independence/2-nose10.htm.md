@@ -4,12 +4,12 @@
 
 ### 3.4 Bayes' theorem
 
-Suppose that $ℙ\left( E \right)>0$ and $ℙ\left( F right)>0$ then using
+Suppose that $\P(E)>0$ and $\P(F)>0$ then using
 the multiplication law,
 
 $$
 \begin{align}
-ℙ\left( E \cap F \right)=ℙ\left( E \left| F \right)ℙ\left( F \right)=ℙ\left( F \left| E \right)ℙ\left( E \right) & & & text{}
+\P(E \cap F)=\P(E | F)\P(F)=\P(F | E)\P(E) text{}
 \end{align}
 $$
 
@@ -17,47 +17,48 @@ so that
 
 $$
 \begin{align}
-ℙ\left( E \left| F \right) & = & \frac{ℙ \left( F \left| E \right) ℙ \left( E \right)}{ℙ \left( F \right)} & \text{(3.9)}\text{}text{}
+\P(E | F) &= \frac{\P (F | E) \P (E)}{\P (F)} \text{(3.9)}text{}
 \end{align}
 $$
 
 which gives a formula for reversing the conditioning. In many cases,
-$ℙ\left( F \left| E right)$ might be straightforward to obtain but we
-are interested in $ℙ\left( E \left| F right)$. For example, as a
+$\P(F | E)$ might be straightforward to obtain but we
+are interested in $\P(E | F)$. For example, as a
 patient visiting the doctor we are interested in
-$ℙ\left( \text{disease} \left| \text{symptoms} right)$ whilst medical
+$\P(\text{disease} | \text{symptoms})$ whilst medical
 evidence typically knows
-$ℙ\left( \text{symptoms} \left| \text{disease} right)$.
+$\P(\text{symptoms} | \text{disease})$.
 
 Equation ([3.9](#x20-32002r3.9)) is often called Bayes'
 theorem[1](#fn1x3) but there is a more general form which applies to
 partitions of $Omega$.
 
-Theorem 11 (Bayes' theorem)
-If $\left\{ E_{1} , … ⁡ , E_{n} \right\}$ form a partition of $Omega$
-and $ℙ\left( E_{i} right)>0$ for all $i$ then, for any $j=1,…⁡,n$,
+## Theorem 1 (Bayes' theorem)
+If $\{ E_{1}, … ⁡, E_{n} \}$ form a partition of $Omega$
+and $\P(E_{i})>0$ for all $i$ then, for any $j=1,…⁡,n$,
 
 $$
 \begin{align}
-ℙ\left( E_{j} \left| F \right) & = & \frac{ℙ \left( F \left| E_{j} \right) ℙ \left( E_{j} \right)}{\sum_{i = 1}^{n} ℙ \left( F \left| E_{i} \right) ℙ \left( E_{i} \right)}. & \text{(3.10)}\text{}text{}
+\P(E_{j} | F) &= \frac{\P (F | E_{j}) \P (E_{j})}{\sum_{i = 1}^{n} \P (F | E_{i}) \P (E_{i})}. \text{(3.10)}text{}
 \end{align}
 $$
 
-Proof: Equation ([3.10](#x20-32005r3.10)) follows from equation
+### Proof
+ Equation ([3.10](#x20-32005r3.10)) follows from equation
 ([3.9](#x20-32002r3.9)) by taking $E=E_{j}$ and then using the law of
 total probability, Theorem [10](nose9.htm#x19-3100710), for
-$ℙ\left( F \right)$. $square$
+$\P(F)$. $square$
 
 Notes:
 
 1.  
 
-Recall that for any event $E$, $\left\{ E , E^{c} \right}$ forms a
+Recall that for any event $E$, $\{ E, E^{c} }$ forms a
 partition so that for any event $E$,
 
 $$
 \begin{align}
-ℙ\left( E \left| F \right) & = & \frac{ℙ \left( F \left| E \right) ℙ \left( E \right)}{ℙ \left( F \left| E \right) ℙ \left( E \right) + ℙ \left( F \left| E^{c} \right) ℙ \left( E^{c} \right)}. & text{}
+\P(E | F) &= \frac{\P (F | E) \P (E)}{\P (F | E) \P (E) + \P (F | E^{c}) \P (E^{c})}. text{}
 \end{align}
 $$
 
@@ -66,9 +67,9 @@ $$
 As with the law of total probability, the result can be extended to the
 case where $E_{1},E_{2},…⁡$ form a partition and also that where
 $E_{1},…⁡,E_{n}$ are disjoint with
-$F\subset\left(\cup ⁡right)_{i = 1}^{n}E_{i}$.
+$F\subset(\cup ⁡)_{i = 1}^{n}E_{i}$.
 
-Example 30 We revisit Example [29](nose9.htm#x19-3101529). Suppose
+## Example 3 We revisit Example [29](nose9.htm#x19-3101529). Suppose
 $1/4$, $1/8$ and $1/16$ of Buster, Rich and Owen's own deals made a
 loss, respectively. What is the probability a randomly chosen deal that
 made a loss is one of Buster's?
@@ -77,7 +78,7 @@ Let $L$ be the event that the deal made a loss. Then we know
 
 $$
 \begin{align}
-ℙ\left( L \left| B \right) & = & \frac{1}{4},ℙ\left( B \right)=\frac{3}{1 0}\text{(Buster)} & \text{} \\ ℙ\left( L \left| R \right) & = & \frac{1}{8},ℙ\left( R \right)=\frac{5}{1 0}\text{(Rich)} & \text{} \\ ℙ\left( L \left| W \right) & = & \frac{1}{1 6},ℙ\left( W \right)=\frac{2}{1 0}\text{(Owen)} & text{}
+\P(L | B) &= \frac{1}{4},\P(B)=\frac{3}{1 0}\text{(Buster)}  \\ \P(L | R) &= \frac{1}{8},\P(R)=\frac{5}{1 0}\text{(Rich)}  \\ \P(L | W) &= \frac{1}{1 6},\P(W)=\frac{2}{1 0}\text{(Owen)} text{}
 \end{align}
 $$
 
@@ -85,7 +86,7 @@ and, so by Bayes' Theorem
 
 $$
 \begin{align}
-ℙ\left( B \left| L \right) & = & \frac{ℙ \left( L \left| B \right) ℙ \left( B \right)}{ℙ \left( L \left| B \right) ℙ \left( B \right) + ℙ \left( L \left| R \right) ℙ \left( R \right) + ℙ \left( L \left| W \right) ℙ \left( W \right)} & \text{} \\ & & & \text{} \\ & = & \frac{\left(\frac{1}{4} \times \frac{3}{1 0}\right)}{\left(\frac{1}{4} \times \frac{3}{1 0}\right) + \left(\frac{1}{8} \times \frac{5}{1 0}\right) + \left(\frac{1}{1 6} \times \frac{2}{1 0}\right)} & \text{} \\ & & & \text{} \\ & = & \frac{6}{6 + 5 + 1}=\frac{1}{2}. & text{}
+\P(B | L) &= \frac{\P (L | B) \P (B)}{\P (L | B) \P (B) + \P (L | R) \P (R) + \P (L | W) \P (W)}  \\  \\ &= \frac{(\frac{1}{4} \times \frac{3}{1 0})}{(\frac{1}{4} \times \frac{3}{1 0}) + (\frac{1}{8} \times \frac{5}{1 0}) + (\frac{1}{1 6} \times \frac{2}{1 0})}  \\  \\ &= \frac{6}{6 + 5 + 1}=\frac{1}{2}. text{}
 \end{align}
 $$
 
