@@ -18,12 +18,12 @@ conditional probabilities may be easy to calculate directly.
 ## Example 2 Two cards are drawn at random from a deck of 52 cards. What's
 the probability that both are aces?
 
-Let $E_{1}=\{ \text{First card is an ace} }$ and
-$E_{2}=\{ \text{Second card is an ace} }$ then
+Let $E_{1}=\set{ \text{First card is an ace} }$ and
+$E_{2}=\set{ \text{Second card is an ace} }$ then
 
 $$
 \begin{align}
-\P(\{ \text{Two aces} \})=\P(E_{1} \cap E_{2})=\P(E_{2} | E_{1})\P(E_{1})=\frac{3}{5 1}\times\frac{4}{5 2}=\frac{1}{2 2 1}. text{}
+\P(\set{ \text{Two aces} })=\P(E_{1} \cap E_{2})=\P(E_{2} | E_{1})\P(E_{1})=\frac{3}{5 1}\times\frac{4}{5 2}=\frac{1}{2 2 1}. text{}
 \end{align}
 $$
 
@@ -41,7 +41,7 @@ $$
 $$
 
 ### Proof
- For any $k\in\{ 1, … ⁡, n - 1 }$,
+ For any $k\in\set{ 1, … ⁡, n - 1 }$,
 $(\cap ⁡)_{i = 1}^{n - 1}E_{i}\subset(\cap ⁡)_{i = 1}^{k}E_{i}$
 and so, from Corollary [5](nose2.htm#x10-160245) (the containment rule:
 if $E\subsetF$ then $\P(F)\geq\P(E)$),
@@ -75,7 +75,7 @@ $G_{i}$ that it is good so that $G_{i}^{c}=D_{i}$. Then
 
 $$
 \begin{align}
-\P(\{ \text{First two defective} \}) &= \P(D_{1} \cap D_{2})  \\ &= \P(D_{2} | D_{1})\P(D_{1})=\frac{1}{6}\times\frac{2}{7}=\frac{1}{2 1}. text{}
+\P(\set{ \text{First two defective} }) &= \P(D_{1} \cap D_{2})  \\ &= \P(D_{2} | D_{1})\P(D_{1})=\frac{1}{6}\times\frac{2}{7}=\frac{1}{2 1}. text{}
 \end{align}
 $$
 

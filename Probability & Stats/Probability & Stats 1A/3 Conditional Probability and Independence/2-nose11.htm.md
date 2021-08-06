@@ -65,7 +65,7 @@ influence on the second, $\P(F | E)=\P(F)$,
 so that $\P(E \cap F)=\P(E)\P(F)$.
 
 We now demonstrate that this is the case. Let
-$\Omega=\{ H H, H T, T H, T T }$ be the sample space of
+$\Omega=\set{ H H, H T, T H, T T }$ be the sample space of
 equally likely events. Then,
 
 $$

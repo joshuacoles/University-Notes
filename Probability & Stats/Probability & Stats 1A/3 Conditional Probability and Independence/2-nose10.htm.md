@@ -34,7 +34,7 @@ theorem[1](#fn1x3) but there is a more general form which applies to
 partitions of $Omega$.
 
 ## Theorem 1 (Bayes' theorem)
-If $\{ E_{1}, … ⁡, E_{n} \}$ form a partition of $Omega$
+If $\set{ E_{1}, … ⁡, E_{n} }$ form a partition of $Omega$
 and $\P(E_{i})>0$ for all $i$ then, for any $j=1,…⁡,n$,
 
 $$
@@ -53,7 +53,7 @@ Notes:
 
 1.  
 
-Recall that for any event $E$, $\{ E, E^{c} }$ forms a
+Recall that for any event $E$, $\set{ E, E^{c} }$ forms a
 partition so that for any event $E$,
 
 $$

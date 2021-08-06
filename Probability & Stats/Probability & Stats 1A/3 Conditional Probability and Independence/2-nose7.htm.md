@@ -59,13 +59,13 @@ What's the probability that all three are boys when somebody tells you
 there are at least two boys?
 
 Let
-$\Omega=\{ B B B, B B G, B G B, G B B, B G G, G B G, G G B, G G G }$
+$\Omega=\set{ B B B, B B G, B G B, G B B, B G G, G B G, G G B, G G G }$
 where, for example, $GBB$ represents eldest a girl, middle and youngest
-are boys. If we set $E=\{ \text{Three boys} }$ and
-$F=\{ \text{At least two boys} }$ then
-$E=\{ B B B }$,
-$F=\{ B B B, B B G, B G B, G B B }$ and
-$E\capF=\{ B B B }$. If we assume that all sample points of
+are boys. If we set $E=\set{ \text{Three boys} }$ and
+$F=\set{ \text{At least two boys} }$ then
+$E=\set{ B B B }$,
+$F=\set{ B B B, B B G, B G B, G B B }$ and
+$E\capF=\set{ B B B }$. If we assume that all sample points of
 $Omega$ are equally likely then
 
 $$

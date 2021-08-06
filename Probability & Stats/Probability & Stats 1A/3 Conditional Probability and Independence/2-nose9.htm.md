@@ -6,14 +6,14 @@
 
 ## Definition 1 (Partition)
 If $E_{1},…⁡,E_{n}$ are a collection of non-empty events, that is each
-$E_{i}\neqoslash$, which are pairwise disjoint, so
-$E_{i}\capE_{j}=\oslash$ for all $ineq j$, and
+$E_{i}\neq\oslash$, which are pairwise disjoint, so
+$E_{i} \cap E_{j}=\oslash$ for all $ineq j$, and
 $(\cup ⁡)_{i = 1}^{n}E_{i}=Omega$ then
-$\{ E_{1}, … ⁡, E_{n} \}$ forms a partition of $Omega$.
+$\set{ E_{1}, … ⁡, E_{n} }$ forms a partition of $Omega$.
 
 Partitions are very useful as they allow us to divide the sample space
 $Omega$ into non-overlapping pieces. Notice that for a partition
-$\{ E_{1}, … ⁡, E_{n} }$ we have
+$\set{ E_{1}, … ⁡, E_{n} }$ we have
 
 $$
 \begin{align}
@@ -22,7 +22,7 @@ $$
 $$
 
 ## Example 2 For any event $E$ with $E\neq\oslash$ and $E\neqOmega$,
-$\{ E, E^{c} \}$ is a partition of $Omega$:
+$\set{ E, E^{c} }$ is a partition of $Omega$:
 $E\capE^{c}=\oslash$ and $E\cupE^{c}=Omega$.
 
 Recall the partition rule, Corollary [3](nose2.htm#x10-160203) from
@@ -58,7 +58,7 @@ $$
 This result can be extended into the following theorem.
 
 ## Theorem 1 (The law of total probability)
-If $\{ E_{1}, … ⁡, E_{n} \}$ form a partition of $Omega$
+If $\set{ E_{1}, … ⁡, E_{n} }$ form a partition of $Omega$
 and $\P(E_{i})>0$ for all $i$ then, for any event $F$,
 
 $$
@@ -126,7 +126,7 @@ chosen deal from last year made over $£1$ million profit?
 Let $Omega$ be collection of last years deals. Let $B$, $R$, $W$ be
 event the deal was made by Buster. Rich, Owen respectively. Then, since
 $B\cupR\cupW=Omega$ and $B$, $R$, $W$ are disjoint,
-$\{ B, R, W \}$ is a partition of $Omega$.
+$\set{ B, R, W }$ is a partition of $Omega$.
 
 If $E$ is the event that the chosen deal makes over $£1$ million in
 profit, then by the law of total probability,

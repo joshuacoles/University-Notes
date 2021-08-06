@@ -39,10 +39,10 @@ $$
 
 ## Example 3 We return to Example [31](nose11.htm#x21-3300731) where we
 considered tossing a fair coin twice. We showed that events
-$E=\{ \text{head on first toss} }$ and
-$F=\{ \text{head on second toss} }$ were independent.
+$E=\set{ \text{head on first toss} }$ and
+$F=\set{ \text{head on second toss} }$ were independent.
 Consider a third event
-$G=\{ \text{both tosses show the same side} }$ then
+$G=\set{ \text{both tosses show the same side} }$ then
 $\P(G)=\P(H H)+\P(T T)=1/2$,
 $\P(E \cap G)=\P(H H)=1/4$ and
 $\P(F \cap G)=\P(H H)=1/4$. Thus,
@@ -169,7 +169,7 @@ Let $E_{i}$ be event switch at location $i$ ($i=1,2,3,4$) is closed.
 
 $$
 \begin{align}
-\P(\{ \text{transmitted} \}) &= \P((E_{1} \cap E_{2}) \cup (E_{3} \cap E_{4}))  \\ &= \P(E_{1} \cap E_{2})+\P(E_{3} \cap E_{4})-\P((E_{1} \cap E_{2}) \cap (E_{3} \cap E_{4})) \text{(3.15)} \\ &= \P(E_{1})\P(E_{2})+\P(E_{3})\P(E_{4})-\P(E_{1})\P(E_{2})\P(E_{3})\P(E_{4}) \text{(3.16)} \\ &= p^{2}+p^{2}-p^{4}=p^{2}(2 - p^{2}) text{}
+\P(\set{ \text{transmitted} }) &= \P((E_{1} \cap E_{2}) \cup (E_{3} \cap E_{4}))  \\ &= \P(E_{1} \cap E_{2})+\P(E_{3} \cap E_{4})-\P((E_{1} \cap E_{2}) \cap (E_{3} \cap E_{4})) \text{(3.15)} \\ &= \P(E_{1})\P(E_{2})+\P(E_{3})\P(E_{4})-\P(E_{1})\P(E_{2})\P(E_{3})\P(E_{4}) \text{(3.16)} \\ &= p^{2}+p^{2}-p^{4}=p^{2}(2 - p^{2}) text{}
 \end{align}
 $$
 
