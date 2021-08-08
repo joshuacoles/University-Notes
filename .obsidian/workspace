@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Boundary.md",
+            "file": "Analysis/Analysis 1A/Chapter 7.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Boundary.md",
+            "file": "Analysis/Analysis 1A/Chapter 7.md",
             "mode": "preview"
           }
         },
@@ -31,15 +31,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "923ea6bd4f0a6e40",
+    "id": "2d90d4a29c58c3df",
     "type": "split",
     "children": [
       {
-        "id": "66200b0eb50dfab5",
+        "id": "356b1cef999778a6",
         "type": "tabs",
         "children": [
           {
-            "id": "857874aeec86684f",
+            "id": "72ea6c4107c60951",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "f3d12617348edd74",
+            "id": "669006ece7096248",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Surface Current",
+                "query": "\\col",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,7 @@
             }
           },
           {
-            "id": "029193c6bc72c921",
+            "id": "19d76fc6e29fe802",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -73,48 +73,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "97bf07c9bc90ec9a",
+    "id": "83e83af61b5bcc7c",
     "type": "split",
     "children": [
       {
-        "id": "d509a16a4522e257",
+        "id": "1b5784ea9efaa279",
         "type": "tabs",
         "children": [
           {
-            "id": "5802def6083b997e",
+            "id": "62a2ef1c6a4d572a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Boundary.md",
+                "file": "Analysis/Analysis 1A/Chapter 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0f3df14f8e0a44e0",
+            "id": "dc71cdf54b7c9afc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Boundary.md",
+                "file": "Analysis/Analysis 1A/Chapter 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8f2555150ee7a071",
+            "id": "25e4bb6fb696ac2f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -125,17 +124,17 @@
             }
           },
           {
-            "id": "9803425a9dabaa04",
+            "id": "22b05d22df483cbc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Boundary.md"
+                "file": "Analysis/Analysis 1A/Chapter 7.md"
               }
             }
           },
           {
-            "id": "e11c93adfc2305df",
+            "id": "a8afe846f3f357cd",
             "type": "leaf",
             "state": {
               "type": "breadcrumbs-matrix",
@@ -143,24 +142,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "ba05fb0df86dabbe",
   "lastOpenFiles": [
-    "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Boundary.md",
-    "Physics/Electromagnetism 2/EM Waves at Interfaces/Untitled.md",
-    "Physics/Electromagnetism 2/EM Waves at Interfaces/EM Waves Incident at Normal Boundary.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in LIH Materials.md",
-    "Physics/Electromagnetism 2/EM Waves in LIH Materials/EM Waves in Idealised LIH Insulator.md",
-    "Physics/Electromagnetism 2/Electric Fields in Materials/Electric Fields in Materials.md",
-    "Physics/Electromagnetism 2/Electric Fields in Materials/__notes__.md",
-    "Physics/Electromagnetism 2/Boundary Conditions for EM Waves/Interface Conditions of EM Waves between LIH Materials.md",
-    "Physics/Electromagnetism 2/Boundary Conditions for EM Waves/EM Waves Incident at Normal Boundary.md",
-    "Physics/Electromagnetism 2/Boundary Conditions for EM Waves/Continuity under a Gauss Law.md"
+    "Analysis/Analysis 1A/Chapter 7.md",
+    "Analysis/Analysis 1A/Analysis 1A.md",
+    "Analysis/Analysis 1B/1.md",
+    "Analysis/Analysis 1B/2.md",
+    "Analysis/Analysis 1B/3.md",
+    "Physics/Electromagnetism 2/Part 1/EM Waves in a Vacuum/Poynting Vector.md",
+    "Analysis/Analysis 1B/0.md",
+    "Analysis/Analysis 1A/Chapter 1.md",
+    "Physics/Electromagnetism 2/Part 1/EM Waves in a Vacuum/Electromagnetic Waves in a Vacuum.md",
+    "Physics/Electromagnetism 2/Part 1/EM Waves in a Vacuum/Energy in Electromagnetic Systems.md"
   ]
 }

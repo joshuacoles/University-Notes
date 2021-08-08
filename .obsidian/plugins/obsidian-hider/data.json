@@ -1,5 +1,5 @@
 {
-  "frameless": false,
+  "frameless": true,
   "hideRibbon": false,
   "hideStatus": false,
   "hideScroll": false,

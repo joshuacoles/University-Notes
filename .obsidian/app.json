@@ -89,7 +89,9 @@
     "Polarisations",
     "unpolarised",
     "grey",
-    "normals"
+    "normals",
+    "invertible",
+    "Inductors"
   ],
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
