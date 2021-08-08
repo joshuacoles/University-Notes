@@ -93,9 +93,9 @@ Here are a few consequences of the order axioms.
 ### Proposition 1.
 
 1.  For all $a , b \in \R$ ,
-    - if $a \geq 0$ and $b \geq 0$ , then $a b \geq 0$ ;
-    - if $a \leq 0$ and $b \leq 0$ , then $a b \geq 0$ ;
-    - if $a \leq 0$ and $b \geq 0$ , then $a b \leq 0$ .
+    *   if $a \geq 0$ and $b \geq 0$ , then $a b \geq 0$ ;
+    *   if $a \leq 0$ and $b \leq 0$ , then $a b \geq 0$ ;
+    *   if $a \leq 0$ and $b \geq 0$ , then $a b \leq 0$ .
 2.  For all $a , b , c , d \in \R$ , if $a \leq b$ and $c \leq d$ , then $a + c \leq b + d$ .
 3.  For all $a \in \R$ , if $a \geq 0$ , then $- a \leq 0$ .
 4.  $a^{2} \geq 0$ for all $a \in \R$ .
@@ -176,10 +176,10 @@ Every non-empty set of real numbers that is bounded above has a supremum. Every 
 
 The supremum and infimum of a set (if they exist) are unique. This can be seen as follows. Suppose that $T$ and $T^{′}$ are both suprema of $S$ . Then they are both upper bounds, and by the definition of a supremum, it follows that $T \leq T^{′}$ and $T^{′} \leq T$ . Hence $T = T^{′}$ . The same reasoning applies to infima.
 
-We use the following notation: given a set $S \subseteq \R$ , we write $\sup S$ for its supremum (if it exists) and $\inf S$ for its infimum (if it exists). We use the symbols $\sup S$ and $\inf S$ even when the supremum or infimum does not exist. (By (A15), this is the case only if either $S$ is empty or unbounded above/below.) We write $\sup S = \\infty$ if $S$ is unbounded above and $\inf S = - \\infty$ if $S$ is unbounded below. Moreover,
+We use the following notation: given a set $S \subseteq \R$ , we write $\sup S$ for its supremum (if it exists) and $\inf S$ for its infimum (if it exists). We use the symbols $\sup S$ and $\inf S$ even when the supremum or infimum does not exist. (By (A15), this is the case only if either $S$ is empty or unbounded above/below.) We write $\sup S = \infty$ if $S$ is unbounded above and $\inf S = - \infty$ if $S$ is unbounded below. Moreover,
 
 $$
-\sup \oslash = - \\infty \text{and } \inf \oslash = \\infty .
+\sup \oslash = - \infty \text{and } \inf \oslash = \infty .
 $$
 
 Note, however, that these are just conventions and do not express any deeper truths.

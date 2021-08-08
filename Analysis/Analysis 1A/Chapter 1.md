@@ -16,13 +16,13 @@ A **statement** (or **proposition**) is a sentence that is either true or false 
 
 The following are statements.
 
-- 7 is an odd integer. (True)
-- $2 < 7$ . (True)
-- All integers are odd. (False)
+*   7 is an odd integer. (True)
+*   $2 < 7$ . (True)
+*   All integers are odd. (False)
 
 But the following is **not** a statement.
 
-- Welcome to the University of Bath!
+*   Welcome to the University of Bath!
 
 If we have two statements, we can form other statements (compound statements) from them using the logical connectives ‘and’ and ‘or’. In the following, let $P$ and $Q$ denote two statements. (Here $P$ and $Q$ are place holders that may be replaced by **any** statement.)
 
@@ -42,11 +42,11 @@ We always use the inclusive or; so $P \vee Q$ means ‘either $P$ or $Q$ **or bo
 
 Consider the following statement.
 
-- All integers are odd, and $2 < 7$ .
+*   All integers are odd, and $2 < 7$ .
 
 This is false, as not all integers are odd. But consider the following.
 
-- All integers are odd, or $2 < 7$ .
+*   All integers are odd, or $2 < 7$ .
 
 This statement is true, as $2 < 7$ .
 
@@ -124,8 +124,8 @@ Instead of ‘if $P$ , then $Q$ ’, we sometimes say ‘ $P$ implies $Q$ ’. T
 
 Consider a number $x$ . Then the following are true statements.
 
-- $x > 0 \implies x \geq 0$ .
-- $x > 0 \iff - x < 0$ .
+*   $x > 0 \implies x \geq 0$ .
+*   $x > 0 \iff - x < 0$ .
 
 The above concepts have the following truth tables.
 
@@ -621,21 +621,21 @@ A question that we study a lot in analysis is how one varying quantity depends o
 
 ### Definition 1.
 
-Let $A$ and $B$ be sets. A **function** from $A$ to $B$ is a rule that assigns to each element of $A$ a unique element of $B$ . We write $f : A arrow B$ to indicate that the symbol $f$ denotes a function from $A$ to $B$ . Given any $a \in A$ , we then write $f (a )$ for the element from $B$ assigned to $a$ by the function. The set $A$ is called the **domain** of $f$ and $B$ is called the **codomain** or **target set** of $f$ .
+Let $A$ and $B$ be sets. A **function** from $A$ to $B$ is a rule that assigns to each element of $A$ a unique element of $B$ . We write $f : A \to B$ to indicate that the symbol $f$ denotes a function from $A$ to $B$ . Given any $a \in A$ , we then write $f (a )$ for the element from $B$ assigned to $a$ by the function. The set $A$ is called the **domain** of $f$ and $B$ is called the **codomain** or **target set** of $f$ .
 
 So in order to specify a function, we need three things: a domain, a codomain, and a rule.
 
 ### Example 1.
 
-We may define a function from $\R$ to $\R$ by assigning to every real number $x$ its square. This gives a function $f : \R arrow \R$ with the property that $f (x ) = x^{2}$ for all $x \in \R$ .
+We may define a function from $\R$ to $\R$ by assigning to every real number $x$ its square. This gives a function $f : \R \to \R$ with the property that $f (x ) = x^{2}$ for all $x \in \R$ .
 
-As the example shows, an equation such as $f (x ) = x^{2}$ can be used to describe a specific function once the domain and codomain are known. Another way to refer to the same rule is $x arrow tail x^{2}$ . The function should not be confused with the expression $x^{2}$ , however. In order to obtain a well-defined function, we need to say what the domain and the codomain are and we need to specify the rule. Even so, you will sometimes see phrases such as ‘the function $f (x ) = x^{2}$ ’. This wording is acceptable when the context leaves no doubt about the domain and codomain, but should not be used otherwise.
+As the example shows, an equation such as $f (x ) = x^{2}$ can be used to describe a specific function once the domain and codomain are known. Another way to refer to the same rule is $x \to tail x^{2}$ . The function should not be confused with the expression $x^{2}$ , however. In order to obtain a well-defined function, we need to say what the domain and the codomain are and we need to specify the rule. Even so, you will sometimes see phrases such as ‘the function $f (x ) = x^{2}$ ’. This wording is acceptable when the context leaves no doubt about the domain and codomain, but should not be used otherwise.
 
 Not all functions are given by such a convenient formula.
 
 ### Example 1.
 
-We may define a function $f : \R arrow \Q$ as follows: if $x \in \R$ is a rational number, then $f (x ) = \frac{1}{2}$ . Otherwise $f (x ) = 0$ . Thus
+We may define a function $f : \R \to \Q$ as follows: if $x \in \R$ is a rational number, then $f (x ) = \frac{1}{2}$ . Otherwise $f (x ) = 0$ . Thus
 
 $$
 \begin{align}

@@ -2,11 +2,11 @@ Chapter 7
 
 # Real functions
 
-From now on, we study functions $f : I arrow \R$ , where the domain $I$ is a subset of $\R$ , typically an interval. Such functions can be visualised with the help of their graphs.
+From now on, we study functions $f : I \to \R$ , where the domain $I$ is a subset of $\R$ , typically an interval. Such functions can be visualised with the help of their graphs.
 
 ### Definition 13.
 
-Let $I \subseteq \R$ and consider a function $f : I arrow \R$ . The **graph** of $f$ is the set $\{(x , f (x ) ) : x \in \R\} \subseteq I \times \R$ .
+Let $I \subseteq \R$ and consider a function $f : I \to \R$ . The **graph** of $f$ is the set $\{(x , f (x ) ) : x \in \R\} \subseteq I \times \R$ .
 
 Since the graph of $f$ is a subset of $I \times \R$ , which in turn is a subset of $\R^{2}$ , we can draw a sketch of it. This is not the only purpose of a graph, but for the moment, this is what we mostly use it for (in the lectures but not in these notes).
 
@@ -16,10 +16,10 @@ The following notion is about what happens if we evaluate a function at the poin
 
 ### Definition 14.
 
-Let $I \subseteq \R$ and $x_{0} \in I$ . Consider a function $f : I arrow \R$ . We say that $f$ is **sequentially continuous at $x_{0}$** if for every sequence $((x_{n} ))_{n \in \N}$ in $I$ with $x_{0} = \underset{n arrow \\infty}{ \lim } x_{n}$ ,
+Let $I \subseteq \R$ and $x_{0} \in I$ . Consider a function $f : I \to \R$ . We say that $f$ is **sequentially continuous at $x_{0}$** if for every sequence $((x_{n} ))_{n \in \N}$ in $I$ with $x_{0} = \underset{n \to \infty}{ \lim } x_{n}$ ,
 
 $$
-f (x_{0} ) = \underset{n arrow \\infty}{ \lim } f (x_{n} ) .
+f (x_{0} ) = \underset{n \to \infty}{ \lim } f (x_{n} ) .
 $$
 
 We say that $f$ is **sequentially continuous** if it is sequentially continuous at all points in $I$ .
@@ -27,24 +27,24 @@ We say that $f$ is **sequentially continuous** if it is sequentially continuous 
 This means that $f$ is sequentially continuous if
 
 $$
-f (\underset{n arrow \\infty}{ \lim } x_{n}) = \underset{n arrow \\infty}{ \lim } f (x_{n} )
+f (\underset{n \to \infty}{ \lim } x_{n}) = \underset{n \to \infty}{ \lim } f (x_{n} )
 $$
 
 for all convergent sequences $((x_{n} ))_{n \in \N}$ in $I$ with limit in $I$ .
 
 ### Example 15.
 
-The function $f : \R arrow \R$ with $f (x ) = x^{2} - 3 x + 9$ is sequentially continuous, because
+The function $f : \R \to \R$ with $f (x ) = x^{2} - 3 x + 9$ is sequentially continuous, because
 
 $$
-\underset{n arrow \\infty}{ \lim } (x_{n}^{2} - 3 x_{n} + 9 ) = x_{0}^{2} - 3 x_{0} + 9
+\underset{n \to \infty}{ \lim } (x_{n}^{2} - 3 x_{n} + 9 ) = x_{0}^{2} - 3 x_{0} + 9
 $$
 
-whenever $((x_{n} ))_{n \in \N}$ is a sequence in $\R$ with $x_{0} = \underset{n arrow \\infty}{ \lim } x_{n}$ by the algebra of limits theorem.
+whenever $((x_{n} ))_{n \in \N}$ is a sequence in $\R$ with $x_{0} = \underset{n \to \infty}{ \lim } x_{n}$ by the algebra of limits theorem.
 
 ### Example 16.
 
-The function $f : [ 0 , \\infty ) arrow \R$ given by
+The function $f : [ 0 , \infty ) \to \R$ given by
 
 $$
 \begin{align}
@@ -52,23 +52,23 @@ f (x ) = \{\begin{matrix} \frac{1}{x} \text{if  }x>0, \\ 0 \text{if  }x=0, \end{
 \end{align}
 $$
 
-is not sequentially continuous at $0$ . For example, if $x_{n} = 1 / n$ for $n \in \N$ , then $x_{n} arrow 0$ and $f (x_{n} ) = n arrow \\infty$ as $n arrow \\infty$ , but $f (0 ) = 0$ .
+is not sequentially continuous at $0$ . For example, if $x_{n} = 1 / n$ for $n \in \N$ , then $x_{n} \to 0$ and $f (x_{n} ) = n \to \infty$ as $n \to \infty$ , but $f (0 ) = 0$ .
 
 ### Example 17.
 
-Consider the function $f : (0 , \\infty ) arrow \R$ given by
+Consider the function $f : (0 , \infty ) \to \R$ given by
 
 $$
 f (x ) = \frac{1}{x}
 $$
 
-for $x \in (0 , \\infty )$ . This function is sequentially continuous by the algebra of limits theorem.
+for $x \in (0 , \infty )$ . This function is sequentially continuous by the algebra of limits theorem.
 
 The following is the key theorem of this chapter.
 
 ### Theorem 18 (Intermediate value theorem).
 
-Let $a , b \in \R$ with $a < b$ and let $y \in \R$ . Suppose that $f : [ a , b ] arrow \R$ is sequentially continuous. If $f (a ) \leq y \leq f (b )$ or $f (a ) \geq y \geq f (b )$ , then there exists $c \in [ a , b ]$ such that $f (c ) = y$ .
+Let $a , b \in \R$ with $a < b$ and let $y \in \R$ . Suppose that $f : [ a , b ] \to \R$ is sequentially continuous. If $f (a ) \leq y \leq f (b )$ or $f (a ) \geq y \geq f (b )$ , then there exists $c \in [ a , b ]$ such that $f (c ) = y$ .
 
 #### Proof
 
@@ -85,13 +85,13 @@ $$
 It follows that there exists a common limit
 
 $$
-L = \underset{n arrow \\infty}{ \lim } a_{n} = \underset{n arrow \\infty}{ \lim } b_{n} \in [ a , b ] .
+L = \underset{n \to \infty}{ \lim } a_{n} = \underset{n \to \infty}{ \lim } b_{n} \in [ a , b ] .
 $$
 
 Because $f$ is sequentially continuous, and because of Proposition 37, we conclude that
 
 $$
-f (L ) = \underset{n arrow \\infty}{ \lim } f (a_{n} ) \leq y \text{and } f (L ) = \underset{n arrow \\infty}{ \lim } f (b_{n} ) \geq y .
+f (L ) = \underset{n \to \infty}{ \lim } f (a_{n} ) \leq y \text{and } f (L ) = \underset{n \to \infty}{ \lim } f (b_{n} ) \geq y .
 $$
 
 Thus $f (L ) = y$ . □
@@ -102,23 +102,23 @@ Let $n \in \N$ and $a > 0$ . Then there exists $x > 0$ such that $x^{n} = a$ .
 
 #### Proof
 
-If $a \leq 1$ , consider the function $f : [ 0 , 1 ] arrow \R$ with $f (x ) = x^{n}$ . It is sequentially continuous by the algebra of limits theorem. Moreover, we find that $f (0 ) = 0 < a$ and $f (1 ) = 1 \geq a$ . Thus the intermediate value theorem implies that there exists $x \in [ 0 , 1 ]$ with $f (x ) = a$ . Hence $x^{n} = a$ .
+If $a \leq 1$ , consider the function $f : [ 0 , 1 ] \to \R$ with $f (x ) = x^{n}$ . It is sequentially continuous by the algebra of limits theorem. Moreover, we find that $f (0 ) = 0 < a$ and $f (1 ) = 1 \geq a$ . Thus the intermediate value theorem implies that there exists $x \in [ 0 , 1 ]$ with $f (x ) = a$ . Hence $x^{n} = a$ .
 
 If $a > 1$ , consider $b = 1 / a < 1$ first. By the above arguments, there exists $y \in [ 0 , 1 ]$ such that $y^{n} = 1 / a$ . Then $x = 1 / y$ satisfies $x^{n} = a$ . □
 
 ## 7.2 The exponential function
 
-If we have a power series with radius of convergence $R > 0$ , then it defines a function $f : (- R , R ) arrow \R$ . In this section we consider a special power series and the corresponding function.
+If we have a power series with radius of convergence $R > 0$ , then it defines a function $f : (- R , R ) \to \R$ . In this section we consider a special power series and the corresponding function.
 
 ### Definition 10.
 
 For $x \in \R$ define
 
 $$
- \exp  (x ) = \sum_{n = 0}^{\\infty} \frac{x^{n}}{n !} .
+ \exp  (x ) = \sum_{n = 0}^{\infty} \frac{x^{n}}{n !} .
 $$
 
-### Theorem 10 implies that this power series has the radius of convergence $\\infty$ , so there is a well-defined limit for every $x \in \R$ . Hence we may interpret $\exp$ as a function $\exp  : \R arrow \R$ . This function is called the **exponential function**.
+### Theorem 10 implies that this power series has the radius of convergence $\infty$ , so there is a well-defined limit for every $x \in \R$ . Hence we may interpret $\exp$ as a function $\exp  : \R \to \R$ . This function is called the **exponential function**.
 
 The following will be useful for some computations with the exponential function.
 
@@ -148,14 +148,14 @@ Using Theorem 96, we find that
 
 $$
 \begin{align}
-\begin{matrix} \exp (x ) \exp (y ) &=(\sum_{n = 0}^{\\infty} \frac{x^{n}}{n !} )(\sum_{n = 0}^{\\infty} \frac{y^{n}}{n !} ) \\ &=\sum_{n = 0}^{\\infty}\sum_{i = 0}^{n}\frac{x^{i} y^{n - i}}{i ! (n - i ) !} \\ &=\sum_{n = 0}^{\\infty}\frac{1}{n !}\sum_{i = 0}^{n}\frac{n !}{i ! (n - i ) !}x^{i}y^{n - i}.\end{matrix} &
+\begin{matrix} \exp (x ) \exp (y ) &=(\sum_{n = 0}^{\infty} \frac{x^{n}}{n !} )(\sum_{n = 0}^{\infty} \frac{y^{n}}{n !} ) \\ &=\sum_{n = 0}^{\infty}\sum_{i = 0}^{n}\frac{x^{i} y^{n - i}}{i ! (n - i ) !} \\ &=\sum_{n = 0}^{\infty}\frac{1}{n !}\sum_{i = 0}^{n}\frac{n !}{i ! (n - i ) !}x^{i}y^{n - i}.\end{matrix} &
 \end{align}
 $$
 
 According to the binomial theorem, the last expression is
 
 $$
-\sum_{n = 0}^{\\infty} \frac{((x + y ))^{n}}{n !} =  \exp  (x + y ) .
+\sum_{n = 0}^{\infty} \frac{((x + y ))^{n}}{n !} =  \exp  (x + y ) .
 $$
 
 □
@@ -170,14 +170,14 @@ This is an exercise. □
 
 ### Proposition 14.
 
-The function $\exp  : \R arrow \R$ is sequentially continuous.
+The function $\exp  : \R \to \R$ is sequentially continuous.
 
 #### Proof
 
 We first note that for all $x \in [ - 1 , 1 ]$ ,
 
 $$
-| \exp  (x ) - 1|=| \sum_{n = 0}^{\\infty} \frac{x^{n}}{n !} - 1 |=| \sum_{n = 1}^{\\infty} \frac{x^{n}}{n !} |\leq\sum_{n = 1}^{\\infty}\frac{(|x|)^{n}}{n !}\leq\sum_{n = 1}^{\\infty}\frac{|x|}{n !}\leq|x| \exp (1 ).
+| \exp  (x ) - 1|=| \sum_{n = 0}^{\infty} \frac{x^{n}}{n !} - 1 |=| \sum_{n = 1}^{\infty} \frac{x^{n}}{n !} |\leq\sum_{n = 1}^{\infty}\frac{(|x|)^{n}}{n !}\leq\sum_{n = 1}^{\infty}\frac{|x|}{n !}\leq|x| \exp (1 ).
 $$
 
 (1)
@@ -191,22 +191,22 @@ $$
 by Proposition 122. If $n$ is sufficiently large, then $|x_{n} - x_{0}| \leq 1$ . Thus (1) applies and
 
 $$
-| \exp  (x_{n} ) -  \exp  (x_{0} )| \leq  \exp  (x_{0} )  \exp  (1 ) |x_{n} - x_{0}| arrow 0
+| \exp  (x_{n} ) -  \exp  (x_{0} )| \leq  \exp  (x_{0} )  \exp  (1 ) |x_{n} - x_{0}| \to 0
 $$
 
-as $n arrow \\infty$ by Proposition 26. This means that
+as $n \to \infty$ by Proposition 26. This means that
 
 $$
- \exp  (x_{0} ) = \underset{n arrow \\infty}{ \lim }  \exp  (x_{n} ) .
+ \exp  (x_{0} ) = \underset{n \to \infty}{ \lim }  \exp  (x_{n} ) .
 $$
 
 □
 
 ### Corollary 15.
 
-The exponential function is injective and attains every value in $(0 , \\infty )$ .
+The exponential function is injective and attains every value in $(0 , \infty )$ .
 
-Consequently, we can turn $\exp$ into a bijection $\R arrow (0 , \\infty )$ by restricting the codomain.
+Consequently, we can turn $\exp$ into a bijection $\R \to (0 , \infty )$ by restricting the codomain.
 
 #### Proof
 
@@ -219,15 +219,15 @@ $$
 by Proposition 122. But since $\exp  (x ) > 0$ , this implies that
 
 $$
-1 =  \exp  (y - x ) = \sum_{n = 0}^{\\infty} \frac{((y - x ))^{n}}{n !} = 1 + y - x + \sum_{n = 2}^{\\infty} \frac{((y - x ))^{n}}{n !} \geq 1 + y - x .
+1 =  \exp  (y - x ) = \sum_{n = 0}^{\infty} \frac{((y - x ))^{n}}{n !} = 1 + y - x + \sum_{n = 2}^{\infty} \frac{((y - x ))^{n}}{n !} \geq 1 + y - x .
 $$
 
 Therefore, we conclude that $y - x \leq 0$ ; so $x = y$ .
 
-Now we want to prove that $\exp$ attains every value in $(0 , \\infty )$ . We fix $a > 0$ and need to find $x \in \R$ such that $\exp  (x ) = a$ . To this end, choose $M > 0$ such that $M \geq a$ and $1 / M \leq a$ . Then
+Now we want to prove that $\exp$ attains every value in $(0 , \infty )$ . We fix $a > 0$ and need to find $x \in \R$ such that $\exp  (x ) = a$ . To this end, choose $M > 0$ such that $M \geq a$ and $1 / M \leq a$ . Then
 
 $$
- \exp  (M ) = 1 + M + \sum_{n = 2}^{\\infty} \frac{M^{n}}{n !} > M \geq a ,
+ \exp  (M ) = 1 + M + \sum_{n = 2}^{\infty} \frac{M^{n}}{n !} > M \geq a ,
 $$
 
 while
@@ -240,7 +240,7 @@ We now apply the intermediate value theorem to the restriction of $\exp$ to $[ -
 
 ### Definition 16.
 
-The inverse function of $\exp  : \R arrow (0 , \\infty )$ is called the **natural logarithm** and denoted by $log$ .
+The inverse function of $\exp  : \R \to (0 , \infty )$ is called the **natural logarithm** and denoted by $log$ .
 
 ### Proposition 17.
 
@@ -264,7 +264,7 @@ $$
 e^{x} =  \exp  (x log ( \exp  (1 ) ) ) =  \exp  (x ) .
 $$
 
-For this reason, the exponential function is often denoted by $x arrow tail e^{x}$ .
+For this reason, the exponential function is often denoted by $x \to tail e^{x}$ .
 
 ### Proposition 19.
 
@@ -319,7 +319,7 @@ We do not discuss trigonometric functions in detail here, but we give a definiti
 For all $x \in \R$ ,
 
 $$
-cos (x ) = \sum_{n = 0}^{\\infty} \frac{((- 1 ))^{n}}{(2 n ) !} x^{2 n} \text{and } \sin (x ) = \sum_{n = 0}^{\\infty} \frac{((- 1 ))^{n}}{(2 n + 1 ) !} x^{2 n + 1} .
+cos (x ) = \sum_{n = 0}^{\infty} \frac{((- 1 ))^{n}}{(2 n ) !} x^{2 n} \text{and } \sin (x ) = \sum_{n = 0}^{\infty} \frac{((- 1 ))^{n}}{(2 n + 1 ) !} x^{2 n + 1} .
 $$
 
 We compare the coefficients of these two power series with the coefficients for $\exp  (x )$ :
@@ -330,7 +330,7 @@ $$
 \end{align}
 $$
 
-By comparison with the series $\sum_{n = 0}^{\\infty} \frac{(|x|)^{n}}{n !}$ , using Theorem 86, we therefore conclude that the power series for $cos$ and $\sin$ converge for every $x \in \R$ . This means that they have the radius of convergence $\\infty$ .
+By comparison with the series $\sum_{n = 0}^{\infty} \frac{(|x|)^{n}}{n !}$ , using Theorem 86, we therefore conclude that the power series for $cos$ and $\sin$ converge for every $x \in \R$ . This means that they have the radius of convergence $\infty$ .
 
 From the above power series representation, it is not immediately obvious that $cos$ and $\sin$ are the familiar **cosine** and **sine** functions. In order to see this, it’s best to work with complex numbers and make use of the formula $\exp  (i x ) = cos (x ) + i \sin (x )$ . But this discussion is postponed for later. Nevertheless, the following formula makes the connection more plausible.
 
@@ -343,7 +343,7 @@ For every $x \in \R$ , the identity $(cos)^{2} (x ) + (\sin)^{2} (x ) = 1$ holds
 We use Theorem 96 to compute
 
 $$
-(cos)^{2} (x ) = ((\sum_{n = 0}^{\\infty} \frac{((- 1 ))^{n} x^{2 n}}{(2 n ) !} ))^{2} = \sum_{n = 0}^{\\infty} c_{n} ,
+(cos)^{2} (x ) = ((\sum_{n = 0}^{\infty} \frac{((- 1 ))^{n} x^{2 n}}{(2 n ) !} ))^{2} = \sum_{n = 0}^{\infty} c_{n} ,
 $$
 
 where
@@ -358,7 +358,7 @@ and for every $n \in \N_{0}$ . Similarly,
 
 $$
 \begin{align}
-\begin{matrix}(\sin)^{2}(x ) &=((\sum_{n = 0}^{\\infty} \frac{((- 1 ))^{n} x^{2 n + 1}}{(2 n + 1 ) !} ))^{2} \\ &=(\sum_{n = 1}^{\\infty} \frac{((- 1 ))^{n - 1} x^{2 n - 1}}{(2 n - 1 ) !} )(\sum_{n = 0}^{\\infty} \frac{((- 1 ))^{n} x^{2 n + 1}}{(2 n + 1 ) !} )=\sum_{n = 0}^{\\infty}c_{n}^{′},\end{matrix} &
+\begin{matrix}(\sin)^{2}(x ) &=((\sum_{n = 0}^{\infty} \frac{((- 1 ))^{n} x^{2 n + 1}}{(2 n + 1 ) !} ))^{2} \\ &=(\sum_{n = 1}^{\infty} \frac{((- 1 ))^{n - 1} x^{2 n - 1}}{(2 n - 1 ) !} )(\sum_{n = 0}^{\infty} \frac{((- 1 ))^{n} x^{2 n + 1}}{(2 n + 1 ) !} )=\sum_{n = 0}^{\infty}c_{n}^{′},\end{matrix} &
 \end{align}
 $$
 
@@ -383,7 +383,7 @@ $$
 by the binomial theorem. Therefore,
 
 $$
-(cos)^{2} (x ) + (\sin)^{2} (x ) = \sum_{n = 0}^{\\infty} (c_{n} + c_{n}^{′} ) = 1.
+(cos)^{2} (x ) + (\sin)^{2} (x ) = \sum_{n = 0}^{\infty} (c_{n} + c_{n}^{′} ) = 1.
 $$
 
 □

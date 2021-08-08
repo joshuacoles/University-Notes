@@ -222,7 +222,7 @@ Furthermore, for any $a \in \R$ ,
 
 $$
 \begin{align}
-(a , \\infty ) &=\{x \in \R : x > a\}, \\ [ a , \\infty ) &=\{x \in \R : x \geq a\}, \\ (- \\infty , a ) &=\{x \in \R : x < a\}, \\ (- \\infty , a ] &=\{x \in \R : x \leq a\}.
+(a , \infty ) &=\{x \in \R : x > a\}, \\ [ a , \infty ) &=\{x \in \R : x \geq a\}, \\ (- \infty , a ) &=\{x \in \R : x < a\}, \\ (- \infty , a ] &=\{x \in \R : x \leq a\}.
 \end{align}
 $$
 

@@ -24,7 +24,7 @@ So the statement is that the intersection of all the intervals is not empty, or,
 
 #### Proof
 
-The condition that $[ a_{n + 1} , b_{n + 1} ] \subseteq [ a_{n} , b_{n} ]$ implies that $a_{n + 1} \geq a_{n}$ and $b_{n + 1} \leq b_{n}$ for all $n \in \N$ . So both of the sequences $((a_{n} ))_{n \in \N}$ and $((b_{n} ))_{n \in \N}$ are monotone. Since $a_{1} \leq b_{n}$ and $a_{n} \leq b_{1}$ for all $n \in \N$ , they are also bounded. According to Theorem 47, this means that they both converge. Let $A = \underset{n arrow \\infty}{ \lim } a_{n}$ and $B = \underset{n arrow \\infty}{ \lim } b_{n}$ . Then
+The condition that $[ a_{n + 1} , b_{n + 1} ] \subseteq [ a_{n} , b_{n} ]$ implies that $a_{n + 1} \geq a_{n}$ and $b_{n + 1} \leq b_{n}$ for all $n \in \N$ . So both of the sequences $((a_{n} ))_{n \in \N}$ and $((b_{n} ))_{n \in \N}$ are monotone. Since $a_{1} \leq b_{n}$ and $a_{n} \leq b_{1}$ for all $n \in \N$ , they are also bounded. According to Theorem 47, this means that they both converge. Let $A = \underset{n \to \infty}{ \lim } a_{n}$ and $B = \underset{n \to \infty}{ \lim } b_{n}$ . Then
 
 $$
 a_{n} \leq A \leq B \leq b_{n}
@@ -84,7 +84,7 @@ The interval $[ 0 , 1 ]$ is uncountable.
 
 #### Proof
 
-If it were countable, there would be an injective map $I : [ 0 , 1 ] arrow \N$ . Then we would be able to define a sequence $((a_{n} ))_{n \in \N}$ in $[ 0 , 1 ]$ as follows: for $n \in \N$ , if $n \in I ([ 0 , 1 ] )$ , let $a_{n}$ be the unique number such that $I (a_{n} ) = n$ ; otherwise, set $a_{n} = 0$ . This sequence would include all numbers in $[ 0 , 1 ]$ , but this is impossible by Corollary 103. □
+If it were countable, there would be an injective map $I : [ 0 , 1 ] \to \N$ . Then we would be able to define a sequence $((a_{n} ))_{n \in \N}$ in $[ 0 , 1 ]$ as follows: for $n \in \N$ , if $n \in I ([ 0 , 1 ] )$ , let $a_{n}$ be the unique number such that $I (a_{n} ) = n$ ; otherwise, set $a_{n} = 0$ . This sequence would include all numbers in $[ 0 , 1 ]$ , but this is impossible by Corollary 103. □
 
 ### Corollary 10.
 
@@ -92,7 +92,7 @@ The set $\R$ is uncountable.
 
 #### Proof
 
-This is an immediate consequence as $[ 0 , 1 ] \subseteq \R$ . Every injective map $\R arrow \N$ would induce an injective map $[ 0 , 1 ] arrow \N$ by restriction. □
+This is an immediate consequence as $[ 0 , 1 ] \subseteq \R$ . Every injective map $\R \to \N$ would induce an injective map $[ 0 , 1 ] \to \N$ by restriction. □
 
 This means that the sets $\Q$ and $\R$ are fundamentally different in size. But while most real numbers do not belong to $\Q$ , they can be approximated arbitrarily well by rational numbers.
 
@@ -118,8 +118,8 @@ Hence $p + 1 \leq q x$ , in contradiction to the definition of $p$ . Thus we hav
 
 ### Corollary 12.
 
-For every $x_{0} \in \R$ there exists a sequence $((x_{n} ))_{n \in \N}$ of rational numbers such that $x_{0} = \underset{n arrow \\infty}{ \lim } x_{n}$ .
+For every $x_{0} \in \R$ there exists a sequence $((x_{n} ))_{n \in \N}$ of rational numbers such that $x_{0} = \underset{n \to \infty}{ \lim } x_{n}$ .
 
 #### Proof
 
-For every $n \in \N$ , use Proposition 111 to choose $x_{n} \in \Q$ with $|x_{0} - x_{n}| < 1 / n$ . Then $x_{0} = \underset{n arrow \\infty}{ \lim } x_{n}$ . □
+For every $n \in \N$ , use Proposition 111 to choose $x_{n} \in \Q$ with $|x_{0} - x_{n}| < 1 / n$ . Then $x_{0} = \underset{n \to \infty}{ \lim } x_{n}$ . □
