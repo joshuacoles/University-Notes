@@ -11,7 +11,7 @@ So far we have restricted ourselves to steady [[Current Density|Current Densitie
 
 This led to the following observations,
 
-1. [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]] / [[Gauss's law]], ${\divrg \E = \frac{\rho}{\epsilon_0}}$ ^f3bb6c
+1. [[Coloumb's Law]] / [[Gauss's Law]], ${\divrg \E = \frac{\rho}{\epsilon_0}}$ ^f3bb6c
 2. [[Electrostatics|Electrostatic]] field is [[Conservative Vector Fields|conservative]], ${\curl \E = 0}$ ^f0f8d1
 3. No magnetic-monopoles, ${\divrg \B = 0}$
 4. [[Ampere's Law]], ${\curl \B = \mu_0 \J}$ ^f4171c
@@ -40,7 +40,7 @@ $$
 
 where $S$ is some surface, often (unfortunately) given by context.
 
-The [[Electro-motive Force]] $\varepsilon$ is an electric potential difference **not** derived from [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]], induced empirically by an additional force $\vF'$.
+The [[Electro-motive Force]] $\varepsilon$ is an electric potential difference **not** derived from [[Coloumb's Law]], induced empirically by an additional force $\vF'$.
 
 To try to adapt our current understandings to this case we take the following thought experiment. Imagine the current is a single charge $Q$ moving around the circuit $C$.
 
@@ -160,7 +160,7 @@ $$
 \divrg \J  + \frac{\partial \rho}{\partial t} = 0,
 $$
 
-in all cases. So applying [[Gauss's law]],
+in all cases. So applying [[Gauss's Law]],
 
 $$
 \divrg \J  + \frac{\partial}{\partial t} \(\epsi_0\(\divrg\E\)\) = 0,

@@ -39,10 +39,8 @@ The system now being parameterised by the constants $E_{0x}$, $E_{0y}$, $\beta$,
 
 This can express different types of polarisation, shown below,
 
-![[Plane Polarisation]]
-
-![[Circular Polarisation]]
-
-![[Elliptical Polarisation]]
+- [[Plane Polarisation]]
+- [[Circular Polarisation]]
+- [[Elliptical Polarisation]]
 
 ![[Natural Light]]

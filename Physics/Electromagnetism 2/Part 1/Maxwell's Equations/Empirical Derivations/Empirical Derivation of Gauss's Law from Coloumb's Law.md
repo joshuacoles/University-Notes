@@ -1,6 +1,6 @@
 # Empirical Derivation of Gauss's Law from Coloumb's Law
 
-## [[Gauss's law]] for [[Point Charges]]
+## [[Gauss's Law]] for [[Point Charges]]
 
 For a charge $Q$ surrounded by a closed surface $S$, [[Gauss's Law]] is given as,
 
@@ -13,7 +13,7 @@ $$
 
 ![[Clipboard 1 Feb 2021 at 17.39.png]]
 
-To show this wlog we take $Q$ to be at the origin, so that as per [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]],
+To show this wlog we take $Q$ to be at the origin, so that as per [[Coloumb's Law]],
 
 $$
 \E(\r) = \frac 1{4\pi\epsilon_0} \frac{Q}{r^2} \uvec{e}_r
@@ -108,7 +108,7 @@ $$
 
 ^60b7a6
 
-This is [[Gauss's law]] in [[Integral Form]].
+This is [[Gauss's Law]] in [[Integral Form]].
 
 > Programming note: make a note at start about $S = \partial V$ and explain what that means – see metric spaces.
 

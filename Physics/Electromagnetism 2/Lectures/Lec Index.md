@@ -1,5 +1,5 @@
 - Empirical Laws of Electromagnetics lec2
-	- [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]] Lec3
+	- [[Coloumb's Law]] Lec3
 		- Split 3 into a bit on superposition as well
 	- [[Biot-Savart Law]]
 	- [[Ampere's Law]]

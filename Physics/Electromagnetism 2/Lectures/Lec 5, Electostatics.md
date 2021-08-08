@@ -73,7 +73,7 @@ $$
 
 > Note the negative sign is convention as it is a potential energy field.
 
-This trivially satisfies 2 as per its initial creation, and thus we must only satisfy 1, [[Gauss's law]],
+This trivially satisfies 2 as per its initial creation, and thus we must only satisfy 1, [[Gauss's Law]],
 
 $$
 \begin{align*}

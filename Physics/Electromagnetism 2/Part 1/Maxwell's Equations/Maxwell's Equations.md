@@ -40,7 +40,7 @@ There are a number of experimentally deduced empirical laws from which we can de
 
 [^1]: Derive in the physistis' sense of course.
 
-- [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]]
+- [[Coloumb's Law]]
 - [[Biot-Savart Law]]
 - [[Ampere's Law]]
 - [[Faraday's Law]]

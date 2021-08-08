@@ -5,7 +5,7 @@ sibling:
 - [[Lec 4, Empirical Derivation of Gauss's Law]]
 ---
 
-## [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]]
+## [[Coloumb's Law]]
 
 The force between 2 stationary charges $Q_1$ and $Q_2$,
 
@@ -56,4 +56,4 @@ $$
 \intl_{\vec{r'} \in V'} \rho(\vec{r'}) \,\d V
 $$
 
-This the [[Integral Form]] of [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]].
+This the [[Integral Form]] of [[Coloumb's Law]].

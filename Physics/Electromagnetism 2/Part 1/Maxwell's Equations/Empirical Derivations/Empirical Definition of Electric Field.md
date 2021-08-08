@@ -1,6 +1,6 @@
 # Empirical Definition of Electric Field
 
-From [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]] we can define the [[Electric Field]] empirically as the force experienced by unit charge, near other charge $Q$ with
+From [[Coloumb's Law]] we can define the [[Electric Field]] empirically as the force experienced by unit charge, near other charge $Q$ with
 
 $$
 \vE = \frac{1}{4\pi\epsi_0} Q
@@ -30,4 +30,4 @@ $$
 \intl_{\vec{r'} \in V'} \rho(\vec{r'}) \rd V
 $$
 
-This the [[Integral Form]] of [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]].
+This the [[Integral Form]] of [[Coloumb's Law]].

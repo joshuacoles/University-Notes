@@ -53,7 +53,7 @@ Knowing these you can solve using some boundary conditions to get $\E$ and $\B$.
 
 Consider from,
 
-- [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]]
+- [[Coloumb's Law]]
 - [[Gauss's Law]]
 - [[Biot-Savart Law]]
 - [[Ampere's Law]]

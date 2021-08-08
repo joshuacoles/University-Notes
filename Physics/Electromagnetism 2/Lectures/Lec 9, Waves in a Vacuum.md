@@ -26,7 +26,7 @@ $$
 \end{align*}
 $$
 
-Then applying [[Gauss's law]] and [[Maxwell–Ampére Law]] to the LHS and RHS respectively,
+Then applying [[Gauss's Law]] and [[Maxwell–Ampére Law]] to the LHS and RHS respectively,
 
 $$
 \begin{align*}

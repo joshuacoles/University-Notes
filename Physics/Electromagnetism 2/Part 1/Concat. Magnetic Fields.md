@@ -49,7 +49,7 @@ Now for a general [[Current Distribution]],
 Considers $\d\vB(\r)$,
 
 $$
-\d\vB(\r) = \frac{\mu_0}{4\pi} \frac{\vJ(\r') \times \uvec{R}}{R^2} \d V'.
+\d\vB(\r) = \frac{\mu_0}{4\pi} \frac{\vJ(\r') \times \uvR}{R^2} \d V'.
 $$
 
 Using the [[Principle of Superposition]] we can get,
@@ -135,7 +135,7 @@ So far we have restricted ourselves to steady [[Current Density|Current Densitie
 
 This led to the following observations,
 
-1. [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]] / [[Gauss's law]], ${\divrg \vE = \frac{\rho}{\epsi_0}}$ ^f3bb6c
+1. [[Coloumb's Law]] / [[Gauss's Law]], ${\divrg \vE = \frac{\rho}{\epsi_0}}$ ^f3bb6c
 2. [[Electrostatics|Electrostatic]] field is [[Conservative Vector Fields|conservative]], ${\curl \vE = 0}$ ^f0f8d1
 3. No magnetic-monopoles, ${\divrg \vB = 0}$
 4. [[Ampere's Law]], ${\curl \vB = \mu_0 \vJ}$ ^f4171c
@@ -164,7 +164,7 @@ $$
 
 where $S$ is some surface, often (unfortunately) given by context.
 
-The [[Electro-motive Force]] $\eps$ is an electric potential difference **not** derived from [[Physics/Electromagnetism 2/Part 1/Coloumb's Law]], induced empirically by an additional force $\vF'$.
+The [[Electro-motive Force]] $\eps$ is an electric potential difference **not** derived from [[Coloumb's Law]], induced empirically by an additional force $\vF'$.
 
 To try to adapt our current understandings to this case we take the following thought experiment. Imagine the current is a single charge $Q$ moving around the circuit $C$.
 
@@ -219,7 +219,7 @@ $$
 \begin{align*}
 \vE &= \vE_S + \vE' \\
 \curl \vE &= \curl \vE_S + \curl \vE' \\
-\curl \vE &= 0 - \frac{\partial\vB}{\partial t} ,\\
+\curl \vE &= 0 - \frac{\partial\vB}{\partial t},
 \end{align*}
 $$
 
@@ -284,7 +284,7 @@ $$
 \divrg \vJ  + \frac{\partial \rho}{\partial t} = 0,
 $$
 
-in all cases. So applying [[Gauss's law]],
+in all cases. So applying [[Gauss's Law]],
 
 $$
 \divrg \vJ  + \frac{\partial}{\partial t} \(\epsi_0\(\divrg\vE\)\) = 0,
