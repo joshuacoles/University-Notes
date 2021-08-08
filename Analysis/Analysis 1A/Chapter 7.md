@@ -71,7 +71,8 @@ The following is the key theorem of this chapter.
 Let $a , b \in \R$ with $a < b$ and let $y \in \R$ . Suppose that $f : [ a , b ] arrow \R$ is sequentially continuous. If $f (a ) \leq y \leq f (b )$ or $f (a ) \geq y \geq f (b )$ , then there exists $c \in [ a , b ]$ such that $f (c ) = y$ .
 
 #### Proof
-  We only consider the case that $f (a ) \leq y \leq f (b )$ , as the other case is similar.
+
+We only consider the case that $f (a ) \leq y \leq f (b )$ , as the other case is similar.
 
 We define two sequences $((a_{n} ))_{n \in \N}$ and $((b_{n} ))_{n \in \N}$ in $[ a , b ]$ as follows. Set $a_{1} = a$ and $b_{1} = b$ . Now consider the mean $(a_{1} + b_{1} ) / 2$ and compare $y$ with $f ((a_{1} + b_{1} ) / 2 )$ . If $f ((a_{1} + b_{1} ) / 2 ) < y$ , set $a_{2} = (a_{1} + b_{1} ) / 2$ and $b_{2} = b_{1}$ . Otherwise, set $a_{2} = a_{1}$ and $b_{2} = (a_{1} + b_{1} ) / 2$ . Next define $a_{3}$ and $b_{3}$ similarly: if $f ((a_{2} + b_{2} ) / 2 ) < y$ , set $a_{3} = (a_{2} + b_{2} ) / 2$ and $b_{3} = b_{2}$ . Otherwise, set $a_{3} = a_{2}$ and $b_{3} = (a_{2} + b_{2} ) / 2$ . Continue indefinitely.
 
@@ -100,7 +101,8 @@ Thus $f (L ) = y$ . □
 Let $n \in \N$ and $a > 0$ . Then there exists $x > 0$ such that $x^{n} = a$ .
 
 #### Proof
-  If $a \leq 1$ , consider the function $f : [ 0 , 1 ] arrow \R$ with $f (x ) = x^{n}$ . It is sequentially continuous by the algebra of limits theorem. Moreover, we find that $f (0 ) = 0 < a$ and $f (1 ) = 1 \geq a$ . Thus the intermediate value theorem implies that there exists $x \in [ 0 , 1 ]$ with $f (x ) = a$ . Hence $x^{n} = a$ .
+
+If $a \leq 1$ , consider the function $f : [ 0 , 1 ] arrow \R$ with $f (x ) = x^{n}$ . It is sequentially continuous by the algebra of limits theorem. Moreover, we find that $f (0 ) = 0 < a$ and $f (1 ) = 1 \geq a$ . Thus the intermediate value theorem implies that there exists $x \in [ 0 , 1 ]$ with $f (x ) = a$ . Hence $x^{n} = a$ .
 
 If $a > 1$ , consider $b = 1 / a < 1$ first. By the above arguments, there exists $y \in [ 0 , 1 ]$ such that $y^{n} = 1 / a$ . Then $x = 1 / y$ satisfies $x^{n} = a$ . □
 
@@ -129,7 +131,8 @@ $$
 $$
 
 #### Proof
-  The proof is covered in the exercises. □
+
+The proof is covered in the exercises. □
 
 ### Proposition 12.
 
@@ -140,7 +143,8 @@ $$
 $$
 
 #### Proof
-  Using Theorem 96, we find that
+
+Using Theorem 96, we find that
 
 $$
 \begin{align}
@@ -161,14 +165,16 @@ $$
 The exponential function satisfies $\exp  (x ) > 0$ for all $x \in \R$ .
 
 #### Proof
-  This is an exercise. □
+
+This is an exercise. □
 
 ### Proposition 14.
 
 The function $\exp  : \R arrow \R$ is sequentially continuous.
 
 #### Proof
-  We first note that for all $x \in [ - 1 , 1 ]$ ,
+
+We first note that for all $x \in [ - 1 , 1 ]$ ,
 
 $$
 | \exp  (x ) - 1|=| \sum_{n = 0}^{\\infty} \frac{x^{n}}{n !} - 1 |=| \sum_{n = 1}^{\\infty} \frac{x^{n}}{n !} |\leq\sum_{n = 1}^{\\infty}\frac{(|x|)^{n}}{n !}\leq\sum_{n = 1}^{\\infty}\frac{|x|}{n !}\leq|x| \exp (1 ).
@@ -203,7 +209,8 @@ The exponential function is injective and attains every value in $(0 , \\infty )
 Consequently, we can turn $\exp$ into a bijection $\R arrow (0 , \\infty )$ by restricting the codomain.
 
 #### Proof
-  To prove that $\exp$ is injective, suppose that $x , y \in \R$ are such that $\exp  (x ) =  \exp  (y )$ . We may assume that $x \leq y$ (otherwise we exchange $x$ and $y$ ). Then
+
+To prove that $\exp$ is injective, suppose that $x , y \in \R$ are such that $\exp  (x ) =  \exp  (y )$ . We may assume that $x \leq y$ (otherwise we exchange $x$ and $y$ ). Then
 
 $$
  \exp  (x )  \exp  (y - x ) =  \exp  (y ) =  \exp  (x )
@@ -244,7 +251,8 @@ log (u v ) = log u + log v .
 $$
 
 #### Proof
-  This follows immediately from Proposition 122. □
+
+This follows immediately from Proposition 122. □
 
 ### Definition 18.
 
@@ -265,7 +273,8 @@ For this reason, the exponential function is often denoted by $x arrow tail e^{x
 3.  $a^{x + y} = a^{x} a^{y}$ for all $a > 0$ and $x , y \in \R$ .
 
 #### Proof
-  (i) Let $a > 0$ and $x , y \in \R$ . Then
+
+(i) Let $a > 0$ and $x , y \in \R$ . Then
 
 $$
 ((a^{x} ))^{y} =  \exp  (y log (a^{x} )) =  \exp  (y log ( \exp  (x log a ) )) =  \exp  (x y log a ) = a^{x y} ,
@@ -330,7 +339,8 @@ From the above power series representation, it is not immediately obvious that $
 For every $x \in \R$ , the identity $(cos)^{2} (x ) + (\sin)^{2} (x ) = 1$ holds true.
 
 #### Proof
-  We use Theorem 96 to compute
+
+We use Theorem 96 to compute
 
 $$
 (cos)^{2} (x ) = ((\sum_{n = 0}^{\\infty} \frac{((- 1 ))^{n} x^{2 n}}{(2 n ) !} ))^{2} = \sum_{n = 0}^{\\infty} c_{n} ,

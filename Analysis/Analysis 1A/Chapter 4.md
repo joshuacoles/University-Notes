@@ -55,7 +55,8 @@ As this simple example shows, verifying convergence directly with the criterion 
 3.  For any $a \in \R$ , if $|a| < 1$ , then the sequence $((a^{n} ))_{n \in \N}$ converges to $0$ .
 
 #### Proof
-  (i) For any $\epsi > 0$ , the inequality $|c - c| < \epsi$ holds automatically, so we may choose any $N \in \N$ to satisfy the criterion.
+
+(i) For any $\epsi > 0$ , the inequality $|c - c| < \epsi$ holds automatically, so we may choose any $N \in \N$ to satisfy the criterion.
 
 (ii) The proof has been given in Example 35.
 
@@ -92,7 +93,8 @@ This proves that $\underset{n arrow \\infty}{ \lim } a^{n} = 0$ . □
 Suppose that $((a_{n} ))_{n \in \N}$ and $((b_{n} ))_{n \in \N}$ are real sequences with $a_{n} \leq b_{n}$ for all $n \in \N$ . If $L = \underset{n arrow \\infty}{ \lim } a_{n}$ and $M = \underset{n arrow \\infty}{ \lim } b_{n}$ exist, then $L \leq M$ .
 
 #### Proof
-  We argue by contradiction.
+
+We argue by contradiction.
 
 Suppose (seeking contradiction) that $M < L$ . Let $\epsi = (L - M ) / 2$ . Since $a_{n} arrow L$ as $n arrow \\infty$ , there exists $N_{1} \in \N$ such that $|a_{n} - L| < \epsi$ for all $n \geq N_{1}$ . Similarly, there exists $N_{2} \in \N$ such that $|b_{n} - M| < \epsi$ for all $n \geq N_{2}$ . Now set $N =  \max  \{ N_{1} , N_{2} \}$ . Then for all $n \geq N$ ,
 
@@ -122,7 +124,8 @@ A sequence of real numbers has at most one limit.
 In other words, if a limit exists at all (if the sequence converges), then that limit is unique.
 
 #### Proof
-  Suppose that $((a_{n} ))_{n \in \N}$ is a real sequence that converges simultaneously to $L \in \R$ and to $M \in \R$ . Then, as $a_{n} \leq a_{n}$ for all $n$ , Proposition 37 implies that $L \leq M$ . But it also implies that $M \leq L$ , and according to (A11), this means that $L = M$ . □
+
+Suppose that $((a_{n} ))_{n \in \N}$ is a real sequence that converges simultaneously to $L \in \R$ and to $M \in \R$ . Then, as $a_{n} \leq a_{n}$ for all $n$ , Proposition 37 implies that $L \leq M$ . But it also implies that $M \leq L$ , and according to (A11), this means that $L = M$ . □
 
 ### Definition 4.
 
@@ -133,7 +136,8 @@ A real sequence $((a_{n} ))_{n \in \N}$ is **bounded** if the set $\{a_{n} : n \
 Any convergent sequence is bounded.
 
 #### Proof
-  Suppose that $((a_{n} ))_{n \in \N}$ converges and let $L = \underset{n arrow \\infty}{ \lim } a_{n}$ . Apply the convergence criterion with $\epsi = 1$ . This yields a number $N \in \N$ such that $|a_{n} - L| < 1$ for all $n \geq N$ . Hence
+
+Suppose that $((a_{n} ))_{n \in \N}$ converges and let $L = \underset{n arrow \\infty}{ \lim } a_{n}$ . Apply the convergence criterion with $\epsi = 1$ . This yields a number $N \in \N$ such that $|a_{n} - L| < 1$ for all $n \geq N$ . Hence
 
 $$
 |a_{n}| < |L| + 1
@@ -158,7 +162,8 @@ Let $((a_{n} ))_{n \in \N}$ and $((b_{n} ))_{n \in \N}$ be convergent sequences 
 5.  if $b_{n} \neq 0$ for all $n \in \N$ and if $B \neq 0$ , then $\underset{n arrow \\infty}{ \lim } (a_{n} / b_{n} ) = A / B$ .
 
 #### Proof
-  (i) Let $\epsi > 0$ . Then there exists $N_{1} \in \N$ such that $|a_{n} - A| < \epsi / 2$ for all $n \geq N_{1}$ and there exists $N_{2} \in \N$ such that $|b_{n} - B| < \epsi / 2$ for all $n \geq N_{2}$ .
+
+(i) Let $\epsi > 0$ . Then there exists $N_{1} \in \N$ such that $|a_{n} - A| < \epsi / 2$ for all $n \geq N_{1}$ and there exists $N_{2} \in \N$ such that $|b_{n} - B| < \epsi / 2$ for all $n \geq N_{2}$ .
 
 Define $N =  \max  \{ N_{1} , N_{2} \}$ . If $n \geq N$ , then
 
@@ -172,7 +177,7 @@ $$
 
 $$
 \begin{align}
-\begin{matrix}|a_{n} b_{n} - A B| &=|(a_{n} - A ) b_{n} + A (b_{n} - B )| \\ \leq|(a_{n} - A ) b_{n}|+|A (b_{n} - B )| \\ &=|a_{n} - A||b_{n}|+|A||b_{n} - B|\end{matrix} 
+\begin{matrix}|a_{n} b_{n} - A B| &=|(a_{n} - A ) b_{n} + A (b_{n} - B )| \\ \leq|(a_{n} - A ) b_{n}|+|A (b_{n} - B )| \\ &=|a_{n} - A||b_{n}|+|A||b_{n} - B|\end{matrix}
 \end{align}
 $$
 
@@ -308,7 +313,8 @@ Let $((a_{n} ))_{n \in \N}$ be a real sequence.
 But caution: the second statement becomes false if $0$ is replaced by any other value. For example, consider the sequence with $a_{n} = ((- 1 ))^{n}$ . Then $|a_{n}| = 1 arrow 1$ as $n arrow \\infty$ , but $((a_{n} ))_{n \in \N}$ oscillates between $- 1$ and $1$ and does not converge.
 
 #### Proof
-  (i) Suppose that $a_{n} arrow L$ as $n arrow \\infty$ . Given $\epsi > 0$ , choose $N \in \N$ such that $|a_{n} - L| < \epsi$ for all $n \geq N$ . Then by the reverse triangle inequality,
+
+(i) Suppose that $a_{n} arrow L$ as $n arrow \\infty$ . Given $\epsi > 0$ , choose $N \in \N$ such that $|a_{n} - L| < \epsi$ for all $n \geq N$ . Then by the reverse triangle inequality,
 
 $$
 ||a_{n}| - |L|| \leq |a_{n} - L| < \epsi
@@ -349,7 +355,8 @@ The following is one of the reasons why monotone sequences are useful.
 If a real sequence is monotone and bounded, then it converges.
 
 #### Proof
-  We only give the proof for increasing sequences, as the arguments for decreasing sequences are essentially the same.
+
+We only give the proof for increasing sequences, as the arguments for decreasing sequences are essentially the same.
 
 Suppose that $((a_{n} ))_{n \in \N}$ is a bounded, increasing sequence. Then the set $\{a_{n} : n \in \N\}$ is bounded (by definition of bounded sequences) and non-empty (as, e.g., $a_{1}$ belongs to the set). The completeness axiom (A15) says that
 
@@ -526,7 +533,8 @@ $$
 $$
 
 #### Proof
-  Assume that $((a_{n} ))_{n \in \N}$ and $((c_{n} ))_{n \in \N}$ do indeed converge with $a_{n} arrow L$ and $c_{n} arrow L$ as $n arrow \\infty$ for some $L \in \R$ . We need to show that $b_{n} arrow L$ as well as $n arrow \\infty$ .
+
+Assume that $((a_{n} ))_{n \in \N}$ and $((c_{n} ))_{n \in \N}$ do indeed converge with $a_{n} arrow L$ and $c_{n} arrow L$ as $n arrow \\infty$ for some $L \in \R$ . We need to show that $b_{n} arrow L$ as well as $n arrow \\infty$ .
 
 To this end, fix $\epsi > 0$ . Choose $N \in \N$ so large that
 
@@ -577,7 +585,8 @@ $$
 If $((a_{n} ))_{n \in \N}$ is a real sequence such that $\underset{n arrow \\infty}{ \lim } a_{n} = 0$ and $a_{n} \neq 0$ for all $n \in \N$ , then $((1 / a_{n} ))_{n \in \N}$ is divergent.
 
 #### Proof
-  We first prove that $1 / |a_{n}| arrow \\infty$ as $n arrow \\infty$ . To this end, let $M > 0$ . Set $\epsi = 1 / M$ and choose $N \in \N$ such that $|a_{n}| < \epsi$ for all $n \geq N$ . Then $1 / |a_{n}| > 1 / \epsi = M$ for all $n \geq N$ . So indeed, we have shown that $1 / |a_{n}| arrow \\infty$ as $n arrow \\infty$ .
+
+We first prove that $1 / |a_{n}| arrow \\infty$ as $n arrow \\infty$ . To this end, let $M > 0$ . Set $\epsi = 1 / M$ and choose $N \in \N$ such that $|a_{n}| < \epsi$ for all $n \geq N$ . Then $1 / |a_{n}| > 1 / \epsi = M$ for all $n \geq N$ . So indeed, we have shown that $1 / |a_{n}| arrow \\infty$ as $n arrow \\infty$ .
 
 But this means that $((1 / a_{n} ))_{n \in \N}$ cannot be convergent, because if it were, then Proposition 44 would imply that $1 / |a_{n}|$ is convergent as well, and we have just seen that this is not the case. □
 
@@ -600,7 +609,8 @@ $$
 for all $n \in \N$ .
 
 #### Proof
-  Fix $s > r$ and let $\epsi = s - r$ . Then there exists $N \in \N$ such that
+
+Fix $s > r$ and let $\epsi = s - r$ . Then there exists $N \in \N$ such that
 
 $$
 |\frac{a_{n + 1}}{a_{n}} - r| < \epsi
@@ -650,7 +660,8 @@ exists (allowing divergence to infinity, so $0 \leq r \leq \\infty$ ).
 If $r = 1$ , then the test is inconclusive.
 
 #### Proof
-  (i) If $r < 1$ , we choose $s \in (r , 1 )$ and use Lemma 54. We find $C > 0$ such that
+
+(i) If $r < 1$ , we choose $s \in (r , 1 )$ and use Lemma 54. We find $C > 0$ such that
 
 $$
 0 < a_{n} \leq C s^{n}
@@ -705,7 +716,8 @@ as $n arrow \\infty$ .
 Roughly speaking, this result says that exponential growth (as in $a^{n}$ ) beats polynomial growth (as in $n^{k}$ ) as $n arrow \\infty$ .
 
 #### Proof
-  We use the growth factor test:
+
+We use the growth factor test:
 
 $$
 \frac{\frac{((n + 1 ))^{k}}{a^{n + 1}}}{\frac{n^{k}}{a^{n}}} = \frac{1}{a} ((1 + \frac{1}{n}))^{k} arrow \frac{1}{a}
@@ -730,7 +742,8 @@ Consider the alternating sequence $((a_{n} ))_{n \in \N}$ with $a_{n} = ((- 1 ))
 Let $((a_{n} ))_{n \in \N}$ be a real sequence converging to $L \in \R$ . Then any subsequence of $((a_{n} ))_{n \in \N}$ also converges to $L$ .
 
 #### Proof
-  Consider a subsequence $((a_{n_{k}} ))_{k \in \N}$ . Given $\epsi > 0$ , we can choose $N \in \N$ such that $|a_{n} - L| < \epsi$ for all $n \geq N$ . Now choose $K \in \N$ such that $n_{K} \geq N$ . Then for every $k \geq K$ , we know that $n_{k} \geq N$ as well, since $((n_{k} ))_{k \in \N}$ is increasing. Therefore,
+
+Consider a subsequence $((a_{n_{k}} ))_{k \in \N}$ . Given $\epsi > 0$ , we can choose $N \in \N$ such that $|a_{n} - L| < \epsi$ for all $n \geq N$ . Now choose $K \in \N$ such that $n_{K} \geq N$ . Then for every $k \geq K$ , we know that $n_{k} \geq N$ as well, since $((n_{k} ))_{k \in \N}$ is increasing. Therefore,
 
 $$
 |a_{n_{k}} - L| < \epsi
@@ -753,7 +766,8 @@ The following is one of the key theorems concerning subsequences.
 Every bounded real sequence contains a convergent subsequence.
 
 #### Proof
-  We first want to find a monotone subsequence. To this end, define the set
+
+We first want to find a monotone subsequence. To this end, define the set
 
 $$
 S = \{n \in \N : a_{m} \leq a_{n} \text{ for all  } m > n\} .
@@ -784,7 +798,8 @@ $$
 A sequence $((a_{n} ))_{n \in \N}$ converges if, and only if, it is a Cauchy sequence.
 
 #### Proof
-  Suppose that $((a_{n} ))_{n \in \N}$ is convergent. Then there exists a limit
+
+Suppose that $((a_{n} ))_{n \in \N}$ is convergent. Then there exists a limit
 
 $$
 L = \underset{n arrow \\infty}{ \lim } a_{n} .
@@ -848,7 +863,8 @@ Let $((a_{n} ))_{n \in \N}$ be a real sequence.
 2.  If $((a_{n} ))_{n \in \N}$ is bounded below, then the sequence $((\underset{n \geq k}{\inf} a_{n} ))_{k \in \N}$ is an increasing real sequence. Otherwise, $\underset{n \geq k}{\inf} a_{n} = - \\infty$ for all $k \in \N$ .
 
 #### Proof
-  (i) For $k \in \N$ , let $S_{k} = \{a_{n} : n \geq k\}$ . Then $S_{1} \\supseteq S_{2} \\supseteq \dots$ .
+
+(i) For $k \in \N$ , let $S_{k} = \{a_{n} : n \geq k\}$ . Then $S_{1} \\supseteq S_{2} \\supseteq \dots$ .
 
 Now suppose that $((a_{n} ))_{n \in \N}$ is bounded above. This means that $S_{1}$ has an upper bound, say $M \in \R$ . But then $M$ is an upper bound for every $S_{k}$ , so $\sup S_{k} \leq M$ for all $k \in \N$ . In particular, we see that $\sup S_{k} \in \R$ for all $k \in \N$ .
 
@@ -871,6 +887,7 @@ Let $((a_{n} ))_{n \in \N}$ be a real sequence.
     $$
 
     Otherwise, $(\lim \sup)_{n arrow \\infty} a_{n} = \\infty$ .
+
 2.  If $((a_{n} ))_{n \in \N}$ is bounded below, then we define
 
     $$
@@ -910,7 +927,8 @@ $$
 $$
 
 #### Proof
-  This is proved in an exercise. □
+
+This is proved in an exercise. □
 
 ### Theorem 7.
 
@@ -927,7 +945,8 @@ $$
 $$
 
 #### Proof
-  Suppose that $((a_{n} ))_{n \in \N}$ converges. Let $L = \underset{n arrow \\infty}{ \lim } a_{n}$ . Then for any $\epsi > 0$ , we may choose $N \in \N$ such that
+
+Suppose that $((a_{n} ))_{n \in \N}$ converges. Let $L = \underset{n arrow \\infty}{ \lim } a_{n}$ . Then for any $\epsi > 0$ , we may choose $N \in \N$ such that
 
 $$
 |a_{n} - L| < \epsi

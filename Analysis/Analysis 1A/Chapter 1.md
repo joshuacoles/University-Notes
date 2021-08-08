@@ -16,13 +16,13 @@ A **statement** (or **proposition**) is a sentence that is either true or false 
 
 The following are statements.
 
-*   7 is an odd integer. (True)
-*   $2 < 7$ . (True)
-*   All integers are odd. (False)
+- 7 is an odd integer. (True)
+- $2 < 7$ . (True)
+- All integers are odd. (False)
 
 But the following is **not** a statement.
 
-*   Welcome to the University of Bath!
+- Welcome to the University of Bath!
 
 If we have two statements, we can form other statements (compound statements) from them using the logical connectives ‘and’ and ‘or’. In the following, let $P$ and $Q$ denote two statements. (Here $P$ and $Q$ are place holders that may be replaced by **any** statement.)
 
@@ -42,11 +42,11 @@ We always use the inclusive or; so $P \vee Q$ means ‘either $P$ or $Q$ **or bo
 
 Consider the following statement.
 
-*   All integers are odd, and $2 < 7$ .
+- All integers are odd, and $2 < 7$ .
 
 This is false, as not all integers are odd. But consider the following.
 
-*   All integers are odd, or $2 < 7$ .
+- All integers are odd, or $2 < 7$ .
 
 This statement is true, as $2 < 7$ .
 
@@ -124,8 +124,8 @@ Instead of ‘if $P$ , then $Q$ ’, we sometimes say ‘ $P$ implies $Q$ ’. T
 
 Consider a number $x$ . Then the following are true statements.
 
-*   $x > 0 \implies x \geq 0$ .
-*   $x > 0 \iff - x < 0$ .
+- $x > 0 \implies x \geq 0$ .
+- $x > 0 \iff - x < 0$ .
 
 The above concepts have the following truth tables.
 
@@ -184,7 +184,8 @@ P\wedge(Q \vee R ) \iff(P \wedge Q )\vee(P \wedge R ) \\ P\vee(Q \wedge R ) \iff
 $$
 
 #### Proof
- It suffices to compare the truth tables. Here is the truth table (with an intermediate step) for $P \wedge (Q \vee R )$ .
+
+It suffices to compare the truth tables. Here is the truth table (with an intermediate step) for $P \wedge (Q \vee R )$ .
 
 $P$
 
@@ -399,7 +400,8 @@ $$
 $$
 
 #### Proof
- This is proved with the same method as Proposition 5. We omit the details. □
+
+This is proved with the same method as Proposition 5. We omit the details. □
 
 ### Example 7
 
@@ -434,7 +436,8 @@ $$
 $$
 
 #### Proof
- We already know that the implication $P \implies Q$ is equivalent to $(\neg  P ) \vee Q$ , which in turn may be written in the form $Q \vee (\neg  P )$ . Now we observe that $Q \iff \neg  (\neg  Q )$ , and therefore, we conclude that $Q \vee (\neg  P )$ is equivalent to $\neg  (\neg  Q ) \vee (\neg  P )$ . Finally, the last statement can be written in the form $\neg  Q \implies \neg  P$ . □
+
+We already know that the implication $P \implies Q$ is equivalent to $(\neg  P ) \vee Q$ , which in turn may be written in the form $Q \vee (\neg  P )$ . Now we observe that $Q \iff \neg  (\neg  Q )$ , and therefore, we conclude that $Q \vee (\neg  P )$ is equivalent to $\neg  (\neg  Q ) \vee (\neg  P )$ . Finally, the last statement can be written in the form $\neg  Q \implies \neg  P$ . □
 
 ## 1.3 The notation of set theory
 

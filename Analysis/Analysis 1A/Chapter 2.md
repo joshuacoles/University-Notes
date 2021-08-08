@@ -59,7 +59,8 @@ Here are a few consequences of the field axioms.
 9.  $((- a ))^{- 1} = - a^{- 1}$ for all $a \in \R \backslash \{ 0 \}$ .
 
 #### Proof
-  These statements are proved for the most part in MA10209 and the arguments are not given here. □
+
+These statements are proved for the most part in MA10209 and the arguments are not given here. □
 
 ## 2.2 Order axioms
 
@@ -92,9 +93,9 @@ Here are a few consequences of the order axioms.
 ### Proposition 1.
 
 1.  For all $a , b \in \R$ ,
-    *   if $a \geq 0$ and $b \geq 0$ , then $a b \geq 0$ ;
-    *   if $a \leq 0$ and $b \leq 0$ , then $a b \geq 0$ ;
-    *   if $a \leq 0$ and $b \geq 0$ , then $a b \leq 0$ .
+    - if $a \geq 0$ and $b \geq 0$ , then $a b \geq 0$ ;
+    - if $a \leq 0$ and $b \leq 0$ , then $a b \geq 0$ ;
+    - if $a \leq 0$ and $b \geq 0$ , then $a b \leq 0$ .
 2.  For all $a , b , c , d \in \R$ , if $a \leq b$ and $c \leq d$ , then $a + c \leq b + d$ .
 3.  For all $a \in \R$ , if $a \geq 0$ , then $- a \leq 0$ .
 4.  $a^{2} \geq 0$ for all $a \in \R$ .
@@ -103,7 +104,8 @@ Here are a few consequences of the order axioms.
 7.  For all $a , b , c \in \R$ , if $a \leq b$ and $c \leq 0$ , then $a c \geq b c$ .
 
 #### Proof
-  (i) If $a \geq 0$ and $b \geq 0$ , then (A14) implies that
+
+(i) If $a \geq 0$ and $b \geq 0$ , then (A14) implies that
 
 $$
 0 = 0 \cdot b \leq a \cdot b = a b .
@@ -192,7 +194,8 @@ Let $S \subseteq \R$ be a non-empty set.
 2.  Suppose that $S$ is bounded below. Then for any $\epsi > 0$ there exists $s \in S$ such that $s < \inf S + \epsi$ .
 
 #### Proof
-  We give only the proof of the first statement, as the arguments for the second statement are similar. We argue by contradiction, so we assume that the statement is false, seeking contradiction.
+
+We give only the proof of the first statement, as the arguments for the second statement are similar. We argue by contradiction, so we assume that the statement is false, seeking contradiction.
 
 Assume that there exists $\epsi > 0$ such that any $s \in S$ satisfies $s \leq \sup S - \epsi$ . But then $\sup S - \epsi$ is an upper bound of $S$ , which means that $\sup S$ is **not** the least upper bound. The contradiction concludes the proof. □
 
@@ -203,7 +206,8 @@ Here is another important consequence of the completeness axiom.
 For any real number $a \in \R$ there exists $n \in \N$ with $a < n$ .
 
 #### Proof
-  We give a proof by contradiction. If this were false, then we would have a number $a \in \R$ such that $n \leq a$ for all $n \in \N$ . Then $a$ is an upper bound for the set $\N$ ; or in other words, $\N$ is bounded above. Therefore, the supremum $\sup \N$ exists. Moreover, by Theorem 22, there exists $n \in \N$ with $n > \sup \N - 1$ . But then $n + 1 > \sup \N$ , which is a contradiction, as $n + 1 \in \N$ . □
+
+We give a proof by contradiction. If this were false, then we would have a number $a \in \R$ such that $n \leq a$ for all $n \in \N$ . Then $a$ is an upper bound for the set $\N$ ; or in other words, $\N$ is bounded above. Therefore, the supremum $\sup \N$ exists. Moreover, by Theorem 22, there exists $n \in \N$ with $n > \sup \N - 1$ . But then $n + 1 > \sup \N$ , which is a contradiction, as $n + 1 \in \N$ . □
 
 ## 2.4 Powers
 

@@ -122,7 +122,7 @@ again, we see that
 
 $$
 \begin{align}
-\begin{matrix}S_{N} &=(1 - \frac{1}{2})+(\frac{1}{2} - \frac{1}{3})+(\frac{1}{3} - \frac{1}{4})+\dots +(\frac{1}{N} - \frac{1}{N + 1}) \\ &=1-\frac{1}{N + 1}arrow 1\end{matrix} 
+\begin{matrix}S_{N} &=(1 - \frac{1}{2})+(\frac{1}{2} - \frac{1}{3})+(\frac{1}{3} - \frac{1}{4})+\dots +(\frac{1}{N} - \frac{1}{N + 1}) \\ &=1-\frac{1}{N + 1}arrow 1\end{matrix}
 \end{align}
 $$
 
@@ -137,7 +137,8 @@ $$
 If $\sum_{n = 1}^{\\infty} a_{n}$ is a convergent series, then $a_{n} arrow 0$ as $n arrow \\infty$ .
 
 #### Proof
-  Suppose that $\sum_{n = 1}^{\\infty} a_{n}$ converges and consider the partial sums
+
+Suppose that $\sum_{n = 1}^{\\infty} a_{n}$ converges and consider the partial sums
 
 $$
 S_{N} = \sum_{n = 1}^{N} a_{n} .
@@ -176,7 +177,8 @@ Suppose that $\sum_{n = 1}^{\\infty} a_{n}$ and $\sum_{n = 1}^{\\infty} b_{n}$ a
 3.  $\sum_{n = 1}^{\\infty} (C a_{n} ) = C \sum_{n = 1}^{\\infty} a_{n}$ for any constant $C \in \R$ .
 
 #### Proof
-  This is an immediate consequence of the algebra of limits theorem for sequences (Theorem 42). □
+
+This is an immediate consequence of the algebra of limits theorem for sequences (Theorem 42). □
 
 ### Theorem 7.
 
@@ -187,7 +189,8 @@ $$
 $$
 
 #### Proof
-  This is an immediate consequence of Proposition 18.(ii) and Proposition 37. □
+
+This is an immediate consequence of Proposition 18.(ii) and Proposition 37. □
 
 ## 5.2 Series of non-negative terms
 
@@ -218,7 +221,8 @@ $$
 $$
 
 #### Proof
-  The sequence of partial sums is increasing, so it will converge if, and only if, it is bounded by Theorem 47 and Proposition 41. The inequality follows from Corollary 38. □
+
+The sequence of partial sums is increasing, so it will converge if, and only if, it is bounded by Theorem 47 and Proposition 41. The inequality follows from Corollary 38. □
 
 Because of this fact, convergence of series of non-negative terms is often indicated by writing
 
@@ -243,7 +247,8 @@ $$
 $$
 
 #### Proof
-  Consider the partial sums $S_{N} = \sum_{n = 1}^{N} a_{n}$ . If $\sum_{n = 1}^{\\infty} a_{n} < \\infty$ , then $((S_{N} ))_{N \in \N}$ is a Cauchy sequence by Theorem 65. Hence for all $\epsi > 0$ , there exists $N_{0} \in \N$ such that $|S_{M} - S_{N}| < \epsi$ for all $M , N \geq N_{0}$ . That is,
+
+Consider the partial sums $S_{N} = \sum_{n = 1}^{N} a_{n}$ . If $\sum_{n = 1}^{\\infty} a_{n} < \\infty$ , then $((S_{N} ))_{N \in \N}$ is a Cauchy sequence by Theorem 65. Hence for all $\epsi > 0$ , there exists $N_{0} \in \N$ such that $|S_{M} - S_{N}| < \epsi$ for all $M , N \geq N_{0}$ . That is,
 
 $$
 \sum_{n = N}^{M} a_{n} = S_{M + 1} - S_{N} < \epsi
@@ -278,7 +283,8 @@ $$
 $$
 
 #### Proof
-  Consider the partial sums
+
+Consider the partial sums
 
 $$
 A_{N} = \sum_{n = 1}^{N} a_{n} \text{and } S_{N} = \sum_{n = 1}^{N} |a_{n}| .
@@ -290,7 +296,7 @@ Furthermore, $((S_{N} + A_{N} ))_{N \in \N}$ is increasing since
 
 $$
 \begin{align}
-\begin{matrix}S_{N + 1}+A_{N + 1} &=S_{N}+|a_{N + 1}|+A_{N}+a_{N + 1} \\ &=S_{N}+A_{N}+\{\begin{matrix} \begin{matrix}2|a_{N + 1}| \text{if  }a_{N + 1}>0, \\ 0 \text{if  }a_{N + 1}\leq 0,\end{matrix} \end{matrix}\end{matrix} 
+\begin{matrix}S_{N + 1}+A_{N + 1} &=S_{N}+|a_{N + 1}|+A_{N}+a_{N + 1} \\ &=S_{N}+A_{N}+\{\begin{matrix} \begin{matrix}2|a_{N + 1}| \text{if  }a_{N + 1}>0, \\ 0 \text{if  }a_{N + 1}\leq 0,\end{matrix} \end{matrix}\end{matrix}
 \end{align}
 $$
 
@@ -341,7 +347,8 @@ and the convergence is absolute.
 So for absolutely convergent series, the order of summation can be rearranged arbitrarily without changing the result. This is not true for conditionally convergent series. In fact, the Riemann rearrangement theorem (not covered here) says that a conditionally convergent series can be rearranged so that it converges to an arbitrary value or even diverges.
 
 #### Proof
-  Write
+
+Write
 
 $$
 L = \sum_{n = 1}^{\\infty} a_{n} .
@@ -428,7 +435,8 @@ $$
 then $\sum_{n = 1}^{\\infty} a_{n}$ converges absolutely.
 
 #### Proof
-  The hypothesis implies that
+
+The hypothesis implies that
 
 $$
 \sum_{n = 1}^{N} |a_{n}| \leq \sum_{n = 1}^{N} b_{n} \leq \sum_{n = 1}^{\\infty} b_{n}
@@ -544,7 +552,8 @@ exists (where $r = \\infty$ is allowed).
 If $r = 1$ , then the test is inconclusive.
 
 #### Proof
-  (i) Suppose that $r < 1$ and choose $s \in (r , 1 )$ . Then Lemma 54 implies that there exists $C > 0$ such that $|a_{n}| \leq C s^{n}$ for all $n \in N$ . Now the comparison test with the geometric series $C \sum_{n = 1}^{\\infty} s^{n}$ implies absolute convergence.
+
+(i) Suppose that $r < 1$ and choose $s \in (r , 1 )$ . Then Lemma 54 implies that there exists $C > 0$ such that $|a_{n}| \leq C s^{n}$ for all $n \in N$ . Now the comparison test with the geometric series $C \sum_{n = 1}^{\\infty} s^{n}$ implies absolute convergence.
 
 (ii) If $r > 1$ , then Theorem 55 implies that $((a_{n} ))_{n \in \N}$ diverges, and then Proposition 77 implies that $\sum_{n = 1}^{\\infty} a_{n}$ diverges. □
 
@@ -601,11 +610,12 @@ $$
 $$
 
 #### Proof
-  Suppose first that $\sum_{k = 1}^{\\infty} b_{k} < \\infty$ . Fix an arbitrary $N \in \N$ . Choose $K \in \N$ such that $N \leq 2^{K + 1} - 1$ . Because $((a_{n} ))_{n \in \N}$ is decreasing, we have the inequality
+
+Suppose first that $\sum_{k = 1}^{\\infty} b_{k} < \\infty$ . Fix an arbitrary $N \in \N$ . Choose $K \in \N$ such that $N \leq 2^{K + 1} - 1$ . Because $((a_{n} ))_{n \in \N}$ is decreasing, we have the inequality
 
 $$
 \begin{align}
-\begin{matrix}\sum_{n = 1}^{N}a_{n} \leq\sum_{n = 1}^{2^{K + 1} - 1}a_{n} \\ &=a_{1}+(a_{2} + a_{3} )+(a_{4} + a_{5} + a_{6} + a_{7} )+\dots +(a_{2^{K}} + \dots  + a_{2^{K + 1} - 1} ) \\ \leq a_{1}+2a_{2}+4a_{4}+\dots +2^{K}a_{2^{K}} \\ &=a_{1}+\sum_{k = 1}^{K}b_{k} \\ \leq a_{1}+\sum_{k = 1}^{\\infty}b_{k}.\end{matrix} 
+\begin{matrix}\sum_{n = 1}^{N}a_{n} \leq\sum_{n = 1}^{2^{K + 1} - 1}a_{n} \\ &=a_{1}+(a_{2} + a_{3} )+(a_{4} + a_{5} + a_{6} + a_{7} )+\dots +(a_{2^{K}} + \dots  + a_{2^{K + 1} - 1} ) \\ \leq a_{1}+2a_{2}+4a_{4}+\dots +2^{K}a_{2^{K}} \\ &=a_{1}+\sum_{k = 1}^{K}b_{k} \\ \leq a_{1}+\sum_{k = 1}^{\\infty}b_{k}.\end{matrix}
 \end{align}
 $$
 
@@ -615,7 +625,7 @@ Now suppose that $\sum_{n = 1}^{\\infty} a_{n} < \\infty$ . Then for any $K \in 
 
 $$
 \begin{align}
-\begin{matrix}\sum_{k = 1}^{K}b_{k} &=\sum_{k = 1}^{K}2^{k}a_{2^{k}}=2a_{2}+4a_{4}+8a_{8}+\dots +2^{K}a_{2^{K}} \\ &=(a_{2} + a_{2} )+(a_{4} + a_{4} + a_{4} + a_{4} )+(a_{8} + \dots  + a_{8} )+\dots + \\ +(a_{2^{K}} + \dots  + a_{2^{K}} ) \\ \leq(a_{1} + a_{1} )+(a_{2} + a_{2} + a_{3} + a_{3} )+ \\ +(a_{4} + a_{4} + a_{5} + a_{5} + a_{6} + a_{6} + a_{7} + a_{7} )+\dots + \\ +(a_{2^{K - 1}} + \dots  + a_{2^{K} - 1} ) \\ \leq 2\sum_{n = 1}^{\\infty}a_{n}.\end{matrix} 
+\begin{matrix}\sum_{k = 1}^{K}b_{k} &=\sum_{k = 1}^{K}2^{k}a_{2^{k}}=2a_{2}+4a_{4}+8a_{8}+\dots +2^{K}a_{2^{K}} \\ &=(a_{2} + a_{2} )+(a_{4} + a_{4} + a_{4} + a_{4} )+(a_{8} + \dots  + a_{8} )+\dots + \\ +(a_{2^{K}} + \dots  + a_{2^{K}} ) \\ \leq(a_{1} + a_{1} )+(a_{2} + a_{2} + a_{3} + a_{3} )+ \\ +(a_{4} + a_{4} + a_{5} + a_{5} + a_{6} + a_{6} + a_{7} + a_{7} )+\dots + \\ +(a_{2^{K - 1}} + \dots  + a_{2^{K} - 1} ) \\ \leq 2\sum_{n = 1}^{\\infty}a_{n}.\end{matrix}
 \end{align}
 $$
 
@@ -634,7 +644,7 @@ converges.
 Caution: while all the previous tests give absolute convergence, this one does not in general. For example, the series
 
 $$
-\sum_{n = 1}^{\\infty} \frac{((- 1 ))^{n}}{n} = - 1 + \frac{1}{2} - \frac{1}{3} + \frac{1}{4} - \dots 
+\sum_{n = 1}^{\\infty} \frac{((- 1 ))^{n}}{n} = - 1 + \frac{1}{2} - \frac{1}{3} + \frac{1}{4} - \dots
 $$
 
 meets the hypothesis of the theorem and therefore converges, but it converges only conditionally, as we know that
@@ -644,7 +654,8 @@ $$
 $$
 
 #### Proof
-  Consider the sequence of partial sums $((S_{N} ))_{N \in \N}$ with
+
+Consider the sequence of partial sums $((S_{N} ))_{N \in \N}$ with
 
 $$
 S_{N} = \sum_{n = 1}^{N} ((- 1 ))^{n} a_{n} .
@@ -654,7 +665,7 @@ We first study the subsequence $((S_{2 N} ))_{N \in \N}$ and note that
 
 $$
 \begin{align}
-\begin{matrix}S_{2 N + 2} &=-a_{1}+a_{2}-a_{3}+a_{4}-\dots -a_{2 N + 1}+a_{2 N + 2} \\ &=S_{2 N}-a_{2 N + 1}+a_{2 N + 2} \\ \leq S_{2 N}\end{matrix} 
+\begin{matrix}S_{2 N + 2} &=-a_{1}+a_{2}-a_{3}+a_{4}-\dots -a_{2 N + 1}+a_{2 N + 2} \\ &=S_{2 N}-a_{2 N + 1}+a_{2 N + 2} \\ \leq S_{2 N}\end{matrix}
 \end{align}
 $$
 
@@ -707,7 +718,8 @@ $$
 It is more convenient to start the summation with $0$ rather than $1$ for the series in this theorem, but this is just a matter of notation and all the above principles and facts still apply.
 
 #### Proof
-  We write
+
+We write
 
 $$
 A = \sum_{n = 0}^{\\infty} a_{n} \text{and } B = \sum_{n = 0}^{\\infty} b_{n}
@@ -753,7 +765,7 @@ because for $i , j \in \N$ with $i + j \geq N + 1$ , one of the inequalities $i 
 
 $$
 \begin{align}
-\begin{matrix}\underset{\begin{matrix}i\leq N \\ M+1\leq j\leq N \\ i+j\geq N+1\end{matrix}}{\sum}|a_{i}||b_{j}| \leq\sum_{i = 0}^{N}\sum_{j = M + 1}^{N}|a_{i}||b_{j}| \\ &=(\sum_{n = 0}^{N} |a_{i}| )(\sum_{j = M + 1}^{N} |b_{j}| ) \\ \leq\bar{A}\sum_{n = M + 1}^{\\infty}|b_{n}|\end{matrix} 
+\begin{matrix}\underset{\begin{matrix}i\leq N \\ M+1\leq j\leq N \\ i+j\geq N+1\end{matrix}}{\sum}|a_{i}||b_{j}| \leq\sum_{i = 0}^{N}\sum_{j = M + 1}^{N}|a_{i}||b_{j}| \\ &=(\sum_{n = 0}^{N} |a_{i}| )(\sum_{j = M + 1}^{N} |b_{j}| ) \\ \leq\bar{A}\sum_{n = M + 1}^{\\infty}|b_{n}|\end{matrix}
 \end{align}
 $$
 
@@ -779,7 +791,7 @@ Now for $N \geq 2 N_{1}$ , we conclude that
 
 $$
 \begin{align}
-\begin{matrix}|C_{N} - A B| \leq|C_{N} - A_{N} B_{N}|+|A_{N} B_{N} - A B| \\ \leq\bar{A}\sum_{n = N_{1} + 1}^{\\infty}|b_{n}|+\bar{B}\sum_{n = N_{1} + 1}^{\\infty}|a_{n}|+|A_{N} B_{N} - A B| \\ <\bar{A}\frac{\epsi}{3 \bar{A} + 1}+\bar{B}\frac{\epsi}{3 \bar{B} + 1}+\frac{\epsi}{3}\leq\epsi.\end{matrix} 
+\begin{matrix}|C_{N} - A B| \leq|C_{N} - A_{N} B_{N}|+|A_{N} B_{N} - A B| \\ \leq\bar{A}\sum_{n = N_{1} + 1}^{\\infty}|b_{n}|+\bar{B}\sum_{n = N_{1} + 1}^{\\infty}|a_{n}|+|A_{N} B_{N} - A B| \\ <\bar{A}\frac{\epsi}{3 \bar{A} + 1}+\bar{B}\frac{\epsi}{3 \bar{B} + 1}+\frac{\epsi}{3}\leq\epsi.\end{matrix}
 \end{align}
 $$
 
@@ -829,7 +841,8 @@ For any power series $\sum_{n = 0}^{\\infty} a_{n} x^{n}$ , there exists $R \in 
 The theorem does not give any information about values of $x$ with $|x| = R$ . This question typically has to be settled independently.
 
 #### Proof
-  Define
+
+Define
 
 $$
 R = \sup \{r \geq 0 : ((|a_{n}| r^{n} ))_{n \in \N_{0}} \text{ is bounded }\} .
@@ -874,7 +887,8 @@ $$
 exists (where $R = \\infty$ is allowed), then $R$ is the radius of convergence.
 
 #### Proof
-  Suppose that the limit exists (possibly $R = \\infty$ ). Then for any $x \in \R$ ,
+
+Suppose that the limit exists (possibly $R = \\infty$ ). Then for any $x \in \R$ ,
 
 $$
 \frac{|a_{n + 1} x^{n + 1}|}{|a_{n} x^{n}|} = |x| \frac{|a_{n + 1}|}{|a_{n}|} arrow \frac{|x|}{R}
@@ -895,7 +909,8 @@ $$
 Here $(\lim \sup)_{n arrow \\infty} \sqrt[n]{|a_{n}|}$ may take any value in $[ 0 , \\infty )$ or may be $\\infty$ . The fraction should be interpreted as $1 / \\infty = 0$ and $1 / 0 = \\infty$ if we have one of the values $0$ or $\\infty$ .
 
 #### Proof
-  Consider the set
+
+Consider the set
 
 $$
 A = \{r \geq 0 : ((|a_{n}| r^{n} ))_{n \in \N_{0}} \text{ is bounded }\} .

@@ -72,7 +72,8 @@ For all $x \in \R$ ,
 4.  For all $x , y \in \R$ , the identity $|x y| = |x| |y|$ holds true.
 
 #### Proof
-  (i) If $x > 0$ , then $x = |x|$ by the definition. If $x \leq 0$ , then $|x| = - x \geq 0$ by Proposition 18.(iii), so $x \leq |x|$ by (A12).
+
+(i) If $x > 0$ , then $x = |x|$ by the definition. If $x \leq 0$ , then $|x| = - x \geq 0$ by Proposition 18.(iii), so $x \leq |x|$ by (A12).
 
 (ii) This is similar, so we omit the details.
 
@@ -88,7 +89,8 @@ For all $x , y \in \R$ ,
 2.  $| |x| - |y| | \leq |x - y|$ (reverse triangle inequality).
 
 #### Proof
-  (i) First we use (A13) and Proposition 26 to conclude that
+
+(i) First we use (A13) and Proposition 26 to conclude that
 
 $$
 x + y \leq |x| + y \leq |x| + |y| .
@@ -135,7 +137,8 @@ $$
 $$
 
 #### Proof
-  We use induction on $n$ . For $n = 0$ , the inequality reads $1 \geq 1$ , which is obviously true.
+
+We use induction on $n$ . For $n = 0$ , the inequality reads $1 \geq 1$ , which is obviously true.
 
 Now assume that the inequality holds true for $n$ . We want to show that it still holds true for $n + 1$ . Indeed,
 
@@ -211,7 +214,7 @@ The following notation is often useful when we deal with inequalities. Given $a 
 
 $$
 \begin{align}
-(a , b ) &=\{x \in \R : a < x < b\}, \\ [ a , b ] &=\{x \in \R : a \leq x \leq b\}, \\ (a , b ] &=\{x \in \R : a < x \leq b\}, \\ [ a , b ) &=\{x \in \R : a \leq x < b\}. 
+(a , b ) &=\{x \in \R : a < x < b\}, \\ [ a , b ] &=\{x \in \R : a \leq x \leq b\}, \\ (a , b ] &=\{x \in \R : a < x \leq b\}, \\ [ a , b ) &=\{x \in \R : a \leq x < b\}.
 \end{align}
 $$
 
@@ -219,7 +222,7 @@ Furthermore, for any $a \in \R$ ,
 
 $$
 \begin{align}
-(a , \\infty ) &=\{x \in \R : x > a\}, \\ [ a , \\infty ) &=\{x \in \R : x \geq a\}, \\ (- \\infty , a ) &=\{x \in \R : x < a\}, \\ (- \\infty , a ] &=\{x \in \R : x \leq a\}. 
+(a , \\infty ) &=\{x \in \R : x > a\}, \\ [ a , \\infty ) &=\{x \in \R : x \geq a\}, \\ (- \\infty , a ) &=\{x \in \R : x < a\}, \\ (- \\infty , a ] &=\{x \in \R : x \leq a\}.
 \end{align}
 $$
 
