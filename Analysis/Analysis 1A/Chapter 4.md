@@ -1,5 +1,3 @@
-Chapter 4
-
 # Sequences
 
 This chapter is about the following notion.

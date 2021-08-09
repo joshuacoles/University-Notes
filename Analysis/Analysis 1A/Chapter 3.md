@@ -1,5 +1,3 @@
-Chapter 3
-
 # Inequalities
 
 ## 3.1 Solving inequalities
