@@ -93,3 +93,4 @@ Move notes on the chain rule and stuff into a common note for $\R$ and $\C$.
 
 [[083. Lec 34, Paramagnetism#Quantitative Look ([mn](marginnote3app://note/91F7892A-963D-41D9-B86B-00AB9572B9DF))]]
 [[Lec 4, Empirical Derivation of Gauss's Law|Next]]
+[[Introduction to Logic]]

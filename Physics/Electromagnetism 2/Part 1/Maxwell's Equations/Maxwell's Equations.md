@@ -44,3 +44,12 @@ There are a number of experimentally deduced empirical laws from which we can de
 - [[Biot-Savart Law]]
 - [[Ampere's Law]]
 - [[Faraday's Law]]
+
+## Static/Constant Specialisation
+
+In the case of a constant [[Current Density]], [[Charge Dentity]] and the various fields (the case of [[Electrostatics]] and [[Magnetostatics]]) we have the following specialisations,
+
+- [[Gauss's Law]],  $\divrg \vE = \dfrac{\rho}{\epsi_0}$.
+- [[Maxwell–Faraday equation]]   $\curl \vE = 0$
+- [[Gauss's law for Magnetism]] $\divrg \vB = 0$
+- [[Maxwell–Ampère's Law]] $\curl \vB = \mu_0 \vJ$ 

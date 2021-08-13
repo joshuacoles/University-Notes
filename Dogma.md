@@ -9,8 +9,6 @@
 
 ```ad-question
 Can we move the header into the metadata and generate custom HTML from that?
-
-Can we move the header into the metadata and generate custom HTML from that?
 ```
 
 ## Maths

@@ -73,7 +73,7 @@ To see this we take,
 - $I = \|\J\|\d S$.
 - By [[#^9ac418]], $I\d\r = \J\d S\d\r = J\d V.$
 
-Now for a general [[Current Distribution]],
+Now for a general Current Distribution,
 
 ![[Clipboard 3 Feb 2021 at 14.49.png]]
 

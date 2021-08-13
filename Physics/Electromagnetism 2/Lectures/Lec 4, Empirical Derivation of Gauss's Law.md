@@ -10,18 +10,23 @@ sibling:
 For a charge $Q$ surrounded by a closed surface $S$, [[Gauss's Law]] is given as,
 
 $$
- \int_S \E \cdot \d \vec{S} = \frac {Q_{\mathrm{enc}}}{\epsilon_0}
+\int_S \vE \cdot \d \vec{S} = \frac {Q_{\mathrm{enc}}}{\epsilon_0}
 $$
 
-> Remember surface integrals of this form rely on the convention that $\d \vec{S} = \uvec{n}\,\d S$, thus being given in a more explicit sense, as
-> $$ \int*S \E \cdot \uvec{n}\,\d S = \frac {Q*{\mathrm{enc}}}{\epsilon_0} $$
+```ad-note
+Remember surface integrals of this form rely on the convention that $\d \vS = \uvn \rd S$, thus being given in a more explicit sense, as
+
+$$ 
+\int_S \vE \dp \uvn \rd S = \frac{Q_{\mathrm{enc}}}{\epsi_0}
+$$
+```
 
 ![[Clipboard 1 Feb 2021 at 17.39.png]]
 
 To show this wlog we take $Q$ to be at the origin, so that as per [[Coloumb's Law]],
 
 $$
-\E(\r) = \frac 1{4\pi\epsilon_0} \frac{Q}{r^2} \uvec{e}_r
+\vE(\r) = \frac 1{4\pi\epsilon_0} \frac{Q}{r^2} \uve_r
 $$
 
 Taking this into the LHS of [[Gauss's Law]] above, we get,

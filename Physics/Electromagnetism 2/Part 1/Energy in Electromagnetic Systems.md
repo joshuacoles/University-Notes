@@ -8,7 +8,7 @@ Given a [[Capacitors|Capacitor]] of size $A\unit{m^2}$ with a separation of $L\u
 
 ![[Clipboard 1 Mar 2021 at 18.39.png]]
 
-By considering the symmetry of the system we can determine that the [[Electric Field]] is perpendicular to the plates (ignoring edge effects). Thus applying [[Gauss's Law]] to the pillbox of area $a\mathrm{~m^2}$,
+By considering the symmetry of the system we can determine that the [[Electric Field]] is perpendicular to the plates (ignoring edge effects). Thus applying [[Gauss's Law]] to the pillbox of area $a\unit{m^2}$,
 
 $$
 \int_{\partial(\text{Box})} E \dp \d \vec{S}
