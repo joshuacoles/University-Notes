@@ -1,45 +1,45 @@
 {
   "main": {
-    "id": "0220bfb5c1caf401",
+    "id": "f06068a27dcbf0e7",
     "type": "split",
     "children": [
       {
-        "id": "ba05fb0df86dabbe",
+        "id": "9ac067d3a4fd3547",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Analysis/Analysis 1A/Chapter 7.md",
+            "file": "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Poor Conductor.md",
             "mode": "source"
           }
         },
-        "group": "da7c269e1c13cb6e"
+        "group": "2e6712df26174ff3"
       },
       {
-        "id": "02af3944334c9b17",
+        "id": "07c301a838b5861f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Analysis/Analysis 1A/Chapter 7.md",
+            "file": "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Poor Conductor.md",
             "mode": "preview"
           }
         },
-        "group": "da7c269e1c13cb6e"
+        "group": "2e6712df26174ff3"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2d90d4a29c58c3df",
+    "id": "c16195b22687e9e1",
     "type": "split",
     "children": [
       {
-        "id": "356b1cef999778a6",
+        "id": "dfe592b44802e63c",
         "type": "tabs",
         "children": [
           {
-            "id": "72ea6c4107c60951",
+            "id": "fb14ec3ed685253f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "669006ece7096248",
+            "id": "d42814f5d471e961",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "\\col",
+                "query": "9ac418",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,10 +62,18 @@
             }
           },
           {
-            "id": "19d76fc6e29fe802",
+            "id": "eb3ccef995f7bd38",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "fd5d4fd27bbf8a95",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {}
             }
           }
@@ -73,23 +81,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 427
   },
   "right": {
-    "id": "83e83af61b5bcc7c",
+    "id": "a018a27913bc8e12",
     "type": "split",
     "children": [
       {
-        "id": "1b5784ea9efaa279",
+        "id": "5da855c2663cc24e",
         "type": "tabs",
         "children": [
           {
-            "id": "62a2ef1c6a4d572a",
+            "id": "99ad0c0b50275542",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Analysis 1A/Chapter 7.md",
+                "file": "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Poor Conductor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,19 +109,19 @@
             }
           },
           {
-            "id": "dc71cdf54b7c9afc",
+            "id": "e17d0991229eb318",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Analysis 1A/Chapter 7.md",
+                "file": "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Poor Conductor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "25e4bb6fb696ac2f",
+            "id": "e750122fafa3b1d6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -124,17 +132,25 @@
             }
           },
           {
-            "id": "22b05d22df483cbc",
+            "id": "a26ab9a4f6dcf103",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Analysis 1A/Chapter 7.md"
+                "file": "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Poor Conductor.md"
               }
             }
           },
           {
-            "id": "a8afe846f3f357cd",
+            "id": "a3172edec407ac31",
+            "type": "leaf",
+            "state": {
+              "type": "breadcrumbs-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "aa79ecd13b03e790",
             "type": "leaf",
             "state": {
               "type": "breadcrumbs-matrix",
@@ -146,19 +162,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "ba05fb0df86dabbe",
+  "active": "9ac067d3a4fd3547",
   "lastOpenFiles": [
-    "Analysis/Analysis 1A/Chapter 7.md",
-    "Analysis/Analysis 1A/Analysis 1A.md",
-    "Analysis/Analysis 1B/1.md",
-    "Analysis/Analysis 1B/2.md",
-    "Analysis/Analysis 1B/3.md",
-    "Physics/Electromagnetism 2/Part 1/EM Waves in a Vacuum/Poynting Vector.md",
-    "Analysis/Analysis 1B/0.md",
-    "Analysis/Analysis 1A/Chapter 1.md",
-    "Physics/Electromagnetism 2/Part 1/EM Waves in a Vacuum/Electromagnetic Waves in a Vacuum.md",
-    "Physics/Electromagnetism 2/Part 1/EM Waves in a Vacuum/Energy in Electromagnetic Systems.md"
+    "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Poor Conductor.md",
+    "Physics/Electromagnetism 2/EM Waves/EM Waves In LIH Materials/Case Studies/Case Study, Good Conductor.md",
+    "Physics/Electromagnetism 2/EM Waves/EM Waves at LIH Interfaces/EM Waves at LIH Interfaces.md",
+    "Physics/Electromagnetism 2/External Resources.md",
+    "Physics/Electromagnetism 2/Part 1/Energy in Electromagnetic Systems.md",
+    "Physics/Electromagnetism 2/Part 1/Electrostatics.md",
+    "Physics/Electromagnetism 2/Part 1/Wave Polarisation/Wave Polarisation.md",
+    "Physics/Electromagnetism 2/Part 1/Maxwell's Equations/Maxwell's Equations.md",
+    "Physics/Electromagnetism 2/Fields in Materials/Magnetic Field in Materials/ItE.6. Magnetic Fields in Materials/Magnetic Fields in Matter.md",
+    "Physics/Electromagnetism 2/Part 1/Magnetic Field/Magnetic Fields.md"
   ]
 }
