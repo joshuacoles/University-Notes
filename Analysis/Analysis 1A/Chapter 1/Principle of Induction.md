@@ -9,7 +9,7 @@ The Principle of Induction can be used to prove statements normally on the Natur
 3. Finally we prove the **inductive hypothesis**, $n + 1 \in \Lambda \impliedby n \in \Lambda$.
 	- This is done by **assuming** that $n$ is in $\Lambda$ and then **proving this implies** $n + 1$ is also in $\Lambda$.
 
-This is similar to the process by which we define the natural numbers in [[1.6 The natural numbers#Inductive Definition]].
+This is similar to the process by which we define the natural numbers in [[The Natural Numbers#Inductive Definition]].
 
 ## Example
 

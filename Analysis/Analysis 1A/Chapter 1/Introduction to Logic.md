@@ -44,14 +44,14 @@ In the following, as with all general logic, let $P$ and $Q$ denote any two stat
 
 ### Conjunction
 
-The expression $P \wedge Q$ stands for ‘ $P$ and $Q$ ’. This statement is true if both $P$ and $Q$ are true; otherwise it is false.
+The expression $P \land Q$ stands for ‘ $P$ and $Q$ ’. This statement is true if both $P$ and $Q$ are true; otherwise it is false.
 
 ### Disjunction
 
-The expression $P \vee Q$ stands for ‘ $P$ or $Q$ ’. This statement is true if either $P$ or $Q$ or both are true; otherwise it is false.
+The expression $P \lor Q$ stands for ‘ $P$ or $Q$ ’. This statement is true if either $P$ or $Q$ or both are true; otherwise it is false.
 
 ```ad-note
-We always use the **inclusive or** (not *xor*) so $P \vee Q$ means 'either $P$ or $Q$ **or both**'.
+We always use the **inclusive or** (not *xor*) so $P \lor Q$ means 'either $P$ or $Q$ **or both**'.
 ```
 
 ```ad-example
@@ -67,7 +67,7 @@ This statement is true, as $2 < 7$ .
 
 We can use a **truth table** to demonstrate the truth values of a compound statement.
 
-- Truth Table: $P$, $Q$, $P \wedge Q$, $P \vee Q$ #todo
+- Truth Table: $P$, $Q$, $P \land Q$, $P \lor Q$ #todo
 ```
 
 ### Negation
@@ -80,7 +80,7 @@ Here is the corresponding truth table.
 
 ### Implication
 
-Given two statements $P$ and $Q$ , the expression $P \implies Q$ stands for ‘if $P$ , then $Q$ ’. It has the same truth values as $\neg  P \vee Q$ .
+Given two statements $P$ and $Q$ , the expression $P \implies Q$ stands for ‘if $P$ , then $Q$ ’. It has the same truth values as $\neg  P \lor Q$ .
 
 - Truth table #todo
 
